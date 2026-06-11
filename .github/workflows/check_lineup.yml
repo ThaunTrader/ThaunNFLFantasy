@@ -30,4 +30,25 @@ jobs:
           FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          - name: Debug scoreboard
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'EOF'
+          import requests, json, os
+
+          BASE_URL = "https://www.fleaflicker.com/api"
+          USER_ID = os.environ["FLEAFLICKER_USER_ID"]
+
+          leagues = requests.get(f"{BASE_URL}/FetchUserLeagues", params={"sport":"NFL","user_id":USER_ID}).json()["leagues"]
+
+          for league in leagues:
+              if "IDP16" in league.get("name",""):
+                  league_id = league["id"]
+                  scoreboard = requests.get(f"{BASE_URL}/FetchLeagueScoreboard", params={"sport":"NFL","league_id":league_id}).json()
+                  print(json.dumps(scoreboard, indent=2))
+                  break
+          EOF
         run: python check_lineup.py
