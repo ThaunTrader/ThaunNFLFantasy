@@ -1,33 +1,6 @@
-name: NFL Lineup Injury Check
-
-on:
-  workflow_dispatch:
-
-jobs:
-  check-lineup:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Debug boxscore
-        run: |
-          python - <<'EOF'
-          import requests, json
-
-          BASE_URL = "https://www.fleaflicker.com/api"
-          LEAGUE_ID = 332572
-          GAME_ID = "58813342"
-
-          boxscore = requests.get(f"{BASE_URL}/FetchLeagueBoxscore", params={"sport":"NFL","league_id":LEAGUE_ID,"fantasy_game_id":GAME_ID}).json()
-          print(json.dumps(boxscore, indent=2))
-          EOF
+- name: Run lineup check
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_lineup.py
