@@ -25,7 +25,6 @@ def send_telegram(message):
 
 # ── Main logic ────────────────────────────────────────────────────────────────
 def main():
-    # 1. Obtener ligas activas del usuario
     data = get("FetchUserLeagues", {"user_id": USER_ID})
     leagues = data.get("leagues", [])
 
@@ -39,73 +38,70 @@ def main():
         league_id = league["id"]
         league_name = league.get("name", f"Liga {league_id}")
 
-        # Identificar el team_id del usuario en esta liga
-        owned_team = league.get("ownedTeam") or league.get("owned_team")
-        if not owned_team:
+        owned_team = league.get("ownedTeam") or league.get("owned_team") or {}
+        team_id = owned_team.get("id")
+        if not team_id:
+            print(f"[{league_name}] No se encontró team_id.")
             continue
-        team_id = owned_team["id"]
 
-        # 2. Obtener scoreboard para encontrar el fantasy_game_id del usuario
+        # Buscar el partido del usuario en el scoreboard
         scoreboard = get("FetchLeagueScoreboard", {"league_id": league_id})
         games = scoreboard.get("games", [])
 
         game_id = None
+        my_side = None
         for game in games:
             home_id = game.get("home", {}).get("id")
             away_id = game.get("away", {}).get("id")
-            if team_id in (home_id, away_id):
+            if team_id == home_id:
                 game_id = game.get("id")
+                my_side = "home"
+                break
+            elif team_id == away_id:
+                game_id = game.get("id")
+                my_side = "away"
                 break
 
         if not game_id:
             print(f"[{league_name}] No se encontró partido activo para el equipo {team_id}.")
             continue
 
-        # 3. Obtener boxscore del partido
+        # Obtener boxscore
         boxscore = get("FetchLeagueBoxscore", {
             "league_id": league_id,
             "fantasy_game_id": game_id
         })
 
-        # 4. Identificar qué lado es el usuario (home o away)
-        home_lineup = boxscore.get("homeTeamLineup", {})
-        away_lineup = boxscore.get("awayTeamLineup", {})
-
-        home_team = boxscore.get("homeTeam", {})
-        away_team = boxscore.get("awayTeam", {})
-
-        if home_team.get("id") == team_id:
-            my_lineup = home_lineup
-        else:
-            my_lineup = away_lineup
-
-        slots = my_lineup.get("slots", [])
-
+        # Recorrer lineups — cada slot tiene "home" y "away" con el jugador
+        lineups = boxscore.get("lineups", [])
         league_alerts = []
-        for slot in slots:
-            # Solo titulares (no bench)
-            slot_name = slot.get("slotName") or slot.get("label") or ""
-            if "BN" in slot_name.upper() or "BENCH" in slot_name.upper():
+
+        for lineup_group in lineups:
+            # Solo titulares (group START), ignorar BENCH
+            if lineup_group.get("group", "").upper() != "START":
                 continue
 
-            league_player = slot.get("leaguePlayer") or slot.get("player") or {}
-            pro_player = league_player.get("proPlayer") or league_player.get("pro_player") or {}
+            for slot in lineup_group.get("slots", []):
+                player_data = slot.get(my_side) or {}
+                pro_player = player_data.get("proPlayer") or {}
 
-            name = pro_player.get("nameFull") or pro_player.get("name_full") or pro_player.get("nameShort") or "Desconocido"
-            position = pro_player.get("position", "")
+                if not pro_player:
+                    continue
 
-            injury = pro_player.get("injury") or {}
-            severity = injury.get("severity") or injury.get("typeAbbreviation") or ""
+                name = pro_player.get("nameFull") or pro_player.get("nameShort") or "Desconocido"
+                position = pro_player.get("position", "")
+                injury = pro_player.get("injury") or {}
+                severity = (injury.get("severity") or "").upper()
 
-            if severity.upper() in ALERT_STATUSES:
-                description = injury.get("description") or injury.get("typeFull") or severity
-                league_alerts.append(f"  ⚠️ <b>{name}</b> ({position}) — {severity}: {description}")
+                if severity in ALERT_STATUSES:
+                    description = injury.get("typeFull") or injury.get("description") or severity
+                    league_alerts.append(f"  ⚠️ <b>{name}</b> ({position}) — {description}")
 
         if league_alerts:
             block = f"🏈 <b>{league_name}</b>\n" + "\n".join(league_alerts)
             alerts.append(block)
 
-    # 5. Enviar Telegram
+    # Enviar Telegram
     if alerts:
         message = "🚨 <b>Alerta de jugadores en tu lineup</b>\n\n" + "\n\n".join(alerts)
         send_telegram(message)
