@@ -1,0 +1,33 @@
+name: NFL Lineup Injury Check
+
+on:
+  schedule:
+    # Ejecuta cada hora entre las 17:00 y 23:00 UTC los jueves, domingos y lunes
+    # Jueves (Thursday): NFL Thursday Night Football ~17:20 UTC (kickoff ~01:20 ET)
+    # Domingo (Sunday): partidos desde ~17:00 UTC
+    # Lunes (Monday): Monday Night Football ~00:15 UTC
+    - cron: '0 17-23 * * 0,1,4'
+  workflow_dispatch:  # Permite ejecución manual desde GitHub
+
+jobs:
+  check-lineup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run lineup check
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_lineup.py
