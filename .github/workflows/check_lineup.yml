@@ -1,8 +1,6 @@
 name: NFL Lineup Injury Check
 
 on:
-  schedule:
-    - cron: '0 17-23 * * 0,1,4'
   workflow_dispatch:
 
 jobs:
@@ -21,9 +19,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - - name: Debug scoreboard
-        env:
-          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+      - name: Debug scoreboard
         run: |
           python - <<'EOF'
           import requests, json
