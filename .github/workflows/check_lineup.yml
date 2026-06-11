@@ -19,14 +19,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Debug scoreboard
+      - name: Debug boxscore
         run: |
           python - <<'EOF'
           import requests, json
 
           BASE_URL = "https://www.fleaflicker.com/api"
           LEAGUE_ID = 332572
+          GAME_ID = "58813342"
 
-          scoreboard = requests.get(f"{BASE_URL}/FetchLeagueScoreboard", params={"sport":"NFL","league_id":LEAGUE_ID}).json()
-          print(json.dumps(scoreboard, indent=2))
+          boxscore = requests.get(f"{BASE_URL}/FetchLeagueBoxscore", params={"sport":"NFL","league_id":LEAGUE_ID,"fantasy_game_id":GAME_ID}).json()
+          print(json.dumps(boxscore, indent=2))
           EOF
