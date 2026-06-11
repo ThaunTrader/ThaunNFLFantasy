@@ -2,12 +2,8 @@ name: NFL Lineup Injury Check
 
 on:
   schedule:
-    # Ejecuta cada hora entre las 17:00 y 23:00 UTC los jueves, domingos y lunes
-    # Jueves (Thursday): NFL Thursday Night Football ~17:20 UTC (kickoff ~01:20 ET)
-    # Domingo (Sunday): partidos desde ~17:00 UTC
-    # Lunes (Monday): Monday Night Football ~00:15 UTC
     - cron: '0 17-23 * * 0,1,4'
-  workflow_dispatch:  # Permite ejecución manual desde GitHub
+  workflow_dispatch:
 
 jobs:
   check-lineup:
@@ -25,25 +21,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run lineup check
+      - name: Debug scoreboard
         env:
           FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          - name: Debug scoreboard
-        env:
-          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python - <<'EOF'
           import requests, json, os
-
           BASE_URL = "https://www.fleaflicker.com/api"
           USER_ID = os.environ["FLEAFLICKER_USER_ID"]
-
           leagues = requests.get(f"{BASE_URL}/FetchUserLeagues", params={"sport":"NFL","user_id":USER_ID}).json()["leagues"]
-
           for league in leagues:
               if "IDP16" in league.get("name",""):
                   league_id = league["id"]
@@ -51,4 +37,3 @@ jobs:
                   print(json.dumps(scoreboard, indent=2))
                   break
           EOF
-        run: python check_lineup.py
