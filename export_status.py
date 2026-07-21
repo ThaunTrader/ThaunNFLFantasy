@@ -168,7 +168,23 @@ def main():
             entrada["total_roster"] += 1
 
             estado, detalle = normalizar_estado(jugador.get("injury"))
-            if estado:
+
+            # Regla de gestión de roster: el slot IR (grupo INJURED) solo es
+            # válido para OUT/DOUBTFUL/IR. Si el jugador está sano o solo
+            # Questionable, es un hueco de roster mal gestionado.
+            if grupo == "INJURED" and estado not in ESTADOS_ROJOS.union({"DOUBTFUL"}):
+                entrada["alertas"].append(
+                    {
+                        "nombre": jugador.get("nameFull", ""),
+                        "posicion": jugador.get("position", ""),
+                        "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
+                        "grupo": grupo or "",
+                        "estado": "IR_INVALIDO",
+                        "rojo": True,
+                        "detalle": "Jugador sano en IR" if not estado else f"Solo {estado.title()}, no puede ocupar IR",
+                    }
+                )
+            elif estado:
                 entrada["alertas"].append(
                     {
                         "nombre": jugador.get("nameFull", ""),
