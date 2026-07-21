@@ -1,4 +1,588 @@
 {
- "generado": "2026-07-14T00:00:00+00:00",
- "ligas": []
+ "generado": "2026-07-21T11:16:37+00:00",
+ "ligas": [
+  {
+   "league_id": 324737,
+   "liga": "El Capologist Oeste 1ª Division",
+   "team_id": 1647536,
+   "equipo": "Alicante Buccaneers",
+   "total_roster": 0,
+   "alertas": []
+  },
+  {
+   "league_id": 332443,
+   "liga": "IDP 10 de \"El Comisionado\"",
+   "team_id": 1693818,
+   "equipo": "Alicante Buccaneers (IDP10)",
+   "total_roster": 35,
+   "alertas": [
+    {
+     "nombre": "Junior Colson",
+     "posicion": "LB",
+     "equipo_nfl": "LAC",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder (Surgery)"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Micah Parsons",
+     "posicion": "EDR",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332475,
+   "liga": "IDP 12 de \"El Comisionado\"",
+   "team_id": 1693991,
+   "equipo": "Alicante Buccaneers (IDP12)",
+   "total_roster": 34,
+   "alertas": [
+    {
+     "nombre": "Cam Skattebo",
+     "posicion": "RB",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle (Surgery)"
+    },
+    {
+     "nombre": "Chris Bell",
+     "posicion": "WR",
+     "equipo_nfl": "MIA",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332484,
+   "liga": "IDP 13 de \"El Comisionado\"",
+   "team_id": 1694069,
+   "equipo": "Alicante Buccaneers",
+   "total_roster": 23,
+   "alertas": [
+    {
+     "nombre": "Dorance Armstrong",
+     "posicion": "EDR",
+     "equipo_nfl": "WAS",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Jevon Holland",
+     "posicion": "S",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Maxx Crosby",
+     "posicion": "EDR",
+     "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee (Surgery)"
+    },
+    {
+     "nombre": "Rashod Bateman",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Personal"
+    },
+    {
+     "nombre": "Tucker Kraft",
+     "posicion": "TE",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332507,
+   "liga": "IDP 14 de \"El Comisionado\"",
+   "team_id": 1694264,
+   "equipo": "Alicante Buccaneers",
+   "total_roster": 35,
+   "alertas": [
+    {
+     "nombre": "Caleb Banks",
+     "posicion": "IL",
+     "equipo_nfl": "MIN",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Foot (Surgery)"
+    },
+    {
+     "nombre": "Eli Stowers",
+     "posicion": "TE",
+     "equipo_nfl": "PHI",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Joshua Metellus",
+     "posicion": "S",
+     "equipo_nfl": "MIN",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder (Surgery)"
+    },
+    {
+     "nombre": "Tyler Bass",
+     "posicion": "K",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Pelvis (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332571,
+   "liga": "SuperFlex 3 de \"El Comisionado\"",
+   "team_id": 1694636,
+   "equipo": "Alicante Buccaneers (SF3)",
+   "total_roster": 18,
+   "alertas": [
+    {
+     "nombre": "Michael Penix",
+     "posicion": "QB",
+     "equipo_nfl": "ATL",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    },
+    {
+     "nombre": "Travis Hunter",
+     "posicion": "WR",
+     "equipo_nfl": "JAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee (Surgery)"
+    },
+    {
+     "nombre": "Zach Charbonnet",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332572,
+   "liga": "IDP 16 de \"El Comisionado\"",
+   "team_id": 1694635,
+   "equipo": "Alicante Buccaneers (IDP16)",
+   "total_roster": 35,
+   "alertas": [
+    {
+     "nombre": "Brian Branch",
+     "posicion": "S",
+     "equipo_nfl": "DET",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Achilles (Surgery)"
+    },
+    {
+     "nombre": "Cam Skattebo",
+     "posicion": "RB",
+     "equipo_nfl": "NYG",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle (Surgery)"
+    },
+    {
+     "nombre": "Malik Nabers",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    },
+    {
+     "nombre": "Nick Bosa",
+     "posicion": "EDR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332573,
+   "liga": "Classic 10 de \"El Comisionado\"",
+   "team_id": 1694634,
+   "equipo": "Alicante Buccaneers (CLA10)",
+   "total_roster": 19,
+   "alertas": [
+    {
+     "nombre": "Ladd McConkey",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring (Strain)"
+    },
+    {
+     "nombre": "Travis Hunter",
+     "posicion": "WR",
+     "equipo_nfl": "JAC",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332766,
+   "liga": "IDP 17 de \"El Comisionado\"",
+   "team_id": 1696006,
+   "equipo": "Alicante Buccaneers (IDP17)",
+   "total_roster": 34,
+   "alertas": [
+    {
+     "nombre": "Eli Stowers",
+     "posicion": "TE",
+     "equipo_nfl": "PHI",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Mykel Williams",
+     "posicion": "EDR",
+     "equipo_nfl": "SF",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    },
+    {
+     "nombre": "Sam LaPorta",
+     "posicion": "TE",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332793,
+   "liga": "IDP 18 de \"El Comisionado\"",
+   "team_id": 1696172,
+   "equipo": "Alicante Buccaneers (🏆🏆)",
+   "total_roster": 35,
+   "alertas": [
+    {
+     "nombre": "Carson Schwesinger",
+     "posicion": "LB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "De'Von Achane",
+     "posicion": "RB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder (Surgery)"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Walter Nolen",
+     "posicion": "IL",
+     "equipo_nfl": "ARI",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - Meniscus (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 332824,
+   "liga": "Classic 12 de \"El Comisionado\"",
+   "team_id": 1696422,
+   "equipo": "Alicante Buccaneers (CLA12)",
+   "total_roster": 20,
+   "alertas": [
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Ladd McConkey",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring (Strain)"
+    },
+    {
+     "nombre": "Marlin Klein",
+     "posicion": "TE",
+     "equipo_nfl": "HOU",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
+    }
+   ]
+  },
+  {
+   "league_id": 332993,
+   "liga": "SuperFlex 4 de \"El Comisionado\"",
+   "team_id": 1697503,
+   "equipo": "Alicante Buccaneers (SF4)",
+   "total_roster": 18,
+   "alertas": []
+  },
+  {
+   "league_id": 333726,
+   "liga": "Hot Rod Dynasty",
+   "team_id": 1702340,
+   "equipo": "Alicante Buccaneers (HRD)",
+   "total_roster": 30,
+   "alertas": [
+    {
+     "nombre": "Brian Branch",
+     "posicion": "S",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Achilles (Surgery)"
+    },
+    {
+     "nombre": "Junior Colson",
+     "posicion": "LB",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder (Surgery)"
+    },
+    {
+     "nombre": "Kris Jenkins",
+     "posicion": "IL",
+     "equipo_nfl": "CIN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    }
+   ]
+  },
+  {
+   "league_id": 339833,
+   "liga": "IDP 21 de \"El Comisionado\"",
+   "team_id": 1740570,
+   "equipo": "Alicante Buccaneers (IDP21)",
+   "total_roster": 35,
+   "alertas": [
+    {
+     "nombre": "Carson Schwesinger",
+     "posicion": "LB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "De'Von Achane",
+     "posicion": "RB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder (Surgery)"
+    },
+    {
+     "nombre": "Edgerrin Cooper",
+     "posicion": "LB",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Ladd McConkey",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring (Strain)"
+    }
+   ]
+  },
+  {
+   "league_id": 344345,
+   "liga": "IDP 22 de \"El Comisionado\"",
+   "team_id": 1767487,
+   "equipo": "Alicante Buccaneers (IDP22)",
+   "total_roster": 38,
+   "alertas": [
+    {
+     "nombre": "Edgerrin Cooper",
+     "posicion": "LB",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Erick All",
+     "posicion": "TE",
+     "equipo_nfl": "CIN",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "TAXI",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Malik Nabers",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee - ACL (Surgery)"
+    }
+   ]
+  },
+  {
+   "league_id": 348123,
+   "liga": "II Fantasy CyF - Conf. Fregando Cubiertas",
+   "team_id": 1792858,
+   "equipo": "Alicante Buccaneers",
+   "total_roster": 16,
+   "alertas": [
+    {
+     "nombre": "Cam Skattebo",
+     "posicion": "RB",
+     "equipo_nfl": "NYG",
+     "grupo": "INJURED",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle (Surgery)"
+    },
+    {
+     "nombre": "Darius Slayton",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen (Surgery)"
+    },
+    {
+     "nombre": "Travis Hunter",
+     "posicion": "WR",
+     "equipo_nfl": "JAC",
+     "grupo": "",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee (Surgery)"
+    }
+   ]
+  }
+ ]
 }
