@@ -188,6 +188,69 @@
     color: var(--muted);
     padding: 40px 10px;
   }
+
+  .seccion-titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 22px 2px 8px;
+  }
+  #resumen-ligas {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 6px;
+  }
+  .fila-liga {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 14px;
+  }
+  .fila-liga + .fila-liga { border-top: 1px solid rgba(36,48,60,.6); }
+  .fl-info { min-width: 0; flex: 1; }
+  .fl-liga {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16.5px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .fl-sub {
+    color: var(--muted);
+    font-size: 12px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-top: 1px;
+  }
+  .fl-badge {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1px 6px;
+    font-size: 11px;
+    letter-spacing: .03em;
+  }
+  .fl-record {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .fl-marcador {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: .02em;
+  }
+  .fl-pct {
+    color: var(--muted);
+    font-size: 12px;
+  }
 </style>
 </head>
 <body>
@@ -198,10 +261,17 @@
 </header>
 <div id="meta"></div>
 <div id="resumen"></div>
+
+<div id="bloque-resumen-ligas" style="display:none">
+  <div class="seccion-titulo">Tus ligas</div>
+  <div id="resumen-ligas"></div>
+</div>
+
 <div id="filtro" style="display:none">
   <button class="chip activo" data-f="todos">Todos</button>
   <button class="chip" data-f="titulares">Solo titulares</button>
 </div>
+<div class="seccion-titulo" id="titulo-lesionados" style="display:none">Parte médico</div>
 <div id="lista"></div>
 <div id="estado-app">Cargando…</div>
 
@@ -244,6 +314,8 @@ function render() {
   }
   estadoApp.style.display = 'none';
   filtroBox.style.display = 'flex';
+  document.getElementById('titulo-lesionados').style.display = 'block';
+  renderResumenLigas(ligas);
 
   const visibles = l => (l.alertas || []).filter(a =>
     filtro === 'todos' || a.grupo === 'START');
@@ -285,8 +357,8 @@ function render() {
     let html = `
       <button class="cabecera" data-k="${clave}" ${alertas.length ? '' : 'disabled'}>
         <div class="nombres">
-          <div class="nombre-equipo">${esc(l.equipo)}</div>
-          <div class="nombre-liga">${esc(l.liga)}</div>
+          <div class="nombre-equipo">${esc(l.liga)}</div>
+          <div class="nombre-liga">${esc(l.equipo)}</div>
         </div>
         <div class="marcador">${marcador}</div>
       </button>`;
@@ -316,6 +388,43 @@ function render() {
       btn.parentElement.classList.toggle('abierto');
     });
   });
+}
+
+function renderResumenLigas(ligas) {
+  const bloque = document.getElementById('bloque-resumen-ligas');
+  const cont = document.getElementById('resumen-ligas');
+
+  if (!ligas.length) { bloque.style.display = 'none'; return; }
+  bloque.style.display = 'block';
+
+  const orden = [...ligas].sort((a, b) =>
+    (a.record?.rank ?? 99) - (b.record?.rank ?? 99));
+
+  cont.innerHTML = orden.map(l => {
+    const r = l.record;
+    const marcador = r
+      ? `${r.victorias}-${r.derrotas}${r.empates ? '-' + r.empates : ''}`
+      : '—';
+    const pct = r && r.pct != null ? (r.pct * 100).toFixed(0) + '%' : '';
+    const rank = r && r.rank ? `#${r.rank}` : '';
+
+    return `
+      <div class="fila-liga">
+        <div class="fl-info">
+          <div class="fl-liga">${esc(l.liga)}</div>
+          <div class="fl-sub">
+            <span>${esc(l.equipo)}</span>
+            ${l.tipo ? `<span class="fl-badge">${esc(l.tipo)}</span>` : ''}
+            ${l.formato ? `<span class="fl-badge">${esc(l.formato)}</span>` : ''}
+            ${!l.tipo && !l.formato ? '<span class="fl-badge">Formato no documentado</span>' : ''}
+          </div>
+        </div>
+        <div class="fl-record">
+          <div class="fl-marcador">${marcador} ${rank}</div>
+          <div class="fl-pct">${pct}</div>
+        </div>
+      </div>`;
+  }).join('');
 }
 
 function etiqueta(estado) {
