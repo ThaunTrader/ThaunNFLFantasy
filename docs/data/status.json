@@ -1,11 +1,21 @@
 {
- "generado": "2026-07-21T11:16:37+00:00",
+ "generado": "2026-07-21T11:49:13+00:00",
  "ligas": [
   {
    "league_id": 324737,
    "liga": "El Capologist Oeste 1ª Division",
    "team_id": 1647536,
    "equipo": "Alicante Buccaneers",
+   "tipo": "Redraft",
+   "formato": "Classic Flex-DP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 0,
    "alertas": []
   },
@@ -14,6 +24,16 @@
    "liga": "IDP 10 de \"El Comisionado\"",
    "team_id": 1693818,
    "equipo": "Alicante Buccaneers (IDP10)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 35,
    "alertas": [
     {
@@ -50,6 +70,16 @@
    "liga": "IDP 12 de \"El Comisionado\"",
    "team_id": 1693991,
    "equipo": "Alicante Buccaneers (IDP12)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 34,
    "alertas": [
     {
@@ -77,6 +107,16 @@
    "liga": "IDP 13 de \"El Comisionado\"",
    "team_id": 1694069,
    "equipo": "Alicante Buccaneers",
+   "tipo": null,
+   "formato": null,
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 23,
    "alertas": [
     {
@@ -140,6 +180,16 @@
    "liga": "IDP 14 de \"El Comisionado\"",
    "team_id": 1694264,
    "equipo": "Alicante Buccaneers",
+   "tipo": null,
+   "formato": null,
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 35,
    "alertas": [
     {
@@ -185,6 +235,16 @@
    "liga": "SuperFlex 3 de \"El Comisionado\"",
    "team_id": 1694636,
    "equipo": "Alicante Buccaneers (SF3)",
+   "tipo": "Dynasty",
+   "formato": "SuperFlex",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 18,
    "alertas": [
     {
@@ -221,6 +281,16 @@
    "liga": "IDP 16 de \"El Comisionado\"",
    "team_id": 1694635,
    "equipo": "Alicante Buccaneers (IDP16)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 35,
    "alertas": [
     {
@@ -266,6 +336,16 @@
    "liga": "Classic 10 de \"El Comisionado\"",
    "team_id": 1694634,
    "equipo": "Alicante Buccaneers (CLA10)",
+   "tipo": "Dynasty",
+   "formato": "Classic",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 19,
    "alertas": [
     {
@@ -293,6 +373,16 @@
    "liga": "IDP 17 de \"El Comisionado\"",
    "team_id": 1696006,
    "equipo": "Alicante Buccaneers (IDP17)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 34,
    "alertas": [
     {
@@ -329,6 +419,16 @@
    "liga": "IDP 18 de \"El Comisionado\"",
    "team_id": 1696172,
    "equipo": "Alicante Buccaneers (🏆🏆)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 35,
    "alertas": [
     {
@@ -374,6 +474,16 @@
    "liga": "Classic 12 de \"El Comisionado\"",
    "team_id": 1696422,
    "equipo": "Alicante Buccaneers (CLA12)",
+   "tipo": "Dynasty",
+   "formato": "Classic",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 20,
    "alertas": [
     {
@@ -410,6 +520,16 @@
    "liga": "SuperFlex 4 de \"El Comisionado\"",
    "team_id": 1697503,
    "equipo": "Alicante Buccaneers (SF4)",
+   "tipo": "Dynasty",
+   "formato": "SuperFlex",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 18,
    "alertas": []
   },
@@ -418,6 +538,16 @@
    "liga": "Hot Rod Dynasty",
    "team_id": 1702340,
    "equipo": "Alicante Buccaneers (HRD)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 30,
    "alertas": [
     {
@@ -454,6 +584,16 @@
    "liga": "IDP 21 de \"El Comisionado\"",
    "team_id": 1740570,
    "equipo": "Alicante Buccaneers (IDP21)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 35,
    "alertas": [
     {
@@ -508,6 +648,16 @@
    "liga": "IDP 22 de \"El Comisionado\"",
    "team_id": 1767487,
    "equipo": "Alicante Buccaneers (IDP22)",
+   "tipo": "Dynasty",
+   "formato": "IDP",
+   "record": {
+    "victorias": 0,
+    "derrotas": 0,
+    "empates": 0,
+    "pct": null,
+    "formateado": "0-0",
+    "rank": null
+   },
    "total_roster": 38,
    "alertas": [
     {
@@ -553,6 +703,16 @@
    "liga": "II Fantasy CyF - Conf. Fregando Cubiertas",
    "team_id": 1792858,
    "equipo": "Alicante Buccaneers",
+   "tipo": null,
+   "formato": null,
+   "record": {
+    "victorias": 7,
+    "derrotas": 7,
+    "empates": 0,
+    "pct": 0.5,
+    "formateado": "7-7",
+    "rank": 6
+   },
    "total_roster": 16,
    "alertas": [
     {
