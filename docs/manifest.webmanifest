@@ -1,0 +1,11 @@
+{
+  "name": "ThaunNFL",
+  "short_name": "ThaunNFL",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#10161d",
+  "theme_color": "#10161d",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
