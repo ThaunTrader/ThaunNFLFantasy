@@ -670,6 +670,20 @@ function claseNota(letra) {
   return 'n-baja';
 }
 
+function pintarJugadoresRoster(jugadores) {
+  return jugadores.map(j => `
+    <div class="jugador-roster">
+      <div class="jr-info">
+        <div class="jr-nombre">${esc(j.nombre)}</div>
+        <div class="jr-sub">${esc(j.equipo_nfl)}${j.hueco ? ' · ' + esc(HUECO_LABEL[j.hueco] || j.hueco) : ''}</div>
+      </div>
+      <div class="jr-ranks">
+        <div class="r-actual">${esc(j.rank || '—')}</div>
+      </div>
+      <div class="nota-letra ${claseNota(j.nota_letra)}" style="font-size:14px;padding:2px 8px;">${j.nota_letra || '—'}</div>
+    </div>`).join('') || '<div style="color:var(--muted);font-size:12.5px;">Sin jugadores.</div>';
+}
+
 function renderRosters() {
   const estado = document.getElementById('estado-rosters');
   const breadcrumb = document.getElementById('breadcrumb-rosters');
@@ -684,8 +698,10 @@ function renderRosters() {
   }
   estado.style.display = 'none';
 
-  const partes = ['Ligas'];
+  const partes = [];
   if (rostersState.liga) partes.push(rostersState.liga.equipo);
+  if (rostersState.nivel.includes('hueco')) partes.push('Por hueco');
+  if (rostersState.nivel.includes('equipo')) partes.push('Por posición');
   if (rostersState.hueco) partes.push(HUECO_LABEL[rostersState.hueco] || rostersState.hueco);
   if (rostersState.posicion) partes.push(rostersState.posicion);
   breadcrumb.style.display = rostersState.nivel === 'ligas' ? 'none' : 'block';
@@ -703,10 +719,61 @@ function renderRosters() {
       </button>`).join('');
     lista.querySelectorAll('.fila-roster').forEach(btn => {
       btn.addEventListener('click', () => {
-        rostersState = { nivel: 'huecos', liga: rostersData.ligas[btn.dataset.i], hueco: null, posicion: null };
+        rostersState = { nivel: 'menu', liga: rostersData.ligas[btn.dataset.i], hueco: null, posicion: null };
         renderRosters();
       });
     });
+
+  } else if (rostersState.nivel === 'menu') {
+    const l = rostersState.liga;
+    lista.innerHTML = `
+      <button class="fila-roster" data-menu="posiciones-equipo">
+        <div class="fr-info">
+          <div class="fr-titulo">Por posición</div>
+          <div class="fr-sub">Todo el roster agrupado por posición</div>
+        </div>
+        <div class="nota-letra ${claseNota(l.nota_general?.letra)}">${l.nota_general?.letra || '—'}</div>
+      </button>
+      <button class="fila-roster" data-menu="huecos">
+        <div class="fr-info">
+          <div class="fr-titulo">Por hueco</div>
+          <div class="fr-sub">Titulares · Banco · Taxi · IR</div>
+        </div>
+        <div class="nota-letra ${claseNota(l.nota_general?.letra)}">${l.nota_general?.letra || '—'}</div>
+      </button>`;
+    lista.querySelectorAll('.fila-roster').forEach(btn => {
+      btn.addEventListener('click', () => {
+        rostersState.nivel = btn.dataset.menu;
+        renderRosters();
+      });
+    });
+
+  } else if (rostersState.nivel === 'posiciones-equipo') {
+    const posiciones = rostersState.liga.posiciones || {};
+    const labels = Object.keys(posiciones);
+    lista.innerHTML = labels.length ? labels.map(label => {
+      const p = posiciones[label];
+      return `
+      <button class="fila-roster" data-p="${esc(label)}">
+        <div class="fr-info">
+          <div class="fr-titulo">${esc(label)}</div>
+          <div class="fr-sub">${p.jugadores.length} jugador${p.jugadores.length === 1 ? '' : 'es'}</div>
+        </div>
+        <div class="nota-letra ${claseNota(p.nota?.letra)}">${p.nota?.letra || '—'}</div>
+      </button>`;
+    }).join('') : '<div style="color:var(--muted);font-size:12.5px;padding:8px 2px;">Sin posiciones con datos.</div>';
+    lista.querySelectorAll('.fila-roster').forEach(btn => {
+      btn.addEventListener('click', () => {
+        rostersState.nivel = 'jugadores-equipo';
+        rostersState.posicion = btn.dataset.p;
+        renderRosters();
+      });
+    });
+
+  } else if (rostersState.nivel === 'jugadores-equipo') {
+    const p = rostersState.liga.posiciones?.[rostersState.posicion];
+    lista.innerHTML = pintarJugadoresRoster(p?.jugadores || []);
+
   } else if (rostersState.nivel === 'huecos') {
     const huecos = rostersState.liga.huecos || {};
     lista.innerHTML = Object.keys(HUECO_LABEL).map(h => {
@@ -723,14 +790,15 @@ function renderRosters() {
     }).join('');
     lista.querySelectorAll('.fila-roster').forEach(btn => {
       btn.addEventListener('click', () => {
-        rostersState.nivel = 'posiciones';
+        rostersState.nivel = 'posiciones-hueco';
         rostersState.hueco = btn.dataset.h;
         renderRosters();
       });
     });
-  } else if (rostersState.nivel === 'posiciones') {
+
+  } else if (rostersState.nivel === 'posiciones-hueco') {
     const hu = rostersState.liga.huecos?.[rostersState.hueco] || { posiciones: {} };
-    const labels = Object.keys(hu.posiciones).sort();
+    const labels = Object.keys(hu.posiciones);
     if (!labels.length) {
       lista.innerHTML = '<div style="color:var(--muted);font-size:12.5px;padding:8px 2px;">Sin jugadores en este hueco.</div>';
     } else {
@@ -748,33 +816,26 @@ function renderRosters() {
     }
     lista.querySelectorAll('.fila-roster').forEach(btn => {
       btn.addEventListener('click', () => {
-        rostersState.nivel = 'jugadores';
+        rostersState.nivel = 'jugadores-hueco';
         rostersState.posicion = btn.dataset.p;
         renderRosters();
       });
     });
-  } else if (rostersState.nivel === 'jugadores') {
+
+  } else if (rostersState.nivel === 'jugadores-hueco') {
     const p = rostersState.liga.huecos?.[rostersState.hueco]?.posiciones?.[rostersState.posicion];
-    const jugadores = p?.jugadores || [];
-    lista.innerHTML = jugadores.map(j => `
-      <div class="jugador-roster">
-        <div class="jr-info">
-          <div class="jr-nombre">${esc(j.nombre)}</div>
-          <div class="jr-sub">${esc(j.equipo_nfl)}</div>
-        </div>
-        <div class="jr-ranks">
-          <div class="r-actual">${esc(j.rank_actual || '—')}</div>
-          <div class="r-anterior">${esc(j.rank_anterior || 'sin dato ' + (rostersData.season - 1))}</div>
-        </div>
-      </div>`).join('') || '<div style="color:var(--muted);font-size:12.5px;">Sin jugadores.</div>';
+    lista.innerHTML = pintarJugadoresRoster(p?.jugadores || []);
   }
 
   const btnAtras = document.getElementById('btn-atras-rosters');
   if (btnAtras) {
     btnAtras.addEventListener('click', () => {
-      if (rostersState.nivel === 'jugadores') { rostersState.nivel = 'posiciones'; rostersState.posicion = null; }
-      else if (rostersState.nivel === 'posiciones') { rostersState.nivel = 'huecos'; rostersState.hueco = null; }
-      else if (rostersState.nivel === 'huecos') { rostersState.nivel = 'ligas'; rostersState.liga = null; }
+      const n = rostersState.nivel;
+      if (n === 'jugadores-equipo') { rostersState.nivel = 'posiciones-equipo'; rostersState.posicion = null; }
+      else if (n === 'jugadores-hueco') { rostersState.nivel = 'posiciones-hueco'; rostersState.posicion = null; }
+      else if (n === 'posiciones-hueco') { rostersState.nivel = 'huecos'; rostersState.hueco = null; }
+      else if (n === 'posiciones-equipo' || n === 'huecos') { rostersState.nivel = 'menu'; }
+      else if (n === 'menu') { rostersState.nivel = 'ligas'; rostersState.liga = null; }
       renderRosters();
     });
   }
