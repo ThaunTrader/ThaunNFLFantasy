@@ -80,22 +80,6 @@
   #resumen.ok    { display: block; background: rgba(62,207,142,.10); color: var(--verde); border: 1px solid rgba(62,207,142,.35); }
   #resumen.alerta{ display: block; background: rgba(255,90,82,.10);  color: var(--rojo);  border: 1px solid rgba(255,90,82,.35); }
 
-  #filtro {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 14px;
-  }
-  .chip {
-    border: 1px solid var(--border);
-    background: none;
-    color: var(--muted);
-    border-radius: 999px;
-    padding: 5px 14px;
-    font: 500 13px 'Barlow', sans-serif;
-    cursor: pointer;
-  }
-  .chip.activo { border-color: var(--text); color: var(--text); }
-
   .equipo {
     background: var(--card);
     border: 1px solid var(--border);
@@ -375,10 +359,6 @@
 </div>
 
 <div class="vista" id="vista-medico">
-  <div id="filtro" style="display:none">
-    <button class="chip activo" data-f="todos">Todos</button>
-    <button class="chip" data-f="titulares">Solo titulares</button>
-  </div>
   <div id="lista"></div>
 </div>
 
@@ -398,6 +378,10 @@
     <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
     Ligas
   </button>
+  <button class="nav-item" data-vista="rosters">
+    <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+    Rosters
+  </button>
   <button class="nav-item" data-vista="medico" style="position:relative">
     <svg viewBox="0 0 24 24"><path d="M9 3v6M6 6h6M17 3v8a5 5 0 01-10 0"/><path d="M12 15v6M9 21h6"/></svg>
     Parte médico
@@ -408,15 +392,10 @@
     Trades
     <span class="nav-badge" id="badge-trades" style="display:none">0</span>
   </button>
-  <button class="nav-item" data-vista="rosters">
-    <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
-    Rosters
-  </button>
 </nav>
 
 <script>
 let datos = null;
-let filtro = 'todos';
 const abiertos = new Set();
 
 const GRUPOS = { START: 'Titular', BENCH: 'Banquillo', INJURED: 'IR', TAXI: 'Taxi' };
@@ -438,7 +417,6 @@ function render() {
   const resumen = document.getElementById('resumen');
   const lista = document.getElementById('lista');
   const estadoApp = document.getElementById('estado-app');
-  const filtroBox = document.getElementById('filtro');
 
   const fecha = new Date(datos.generado);
   meta.textContent = 'Actualizado ' + fecha.toLocaleString('es-ES', {
@@ -452,21 +430,24 @@ function render() {
     return;
   }
   estadoApp.style.display = 'none';
-  filtroBox.style.display = 'flex';
   renderResumenLigas(ligas);
 
-  const visibles = l => (l.alertas || []).filter(a =>
-    filtro === 'todos' || a.grupo === 'START');
+  const visibles = l => l.alertas || [];
 
   let totalJug = 0, totalEq = 0;
+  let totalV = 0, totalD = 0, totalE = 0;
   ligas.forEach(l => {
     const n = visibles(l).length;
     if (n > 0) { totalJug += n; totalEq++; }
+    const r = l.record;
+    if (r) { totalV += r.victorias || 0; totalD += r.derrotas || 0; totalE += r.empates || 0; }
   });
-  resumen.className = totalJug ? 'alerta' : 'ok';
-  resumen.textContent = totalJug
-    ? `${totalJug} jugador${totalJug > 1 ? 'es' : ''} en alerta en ${totalEq} equipo${totalEq > 1 ? 's' : ''}`
-    : 'Todo en orden';
+
+  const totalPartidos = totalV + totalD + totalE;
+  const pct = totalPartidos ? ((totalV / totalPartidos) * 100).toFixed(1) + '%' : '—';
+  resumen.className = 'ok';
+  resumen.textContent =
+    `${ligas.length} liga${ligas.length !== 1 ? 's' : ''} · ${totalV}-${totalD}${totalE ? '-' + totalE : ''} · ${pct}`;
 
   const badge = document.getElementById('badge-medico');
   if (totalEq > 0) {
@@ -639,14 +620,6 @@ function esc(s) {
 }
 
 document.getElementById('actualizar').addEventListener('click', cargar);
-document.querySelectorAll('#filtro .chip').forEach(c => {
-  c.addEventListener('click', () => {
-    document.querySelectorAll('#filtro .chip').forEach(x => x.classList.remove('activo'));
-    c.classList.add('activo');
-    filtro = c.dataset.f;
-    if (datos) render();
-  });
-});
 
 let rostersData = null;
 let rostersState = { nivel: 'ligas', liga: null, hueco: null, posicion: null };
