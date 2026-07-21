@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-21T15:24:11+00:00",
+ "generado": "2026-07-21T18:43:16+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -40,7 +40,7 @@
      "nombre": "Junior Colson",
      "posicion": "LB",
      "equipo_nfl": "LAC",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder (Surgery)"
@@ -117,13 +117,13 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Dorance Armstrong",
      "posicion": "EDR",
      "equipo_nfl": "WAS",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
@@ -196,7 +196,7 @@
      "nombre": "Caleb Banks",
      "posicion": "IL",
      "equipo_nfl": "MIN",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Foot (Surgery)"
@@ -214,7 +214,7 @@
      "nombre": "Joshua Metellus",
      "posicion": "S",
      "equipo_nfl": "MIN",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder (Surgery)"
@@ -251,7 +251,7 @@
      "nombre": "Michael Penix",
      "posicion": "QB",
      "equipo_nfl": "ATL",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee - ACL (Surgery)"
@@ -297,7 +297,7 @@
      "nombre": "Brian Branch",
      "posicion": "S",
      "equipo_nfl": "DET",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Achilles (Surgery)"
@@ -306,7 +306,7 @@
      "nombre": "Cam Skattebo",
      "posicion": "RB",
      "equipo_nfl": "NYG",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle (Surgery)"
@@ -352,7 +352,7 @@
      "nombre": "Ladd McConkey",
      "posicion": "WR",
      "equipo_nfl": "LAC",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring (Strain)"
@@ -361,7 +361,7 @@
      "nombre": "Travis Hunter",
      "posicion": "WR",
      "equipo_nfl": "JAC",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee (Surgery)"
@@ -383,7 +383,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 34,
+   "total_roster": 35,
    "alertas": [
     {
      "nombre": "Eli Stowers",
@@ -398,7 +398,7 @@
      "nombre": "Mykel Williams",
      "posicion": "EDR",
      "equipo_nfl": "SF",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee - ACL (Surgery)"
@@ -462,7 +462,7 @@
      "nombre": "Walter Nolen",
      "posicion": "IL",
      "equipo_nfl": "ARI",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee - Meniscus (Surgery)"
@@ -490,7 +490,7 @@
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
      "equipo_nfl": "NYJ",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Abdomen (Surgery)"
@@ -499,7 +499,7 @@
      "nombre": "Ladd McConkey",
      "posicion": "WR",
      "equipo_nfl": "LAC",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring (Strain)"
@@ -548,7 +548,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 30,
+   "total_roster": 31,
    "alertas": [
     {
      "nombre": "Brian Branch",
@@ -673,7 +673,7 @@
      "nombre": "Erick All",
      "posicion": "TE",
      "equipo_nfl": "CIN",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee - ACL (Surgery)"
@@ -728,7 +728,7 @@
      "nombre": "Darius Slayton",
      "posicion": "WR",
      "equipo_nfl": "NYG",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Abdomen (Surgery)"
@@ -737,7 +737,7 @@
      "nombre": "Travis Hunter",
      "posicion": "WR",
      "equipo_nfl": "JAC",
-     "grupo": "",
+     "grupo": "BENCH",
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee (Surgery)"
