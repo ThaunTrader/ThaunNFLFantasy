@@ -17,6 +17,26 @@ BASE_URL = "https://www.fleaflicker.com/api"
 USER_ID = os.environ["FLEAFLICKER_USER_ID"]
 OUTPUT = "docs/data/status.json"
 
+# Mapeo liga -> (tipo, formato), según IDPs.md / Classic.md / SuperFlex.md
+# del proyecto, más ligas confirmadas manualmente por el usuario. Si una
+# liga no aparece aquí, se marca como "no documentado" en vez de asumir
+# un valor.
+FORMATO_LIGAS = {
+    332443: ("Dynasty", "IDP"),
+    332475: ("Dynasty", "IDP"),
+    332572: ("Dynasty", "IDP"),
+    332766: ("Dynasty", "IDP"),
+    332793: ("Dynasty", "IDP"),
+    339833: ("Dynasty", "IDP"),
+    344345: ("Dynasty", "IDP"),
+    333726: ("Dynasty", "IDP"),  # Hot Rod Dynasty
+    332573: ("Dynasty", "Classic"),
+    332824: ("Dynasty", "Classic"),
+    332571: ("Dynasty", "SuperFlex"),
+    332993: ("Dynasty", "SuperFlex"),
+    324737: ("Redraft", "Classic Flex-DP"),  # El Capologist
+}
+
 # Estados que generan alerta (mismo criterio que check_lineup.py)
 ESTADOS_ALERTA = {"QUESTIONABLE", "DOUBTFUL", "OUT", "IR"}
 # Estados rojos (no juega) vs ámbar (duda)
@@ -50,6 +70,25 @@ def extraer_jugadores(nodo, grupo=None):
     elif isinstance(nodo, list):
         for item in nodo:
             yield from extraer_jugadores(item, grupo)
+
+
+def extraer_record(team):
+    """Extrae wins/losses/ties/win_percentage/rank de team.recordOverall.
+    Tolerante a ausencia del campo (p.ej. pretemporada sin partidos)."""
+    rec = (team or {}).get("recordOverall") or {}
+    if not rec:
+        return None
+    win_pct = rec.get("winPercentage")
+    if isinstance(win_pct, dict):
+        win_pct = win_pct.get("value")
+    return {
+        "victorias": rec.get("wins", 0),
+        "derrotas": rec.get("losses", 0),
+        "empates": rec.get("ties", 0),
+        "pct": win_pct,
+        "formateado": rec.get("formatted", ""),
+        "rank": rec.get("rank"),
+    }
 
 
 def normalizar_estado(injury):
@@ -97,11 +136,16 @@ def main():
         if not league_id or not team_id:
             continue
 
+        tipo, formato = FORMATO_LIGAS.get(league_id, (None, None))
+
         entrada = {
             "league_id": league_id,
             "liga": lg.get("name", ""),
             "team_id": team_id,
             "equipo": team.get("name", ""),
+            "tipo": tipo,
+            "formato": formato,
+            "record": extraer_record(team),
             "total_roster": 0,
             "alertas": [],
         }
