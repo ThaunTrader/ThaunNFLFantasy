@@ -258,6 +258,61 @@
   .vista { display: none; }
   .vista.activa { display: block; }
 
+  .fila-roster {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+  .fila-roster .fr-info { flex: 1; min-width: 0; }
+  .fr-titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16.5px;
+    letter-spacing: .02em;
+  }
+  .fr-sub { color: var(--muted); font-size: 12px; margin-top: 1px; }
+  .nota-letra {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 3px 10px;
+    flex-shrink: 0;
+    min-width: 38px;
+    text-align: center;
+  }
+  .nota-letra.n-alta   { background: rgba(62,207,142,.15); color: var(--verde); }
+  .nota-letra.n-media  { background: rgba(255,178,36,.15); color: var(--ambar); }
+  .nota-letra.n-baja   { background: rgba(255,90,82,.15);  color: var(--rojo); }
+  .nota-letra.n-vacia  { background: none; color: var(--muted); }
+
+  .jugador-roster {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 6px;
+  }
+  .jr-info { flex: 1; min-width: 0; }
+  .jr-nombre { font-weight: 600; font-size: 13.5px; }
+  .jr-sub { color: var(--muted); font-size: 12px; }
+  .jr-ranks { text-align: right; flex-shrink: 0; font-size: 12px; }
+  .jr-ranks .r-actual { font-weight: 700; }
+  .jr-ranks .r-anterior { color: var(--muted); }
+
   #nav-inferior {
     position: fixed;
     left: 0;
@@ -332,6 +387,12 @@
   <div id="lista-trades"></div>
 </div>
 
+<div class="vista" id="vista-rosters">
+  <div id="estado-rosters" style="text-align:center;color:var(--muted);padding:40px 10px;">Cargando…</div>
+  <div id="breadcrumb-rosters" style="display:none;padding:2px 2px 10px;color:var(--muted);font-size:12.5px;"></div>
+  <div id="lista-rosters"></div>
+</div>
+
 <nav id="nav-inferior">
   <button class="nav-item activo" data-vista="ligas">
     <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
@@ -346,6 +407,10 @@
     <svg viewBox="0 0 24 24"><path d="M7 10l-4 4 4 4M3 14h13a4 4 0 004-4M17 14l4-4-4-4M21 10H8a4 4 0 00-4 4"/></svg>
     Trades
     <span class="nav-badge" id="badge-trades" style="display:none">0</span>
+  </button>
+  <button class="nav-item" data-vista="rosters">
+    <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
+    Rosters
   </button>
 </nav>
 
@@ -583,6 +648,138 @@ document.querySelectorAll('#filtro .chip').forEach(c => {
   });
 });
 
+let rostersData = null;
+let rostersState = { nivel: 'ligas', liga: null, hueco: null, posicion: null };
+
+const HUECO_LABEL = { START: 'Titulares', BENCH: 'Banco', TAXI: 'Taxi', INJURED: 'IR' };
+
+function cargarRosters() {
+  fetch('data/rosters.json?ts=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { rostersData = d; renderRosters(); })
+    .catch(() => {
+      document.getElementById('estado-rosters').style.display = 'block';
+      document.getElementById('estado-rosters').textContent = 'No se pudieron cargar los rosters.';
+    });
+}
+
+function claseNota(letra) {
+  if (!letra) return 'n-vacia';
+  if (letra === 'A+' || letra === 'A') return 'n-alta';
+  if (letra === 'B+' || letra === 'B') return 'n-media';
+  return 'n-baja';
+}
+
+function renderRosters() {
+  const estado = document.getElementById('estado-rosters');
+  const breadcrumb = document.getElementById('breadcrumb-rosters');
+  const lista = document.getElementById('lista-rosters');
+
+  if (!rostersData || !rostersData.ligas?.length) {
+    estado.style.display = 'block';
+    estado.textContent = 'Sin datos de rosters todavía.';
+    breadcrumb.style.display = 'none';
+    lista.innerHTML = '';
+    return;
+  }
+  estado.style.display = 'none';
+
+  const partes = ['Ligas'];
+  if (rostersState.liga) partes.push(rostersState.liga.equipo);
+  if (rostersState.hueco) partes.push(HUECO_LABEL[rostersState.hueco] || rostersState.hueco);
+  if (rostersState.posicion) partes.push(rostersState.posicion);
+  breadcrumb.style.display = rostersState.nivel === 'ligas' ? 'none' : 'block';
+  breadcrumb.innerHTML = rostersState.nivel === 'ligas' ? '' :
+    '← <span style="text-decoration:underline;cursor:pointer;" id="btn-atras-rosters">Atrás</span> · ' + partes.map(esc).join(' / ');
+
+  if (rostersState.nivel === 'ligas') {
+    lista.innerHTML = rostersData.ligas.map((l, i) => `
+      <button class="fila-roster" data-i="${i}">
+        <div class="fr-info">
+          <div class="fr-titulo">${esc(l.liga)}</div>
+          <div class="fr-sub">${esc(l.equipo)}</div>
+        </div>
+        <div class="nota-letra ${claseNota(l.nota_general?.letra)}">${l.nota_general?.letra || '—'}</div>
+      </button>`).join('');
+    lista.querySelectorAll('.fila-roster').forEach(btn => {
+      btn.addEventListener('click', () => {
+        rostersState = { nivel: 'huecos', liga: rostersData.ligas[btn.dataset.i], hueco: null, posicion: null };
+        renderRosters();
+      });
+    });
+  } else if (rostersState.nivel === 'huecos') {
+    const huecos = rostersState.liga.huecos || {};
+    lista.innerHTML = Object.keys(HUECO_LABEL).map(h => {
+      const hu = huecos[h] || { nota: {}, posiciones: {} };
+      const nPos = Object.keys(hu.posiciones || {}).length;
+      return `
+      <button class="fila-roster" data-h="${h}">
+        <div class="fr-info">
+          <div class="fr-titulo">${HUECO_LABEL[h]}</div>
+          <div class="fr-sub">${nPos} posici${nPos === 1 ? 'ón' : 'ones'}</div>
+        </div>
+        <div class="nota-letra ${claseNota(hu.nota?.letra)}">${hu.nota?.letra || '—'}</div>
+      </button>`;
+    }).join('');
+    lista.querySelectorAll('.fila-roster').forEach(btn => {
+      btn.addEventListener('click', () => {
+        rostersState.nivel = 'posiciones';
+        rostersState.hueco = btn.dataset.h;
+        renderRosters();
+      });
+    });
+  } else if (rostersState.nivel === 'posiciones') {
+    const hu = rostersState.liga.huecos?.[rostersState.hueco] || { posiciones: {} };
+    const labels = Object.keys(hu.posiciones).sort();
+    if (!labels.length) {
+      lista.innerHTML = '<div style="color:var(--muted);font-size:12.5px;padding:8px 2px;">Sin jugadores en este hueco.</div>';
+    } else {
+      lista.innerHTML = labels.map(label => {
+        const p = hu.posiciones[label];
+        return `
+        <button class="fila-roster" data-p="${esc(label)}">
+          <div class="fr-info">
+            <div class="fr-titulo">${esc(label)}</div>
+            <div class="fr-sub">${p.jugadores.length} jugador${p.jugadores.length === 1 ? '' : 'es'}</div>
+          </div>
+          <div class="nota-letra ${claseNota(p.nota?.letra)}">${p.nota?.letra || '—'}</div>
+        </button>`;
+      }).join('');
+    }
+    lista.querySelectorAll('.fila-roster').forEach(btn => {
+      btn.addEventListener('click', () => {
+        rostersState.nivel = 'jugadores';
+        rostersState.posicion = btn.dataset.p;
+        renderRosters();
+      });
+    });
+  } else if (rostersState.nivel === 'jugadores') {
+    const p = rostersState.liga.huecos?.[rostersState.hueco]?.posiciones?.[rostersState.posicion];
+    const jugadores = p?.jugadores || [];
+    lista.innerHTML = jugadores.map(j => `
+      <div class="jugador-roster">
+        <div class="jr-info">
+          <div class="jr-nombre">${esc(j.nombre)}</div>
+          <div class="jr-sub">${esc(j.equipo_nfl)}</div>
+        </div>
+        <div class="jr-ranks">
+          <div class="r-actual">${esc(j.rank_actual || '—')}</div>
+          <div class="r-anterior">${esc(j.rank_anterior || 'sin dato ' + (rostersData.season - 1))}</div>
+        </div>
+      </div>`).join('') || '<div style="color:var(--muted);font-size:12.5px;">Sin jugadores.</div>';
+  }
+
+  const btnAtras = document.getElementById('btn-atras-rosters');
+  if (btnAtras) {
+    btnAtras.addEventListener('click', () => {
+      if (rostersState.nivel === 'jugadores') { rostersState.nivel = 'posiciones'; rostersState.posicion = null; }
+      else if (rostersState.nivel === 'posiciones') { rostersState.nivel = 'huecos'; rostersState.hueco = null; }
+      else if (rostersState.nivel === 'huecos') { rostersState.nivel = 'ligas'; rostersState.liga = null; }
+      renderRosters();
+    });
+  }
+}
+
 function cargarTrades() {
   const estadoTrades = document.getElementById('estado-trades');
   fetch('data/trades.json?ts=' + Date.now())
@@ -653,6 +850,7 @@ document.querySelectorAll('.nav-item').forEach(btn => {
 cargar();
 cargarCalendario();
 cargarTrades();
+cargarRosters();
 </script>
 </body>
 </html>
