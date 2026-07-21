@@ -198,6 +198,21 @@ def main():
                         "detalle": "Jugador sano en IR" if not estado else f"Solo {estado.title()}, no puede ocupar IR",
                     }
                 )
+            elif grupo in ("BENCH", "TAXI"):
+                # En banco/taxi solo interesa si está en IR de verdad; un
+                # Q/D/OUT en banco no es accionable (no juega igualmente).
+                if estado == "IR":
+                    entrada["alertas"].append(
+                        {
+                            "nombre": jugador.get("nameFull", ""),
+                            "posicion": jugador.get("position", ""),
+                            "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
+                            "grupo": grupo or "",
+                            "estado": estado,
+                            "rojo": True,
+                            "detalle": detalle,
+                        }
+                    )
             elif estado:
                 entrada["alertas"].append(
                     {
