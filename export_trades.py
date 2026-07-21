@@ -1,7 +1,7 @@
 """
-export_trades.py — Genera docs/data/trades.json con los trades (propuestos,
-en revisión o completados recientemente) que afectan a los equipos del
-usuario en cada liga.
+export_trades.py — Genera docs/data/trades.json con los trades PENDIENTES
+(en revisión) que afectan a los equipos del usuario en cada liga. No
+incluye histórico de trades completados.
 
 AVISO: el parseo de la respuesta de FetchTrades es defensivo (recorre la
 estructura buscando equipos/jugadores/picks) porque no se ha podido
@@ -19,9 +19,6 @@ import requests
 BASE_URL = "https://www.fleaflicker.com/api"
 USER_ID = os.environ["FLEAFLICKER_USER_ID"]
 OUTPUT = "docs/data/trades.json"
-
-# Cuántos trades completados recientes mostrar además de los abiertos
-MAX_COMPLETADOS = 5
 
 
 def get(endpoint, params):
@@ -109,11 +106,7 @@ def main():
 
         try:
             abiertos = get(
-                "FetchTrades", {"league_id": league_id, "filter": "TRADES_OWNER_ANY"}
-            )
-            completados = get(
-                "FetchTrades",
-                {"league_id": league_id, "filter": "TRADES_COMPLETED"},
+                "FetchTrades", {"league_id": league_id, "filter": "TRADES_UNDER_REVIEW"}
             )
         except requests.RequestException as e:
             entrada["error"] = str(e)
@@ -121,18 +114,14 @@ def main():
             continue
 
         vistos = set()
-        for bloque, limite in ((abiertos, None), (completados, MAX_COMPLETADOS)):
-            trades = bloque.get("trades", [])
-            if limite:
-                trades = trades[:limite]
-            for t in trades:
-                tid = t.get("id")
-                if tid in vistos:
-                    continue
-                procesado = procesar_trade(t, team_id)
-                if procesado:
-                    vistos.add(tid)
-                    entrada["trades"].append(procesado)
+        for t in abiertos.get("trades", []):
+            tid = t.get("id")
+            if tid in vistos:
+                continue
+            procesado = procesar_trade(t, team_id)
+            if procesado:
+                vistos.add(tid)
+                entrada["trades"].append(procesado)
 
         entrada["trades"].sort(key=lambda t: t.get("propuesto") or 0, reverse=True)
         resultado["ligas"].append(entrada)
