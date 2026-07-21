@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ThaunNFL — Parte médico</title>
+<meta name="theme-color" content="#10161d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #10161d;
+    --card: #18212b;
+    --border: #24303c;
+    --text: #e8edf2;
+    --muted: #8a97a5;
+    --rojo: #ff5a52;
+    --ambar: #ffb224;
+    --verde: #3ecf8e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Barlow', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    padding: env(safe-area-inset-top) 14px calc(24px + env(safe-area-inset-bottom));
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 18px 2px 4px;
+  }
+  h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+  }
+  h1 span { color: var(--rojo); }
+  #actualizar {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font: 500 13px 'Barlow', sans-serif;
+    cursor: pointer;
+  }
+  #actualizar:active { background: var(--card); }
+  #meta {
+    color: var(--muted);
+    font-size: 12.5px;
+    padding: 0 2px 14px;
+  }
+  #resumen {
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 16px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    display: none;
+  }
+  #resumen.ok    { display: block; background: rgba(62,207,142,.10); color: var(--verde); border: 1px solid rgba(62,207,142,.35); }
+  #resumen.alerta{ display: block; background: rgba(255,90,82,.10);  color: var(--rojo);  border: 1px solid rgba(255,90,82,.35); }
+
+  #filtro {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+  .chip {
+    border: 1px solid var(--border);
+    background: none;
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 5px 14px;
+    font: 500 13px 'Barlow', sans-serif;
+    cursor: pointer;
+  }
+  .chip.activo { border-color: var(--text); color: var(--text); }
+
+  .equipo {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--verde);
+    border-radius: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .equipo.duda { border-left-color: var(--ambar); }
+  .equipo.out  { border-left-color: var(--rojo); }
+
+  .cabecera {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 13px 14px;
+    background: none;
+    border: none;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .nombres { min-width: 0; }
+  .nombre-equipo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .nombre-liga {
+    color: var(--muted);
+    font-size: 12.5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .marcador {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: .03em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .marcador .r { color: var(--rojo); }
+  .marcador .a { color: var(--ambar); }
+  .marcador .v { color: var(--verde); }
+
+  .detalle { display: none; border-top: 1px solid var(--border); }
+  .equipo.abierto .detalle { display: block; }
+  .jugador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 14px;
+  }
+  .jugador + .jugador { border-top: 1px solid rgba(36,48,60,.6); }
+  .estado {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .05em;
+    border-radius: 6px;
+    padding: 2px 8px;
+    flex-shrink: 0;
+    min-width: 40px;
+    text-align: center;
+  }
+  .estado.rojo  { background: rgba(255,90,82,.15);  color: var(--rojo); }
+  .estado.ambar { background: rgba(255,178,36,.15); color: var(--ambar); }
+  .j-info { min-width: 0; flex: 1; }
+  .j-nombre { font-weight: 600; }
+  .j-sub { color: var(--muted); font-size: 12.5px; }
+  .j-grupo {
+    color: var(--muted);
+    font-size: 12px;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2px 7px;
+  }
+  .j-grupo.titular { color: var(--text); border-color: var(--muted); }
+
+  #estado-app {
+    text-align: center;
+    color: var(--muted);
+    padding: 40px 10px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Thaun<span>NFL</span></h1>
+  <button id="actualizar">Actualizar</button>
+</header>
+<div id="meta"></div>
+<div id="resumen"></div>
+<div id="filtro" style="display:none">
+  <button class="chip activo" data-f="todos">Todos</button>
+  <button class="chip" data-f="titulares">Solo titulares</button>
+</div>
+<div id="lista"></div>
+<div id="estado-app">Cargando…</div>
+
+<script>
+let datos = null;
+let filtro = 'todos';
+const abiertos = new Set();
+
+const GRUPOS = { START: 'Titular', BENCH: 'Banquillo', INJURED: 'IR', TAXI: 'Taxi' };
+
+function cargar() {
+  document.getElementById('estado-app').textContent = 'Cargando…';
+  document.getElementById('estado-app').style.display = 'block';
+  fetch('data/status.json?ts=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { datos = d; render(); })
+    .catch(() => {
+      document.getElementById('estado-app').textContent =
+        'No se pudieron cargar los datos. Comprueba la conexión y vuelve a intentarlo.';
+    });
+}
+
+function render() {
+  const meta = document.getElementById('meta');
+  const resumen = document.getElementById('resumen');
+  const lista = document.getElementById('lista');
+  const estadoApp = document.getElementById('estado-app');
+  const filtroBox = document.getElementById('filtro');
+
+  const fecha = new Date(datos.generado);
+  meta.textContent = 'Actualizado ' + fecha.toLocaleString('es-ES', {
+    weekday: 'short', day: 'numeric', month: 'short',
+    hour: '2-digit', minute: '2-digit'
+  });
+
+  const ligas = datos.ligas || [];
+  if (!ligas.length) {
+    estadoApp.textContent = 'No se encontraron ligas en los datos.';
+    return;
+  }
+  estadoApp.style.display = 'none';
+  filtroBox.style.display = 'flex';
+
+  const visibles = l => (l.alertas || []).filter(a =>
+    filtro === 'todos' || a.grupo === 'START');
+
+  let totalJug = 0, totalEq = 0;
+  ligas.forEach(l => {
+    const n = visibles(l).length;
+    if (n > 0) { totalJug += n; totalEq++; }
+  });
+  resumen.className = totalJug ? 'alerta' : 'ok';
+  resumen.textContent = totalJug
+    ? `${totalJug} jugador${totalJug > 1 ? 'es' : ''} en alerta en ${totalEq} equipo${totalEq > 1 ? 's' : ''}`
+    : 'Todo en orden';
+
+  const orden = [...ligas].sort((a, b) => {
+    const peor = l => visibles(l).some(x => x.rojo) ? 0 : visibles(l).length ? 1 : 2;
+    return peor(a) - peor(b);
+  });
+
+  lista.innerHTML = '';
+  orden.forEach(l => {
+    const alertas = visibles(l);
+    const rojos = alertas.filter(a => a.rojo).length;
+    const dudas = alertas.length - rojos;
+    const clase = rojos ? 'out' : dudas ? 'duda' : '';
+    const clave = String(l.league_id);
+
+    const card = document.createElement('div');
+    card.className = 'equipo ' + clase + (abiertos.has(clave) && alertas.length ? ' abierto' : '');
+
+    let marcador = '<span class="v">✓ OK</span>';
+    if (alertas.length) {
+      const partes = [];
+      if (rojos) partes.push(`<span class="r">${rojos} OUT</span>`);
+      if (dudas) partes.push(`<span class="a">${dudas} Q</span>`);
+      marcador = partes.join(' · ');
+    }
+
+    let html = `
+      <button class="cabecera" data-k="${clave}" ${alertas.length ? '' : 'disabled'}>
+        <div class="nombres">
+          <div class="nombre-equipo">${esc(l.equipo)}</div>
+          <div class="nombre-liga">${esc(l.liga)}</div>
+        </div>
+        <div class="marcador">${marcador}</div>
+      </button>`;
+
+    if (l.error) {
+      html += `<div class="detalle" style="display:block"><div class="jugador j-sub">Error al leer este equipo: ${esc(l.error)}</div></div>`;
+    } else if (alertas.length) {
+      html += '<div class="detalle">' + alertas.map(a => `
+        <div class="jugador">
+          <span class="estado ${a.rojo ? 'rojo' : 'ambar'}">${esc(etiqueta(a.estado))}</span>
+          <div class="j-info">
+            <div class="j-nombre">${esc(a.nombre)}</div>
+            <div class="j-sub">${esc(a.posicion)} · ${esc(a.equipo_nfl)}${a.detalle ? ' · ' + esc(a.detalle) : ''}</div>
+          </div>
+          ${a.grupo ? `<span class="j-grupo ${a.grupo === 'START' ? 'titular' : ''}">${esc(GRUPOS[a.grupo] || a.grupo)}</span>` : ''}
+        </div>`).join('') + '</div>';
+    }
+
+    card.innerHTML = html;
+    lista.appendChild(card);
+  });
+
+  lista.querySelectorAll('.cabecera:not([disabled])').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const k = btn.dataset.k;
+      abiertos.has(k) ? abiertos.delete(k) : abiertos.add(k);
+      btn.parentElement.classList.toggle('abierto');
+    });
+  });
+}
+
+function etiqueta(estado) {
+  return { QUESTIONABLE: 'Q', DOUBTFUL: 'D', OUT: 'OUT', IR: 'IR' }[estado] || estado;
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+document.getElementById('actualizar').addEventListener('click', cargar);
+document.querySelectorAll('#filtro .chip').forEach(c => {
+  c.addEventListener('click', () => {
+    document.querySelectorAll('#filtro .chip').forEach(x => x.classList.remove('activo'));
+    c.classList.add('activo');
+    filtro = c.dataset.f;
+    if (datos) render();
+  });
+});
+
+cargar();
+</script>
+</body>
+</html>
