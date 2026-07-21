@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>ThaunNFL — Parte médico</title>
+<title>ThaunNFL — Fantasy Manager</title>
 <meta name="theme-color" content="#10161d">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
+<link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
@@ -324,6 +324,11 @@
   <div id="lista"></div>
 </div>
 
+<div class="vista" id="vista-trades">
+  <div id="estado-trades" style="text-align:center;color:var(--muted);padding:40px 10px;">Cargando…</div>
+  <div id="lista-trades"></div>
+</div>
+
 <nav id="nav-inferior">
   <button class="nav-item activo" data-vista="ligas">
     <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
@@ -333,6 +338,11 @@
     <svg viewBox="0 0 24 24"><path d="M9 3v6M6 6h6M17 3v8a5 5 0 01-10 0"/><path d="M12 15v6M9 21h6"/></svg>
     Parte médico
     <span class="nav-badge" id="badge-medico" style="display:none">0</span>
+  </button>
+  <button class="nav-item" data-vista="trades" style="position:relative">
+    <svg viewBox="0 0 24 24"><path d="M7 10l-4 4 4 4M3 14h13a4 4 0 004-4M17 14l4-4-4-4M21 10H8a4 4 0 00-4 4"/></svg>
+    Trades
+    <span class="nav-badge" id="badge-trades" style="display:none">0</span>
   </button>
 </nav>
 
@@ -479,9 +489,10 @@ function renderResumenLigas(ligas) {
       : '—';
     const pct = r && r.pct != null ? (r.pct * 100).toFixed(0) + '%' : '';
     const rank = r && r.rank ? `#${r.rank}` : '';
+    const clave = 'liga-' + l.league_id;
 
     return `
-      <div class="fila-liga">
+      <button class="fila-liga" data-k="${clave}" style="width:100%;border:none;background:none;text-align:left;cursor:pointer;font:inherit;color:inherit;">
         <div class="fl-info">
           <div class="fl-liga">${esc(l.liga)}</div>
           <div class="fl-sub">
@@ -495,8 +506,59 @@ function renderResumenLigas(ligas) {
           <div class="fl-marcador">${marcador} ${rank}</div>
           <div class="fl-pct">${pct}</div>
         </div>
-      </div>`;
+      </button>
+      <div class="fl-calendario" id="cal-${clave}" style="display:none;padding:4px 14px 12px;"></div>`;
   }).join('');
+
+  cont.querySelectorAll('.fila-liga').forEach(btn => {
+    btn.addEventListener('click', () => toggleCalendario(btn.dataset.k));
+  });
+}
+
+let calendarioData = null;
+
+function cargarCalendario() {
+  fetch('data/calendario.json?ts=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { calendarioData = d; })
+    .catch(() => { calendarioData = null; });
+}
+
+function toggleCalendario(clave) {
+  const cont = document.getElementById('cal-' + clave);
+  const abierto = cont.style.display !== 'none';
+  cont.style.display = abierto ? 'none' : 'block';
+  if (abierto || cont.dataset.pintado) return;
+
+  const leagueId = clave.replace('liga-', '');
+  const liga = calendarioData?.ligas?.find(l => String(l.league_id) === leagueId);
+
+  if (!calendarioData) {
+    cont.innerHTML = '<div style="color:var(--muted);font-size:12.5px;">Calendario no disponible todavía.</div>';
+    return;
+  }
+  if (!liga || !liga.semanas?.length) {
+    cont.innerHTML = '<div style="color:var(--muted);font-size:12.5px;">Sin datos de calendario para esta liga.</div>';
+    return;
+  }
+
+  cont.innerHTML = liga.semanas.map(s => {
+    if (s.error) return '';
+    const jugado = s.jugado;
+    const gano = s.resultado === 'WIN';
+    const perdio = s.resultado === 'LOSE';
+    const color = jugado ? (gano ? 'var(--verde)' : perdio ? 'var(--rojo)' : 'var(--muted)') : 'var(--muted)';
+    const marcador = jugado
+      ? `${s.mis_puntos ?? '—'} - ${s.puntos_rival ?? '—'}`
+      : 'Pendiente';
+    return `
+      <div style="display:flex;justify-content:space-between;padding:6px 0;font-size:12.5px;border-top:1px solid rgba(36,48,60,.5);">
+        <span style="color:var(--muted);">S${s.semana} ${s.local ? 'vs' : '@'} ${esc(s.rival)}</span>
+        <span style="color:${color};font-weight:600;">${marcador}</span>
+      </div>`;
+  }).join('') || '<div style="color:var(--muted);font-size:12.5px;">Sin semanas registradas.</div>';
+
+  cont.dataset.pintado = '1';
 }
 
 function etiqueta(estado) {
@@ -518,6 +580,64 @@ document.querySelectorAll('#filtro .chip').forEach(c => {
   });
 });
 
+function cargarTrades() {
+  const estadoTrades = document.getElementById('estado-trades');
+  fetch('data/trades.json?ts=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => renderTrades(d))
+    .catch(() => {
+      estadoTrades.style.display = 'block';
+      estadoTrades.textContent = 'No se pudieron cargar los trades.';
+    });
+}
+
+function renderTrades(datosTrades) {
+  const estadoTrades = document.getElementById('estado-trades');
+  const lista = document.getElementById('lista-trades');
+  const badge = document.getElementById('badge-trades');
+
+  const ligas = (datosTrades.ligas || []).filter(l => (l.trades || []).length);
+  const abiertosTotal = (datosTrades.ligas || [])
+    .flatMap(l => l.trades || [])
+    .filter(t => t.estado === 'TRADE_STATUS_OPEN').length;
+
+  badge.style.display = abiertosTotal > 0 ? 'block' : 'none';
+  badge.textContent = abiertosTotal;
+
+  if (!ligas.length) {
+    estadoTrades.style.display = 'block';
+    estadoTrades.textContent = 'Sin trades recientes en tus ligas.';
+    lista.innerHTML = '';
+    return;
+  }
+  estadoTrades.style.display = 'none';
+
+  const ETIQUETAS = {
+    TRADE_STATUS_OPEN: 'Pendiente',
+    TRADE_STATUS_EXECUTED: 'Completado',
+    TRADE_STATUS_REJECTED: 'Rechazado',
+    TRADE_STATUS_VETOED: 'Vetado',
+    TRADE_STATUS_CANCELED: 'Cancelado',
+    TRADE_STATUS_INVALIDATED: 'Invalidado',
+  };
+
+  lista.innerHTML = ligas.map(l => `
+    <div class="seccion-titulo">${esc(l.liga)}</div>
+    <div style="display:flex;flex-direction:column;gap:8px;margin-bottom:6px;">
+      ${l.trades.map(t => `
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 14px;">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px;">
+            <span style="font-weight:600;font-size:13px;">${esc(ETIQUETAS[t.estado] || t.estado || 'Estado desconocido')}</span>
+          </div>
+          ${t.lados.map(lado => `
+            <div style="font-size:12.5px;color:var(--muted);margin-top:2px;">
+              <strong style="color:var(--text);">${esc(lado.equipo)}</strong> recibe: ${lado.recibe.length ? lado.recibe.map(esc).join(', ') : '—'}
+            </div>`).join('')}
+        </div>`).join('')}
+    </div>
+  `).join('');
+}
+
 document.querySelectorAll('.nav-item').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.nav-item').forEach(x => x.classList.remove('activo'));
@@ -528,6 +648,8 @@ document.querySelectorAll('.nav-item').forEach(btn => {
 });
 
 cargar();
+cargarCalendario();
+cargarTrades();
 </script>
 </body>
 </html>
