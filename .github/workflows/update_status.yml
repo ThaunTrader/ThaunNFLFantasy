@@ -29,9 +29,14 @@ jobs:
           FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
         run: python export_status.py
 
+      - name: Export trades
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+        run: python export_trades.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data/status.json
-          git diff --staged --quiet || (git commit -m "Actualizar estado de equipos" && git push)
+          git add docs/data/status.json docs/data/trades.json
+          git diff --staged --quiet || (git commit -m "Actualizar estado y trades" && git push)
