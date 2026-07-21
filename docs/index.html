@@ -30,7 +30,7 @@
     font-family: 'Barlow', system-ui, sans-serif;
     font-size: 15px;
     line-height: 1.4;
-    padding: env(safe-area-inset-top) 14px calc(24px + env(safe-area-inset-bottom));
+    padding: env(safe-area-inset-top) 14px calc(76px + env(safe-area-inset-bottom));
     max-width: 560px;
     margin: 0 auto;
   }
@@ -251,6 +251,52 @@
     color: var(--muted);
     font-size: 12px;
   }
+
+  .vista { display: none; }
+  .vista.activa { display: block; }
+
+  #nav-inferior {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom);
+    z-index: 10;
+  }
+  .nav-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding: 9px 4px 8px;
+    background: none;
+    border: none;
+    color: var(--muted);
+    font: 500 10.5px 'Barlow', sans-serif;
+    letter-spacing: .02em;
+    cursor: pointer;
+  }
+  .nav-item svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.8; }
+  .nav-item.activo { color: var(--rojo); }
+  .nav-badge {
+    position: absolute;
+    margin-left: 14px;
+    margin-top: -2px;
+    background: var(--rojo);
+    color: #10161d;
+    font-size: 9.5px;
+    font-weight: 700;
+    border-radius: 999px;
+    min-width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding: 0 3px;
+  }
 </style>
 </head>
 <body>
@@ -260,20 +306,35 @@
   <button id="actualizar">Actualizar</button>
 </header>
 <div id="meta"></div>
-<div id="resumen"></div>
-
-<div id="bloque-resumen-ligas" style="display:none">
-  <div class="seccion-titulo">Tus ligas</div>
-  <div id="resumen-ligas"></div>
-</div>
-
-<div id="filtro" style="display:none">
-  <button class="chip activo" data-f="todos">Todos</button>
-  <button class="chip" data-f="titulares">Solo titulares</button>
-</div>
-<div class="seccion-titulo" id="titulo-lesionados" style="display:none">Parte médico</div>
-<div id="lista"></div>
 <div id="estado-app">Cargando…</div>
+
+<div class="vista activa" id="vista-ligas">
+  <div id="resumen"></div>
+  <div id="bloque-resumen-ligas" style="display:none">
+    <div class="seccion-titulo">Tus ligas</div>
+    <div id="resumen-ligas"></div>
+  </div>
+</div>
+
+<div class="vista" id="vista-medico">
+  <div id="filtro" style="display:none">
+    <button class="chip activo" data-f="todos">Todos</button>
+    <button class="chip" data-f="titulares">Solo titulares</button>
+  </div>
+  <div id="lista"></div>
+</div>
+
+<nav id="nav-inferior">
+  <button class="nav-item activo" data-vista="ligas">
+    <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
+    Ligas
+  </button>
+  <button class="nav-item" data-vista="medico" style="position:relative">
+    <svg viewBox="0 0 24 24"><path d="M9 3v6M6 6h6M17 3v8a5 5 0 01-10 0"/><path d="M12 15v6M9 21h6"/></svg>
+    Parte médico
+    <span class="nav-badge" id="badge-medico" style="display:none">0</span>
+  </button>
+</nav>
 
 <script>
 let datos = null;
@@ -314,7 +375,6 @@ function render() {
   }
   estadoApp.style.display = 'none';
   filtroBox.style.display = 'flex';
-  document.getElementById('titulo-lesionados').style.display = 'block';
   renderResumenLigas(ligas);
 
   const visibles = l => (l.alertas || []).filter(a =>
@@ -329,6 +389,14 @@ function render() {
   resumen.textContent = totalJug
     ? `${totalJug} jugador${totalJug > 1 ? 'es' : ''} en alerta en ${totalEq} equipo${totalEq > 1 ? 's' : ''}`
     : 'Todo en orden';
+
+  const badge = document.getElementById('badge-medico');
+  if (totalEq > 0) {
+    badge.style.display = 'block';
+    badge.textContent = totalEq;
+  } else {
+    badge.style.display = 'none';
+  }
 
   const orden = [...ligas].sort((a, b) => {
     const peor = l => visibles(l).some(x => x.rojo) ? 0 : visibles(l).length ? 1 : 2;
@@ -397,8 +465,12 @@ function renderResumenLigas(ligas) {
   if (!ligas.length) { bloque.style.display = 'none'; return; }
   bloque.style.display = 'block';
 
-  const orden = [...ligas].sort((a, b) =>
-    (a.record?.rank ?? 99) - (b.record?.rank ?? 99));
+  const orden = [...ligas].sort((a, b) => {
+    const va = a.record?.victorias ?? -1;
+    const vb = b.record?.victorias ?? -1;
+    if (vb !== va) return vb - va;
+    return (b.record?.pct ?? 0) - (a.record?.pct ?? 0);
+  });
 
   cont.innerHTML = orden.map(l => {
     const r = l.record;
@@ -443,6 +515,15 @@ document.querySelectorAll('#filtro .chip').forEach(c => {
     c.classList.add('activo');
     filtro = c.dataset.f;
     if (datos) render();
+  });
+});
+
+document.querySelectorAll('.nav-item').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item').forEach(x => x.classList.remove('activo'));
+    document.querySelectorAll('.vista').forEach(x => x.classList.remove('activa'));
+    btn.classList.add('activo');
+    document.getElementById('vista-' + btn.dataset.vista).classList.add('activa');
   });
 });
 
