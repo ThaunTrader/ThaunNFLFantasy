@@ -1,0 +1,304 @@
+{
+ "generado": "2026-07-21T14:40:56+00:00",
+ "ligas": [
+  {
+   "league_id": 324737,
+   "liga": "El Capologist Oeste 1ª Division",
+   "equipo": "Alicante Buccaneers",
+   "trades": []
+  },
+  {
+   "league_id": 332443,
+   "liga": "IDP 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP10)",
+   "trades": []
+  },
+  {
+   "league_id": 332475,
+   "liga": "IDP 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP12)",
+   "trades": []
+  },
+  {
+   "league_id": 332484,
+   "liga": "IDP 13 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "trades": []
+  },
+  {
+   "league_id": 332507,
+   "liga": "IDP 14 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "trades": []
+  },
+  {
+   "league_id": 332571,
+   "liga": "SuperFlex 3 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF3)",
+   "trades": [
+    {
+     "id": 8104051,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Fields, Olave, Doubs and Likely for Williams and Burks",
+     "propuesto": "1672846238000",
+     "aprobado": "1678520148000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (SF3)",
+       "recibe": [
+        "Justin Fields",
+        "Chris Olave",
+        "Romeo Doubs",
+        "Isaiah Likely",
+        "Zack Moss"
+       ]
+      },
+      {
+       "equipo": "Kanu25",
+       "recibe": [
+        "Javonte Williams",
+        "Treylon Burks"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "league_id": 332572,
+   "liga": "IDP 16 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP16)",
+   "trades": [
+    {
+     "id": 8727765,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Stevenson, Dell, Otton and 1 Pick for Kelce",
+     "propuesto": "1698214237000",
+     "aprobado": "1698254782000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (IDP16)",
+       "recibe": [
+        "Rhamondre Stevenson",
+        "Tank Dell",
+        "Cade Otton",
+        "Devonte Wyatt",
+        "A.J. Epenesa"
+       ]
+      },
+      {
+       "equipo": "Kanu25 ⭐️",
+       "recibe": [
+        "Travis Kelce"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "league_id": 332573,
+   "liga": "Classic 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA10)",
+   "trades": [
+    {
+     "id": 9836739,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "McConkey and 1 Pick for Rice and 1 Pick",
+     "propuesto": "1756391791000",
+     "aprobado": "1760720755000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (CLA10)",
+       "recibe": [
+        "Ladd McConkey"
+       ]
+      },
+      {
+       "equipo": "Pol KC Chiefs",
+       "recibe": [
+        "Rashee Rice"
+       ]
+      }
+     ]
+    },
+    {
+     "id": 9150210,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Franklin for Harris and Godwin",
+     "propuesto": "1722380591000",
+     "aprobado": "1722701153000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (CLA10)",
+       "recibe": [
+        "Troy Franklin"
+       ]
+      },
+      {
+       "equipo": "Cantabria Honey Badgers",
+       "recibe": [
+        "Najee Harris",
+        "Chris Godwin"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "league_id": 332766,
+   "liga": "IDP 17 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP17)",
+   "trades": []
+  },
+  {
+   "league_id": 332793,
+   "liga": "IDP 18 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (🏆🏆)",
+   "trades": [
+    {
+     "id": 10259508,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Mason, James and 1 Pick for 1 Pick",
+     "propuesto": "1780122940000",
+     "aprobado": "1780132075000",
+     "lados": [
+      {
+       "equipo": "NoHayDosSinTres",
+       "recibe": [
+        "Jordan Mason",
+        "Derwin James"
+       ]
+      },
+      {
+       "equipo": "Alicante Buccaneers (🏆🏆)",
+       "recibe": []
+      }
+     ]
+    },
+    {
+     "id": 9882195,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Williams for Brown",
+     "propuesto": "1758034816000",
+     "aprobado": "1758058491000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (🏆🏆)",
+       "recibe": [
+        "Jameson Williams"
+       ]
+      },
+      {
+       "equipo": "Kanu25",
+       "recibe": [
+        "A.J. Brown"
+       ]
+      }
+     ]
+    },
+    {
+     "id": 9730420,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Whittington for 1 Pick",
+     "propuesto": "1750922033000",
+     "aprobado": "1750922696000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (🏆🏆)",
+       "recibe": [
+        "Jordan Whittington",
+        "Elijah Moore"
+       ]
+      },
+      {
+       "equipo": "Kanu25",
+       "recibe": []
+      }
+     ]
+    },
+    {
+     "id": 9724838,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Olave and 1 Pick for Rice",
+     "propuesto": "1750456635000",
+     "aprobado": "1750458735000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (🏆🏆)",
+       "recibe": [
+        "Chris Olave",
+        "Tre Tucker"
+       ]
+      },
+      {
+       "equipo": "Kanu25",
+       "recibe": [
+        "Rashee Rice"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "league_id": 332824,
+   "liga": "Classic 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA12)",
+   "trades": []
+  },
+  {
+   "league_id": 332993,
+   "liga": "SuperFlex 4 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF4)",
+   "trades": []
+  },
+  {
+   "league_id": 333726,
+   "liga": "Hot Rod Dynasty",
+   "equipo": "Alicante Buccaneers (HRD)",
+   "trades": []
+  },
+  {
+   "league_id": 339833,
+   "liga": "IDP 21 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP21)",
+   "trades": [
+    {
+     "id": 9299904,
+     "estado": "TRADE_STATUS_EXECUTED",
+     "descripcion": "Franklin for Brown",
+     "propuesto": "1727204912000",
+     "aprobado": "1727214044000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (IDP21)",
+       "recibe": [
+        "Troy Franklin"
+       ]
+      },
+      {
+       "equipo": "Placita20",
+       "recibe": [
+        "Chase Brown"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "league_id": 344345,
+   "liga": "IDP 22 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP22)",
+   "trades": []
+  },
+  {
+   "league_id": 348123,
+   "liga": "II Fantasy CyF - Conf. Fregando Cubiertas",
+   "equipo": "Alicante Buccaneers",
+   "trades": []
+  }
+ ]
+}
