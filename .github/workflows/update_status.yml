@@ -1,0 +1,37 @@
+name: Update App Status
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # cada hora, minuto 17
+  workflow_dispatch:        # ejecución manual
+
+permissions:
+  contents: write
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Export status
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+        run: python export_status.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/status.json
+          git diff --staged --quiet || (git commit -m "Actualizar estado de equipos" && git push)
