@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-21T18:43:16+00:00",
+ "generado": "2026-07-21T20:19:13+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -37,24 +37,6 @@
    "total_roster": 35,
    "alertas": [
     {
-     "nombre": "Junior Colson",
-     "posicion": "LB",
-     "equipo_nfl": "LAC",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder (Surgery)"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
      "nombre": "Micah Parsons",
      "posicion": "EDR",
      "equipo_nfl": "GB",
@@ -90,15 +72,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle (Surgery)"
-    },
-    {
-     "nombre": "Chris Bell",
-     "posicion": "WR",
-     "equipo_nfl": "MIA",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
     }
    ]
   },
@@ -120,15 +93,6 @@
    "total_roster": 24,
    "alertas": [
     {
-     "nombre": "Dorance Armstrong",
-     "posicion": "EDR",
-     "equipo_nfl": "WAS",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Jevon Holland",
      "posicion": "S",
      "equipo_nfl": "NYG",
@@ -136,15 +100,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
     },
     {
      "nombre": "Maxx Crosby",
@@ -193,33 +148,6 @@
    "total_roster": 35,
    "alertas": [
     {
-     "nombre": "Caleb Banks",
-     "posicion": "IL",
-     "equipo_nfl": "MIN",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Foot (Surgery)"
-    },
-    {
-     "nombre": "Eli Stowers",
-     "posicion": "TE",
-     "equipo_nfl": "PHI",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Joshua Metellus",
-     "posicion": "S",
-     "equipo_nfl": "MIN",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder (Surgery)"
-    },
-    {
      "nombre": "Tyler Bass",
      "posicion": "K",
      "equipo_nfl": "BUF",
@@ -247,15 +175,6 @@
    },
    "total_roster": 18,
    "alertas": [
-    {
-     "nombre": "Michael Penix",
-     "posicion": "QB",
-     "equipo_nfl": "ATL",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
-    },
     {
      "nombre": "Travis Hunter",
      "posicion": "WR",
@@ -294,24 +213,6 @@
    "total_roster": 35,
    "alertas": [
     {
-     "nombre": "Brian Branch",
-     "posicion": "S",
-     "equipo_nfl": "DET",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Achilles (Surgery)"
-    },
-    {
-     "nombre": "Cam Skattebo",
-     "posicion": "RB",
-     "equipo_nfl": "NYG",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle (Surgery)"
-    },
-    {
      "nombre": "Malik Nabers",
      "posicion": "WR",
      "equipo_nfl": "NYG",
@@ -347,26 +248,7 @@
     "rank": null
    },
    "total_roster": 19,
-   "alertas": [
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring (Strain)"
-    },
-    {
-     "nombre": "Travis Hunter",
-     "posicion": "WR",
-     "equipo_nfl": "JAC",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee (Surgery)"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332766,
@@ -385,24 +267,6 @@
    },
    "total_roster": 35,
    "alertas": [
-    {
-     "nombre": "Eli Stowers",
-     "posicion": "TE",
-     "equipo_nfl": "PHI",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Mykel Williams",
-     "posicion": "EDR",
-     "equipo_nfl": "SF",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
-    },
     {
      "nombre": "Sam LaPorta",
      "posicion": "TE",
@@ -448,24 +312,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder (Surgery)"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
-     "nombre": "Walter Nolen",
-     "posicion": "IL",
-     "equipo_nfl": "ARI",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - Meniscus (Surgery)"
     }
    ]
   },
@@ -485,35 +331,7 @@
     "rank": null
    },
    "total_roster": 20,
-   "alertas": [
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring (Strain)"
-    },
-    {
-     "nombre": "Marlin Klein",
-     "posicion": "TE",
-     "equipo_nfl": "HOU",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332993,
@@ -624,15 +442,6 @@
      "detalle": "Ankle"
     },
     {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
      "nombre": "Ladd McConkey",
      "posicion": "WR",
      "equipo_nfl": "LAC",
@@ -670,24 +479,6 @@
      "detalle": "Ankle"
     },
     {
-     "nombre": "Erick All",
-     "posicion": "TE",
-     "equipo_nfl": "CIN",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "TAXI",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
      "nombre": "Malik Nabers",
      "posicion": "WR",
      "equipo_nfl": "NYG",
@@ -723,24 +514,6 @@
      "estado": "IR_INVALIDO",
      "rojo": true,
      "detalle": "Solo Questionable, no puede ocupar IR"
-    },
-    {
-     "nombre": "Darius Slayton",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen (Surgery)"
-    },
-    {
-     "nombre": "Travis Hunter",
-     "posicion": "WR",
-     "equipo_nfl": "JAC",
-     "grupo": "BENCH",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee (Surgery)"
     }
    ]
   }
