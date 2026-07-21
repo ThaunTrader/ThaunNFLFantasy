@@ -1,12 +1,11 @@
 """
 export_rosters.py — Genera docs/data/rosters.json con la valoración del
-roster de cada equipo, en 3 niveles: general -> hueco (Titular/Banco/
-Taxi/IR) -> posición -> jugador. Usa el rankDraft.rating que da la
-propia Fleaflicker (temporada actual y anterior).
+roster de cada equipo, en niveles: general -> posición (todo el roster)
+/ hueco (Titular/Banco/Taxi/IR) -> posición dentro del hueco -> jugador.
+Usa el rankDraft.rating que da la propia Fleaflicker.
 
-AVISO: probado contra un JSON real de FetchRoster (temporada 2026), pero
-la llamada con season=2025 no se ha podido verificar. Revisar el
-resultado de la primera ejecución.
+Nota: se descartó comparar con la temporada anterior (2025) porque
+Fleaflicker no devolvía ese dato de forma fiable para esta liga.
 
 Requiere variable de entorno: FLEAFLICKER_USER_ID
 """
@@ -21,7 +20,6 @@ BASE_URL = "https://www.fleaflicker.com/api"
 USER_ID = os.environ["FLEAFLICKER_USER_ID"]
 OUTPUT = "docs/data/rosters.json"
 SEASON_ACTUAL = int(os.environ.get("SEASON", "2026"))
-SEASON_ANTERIOR = SEASON_ACTUAL - 1
 
 RATING_VALOR = {
     "RATING_VERY_GOOD": 4,
@@ -32,6 +30,11 @@ RATING_VALOR = {
 }
 
 HUECOS = ["START", "BENCH", "TAXI", "INJURED"]
+
+# Orden fijo de posiciones pedido por el usuario. Cualquier posición no
+# listada aquí (p.ej. si aparecen datos de K o P, que de momento no se
+# han visto con rankDraft) se añade al final por orden alfabético.
+ORDEN_POSICIONES = ["QB", "RB", "WR", "TE", "K", "P", "CB", "S", "EDR", "IL", "LB"]
 
 
 def get(endpoint, params):
@@ -68,15 +71,18 @@ def extraer_slots(nodo, grupo=None):
             yield from extraer_slots(item, grupo)
 
 
-def rank_por_jugador(roster_json):
-    """Devuelve {jugador_id: rankDraft} para una respuesta de FetchRoster,
-    usada para cruzar la temporada anterior con la actual."""
-    resultado = {}
-    for _, lp in extraer_slots(roster_json):
-        pid = (lp.get("proPlayer") or {}).get("id")
-        if pid is not None and "rankDraft" in lp:
-            resultado[pid] = lp["rankDraft"]
-    return resultado
+def letra_desde_media(media):
+    if media >= 3.5:
+        return "A+"
+    if media >= 3.0:
+        return "A"
+    if media >= 2.5:
+        return "B+"
+    if media >= 2.0:
+        return "B"
+    if media >= 1.0:
+        return "C"
+    return "D"
 
 
 def nota(valores):
@@ -85,40 +91,34 @@ def nota(valores):
     if not vals:
         return {"letra": None, "valor": None, "n": 0}
     media = sum(vals) / len(vals)
-    if media >= 3.5:
-        letra = "A+"
-    elif media >= 3.0:
-        letra = "A"
-    elif media >= 2.5:
-        letra = "B+"
-    elif media >= 2.0:
-        letra = "B"
-    elif media >= 1.0:
-        letra = "C"
-    else:
-        letra = "D"
-    return {"letra": letra, "valor": round(media, 2), "n": len(vals)}
+    return {"letra": letra_desde_media(media), "valor": round(media, 2), "n": len(vals)}
+
+
+def orden_key(label):
+    try:
+        return (0, ORDEN_POSICIONES.index(label))
+    except ValueError:
+        return (1, label)
+
+
+def ordenar_posiciones(dic_posiciones):
+    """Lista de (label, bucket) ordenada según ORDEN_POSICIONES, con las
+    no listadas al final por orden alfabético."""
+    return sorted(dic_posiciones.items(), key=lambda kv: orden_key(kv[0]))
 
 
 def procesar_equipo(league_id, team_id):
-    roster_actual = get(
+    roster = get(
         "FetchRoster",
         {"league_id": league_id, "team_id": team_id, "season": SEASON_ACTUAL},
     )
-    try:
-        roster_anterior = get(
-            "FetchRoster",
-            {"league_id": league_id, "team_id": team_id, "season": SEASON_ANTERIOR},
-        )
-        ranks_anteriores = rank_por_jugador(roster_anterior)
-    except requests.RequestException:
-        ranks_anteriores = {}
 
     huecos = {h: {"posiciones": {}, "valores": []} for h in HUECOS}
+    posiciones_equipo = {}  # agregación de TODO el roster, por posición
     valores_generales = []
 
     vistos = set()
-    for grupo, lp in extraer_slots(roster_actual):
+    for grupo, lp in extraer_slots(roster):
         pp = lp.get("proPlayer") or {}
         pid = pp.get("id")
         if pid is None or (grupo, pid) in vistos:
@@ -130,12 +130,6 @@ def procesar_equipo(league_id, team_id):
 
         rank_draft = lp.get("rankDraft") or {}
         posiciones = rank_draft.get("positions") or []
-        rank_ant = ranks_anteriores.get(pid, {})
-        posiciones_ant = {
-            p.get("position", {}).get("label"): p
-            for p in (rank_ant.get("positions") or [])
-        }
-
         if not posiciones:
             continue
 
@@ -146,33 +140,54 @@ def procesar_equipo(league_id, team_id):
         for pos_info in posiciones:
             label = pos_info.get("position", {}).get("label", "?")
             valor = RATING_VALOR.get(pos_info.get("rating"))
-            ant = posiciones_ant.get(label)
+            ordinal = pos_info.get("ordinal")
 
-            bucket = huecos[grupo]["posiciones"].setdefault(
+            jugador_data = {
+                "nombre": pp.get("nameFull", ""),
+                "equipo_nfl": pp.get("proTeamAbbreviation", ""),
+                "rank": pos_info.get("formatted", ""),
+                "rank_ordinal": ordinal,
+                "rating": pos_info.get("rating"),
+                "nota_letra": letra_desde_media(valor) if valor is not None else None,
+                "hueco": grupo,
+            }
+
+            bucket_hueco = huecos[grupo]["posiciones"].setdefault(
                 label, {"jugadores": [], "valores": []}
             )
-            bucket["valores"].append(valor)
-            bucket["jugadores"].append(
-                {
-                    "nombre": pp.get("nameFull", ""),
-                    "equipo_nfl": pp.get("proTeamAbbreviation", ""),
-                    "rank_actual": pos_info.get("formatted", ""),
-                    "rating_actual": pos_info.get("rating"),
-                    "rank_anterior": ant.get("formatted") if ant else None,
-                    "rating_anterior": ant.get("rating") if ant else None,
-                }
+            bucket_hueco["valores"].append(valor)
+            bucket_hueco["jugadores"].append(jugador_data)
+
+            bucket_equipo = posiciones_equipo.setdefault(
+                label, {"jugadores": [], "valores": []}
             )
+            bucket_equipo["valores"].append(valor)
+            bucket_equipo["jugadores"].append(jugador_data)
+
+    def orden_jugador(j):
+        # Menor ordinal = mejor ranking. Sin ordinal -> al final.
+        return (j["rank_ordinal"] is None, j["rank_ordinal"] if j["rank_ordinal"] is not None else 0)
 
     for h in HUECOS:
         for label, bucket in huecos[h]["posiciones"].items():
             bucket["nota"] = nota(bucket["valores"])
             del bucket["valores"]
-            bucket["jugadores"].sort(key=lambda j: j["nombre"])
+            bucket["jugadores"].sort(key=orden_jugador)
         huecos[h]["nota"] = nota(huecos[h]["valores"])
         del huecos[h]["valores"]
 
+    for label, bucket in posiciones_equipo.items():
+        bucket["nota"] = nota(bucket["valores"])
+        del bucket["valores"]
+        bucket["jugadores"].sort(key=orden_jugador)
+
+    posiciones_equipo_ordenado = {
+        label: bucket for label, bucket in ordenar_posiciones(posiciones_equipo)
+    }
+
     return {
         "nota_general": nota(valores_generales),
+        "posiciones": posiciones_equipo_ordenado,
         "huecos": huecos,
     }
 
