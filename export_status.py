@@ -59,9 +59,23 @@ def get(endpoint, params):
 
 def extraer_jugadores(nodo, grupo=None):
     """Recorre recursivamente la respuesta de FetchRoster y devuelve
-    tuplas (grupo, proPlayer). Tolerante a cambios de estructura."""
+    tuplas (grupo, proPlayer). El grupo (START/BENCH/TAXI/INJURED) se
+    determina a partir del 'position' del propio slot, con fallback por
+    'label' para el banco (BN), que en la API no lleva 'group' explícito."""
     if isinstance(nodo, dict):
-        if isinstance(nodo.get("group"), str):
+        pos = nodo.get("position")
+        if isinstance(pos, dict):
+            g = pos.get("group")
+            label = pos.get("label")
+            if isinstance(g, str):
+                grupo = g
+            elif label == "BN":
+                grupo = "BENCH"
+            elif label == "IR":
+                grupo = "INJURED"
+            elif label == "TAXI":
+                grupo = "TAXI"
+        elif isinstance(nodo.get("group"), str):
             grupo = nodo["group"]
         if "proPlayer" in nodo and isinstance(nodo["proPlayer"], dict):
             yield grupo, nodo["proPlayer"]
