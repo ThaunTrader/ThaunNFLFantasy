@@ -1,0 +1,5850 @@
+{
+ "generado": "2026-07-21T16:42:13+00:00",
+ "season": 2026,
+ "ligas": [
+  {
+   "league_id": 324737,
+   "liga": "El Capologist Oeste 1ª Division",
+   "equipo": "Alicante Buccaneers",
+   "nota_general": {
+    "letra": null,
+    "valor": null,
+    "n": 0
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "BENCH": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "TAXI": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332443,
+   "liga": "IDP 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP10)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.46,
+    "n": 26
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Lamar Jackson",
+         "equipo_nfl": "BAL",
+         "rank_actual": "QB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Javonte Williams",
+         "equipo_nfl": "DAL",
+         "rank_actual": "RB15",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Woody Marks",
+         "equipo_nfl": "HOU",
+         "rank_actual": "RB45",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "A.J. Brown",
+         "equipo_nfl": "NE",
+         "rank_actual": "WR8",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Christian Watson",
+         "equipo_nfl": "GB",
+         "rank_actual": "WR24",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Mike Evans",
+         "equipo_nfl": "SF",
+         "rank_actual": "WR27",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Colston Loveland",
+         "equipo_nfl": "CHI",
+         "rank_actual": "TE3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "CB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "S18",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kyle Hamilton",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Harold Landry",
+         "equipo_nfl": "NE",
+         "rank_actual": "EDR29",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Micah Parsons",
+         "equipo_nfl": "GB",
+         "rank_actual": "EDR21",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Davis",
+         "equipo_nfl": "PHI",
+         "rank_actual": "IL7",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Daiyan Henley",
+         "equipo_nfl": "LAC",
+         "rank_actual": "LB23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jamien Sherwood",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "LB9",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "B",
+      "valor": 2.42,
+      "n": 12
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Sam Darnold",
+         "equipo_nfl": "SEA",
+         "rank_actual": "QB23",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Chuba Hubbard",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB29",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jonathon Brooks",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB41",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jordan Mason",
+         "equipo_nfl": "MIN",
+         "rank_actual": "RB39",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jalen McMillan",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tre' Harris",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR66",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Mason Taylor",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE35",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 2
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Nick Cross",
+         "equipo_nfl": "WAS",
+         "rank_actual": "S6",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Dallas Turner",
+         "equipo_nfl": "MIN",
+         "rank_actual": "EDR18",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Cody Simon",
+         "equipo_nfl": "ARI",
+         "rank_actual": "LB47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.8,
+      "n": 10
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Eli Raridon",
+         "equipo_nfl": "NE",
+         "rank_actual": "TE49",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Rueben Bain",
+         "equipo_nfl": "TB",
+         "rank_actual": "EDR23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Josiah Trotter",
+         "equipo_nfl": "TB",
+         "rank_actual": "LB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.25,
+      "n": 4
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332475,
+   "liga": "IDP 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP12)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.83,
+    "n": 23
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Drake Maye",
+         "equipo_nfl": "NE",
+         "rank_actual": "QB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "QB3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Cam Skattebo",
+         "equipo_nfl": "NYG",
+         "rank_actual": "RB19",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "RB19",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Chase Brown",
+         "equipo_nfl": "CIN",
+         "rank_actual": "RB12",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB12",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "CeeDee Lamb",
+         "equipo_nfl": "DAL",
+         "rank_actual": "WR5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR5",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR25",
+         "rating_actual": null,
+         "rank_anterior": "WR25",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Brock Bowers",
+         "equipo_nfl": "LV",
+         "rank_actual": "TE1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "TE13",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Trey McBride",
+         "equipo_nfl": "ARI",
+         "rank_actual": "TE2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.67,
+        "n": 3
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Jason Myers",
+         "equipo_nfl": "SEA",
+         "rank_actual": "K5",
+         "rating_actual": null,
+         "rank_anterior": "K5",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Marcus Jones",
+         "equipo_nfl": "NE",
+         "rank_actual": "CB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB51",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Kam Curl",
+         "equipo_nfl": "LAR",
+         "rank_actual": "S7",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "S7",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": null,
+         "rank_anterior": "S10",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Byron Young",
+         "equipo_nfl": "LAR",
+         "rank_actual": "EDR8",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "EDR8",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Josh Sweat",
+         "equipo_nfl": "ARI",
+         "rank_actual": "EDR17",
+         "rating_actual": null,
+         "rank_anterior": "EDR17",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Quinnen Williams",
+         "equipo_nfl": "DAL",
+         "rank_actual": "IL9",
+         "rating_actual": null,
+         "rank_anterior": "IL9",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jamien Sherwood",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "LB9",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "LB9",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Nate Landman",
+         "equipo_nfl": "LAR",
+         "rank_actual": "LB15",
+         "rating_actual": null,
+         "rank_anterior": "LB15",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.18,
+      "n": 11
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Matthew Stafford",
+         "equipo_nfl": "LAR",
+         "rank_actual": "QB15",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB15",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Chuba Hubbard",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB29",
+         "rating_actual": null,
+         "rank_anterior": "RB29",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "RJ Harvey",
+         "equipo_nfl": "DEN",
+         "rank_actual": "RB35",
+         "rating_actual": null,
+         "rank_anterior": "RB35",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Woody Marks",
+         "equipo_nfl": "HOU",
+         "rank_actual": "RB45",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "RB45",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jalen McMillan",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR61",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Tre' Harris",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR66",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR66",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Oronde Gadsden",
+         "equipo_nfl": "LAC",
+         "rank_actual": "TE18",
+         "rating_actual": null,
+         "rank_anterior": "TE18",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Malaki Starks",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S53",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Nick Cross",
+         "equipo_nfl": "WAS",
+         "rank_actual": "S6",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S6",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Davis",
+         "equipo_nfl": "PHI",
+         "rank_actual": "IL7",
+         "rating_actual": null,
+         "rank_anterior": "IL7",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Cody Simon",
+         "equipo_nfl": "ARI",
+         "rank_actual": "LB47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB47",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.62,
+      "n": 8
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Chris Bell",
+         "equipo_nfl": "MIA",
+         "rank_actual": "WR97",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Rueben Bain",
+         "equipo_nfl": "TB",
+         "rank_actual": "EDR23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "CJ Allen",
+         "equipo_nfl": "IND",
+         "rank_actual": "LB20",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Josiah Trotter",
+         "equipo_nfl": "TB",
+         "rank_actual": "LB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.5,
+      "n": 4
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332484,
+   "liga": "IDP 13 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.71,
+    "n": 14
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Drake Maye",
+         "equipo_nfl": "NE",
+         "rank_actual": "QB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "QB3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "D'Andre Swift",
+         "equipo_nfl": "CHI",
+         "rank_actual": "RB22",
+         "rating_actual": null,
+         "rank_anterior": "RB22",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tony Pollard",
+         "equipo_nfl": "TEN",
+         "rank_actual": "RB27",
+         "rating_actual": null,
+         "rank_anterior": "RB27",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Addison",
+         "equipo_nfl": "MIN",
+         "rank_actual": "WR40",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "WR40",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Puka Nacua",
+         "equipo_nfl": "LAR",
+         "rank_actual": "WR2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Rashod Bateman",
+         "equipo_nfl": "BAL",
+         "rank_actual": "WR75",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR75",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Tee Higgins",
+         "equipo_nfl": "CIN",
+         "rank_actual": "WR13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR13",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 4
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Tucker Kraft",
+         "equipo_nfl": "GB",
+         "rank_actual": "TE4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Pat Surtain",
+         "equipo_nfl": "DEN",
+         "rank_actual": "CB12",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB12",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Jevon Holland",
+         "equipo_nfl": "NYG",
+         "rank_actual": "S68",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S68",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Josh Hines-Allen",
+         "equipo_nfl": "JAC",
+         "rank_actual": "EDR12",
+         "rating_actual": null,
+         "rank_anterior": "EDR12",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Maxx Crosby",
+         "equipo_nfl": "LV",
+         "rank_actual": "EDR3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "EDR3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Quinnen Williams",
+         "equipo_nfl": "DAL",
+         "rank_actual": "IL9",
+         "rating_actual": null,
+         "rank_anterior": "IL9",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jack Campbell",
+         "equipo_nfl": "DET",
+         "rank_actual": "LB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B",
+      "valor": 2.4,
+      "n": 10
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Aaron Rodgers",
+         "equipo_nfl": "PIT",
+         "rank_actual": "QB28",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB28",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Justin Fields",
+         "equipo_nfl": "KC",
+         "rank_actual": "QB39",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB39",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Ed Oliver",
+         "equipo_nfl": "BUF",
+         "rank_actual": "IL15",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "IL15",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 3
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Josiah Trotter",
+         "equipo_nfl": "TB",
+         "rank_actual": "LB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 1
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332507,
+   "liga": "IDP 14 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.04,
+    "n": 23
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Drake Maye",
+         "equipo_nfl": "NE",
+         "rank_actual": "QB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "QB3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Alvin Kamara",
+         "equipo_nfl": "NO",
+         "rank_actual": "RB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB51",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Bhayshul Tuten",
+         "equipo_nfl": "JAC",
+         "rank_actual": "RB25",
+         "rating_actual": null,
+         "rank_anterior": "RB25",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "James Cook",
+         "equipo_nfl": "BUF",
+         "rank_actual": "RB5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB5",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "DJ Moore",
+         "equipo_nfl": "BUF",
+         "rank_actual": "WR29",
+         "rating_actual": null,
+         "rank_anterior": "WR29",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Emeka Egbuka",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR17",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR17",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Josh Downs",
+         "equipo_nfl": "IND",
+         "rank_actual": "WR49",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR49",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.5,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Trey McBride",
+         "equipo_nfl": "ARI",
+         "rank_actual": "TE2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Tyler Bass",
+         "equipo_nfl": "BUF",
+         "rank_actual": "K20",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "K20",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Deommodore Lenoir",
+         "equipo_nfl": "SF",
+         "rank_actual": "CB24",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB24",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Derwin James",
+         "equipo_nfl": "LAC",
+         "rank_actual": "S2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Kevin Byard",
+         "equipo_nfl": "NE",
+         "rank_actual": "S13",
+         "rating_actual": null,
+         "rank_anterior": "S13",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Alex Highsmith",
+         "equipo_nfl": "PIT",
+         "rank_actual": "EDR13",
+         "rating_actual": null,
+         "rank_anterior": "EDR13",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jared Verse",
+         "equipo_nfl": "CLE",
+         "rank_actual": "EDR14",
+         "rating_actual": null,
+         "rank_anterior": "EDR14",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Leonard Williams",
+         "equipo_nfl": "SEA",
+         "rank_actual": "IL5",
+         "rating_actual": null,
+         "rank_anterior": "IL5",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Blake Cashman",
+         "equipo_nfl": "MIN",
+         "rank_actual": "LB6",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB6",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Frankie Luvu",
+         "equipo_nfl": "WAS",
+         "rank_actual": "LB44",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB44",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.0,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "B",
+      "valor": 2.09,
+      "n": 11
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Love",
+         "equipo_nfl": "GB",
+         "rank_actual": "QB18",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB18",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Sam Darnold",
+         "equipo_nfl": "SEA",
+         "rank_actual": "QB23",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB23",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jordan James",
+         "equipo_nfl": "SF",
+         "rank_actual": "RB74",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB74",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Rico Dowdle",
+         "equipo_nfl": "PIT",
+         "rank_actual": "RB30",
+         "rating_actual": null,
+         "rank_anterior": "RB30",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Brandon Aiyuk",
+         "equipo_nfl": "SF",
+         "rank_actual": "WR86",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR86",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Jalen McMillan",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR61",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Jaylin Noel",
+         "equipo_nfl": "HOU",
+         "rank_actual": "WR73",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR73",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Dalton Schultz",
+         "equipo_nfl": "HOU",
+         "rank_actual": "TE23",
+         "rating_actual": null,
+         "rank_anterior": "TE23",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Hunter Henry",
+         "equipo_nfl": "NE",
+         "rank_actual": "TE17",
+         "rating_actual": null,
+         "rank_anterior": "TE17",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Ja'Tavion Sanders",
+         "equipo_nfl": "CAR",
+         "rank_actual": "TE45",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "TE45",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "D.J. Reed",
+         "equipo_nfl": "DET",
+         "rank_actual": "CB40",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB40",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Joshua Metellus",
+         "equipo_nfl": "MIN",
+         "rank_actual": "S27",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S27",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Harold Landry",
+         "equipo_nfl": "NE",
+         "rank_actual": "EDR29",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR29",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 10
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jadarian Price",
+         "equipo_nfl": "SEA",
+         "rank_actual": "RB26",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Eli Stowers",
+         "equipo_nfl": "PHI",
+         "rank_actual": "TE32",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jacob Rodriguez",
+         "equipo_nfl": "MIA",
+         "rank_actual": "LB67",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.5,
+      "n": 2
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332571,
+   "liga": "SuperFlex 3 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF3)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.0,
+    "n": 12
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Bryce Young",
+         "equipo_nfl": "CAR",
+         "rank_actual": "QB25",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jared Goff",
+         "equipo_nfl": "DET",
+         "rank_actual": "QB16",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Chuba Hubbard",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB29",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Zach Charbonnet",
+         "equipo_nfl": "SEA",
+         "rank_actual": "RB46",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Chris Olave",
+         "equipo_nfl": "NO",
+         "rank_actual": "WR11",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "DeVonta Smith",
+         "equipo_nfl": "PHI",
+         "rank_actual": "WR16",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Travis Hunter",
+         "equipo_nfl": "JAC",
+         "rank_actual": "WR64",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "B",
+        "valor": 2.33,
+        "n": 3
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Brock Bowers",
+         "equipo_nfl": "LV",
+         "rank_actual": "TE1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B",
+      "valor": 2.2,
+      "n": 5
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Michael Penix",
+         "equipo_nfl": "ATL",
+         "rank_actual": "QB32",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jaydon Blue",
+         "equipo_nfl": "DAL",
+         "rank_actual": "RB68",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jordan Mason",
+         "equipo_nfl": "MIN",
+         "rank_actual": "RB39",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Elijah Arroyo",
+         "equipo_nfl": "SEA",
+         "rank_actual": "TE42",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.2,
+      "n": 5
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Ty Simpson",
+         "equipo_nfl": "LAR",
+         "rank_actual": "QB40",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 2
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332572,
+   "liga": "IDP 16 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP16)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.71,
+    "n": 24
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Drake Maye",
+         "equipo_nfl": "NE",
+         "rank_actual": "QB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "QB3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Bhayshul Tuten",
+         "equipo_nfl": "JAC",
+         "rank_actual": "RB25",
+         "rating_actual": null,
+         "rank_anterior": "RB25",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "James Cook",
+         "equipo_nfl": "BUF",
+         "rank_actual": "RB5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB5",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Javonte Williams",
+         "equipo_nfl": "DAL",
+         "rank_actual": "RB15",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "RB15",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Brian Thomas",
+         "equipo_nfl": "JAC",
+         "rank_actual": "WR34",
+         "rating_actual": null,
+         "rank_anterior": "WR34",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Malik Nabers",
+         "equipo_nfl": "NYG",
+         "rank_actual": "WR20",
+         "rating_actual": null,
+         "rank_anterior": "WR20",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "TE34",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Tyler Warren",
+         "equipo_nfl": "IND",
+         "rank_actual": "TE5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE5",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B+",
+        "valor": 2.5,
+        "n": 2
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Eddy Pineiro",
+         "equipo_nfl": "SF",
+         "rank_actual": "K6",
+         "rating_actual": null,
+         "rank_anterior": "K6",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "CB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "CB2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "S18",
+         "rating_actual": null,
+         "rank_anterior": "S18",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Nick Cross",
+         "equipo_nfl": "WAS",
+         "rank_actual": "S6",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S6",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": null,
+         "rank_anterior": "S10",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "DeMarcus Lawrence",
+         "equipo_nfl": "SEA",
+         "rank_actual": "EDR22",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "EDR22",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Nick Bosa",
+         "equipo_nfl": "SF",
+         "rank_actual": "EDR4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "EDR4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B+",
+        "valor": 2.5,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Davis",
+         "equipo_nfl": "PHI",
+         "rank_actual": "IL7",
+         "rating_actual": null,
+         "rank_anterior": "IL7",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Roquan Smith",
+         "equipo_nfl": "BAL",
+         "rank_actual": "LB4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.3,
+      "n": 10
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Brock Purdy",
+         "equipo_nfl": "SF",
+         "rank_actual": "QB12",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB12",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Trevor Lawrence",
+         "equipo_nfl": "JAC",
+         "rank_actual": "QB9",
+         "rating_actual": null,
+         "rank_anterior": "QB9",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Cam Skattebo",
+         "equipo_nfl": "NYG",
+         "rank_actual": "RB19",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "RB19",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Ray Davis",
+         "equipo_nfl": "BUF",
+         "rank_actual": "RB59",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB59",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Rhamondre Stevenson",
+         "equipo_nfl": "NE",
+         "rank_actual": "RB31",
+         "rating_actual": null,
+         "rank_anterior": "RB31",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.5,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR62",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Chris Godwin",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR39",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "WR39",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Jalen Coker",
+         "equipo_nfl": "CAR",
+         "rank_actual": "WR55",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR55",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.25,
+        "n": 4
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Brian Branch",
+         "equipo_nfl": "DET",
+         "rank_actual": "S16",
+         "rating_actual": null,
+         "rank_anterior": "S16",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "James Pearce",
+         "equipo_nfl": "ATL",
+         "rank_actual": "EDR60",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR60",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Barrett Carter",
+         "equipo_nfl": "CIN",
+         "rank_actual": "LB39",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB39",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.44,
+      "n": 9
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jeremiyah Love",
+         "equipo_nfl": "ARI",
+         "rank_actual": "RB17",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Eli Raridon",
+         "equipo_nfl": "NE",
+         "rank_actual": "TE49",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Rueben Bain",
+         "equipo_nfl": "TB",
+         "rank_actual": "EDR23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jacob Rodriguez",
+         "equipo_nfl": "MIA",
+         "rank_actual": "LB67",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.8,
+      "n": 5
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332573,
+   "liga": "Classic 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA10)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.67,
+    "n": 12
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Jared Goff",
+         "equipo_nfl": "DET",
+         "rank_actual": "QB16",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB16",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Chase Brown",
+         "equipo_nfl": "CIN",
+         "rank_actual": "RB12",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB12",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Jadarian Price",
+         "equipo_nfl": "SEA",
+         "rank_actual": "RB26",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Saquon Barkley",
+         "equipo_nfl": "PHI",
+         "rank_actual": "RB8",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB8",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Brian Thomas",
+         "equipo_nfl": "JAC",
+         "rank_actual": "WR34",
+         "rating_actual": null,
+         "rank_anterior": "WR34",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jaylen Waddle",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR23",
+         "rating_actual": null,
+         "rank_anterior": "WR23",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Brock Bowers",
+         "equipo_nfl": "LV",
+         "rank_actual": "TE1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Kyle Pitts",
+         "equipo_nfl": "ATL",
+         "rank_actual": "TE8",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE8",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Brandon Aubrey",
+         "equipo_nfl": "DAL",
+         "rank_actual": "K1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "K1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.33,
+      "n": 6
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Bryce Young",
+         "equipo_nfl": "CAR",
+         "rank_actual": "QB25",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB25",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jacory Croskey-Merritt",
+         "equipo_nfl": "WAS",
+         "rank_actual": "RB36",
+         "rating_actual": null,
+         "rank_anterior": "RB36",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kyle Monangai",
+         "equipo_nfl": "CHI",
+         "rank_actual": "RB34",
+         "rating_actual": null,
+         "rank_anterior": "RB34",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jalen McMillan",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR61",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Josh Downs",
+         "equipo_nfl": "IND",
+         "rank_actual": "WR49",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR49",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Ladd McConkey",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR21",
+         "rating_actual": null,
+         "rank_anterior": "WR21",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Travis Hunter",
+         "equipo_nfl": "JAC",
+         "rank_actual": "WR64",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR64",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 4
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Ty Simpson",
+         "equipo_nfl": "LAR",
+         "rank_actual": "QB40",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 2
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332766,
+   "liga": "IDP 17 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP17)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.35,
+    "n": 23
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Love",
+         "equipo_nfl": "GB",
+         "rank_actual": "QB18",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB18",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Chuba Hubbard",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB29",
+         "rating_actual": null,
+         "rank_anterior": "RB29",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "RJ Harvey",
+         "equipo_nfl": "DEN",
+         "rank_actual": "RB35",
+         "rating_actual": null,
+         "rank_anterior": "RB35",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR25",
+         "rating_actual": null,
+         "rank_anterior": "WR25",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Nico Collins",
+         "equipo_nfl": "HOU",
+         "rank_actual": "WR7",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR7",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "TE13",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Sam LaPorta",
+         "equipo_nfl": "DET",
+         "rank_actual": "TE6",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE6",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "T.J. Hockenson",
+         "equipo_nfl": "MIN",
+         "rank_actual": "TE24",
+         "rating_actual": null,
+         "rank_anterior": "TE24",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Brandon Aubrey",
+         "equipo_nfl": "DAL",
+         "rank_actual": "K1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "K1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Tyson Campbell",
+         "equipo_nfl": "CLE",
+         "rank_actual": "CB19",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB19",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Budda Baker",
+         "equipo_nfl": "ARI",
+         "rank_actual": "S3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": null,
+         "rank_anterior": "S10",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Byron Young",
+         "equipo_nfl": "LAR",
+         "rank_actual": "EDR8",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "EDR8",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Dallas Turner",
+         "equipo_nfl": "MIN",
+         "rank_actual": "EDR18",
+         "rating_actual": null,
+         "rank_anterior": "EDR18",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Leonard Williams",
+         "equipo_nfl": "SEA",
+         "rank_actual": "IL5",
+         "rating_actual": null,
+         "rank_anterior": "IL5",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jordyn Brooks",
+         "equipo_nfl": "MIA",
+         "rank_actual": "LB1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Quay Walker",
+         "equipo_nfl": "LV",
+         "rank_actual": "LB10",
+         "rating_actual": null,
+         "rank_anterior": "LB10",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B+",
+      "valor": 2.89,
+      "n": 9
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Sam Darnold",
+         "equipo_nfl": "SEA",
+         "rank_actual": "QB23",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB23",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jonathon Brooks",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB41",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "RB41",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR62",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Christian Watson",
+         "equipo_nfl": "GB",
+         "rank_actual": "WR24",
+         "rating_actual": null,
+         "rank_anterior": "WR24",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tre' Harris",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR66",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR66",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Jacob Parrish",
+         "equipo_nfl": "TB",
+         "rank_actual": "CB48",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "CB48",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Jalen Pitre",
+         "equipo_nfl": "HOU",
+         "rank_actual": "S20",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "S20",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Malaki Starks",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S53",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Mykel Williams",
+         "equipo_nfl": "SF",
+         "rank_actual": "EDR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR61",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Davis",
+         "equipo_nfl": "PHI",
+         "rank_actual": "IL7",
+         "rating_actual": null,
+         "rank_anterior": "IL7",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Daiyan Henley",
+         "equipo_nfl": "LAC",
+         "rank_actual": "LB23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "LB23",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.3,
+      "n": 10
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Eli Raridon",
+         "equipo_nfl": "NE",
+         "rank_actual": "TE49",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Eli Stowers",
+         "equipo_nfl": "PHI",
+         "rank_actual": "TE32",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Rueben Bain",
+         "equipo_nfl": "TB",
+         "rank_actual": "EDR23",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Josiah Trotter",
+         "equipo_nfl": "TB",
+         "rank_actual": "LB51",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.5,
+      "n": 4
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332793,
+   "liga": "IDP 18 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (🏆🏆)",
+   "nota_general": {
+    "letra": "B",
+    "valor": 2.19,
+    "n": 26
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Drake Maye",
+         "equipo_nfl": "NE",
+         "rank_actual": "QB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "De'Von Achane",
+         "equipo_nfl": "MIA",
+         "rank_actual": "RB10",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "James Cook",
+         "equipo_nfl": "BUF",
+         "rank_actual": "RB5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Chris Olave",
+         "equipo_nfl": "NO",
+         "rank_actual": "WR11",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "George Pickens",
+         "equipo_nfl": "DAL",
+         "rank_actual": "WR10",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jameson Williams",
+         "equipo_nfl": "DET",
+         "rank_actual": "WR19",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Puka Nacua",
+         "equipo_nfl": "LAR",
+         "rank_actual": "WR2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.75,
+        "n": 4
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Colston Loveland",
+         "equipo_nfl": "CHI",
+         "rank_actual": "TE3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Brandon Aubrey",
+         "equipo_nfl": "DAL",
+         "rank_actual": "K1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Kamari Lassiter",
+         "equipo_nfl": "HOU",
+         "rank_actual": "CB5",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Kam Curl",
+         "equipo_nfl": "LAR",
+         "rank_actual": "S7",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kyle Hamilton",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Byron Young",
+         "equipo_nfl": "LAR",
+         "rank_actual": "EDR8",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Myles Murphy",
+         "equipo_nfl": "CIN",
+         "rank_actual": "EDR47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.5,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Cameron Jordan",
+         "equipo_nfl": "NO",
+         "rank_actual": "IL11",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Carson Schwesinger",
+         "equipo_nfl": "CLE",
+         "rank_actual": "LB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Zack Baun",
+         "equipo_nfl": "PHI",
+         "rank_actual": "LB18",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.33,
+      "n": 15
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Jordan Love",
+         "equipo_nfl": "GB",
+         "rank_actual": "QB18",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Bhayshul Tuten",
+         "equipo_nfl": "JAC",
+         "rank_actual": "RB25",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jaylen Wright",
+         "equipo_nfl": "MIA",
+         "rank_actual": "RB65",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Ray Davis",
+         "equipo_nfl": "BUF",
+         "rank_actual": "RB59",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Chris Godwin",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR39",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Khalil Shakir",
+         "equipo_nfl": "BUF",
+         "rank_actual": "WR52",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Elijah Arroyo",
+         "equipo_nfl": "SEA",
+         "rank_actual": "TE42",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "S18",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "CB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Walter Nolen",
+         "equipo_nfl": "ARI",
+         "rank_actual": "IL10",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Cody Simon",
+         "equipo_nfl": "ARI",
+         "rank_actual": "LB47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.7,
+      "n": 10
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "David Bailey",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "EDR24",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 1
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332824,
+   "liga": "Classic 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA12)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.5,
+    "n": 10
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Brock Purdy",
+         "equipo_nfl": "SF",
+         "rank_actual": "QB12",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "David Montgomery",
+         "equipo_nfl": "HOU",
+         "rank_actual": "RB24",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jahmyr Gibbs",
+         "equipo_nfl": "DET",
+         "rank_actual": "RB1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Javonte Williams",
+         "equipo_nfl": "DAL",
+         "rank_actual": "RB15",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "CeeDee Lamb",
+         "equipo_nfl": "DAL",
+         "rank_actual": "WR5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR25",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jaylen Waddle",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR23",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B+",
+      "valor": 2.8,
+      "n": 5
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Sam Darnold",
+         "equipo_nfl": "SEA",
+         "rank_actual": "QB23",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Bhayshul Tuten",
+         "equipo_nfl": "JAC",
+         "rank_actual": "RB25",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kaleb Johnson",
+         "equipo_nfl": "PIT",
+         "rank_actual": "RB73",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ladd McConkey",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR21",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Quentin Johnston",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR38",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "T.J. Hockenson",
+         "equipo_nfl": "MIN",
+         "rank_actual": "TE24",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.25,
+      "n": 4
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Justin Joly",
+         "equipo_nfl": "DEN",
+         "rank_actual": "TE48",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 1
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 332993,
+   "liga": "SuperFlex 4 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF4)",
+   "nota_general": {
+    "letra": "B",
+    "valor": 2.0,
+    "n": 14
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Joe Burrow",
+         "equipo_nfl": "CIN",
+         "rank_actual": "QB4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "QB4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Jordan Love",
+         "equipo_nfl": "GB",
+         "rank_actual": "QB18",
+         "rating_actual": null,
+         "rank_anterior": "QB18",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Bhayshul Tuten",
+         "equipo_nfl": "JAC",
+         "rank_actual": "RB25",
+         "rating_actual": null,
+         "rank_anterior": "RB25",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Breece Hall",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "RB16",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "RB16",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Travis Etienne",
+         "equipo_nfl": "NO",
+         "rank_actual": "RB18",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "RB18",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jaylen Waddle",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR23",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR23",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Puka Nacua",
+         "equipo_nfl": "LAR",
+         "rank_actual": "WR2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Colston Loveland",
+         "equipo_nfl": "CHI",
+         "rank_actual": "TE3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "TE13",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.43,
+      "n": 7
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Bryce Young",
+         "equipo_nfl": "CAR",
+         "rank_actual": "QB25",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB25",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "J.J. McCarthy",
+         "equipo_nfl": "MIN",
+         "rank_actual": "QB36",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB36",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jonathon Brooks",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB41",
+         "rating_actual": null,
+         "rank_anterior": "RB41",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR62",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Marvin Harrison",
+         "equipo_nfl": "ARI",
+         "rank_actual": "WR30",
+         "rating_actual": null,
+         "rank_anterior": "WR30",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 5
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jeremiyah Love",
+         "equipo_nfl": "ARI",
+         "rank_actual": "RB17",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Max Klare",
+         "equipo_nfl": "LAR",
+         "rank_actual": "TE40",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B",
+      "valor": 2.0,
+      "n": 2
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 333726,
+   "liga": "Hot Rod Dynasty",
+   "equipo": "Alicante Buccaneers (HRD)",
+   "nota_general": {
+    "letra": "B",
+    "valor": 2.29,
+    "n": 21
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Joe Burrow",
+         "equipo_nfl": "CIN",
+         "rank_actual": "QB4",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "QB4",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jahmyr Gibbs",
+         "equipo_nfl": "DET",
+         "rank_actual": "RB1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Kyren Williams",
+         "equipo_nfl": "LAR",
+         "rank_actual": "RB13",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB13",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR25",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR25",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Jalen Coker",
+         "equipo_nfl": "CAR",
+         "rank_actual": "WR55",
+         "rating_actual": null,
+         "rank_anterior": "WR55",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jayden Reed",
+         "equipo_nfl": "GB",
+         "rank_actual": "WR45",
+         "rating_actual": null,
+         "rank_anterior": "WR45",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Josh Downs",
+         "equipo_nfl": "IND",
+         "rank_actual": "WR49",
+         "rating_actual": null,
+         "rank_anterior": "WR49",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Brock Bowers",
+         "equipo_nfl": "LV",
+         "rank_actual": "TE1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "TE13",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Brandon Aubrey",
+         "equipo_nfl": "DAL",
+         "rank_actual": "K1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "K1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Nahshon Wright",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "CB16",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "CB16",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Brian Branch",
+         "equipo_nfl": "DET",
+         "rank_actual": "S16",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "S16",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Kyle Hamilton",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Malaki Starks",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S53",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S10",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B+",
+        "valor": 2.75,
+        "n": 4
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Harold Landry",
+         "equipo_nfl": "NE",
+         "rank_actual": "EDR29",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "EDR29",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Will Anderson",
+         "equipo_nfl": "HOU",
+         "rank_actual": "EDR1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "EDR1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B+",
+        "valor": 2.5,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jonah Laulu",
+         "equipo_nfl": "LV",
+         "rank_actual": "IL34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "IL34",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Zack Baun",
+         "equipo_nfl": "PHI",
+         "rank_actual": "LB18",
+         "rating_actual": null,
+         "rank_anterior": "LB18",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.0,
+      "n": 15
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Caleb Williams",
+         "equipo_nfl": "CHI",
+         "rank_actual": "QB7",
+         "rating_actual": null,
+         "rank_anterior": "QB7",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Sean Tucker",
+         "equipo_nfl": "TB",
+         "rank_actual": "RB63",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB63",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "WR62",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 2
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "TE34",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Travon Walker",
+         "equipo_nfl": "JAC",
+         "rank_actual": "EDR43",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR43",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Payton Wilson",
+         "equipo_nfl": "PIT",
+         "rank_actual": "LB41",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB41",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.5,
+      "n": 6
+     }
+    },
+    "TAXI": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 339833,
+   "liga": "IDP 21 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP21)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.65,
+    "n": 26
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Jayden Daniels",
+         "equipo_nfl": "WAS",
+         "rank_actual": "QB5",
+         "rating_actual": null,
+         "rank_anterior": "QB5",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Bijan Robinson",
+         "equipo_nfl": "ATL",
+         "rank_actual": "RB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "De'Von Achane",
+         "equipo_nfl": "MIA",
+         "rank_actual": "RB10",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "RB10",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jameson Williams",
+         "equipo_nfl": "DET",
+         "rank_actual": "WR19",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR19",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Ladd McConkey",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR21",
+         "rating_actual": null,
+         "rank_anterior": "WR21",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE13",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "TE13",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "T.J. Hockenson",
+         "equipo_nfl": "MIN",
+         "rank_actual": "TE24",
+         "rating_actual": null,
+         "rank_anterior": "TE24",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Tyler Warren",
+         "equipo_nfl": "IND",
+         "rank_actual": "TE5",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE5",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Jason Myers",
+         "equipo_nfl": "SEA",
+         "rank_actual": "K5",
+         "rating_actual": null,
+         "rank_anterior": "K5",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "CB2",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "CB2",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Cooper DeJean",
+         "equipo_nfl": "PHI",
+         "rank_actual": "S18",
+         "rating_actual": null,
+         "rank_anterior": "S18",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Kyle Hamilton",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "S10",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Harold Landry",
+         "equipo_nfl": "NE",
+         "rank_actual": "EDR29",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "EDR29",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Will Anderson",
+         "equipo_nfl": "HOU",
+         "rank_actual": "EDR1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "EDR1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "B+",
+        "valor": 2.5,
+        "n": 2
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Jonathan Allen",
+         "equipo_nfl": "CIN",
+         "rank_actual": "IL24",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "IL24",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Carson Schwesinger",
+         "equipo_nfl": "CLE",
+         "rank_actual": "LB3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Edgerrin Cooper",
+         "equipo_nfl": "GB",
+         "rank_actual": "LB22",
+         "rating_actual": null,
+         "rank_anterior": "LB22",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Jamien Sherwood",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "LB9",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB9",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.23,
+      "n": 13
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Bryce Young",
+         "equipo_nfl": "CAR",
+         "rank_actual": "QB25",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB25",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Sam Darnold",
+         "equipo_nfl": "SEA",
+         "rank_actual": "QB23",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB23",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Dylan Sampson",
+         "equipo_nfl": "CLE",
+         "rank_actual": "RB53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB53",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Jaydon Blue",
+         "equipo_nfl": "DAL",
+         "rank_actual": "RB68",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB68",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Kaleb Johnson",
+         "equipo_nfl": "PIT",
+         "rank_actual": "RB73",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB73",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Rachaad White",
+         "equipo_nfl": "WAS",
+         "rank_actual": "RB37",
+         "rating_actual": null,
+         "rank_anterior": "RB37",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 3
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Adonai Mitchell",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "WR62",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR62",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Jalen Coker",
+         "equipo_nfl": "CAR",
+         "rank_actual": "WR55",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR55",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Jalen McMillan",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR61",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR61",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Troy Franklin",
+         "equipo_nfl": "DEN",
+         "rank_actual": "WR71",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "WR71",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 4
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Theo Johnson",
+         "equipo_nfl": "NYG",
+         "rank_actual": "TE34",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "TE34",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Malaki Starks",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S53",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.09,
+      "n": 11
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ted Hurst",
+         "equipo_nfl": "TB",
+         "rank_actual": "WR90",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Rueben Bain",
+         "equipo_nfl": "TB",
+         "rank_actual": "EDR23",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Jacob Rodriguez",
+         "equipo_nfl": "MIA",
+         "rank_actual": "LB67",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.0,
+      "n": 2
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 344345,
+   "liga": "IDP 22 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP22)",
+   "nota_general": {
+    "letra": "C",
+    "valor": 1.81,
+    "n": 21
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {
+      "QB": {
+       "jugadores": [
+        {
+         "nombre": "Cam Ward",
+         "equipo_nfl": "TEN",
+         "rank_actual": "QB24",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB24",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Justin Fields",
+         "equipo_nfl": "KC",
+         "rank_actual": "QB39",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "QB39",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      },
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jaylen Warren",
+         "equipo_nfl": "PIT",
+         "rank_actual": "RB28",
+         "rating_actual": null,
+         "rank_anterior": "RB28",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Rhamondre Stevenson",
+         "equipo_nfl": "NE",
+         "rank_actual": "RB31",
+         "rating_actual": null,
+         "rank_anterior": "RB31",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Ja'Marr Chase",
+         "equipo_nfl": "CIN",
+         "rank_actual": "WR1",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR1",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Malik Nabers",
+         "equipo_nfl": "NYG",
+         "rank_actual": "WR20",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "WR20",
+         "rating_anterior": "RATING_GOOD"
+        },
+        {
+         "nombre": "Nico Collins",
+         "equipo_nfl": "HOU",
+         "rank_actual": "WR7",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "WR7",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Quentin Johnston",
+         "equipo_nfl": "LAC",
+         "rank_actual": "WR38",
+         "rating_actual": null,
+         "rank_anterior": "WR38",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.67,
+        "n": 3
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kyle Pitts",
+         "equipo_nfl": "ATL",
+         "rank_actual": "TE8",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "TE8",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "K": {
+       "jugadores": [
+        {
+         "nombre": "Ka'imi Fairbairn",
+         "equipo_nfl": "HOU",
+         "rank_actual": "K3",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "K3",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "Riley Moss",
+         "equipo_nfl": "DEN",
+         "rank_actual": "CB7",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "CB7",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Kyle Hamilton",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S4",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "S4",
+         "rating_anterior": "RATING_VERY_GOOD"
+        },
+        {
+         "nombre": "Tykee Smith",
+         "equipo_nfl": "TB",
+         "rank_actual": "S10",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": "S10",
+         "rating_anterior": "RATING_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 3.5,
+        "n": 2
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Dallas Turner",
+         "equipo_nfl": "MIN",
+         "rank_actual": "EDR18",
+         "rating_actual": null,
+         "rank_anterior": "EDR18",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Myles Murphy",
+         "equipo_nfl": "CIN",
+         "rank_actual": "EDR47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR47",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Daron Payne",
+         "equipo_nfl": "WAS",
+         "rank_actual": "IL37",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "IL37",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Edgerrin Cooper",
+         "equipo_nfl": "GB",
+         "rank_actual": "LB22",
+         "rating_actual": null,
+         "rank_anterior": "LB22",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Ernest Jones",
+         "equipo_nfl": "SEA",
+         "rank_actual": "LB8",
+         "rating_actual": "RATING_VERY_GOOD",
+         "rank_anterior": "LB8",
+         "rating_anterior": "RATING_VERY_GOOD"
+        }
+       ],
+       "nota": {
+        "letra": "A+",
+        "valor": 4.0,
+        "n": 1
+       }
+      }
+     },
+     "nota": {
+      "letra": "B+",
+      "valor": 2.54,
+      "n": 13
+     }
+    },
+    "BENCH": {
+     "posiciones": {
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Dylan Sampson",
+         "equipo_nfl": "CLE",
+         "rank_actual": "RB53",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "RB53",
+         "rating_anterior": "RATING_BAD"
+        },
+        {
+         "nombre": "Jonathon Brooks",
+         "equipo_nfl": "CAR",
+         "rank_actual": "RB41",
+         "rating_actual": null,
+         "rank_anterior": "RB41",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Rachaad White",
+         "equipo_nfl": "WAS",
+         "rank_actual": "RB37",
+         "rating_actual": null,
+         "rank_anterior": "RB37",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Sean Tucker",
+         "equipo_nfl": "TB",
+         "rank_actual": "RB63",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "RB63",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.5,
+        "n": 2
+       }
+      },
+      "WR": {
+       "jugadores": [
+        {
+         "nombre": "Jalen Coker",
+         "equipo_nfl": "CAR",
+         "rank_actual": "WR55",
+         "rating_actual": "RATING_BAD",
+         "rank_anterior": "WR55",
+         "rating_anterior": "RATING_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "C",
+        "valor": 1.0,
+        "n": 1
+       }
+      },
+      "CB": {
+       "jugadores": [
+        {
+         "nombre": "A.J. Terrell",
+         "equipo_nfl": "ATL",
+         "rank_actual": "CB13",
+         "rating_actual": null,
+         "rank_anterior": "CB13",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "S": {
+       "jugadores": [
+        {
+         "nombre": "Jaquan Brisker",
+         "equipo_nfl": "PIT",
+         "rank_actual": "S23",
+         "rating_actual": null,
+         "rank_anterior": "S23",
+         "rating_anterior": null
+        },
+        {
+         "nombre": "Malaki Starks",
+         "equipo_nfl": "BAL",
+         "rank_actual": "S53",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "S53",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "EDR": {
+       "jugadores": [
+        {
+         "nombre": "Travon Walker",
+         "equipo_nfl": "JAC",
+         "rank_actual": "EDR43",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "EDR43",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 1
+       }
+      },
+      "IL": {
+       "jugadores": [
+        {
+         "nombre": "Zach Harrison",
+         "equipo_nfl": "ATL",
+         "rank_actual": "IL17",
+         "rating_actual": null,
+         "rank_anterior": "IL17",
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      },
+      "LB": {
+       "jugadores": [
+        {
+         "nombre": "Cody Simon",
+         "equipo_nfl": "ARI",
+         "rank_actual": "LB47",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB47",
+         "rating_anterior": "RATING_VERY_BAD"
+        },
+        {
+         "nombre": "Payton Wilson",
+         "equipo_nfl": "PIT",
+         "rank_actual": "LB41",
+         "rating_actual": "RATING_VERY_BAD",
+         "rank_anterior": "LB41",
+         "rating_anterior": "RATING_VERY_BAD"
+        }
+       ],
+       "nota": {
+        "letra": "D",
+        "valor": 0.0,
+        "n": 2
+       }
+      }
+     },
+     "nota": {
+      "letra": "D",
+      "valor": 0.29,
+      "n": 7
+     }
+    },
+    "TAXI": {
+     "posiciones": {
+      "RB": {
+       "jugadores": [
+        {
+         "nombre": "Jeremiyah Love",
+         "equipo_nfl": "ARI",
+         "rank_actual": "RB17",
+         "rating_actual": "RATING_GOOD",
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": "A",
+        "valor": 3.0,
+        "n": 1
+       }
+      },
+      "TE": {
+       "jugadores": [
+        {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank_actual": "TE22",
+         "rating_actual": null,
+         "rank_anterior": null,
+         "rating_anterior": null
+        }
+       ],
+       "nota": {
+        "letra": null,
+        "valor": null,
+        "n": 0
+       }
+      }
+     },
+     "nota": {
+      "letra": "A",
+      "valor": 3.0,
+      "n": 1
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  },
+  {
+   "league_id": 348123,
+   "liga": "II Fantasy CyF - Conf. Fregando Cubiertas",
+   "equipo": "Alicante Buccaneers",
+   "nota_general": {
+    "letra": null,
+    "valor": null,
+    "n": 0
+   },
+   "huecos": {
+    "START": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "BENCH": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "TAXI": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    },
+    "INJURED": {
+     "posiciones": {},
+     "nota": {
+      "letra": null,
+      "valor": null,
+      "n": 0
+     }
+    }
+   }
+  }
+ ]
+}
