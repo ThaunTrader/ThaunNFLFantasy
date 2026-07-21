@@ -1,0 +1,37 @@
+name: Update Rosters
+
+on:
+  schedule:
+    - cron: '30 10 * * 2'   # cada martes a las 10:30 UTC (tras el calendario)
+  workflow_dispatch:         # ejecución manual
+
+permissions:
+  contents: write
+
+jobs:
+  update-rosters:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Export rosters
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+        run: python export_rosters.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/rosters.json
+          git diff --staged --quiet || (git commit -m "Actualizar valoración de rosters" && git push)
