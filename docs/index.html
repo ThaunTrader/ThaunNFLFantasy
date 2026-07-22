@@ -278,6 +278,7 @@
   .nota-letra.n-alta   { background: rgba(62,207,142,.15); color: var(--verde); }
   .nota-letra.n-media  { background: rgba(255,178,36,.15); color: var(--ambar); }
   .nota-letra.n-baja   { background: rgba(255,90,82,.15);  color: var(--rojo); }
+  .nota-letra.n-rookie { background: rgba(138,151,165,.15); color: var(--muted); }
   .nota-letra.n-vacia  { background: none; color: var(--muted); }
 
   .jugador-roster {
@@ -638,10 +639,13 @@ function cargarRosters() {
 
 function claseNota(letra) {
   if (!letra) return 'n-vacia';
+  if (letra === 'R') return 'n-rookie';
   if (letra === 'A+' || letra === 'A') return 'n-alta';
-  if (letra === 'B+' || letra === 'B') return 'n-media';
+  if (letra === 'B+' || letra === 'B' || letra === 'C+') return 'n-media';
   return 'n-baja';
 }
+
+const FUENTE_LABEL = { fantasy: '2025 real', draft: 'proy. 2026' };
 
 function pintarJugadoresRoster(jugadores) {
   return jugadores.map(j => `
@@ -652,6 +656,7 @@ function pintarJugadoresRoster(jugadores) {
       </div>
       <div class="jr-ranks">
         <div class="r-actual">${esc(j.rank || '—')}</div>
+        <div style="color:var(--muted);font-size:11px;">${esc(FUENTE_LABEL[j.fuente] || 'sin datos')}</div>
       </div>
       <div class="nota-letra ${claseNota(j.nota_letra)}" style="font-size:14px;padding:2px 8px;">${j.nota_letra || '—'}</div>
     </div>`).join('') || '<div style="color:var(--muted);font-size:12.5px;">Sin jugadores.</div>';
