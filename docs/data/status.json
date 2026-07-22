@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-21T20:19:13+00:00",
+ "generado": "2026-07-22T07:44:01+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -62,8 +62,17 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 34,
+   "total_roster": 35,
    "alertas": [
+    {
+     "nombre": "Chris Bell",
+     "posicion": "WR",
+     "equipo_nfl": "MIA",
+     "grupo": "INJURED",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Non-football related"
+    },
     {
      "nombre": "Cam Skattebo",
      "posicion": "RB",
