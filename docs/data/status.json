@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-22T18:36:37+00:00",
+ "generado": "2026-07-23T07:45:40+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -99,7 +99,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 24,
+   "total_roster": 25,
    "alertas": [
     {
      "nombre": "Jevon Holland",
@@ -185,6 +185,15 @@
    "total_roster": 18,
    "alertas": [
     {
+     "nombre": "Zach Charbonnet",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    },
+    {
      "nombre": "Quinshon Judkins",
      "posicion": "RB",
      "equipo_nfl": "CLE",
@@ -221,6 +230,15 @@
    },
    "total_roster": 35,
    "alertas": [
+    {
+     "nombre": "Cam Skattebo",
+     "posicion": "RB",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle (Surgery)"
+    },
     {
      "nombre": "Malik Nabers",
      "posicion": "WR",
