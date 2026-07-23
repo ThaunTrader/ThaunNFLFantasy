@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-23T07:45:40+00:00",
+ "generado": "2026-07-23T18:40:06+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -402,17 +402,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 31,
+   "total_roster": 32,
    "alertas": [
-    {
-     "nombre": "Harold Landry",
-     "posicion": "LB",
-     "equipo_nfl": "NE",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Physically Unable to Perform"
-    },
     {
      "nombre": "Brian Branch",
      "posicion": "S",
@@ -530,7 +521,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 38,
+   "total_roster": 39,
    "alertas": [
     {
      "nombre": "Edgerrin Cooper",
