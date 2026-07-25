@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-25T07:29:43+00:00",
+ "generado": "2026-07-25T18:11:18+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -99,7 +99,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 25,
+   "total_roster": 26,
    "alertas": [
     {
      "nombre": "Jevon Holland",
@@ -521,7 +521,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 39,
+   "total_roster": 40,
    "alertas": [
     {
      "nombre": "Edgerrin Cooper",
