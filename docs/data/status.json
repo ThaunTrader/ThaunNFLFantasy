@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-24T18:49:53+00:00",
+ "generado": "2026-07-25T07:29:43+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -402,7 +402,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 32,
+   "total_roster": 33,
    "alertas": [
     {
      "nombre": "Brian Branch",
