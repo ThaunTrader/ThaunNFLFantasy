@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-26T07:47:07+00:00",
+ "generado": "2026-07-26T18:14:26+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -90,7 +90,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 26,
+   "total_roster": 23,
    "alertas": [
     {
      "nombre": "Jevon Holland",
