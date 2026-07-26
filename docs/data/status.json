@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-25T18:11:18+00:00",
+ "generado": "2026-07-26T07:47:07+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -44,15 +44,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Micah Parsons",
-     "posicion": "EDR",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
     }
    ]
   },
