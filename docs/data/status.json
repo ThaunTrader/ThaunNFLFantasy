@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-27T08:49:21+00:00",
+ "generado": "2026-07-27T18:50:49+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -400,9 +400,9 @@
      "posicion": "DB",
      "equipo_nfl": "DET",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Achilles (Surgery)"
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
     },
     {
      "nombre": "Junior Colson",
