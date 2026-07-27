@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-26T18:14:26+00:00",
+ "generado": "2026-07-27T08:49:21+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -393,11 +393,11 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 33,
+   "total_roster": 34,
    "alertas": [
     {
      "nombre": "Brian Branch",
-     "posicion": "S",
+     "posicion": "DB",
      "equipo_nfl": "DET",
      "grupo": "START",
      "estado": "QUESTIONABLE",
