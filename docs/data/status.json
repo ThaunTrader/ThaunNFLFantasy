@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-27T18:50:49+00:00",
+ "generado": "2026-07-28T07:48:42+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -118,15 +118,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Personal"
-    },
-    {
-     "nombre": "Tucker Kraft",
-     "posicion": "TE",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
     }
    ]
   },
@@ -393,7 +384,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 34,
+   "total_roster": 35,
    "alertas": [
     {
      "nombre": "Brian Branch",
