@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-28T07:48:42+00:00",
+ "generado": "2026-07-28T18:49:52+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -72,6 +72,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Non-football related"
+    },
+    {
+     "nombre": "Josh Sweat",
+     "posicion": "LB",
+     "equipo_nfl": "ARI",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
     }
    ]
   },
@@ -92,6 +101,15 @@
    },
    "total_roster": 23,
    "alertas": [
+    {
+     "nombre": "Tucker Kraft",
+     "posicion": "TE",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    },
     {
      "nombre": "Jevon Holland",
      "posicion": "S",
@@ -276,6 +294,15 @@
    },
    "total_roster": 40,
    "alertas": [
+    {
+     "nombre": "Mykel Williams",
+     "posicion": "EDR/IL",
+     "equipo_nfl": "SF",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    },
     {
      "nombre": "Sam LaPorta",
      "posicion": "TE",
