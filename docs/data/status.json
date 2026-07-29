@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-28T18:49:52+00:00",
+ "generado": "2026-07-29T08:00:31+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -156,6 +156,15 @@
    },
    "total_roster": 40,
    "alertas": [
+    {
+     "nombre": "Jaylin Noel",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Non-football related"
+    },
     {
      "nombre": "Tyler Bass",
      "posicion": "K",
