@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-29T08:00:31+00:00",
+ "generado": "2026-07-29T18:15:59+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -35,17 +35,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332475,
@@ -62,7 +52,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 42,
    "alertas": [
     {
      "nombre": "Chris Bell",
@@ -99,43 +89,25 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 23,
+   "total_roster": 40,
    "alertas": [
     {
-     "nombre": "Tucker Kraft",
-     "posicion": "TE",
-     "equipo_nfl": "GB",
-     "grupo": "START",
+     "nombre": "Dorance Armstrong",
+     "posicion": "EDR",
+     "equipo_nfl": "WAS",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
     },
     {
-     "nombre": "Jevon Holland",
-     "posicion": "S",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Maxx Crosby",
-     "posicion": "EDR",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee (Surgery)"
-    },
-    {
-     "nombre": "Rashod Bateman",
-     "posicion": "WR",
-     "equipo_nfl": "BAL",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Personal"
+     "nombre": "Tucker Kraft",
+     "posicion": "TE",
+     "equipo_nfl": "GB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
     }
    ]
   },
@@ -160,19 +132,10 @@
      "nombre": "Jaylin Noel",
      "posicion": "WR",
      "equipo_nfl": "HOU",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Non-football related"
-    },
-    {
-     "nombre": "Tyler Bass",
-     "posicion": "K",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Pelvis (Surgery)"
     }
    ]
   },
@@ -191,7 +154,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 18,
+   "total_roster": 22,
    "alertas": [
     {
      "nombre": "Zach Charbonnet",
@@ -201,24 +164,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
-    },
-    {
-     "nombre": "Quinshon Judkins",
-     "posicion": "RB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Travis Hunter",
-     "posicion": "WR",
-     "equipo_nfl": "JAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee (Surgery)"
     }
    ]
   },
@@ -237,34 +182,16 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 35,
+   "total_roster": 39,
    "alertas": [
     {
-     "nombre": "Cam Skattebo",
-     "posicion": "RB",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle (Surgery)"
-    },
-    {
-     "nombre": "Malik Nabers",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
-    },
-    {
-     "nombre": "Nick Bosa",
-     "posicion": "EDR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
+     "nombre": "Brian Branch",
+     "posicion": "DB",
+     "equipo_nfl": "DET",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
     }
    ]
   },
@@ -283,7 +210,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 20,
+   "total_roster": 23,
    "alertas": []
   },
   {
@@ -301,7 +228,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Mykel Williams",
@@ -311,15 +238,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
-    },
-    {
-     "nombre": "Sam LaPorta",
-     "posicion": "TE",
-     "equipo_nfl": "DET",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back (Surgery)"
     }
    ]
   },
@@ -338,36 +256,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 39,
-   "alertas": [
-    {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "De'Von Achane",
-     "posicion": "RB",
-     "equipo_nfl": "MIA",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder (Surgery)"
-    },
-    {
-     "nombre": "Tetairoa McMillan",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle (Soreness)"
-    }
-   ]
+   "total_roster": 40,
+   "alertas": []
   },
   {
    "league_id": 332824,
@@ -402,7 +292,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 18,
+   "total_roster": 21,
    "alertas": []
   },
   {
@@ -420,7 +310,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 35,
+   "total_roster": 36,
    "alertas": [
     {
      "nombre": "Brian Branch",
@@ -430,24 +320,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
-    },
-    {
-     "nombre": "Junior Colson",
-     "posicion": "LB",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder (Surgery)"
-    },
-    {
-     "nombre": "Kris Jenkins",
-     "posicion": "IL",
-     "equipo_nfl": "CIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -476,51 +348,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Non-football related"
-    },
-    {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "De'Von Achane",
-     "posicion": "RB",
-     "equipo_nfl": "MIA",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder (Surgery)"
-    },
-    {
-     "nombre": "Edgerrin Cooper",
-     "posicion": "LB",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Kobie Turner",
-     "posicion": "IL",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Undisclosed (Cramps)"
-    },
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring (Strain)"
     }
    ]
   },
@@ -539,25 +366,25 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 46,
    "alertas": [
     {
-     "nombre": "Edgerrin Cooper",
-     "posicion": "LB",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
+     "nombre": "Chris Bell",
+     "posicion": "WR",
+     "equipo_nfl": "MIA",
+     "grupo": "INJURED",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Non-football related"
     },
     {
-     "nombre": "Malik Nabers",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee - ACL (Surgery)"
+     "nombre": "Zach Harrison",
+     "posicion": "EDR/IL",
+     "equipo_nfl": "ATL",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Non-football related"
     }
    ]
   },
@@ -585,7 +412,7 @@
      "grupo": "INJURED",
      "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "detalle": "Jugador sano en IR"
     }
    ]
   }
