@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-30T07:43:33+00:00",
+ "generado": "2026-07-30T18:50:13+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -35,7 +35,17 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Micah Parsons",
+     "posicion": "EDR",
+     "equipo_nfl": "GB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    }
+   ]
   },
   {
    "league_id": 332475,
@@ -54,6 +64,15 @@
    },
    "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "CJ Allen",
+     "posicion": "LB",
+     "equipo_nfl": "IND",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    },
     {
      "nombre": "Chris Bell",
      "posicion": "WR",
@@ -381,7 +400,7 @@
      "nombre": "Zach Harrison",
      "posicion": "EDR/IL",
      "equipo_nfl": "ATL",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Non-football related"
