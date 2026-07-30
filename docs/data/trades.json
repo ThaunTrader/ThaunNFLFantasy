@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-29T18:16:02+00:00",
+ "generado": "2026-07-30T07:43:35+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -41,31 +41,7 @@
    "league_id": 332572,
    "liga": "IDP 16 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP16)",
-   "trades": [
-    {
-     "id": 10315142,
-     "estado": "",
-     "descripcion": "McCarthy, Johnston and Tucker for Purdy",
-     "propuesto": "1785189407000",
-     "aprobado": "1785256338000",
-     "lados": [
-      {
-       "equipo": "Alicante Buccaneers (IDP16)",
-       "recibe": [
-        "J.J. McCarthy",
-        "Quentin Johnston",
-        "Tre Tucker"
-       ]
-      },
-      {
-       "equipo": "Pucela Maxis",
-       "recibe": [
-        "Brock Purdy"
-       ]
-      }
-     ]
-    }
-   ]
+   "trades": []
   },
   {
    "league_id": 332573,
