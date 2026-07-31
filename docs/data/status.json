@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-31T08:10:56+00:00",
+ "generado": "2026-07-31T18:47:38+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -69,9 +69,9 @@
      "posicion": "LB",
      "equipo_nfl": "IND",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Chris Bell",
@@ -124,9 +124,9 @@
      "posicion": "TE",
      "equipo_nfl": "GB",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Jugador sano en IR"
     }
    ]
   },
@@ -335,6 +335,15 @@
      "nombre": "Brian Branch",
      "posicion": "DB",
      "equipo_nfl": "DET",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Harold Landry",
+     "posicion": "LB",
+     "equipo_nfl": "NE",
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
