@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-30T18:50:13+00:00",
+ "generado": "2026-07-31T08:10:56+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -329,13 +329,13 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 36,
+   "total_roster": 37,
    "alertas": [
     {
      "nombre": "Brian Branch",
      "posicion": "DB",
      "equipo_nfl": "DET",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
