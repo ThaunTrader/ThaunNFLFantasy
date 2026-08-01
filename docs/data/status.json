@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-01T07:38:53+00:00",
+ "generado": "2026-08-01T18:13:50+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -330,7 +330,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 37,
+   "total_roster": 38,
    "alertas": [
     {
      "nombre": "Brian Branch",
@@ -442,6 +442,15 @@
      "estado": "IR_INVALIDO",
      "rojo": true,
      "detalle": "Jugador sano en IR"
+    },
+    {
+     "nombre": "Ricky Pearsall",
+     "posicion": "WR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Injured Reserve"
     }
    ]
   }
