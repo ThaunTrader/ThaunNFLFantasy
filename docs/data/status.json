@@ -1,5 +1,5 @@
 {
- "generado": "2026-07-31T18:47:38+00:00",
+ "generado": "2026-08-01T07:38:53+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -65,15 +65,6 @@
    "total_roster": 42,
    "alertas": [
     {
-     "nombre": "CJ Allen",
-     "posicion": "LB",
-     "equipo_nfl": "IND",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
-    {
      "nombre": "Chris Bell",
      "posicion": "WR",
      "equipo_nfl": "MIA",
@@ -108,27 +99,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Dorance Armstrong",
-     "posicion": "EDR",
-     "equipo_nfl": "WAS",
-     "grupo": "INJURED",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Physically Unable to Perform"
-    },
-    {
-     "nombre": "Tucker Kraft",
-     "posicion": "TE",
-     "equipo_nfl": "GB",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    }
-   ]
+   "total_roster": 38,
+   "alertas": []
   },
   {
    "league_id": 332507,
@@ -175,6 +147,15 @@
    },
    "total_roster": 22,
    "alertas": [
+    {
+     "nombre": "Chris Brazzell",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "INJURED",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Injured Reserve"
+    },
     {
      "nombre": "Zach Charbonnet",
      "posicion": "RB",
@@ -230,7 +211,17 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Chris Brazzell",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Injured Reserve"
+    }
+   ]
   },
   {
    "league_id": 332766,
@@ -312,7 +303,17 @@
     "rank": null
    },
    "total_roster": 21,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Chris Brazzell",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "INJURED",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Injured Reserve"
+    }
+   ]
   },
   {
    "league_id": 333726,
