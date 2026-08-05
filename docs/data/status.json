@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-05T07:57:46+00:00",
+ "generado": "2026-08-05T18:56:32+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -34,7 +34,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Micah Parsons",
@@ -99,7 +99,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 38,
+   "total_roster": 40,
    "alertas": []
   },
   {
@@ -117,7 +117,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Jaylin Noel",
@@ -145,7 +145,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 22,
+   "total_roster": 23,
    "alertas": [
     {
      "nombre": "Chris Brazzell",
@@ -211,17 +211,7 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": [
-    {
-     "nombre": "Chris Brazzell",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Injured Reserve"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332766,
@@ -385,7 +375,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 46,
+   "total_roster": 47,
    "alertas": [
     {
      "nombre": "Chris Bell",
