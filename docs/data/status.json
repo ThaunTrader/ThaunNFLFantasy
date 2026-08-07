@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-07T06:35:23+00:00",
+ "generado": "2026-08-07T18:05:50+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -124,9 +124,9 @@
      "posicion": "WR",
      "equipo_nfl": "HOU",
      "grupo": "INJURED",
-     "estado": "IR",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Non-football related"
+     "detalle": "Jugador sano en IR"
     }
    ]
   },
