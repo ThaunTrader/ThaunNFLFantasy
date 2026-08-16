@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-15T17:39:14+00:00",
+ "generado": "2026-08-16T05:46:59+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -71,7 +71,29 @@
    "league_id": 332993,
    "liga": "SuperFlex 4 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (SF4)",
-   "trades": []
+   "trades": [
+    {
+     "id": 10340161,
+     "estado": "",
+     "descripcion": "Burden for Hall",
+     "propuesto": "1786633368000",
+     "aprobado": "1786827061000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (SF4)",
+       "recibe": [
+        "Luther Burden"
+       ]
+      },
+      {
+       "equipo": "Sr. Bull ⭐",
+       "recibe": [
+        "Breece Hall"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 333726,
