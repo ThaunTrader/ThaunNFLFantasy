@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-17T05:53:01+00:00",
+ "generado": "2026-08-17T17:47:37+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -69,13 +69,13 @@
      "posicion": "WR",
      "equipo_nfl": "MIA",
      "grupo": "INJURED",
-     "estado": "IR",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Non-football related"
+     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Josh Sweat",
-     "posicion": "LB",
+     "posicion": "EDR",
      "equipo_nfl": "ARI",
      "grupo": "INJURED",
      "estado": "OUT",
@@ -186,7 +186,7 @@
    "alertas": [
     {
      "nombre": "Brian Branch",
-     "posicion": "DB",
+     "posicion": "S",
      "equipo_nfl": "DET",
      "grupo": "INJURED",
      "estado": "OUT",
@@ -232,7 +232,7 @@
    "alertas": [
     {
      "nombre": "Mykel Williams",
-     "posicion": "EDR/IL",
+     "posicion": "EDR",
      "equipo_nfl": "SF",
      "grupo": "INJURED",
      "estado": "OUT",
@@ -314,7 +314,7 @@
    "alertas": [
     {
      "nombre": "Brian Branch",
-     "posicion": "DB",
+     "posicion": "S",
      "equipo_nfl": "DET",
      "grupo": "INJURED",
      "estado": "OUT",
@@ -323,7 +323,7 @@
     },
     {
      "nombre": "Harold Landry",
-     "posicion": "LB",
+     "posicion": "EDR",
      "equipo_nfl": "NE",
      "grupo": "INJURED",
      "estado": "OUT",
@@ -354,9 +354,9 @@
      "posicion": "WR",
      "equipo_nfl": "MIA",
      "grupo": "INJURED",
-     "estado": "IR",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Non-football related"
+     "detalle": "Jugador sano en IR"
     }
    ]
   },
@@ -382,9 +382,9 @@
      "posicion": "WR",
      "equipo_nfl": "MIA",
      "grupo": "INJURED",
-     "estado": "IR",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Non-football related"
+     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Zach Harrison",
