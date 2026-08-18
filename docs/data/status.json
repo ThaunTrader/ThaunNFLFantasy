@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-17T17:47:37+00:00",
+ "generado": "2026-08-18T05:48:17+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -117,18 +117,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 41,
-   "alertas": [
-    {
-     "nombre": "Jaylin Noel",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    }
-   ]
+   "total_roster": 40,
+   "alertas": []
   },
   {
    "league_id": 332571,
