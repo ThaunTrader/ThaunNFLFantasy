@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-19T05:49:30+00:00",
+ "generado": "2026-08-19T17:44:17+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -44,6 +44,33 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Carson Schwesinger",
+     "posicion": "LB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Cooper DeJean",
+     "posicion": "DB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Mike Evans",
+     "posicion": "WR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
     }
    ]
   },
@@ -62,18 +89,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 41,
-   "alertas": [
-    {
-     "nombre": "Chris Bell",
-     "posicion": "WR",
-     "equipo_nfl": "MIA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    }
-   ]
+   "total_roster": 40,
+   "alertas": []
   },
   {
    "league_id": 332484,
@@ -91,7 +108,35 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Quentin Johnston",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Tucker Kraft",
+     "posicion": "TE",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    }
+   ]
   },
   {
    "league_id": 332507,
@@ -109,7 +154,26 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "DJ Moore",
+     "posicion": "WR",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Emeka Egbuka",
+     "posicion": "WR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Toe"
+    }
+   ]
   },
   {
    "league_id": 332571,
@@ -145,6 +209,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "DeVonta Smith",
+     "posicion": "WR",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
     }
    ]
   },
@@ -173,6 +246,33 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Cooper DeJean",
+     "posicion": "DB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Jeremiyah Love",
+     "posicion": "RB",
+     "equipo_nfl": "ARI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Quentin Johnston",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
     }
    ]
   },
@@ -192,7 +292,17 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Saquon Barkley",
+     "posicion": "RB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332766,
@@ -219,6 +329,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Jordyn Brooks",
+     "posicion": "LB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -238,7 +357,35 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Carson Schwesinger",
+     "posicion": "LB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Cooper DeJean",
+     "posicion": "DB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    }
+   ]
   },
   {
    "league_id": 332824,
@@ -256,7 +403,17 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jahmyr Gibbs",
+     "posicion": "RB",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
+    }
+   ]
   },
   {
    "league_id": 332993,
@@ -274,7 +431,17 @@
     "rank": null
    },
    "total_roster": 21,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    }
+   ]
   },
   {
    "league_id": 333726,
@@ -310,6 +477,33 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Jahmyr Gibbs",
+     "posicion": "RB",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
+    },
+    {
+     "nombre": "Kris Jenkins",
+     "posicion": "IL",
+     "equipo_nfl": "CIN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Mansoor Delane",
+     "posicion": "CB",
+     "equipo_nfl": "KC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -329,7 +523,35 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Carson Schwesinger",
+     "posicion": "LB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Cooper DeJean",
+     "posicion": "DB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen"
+    }
+   ]
   },
   {
    "league_id": 344345,
@@ -355,7 +577,7 @@
      "grupo": "INJURED",
      "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Jugador sano en IR"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Zach Harrison",
@@ -365,6 +587,33 @@
      "estado": "IR_INVALIDO",
      "rojo": true,
      "detalle": "Jugador sano en IR"
+    },
+    {
+     "nombre": "Jeremiyah Love",
+     "posicion": "RB",
+     "equipo_nfl": "ARI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Malik Nabers",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Quentin Johnston",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Body"
     }
    ]
   },
