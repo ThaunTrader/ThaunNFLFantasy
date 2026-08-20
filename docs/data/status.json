@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-19T17:44:17+00:00",
+ "generado": "2026-08-20T05:49:25+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -218,6 +218,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Quinshon Judkins",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -273,6 +282,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Tyler Warren",
+     "posicion": "TE",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -338,6 +356,24 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Undisclosed"
+    },
+    {
+     "nombre": "Sam LaPorta",
+     "posicion": "TE",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
+    },
+    {
+     "nombre": "Tyler Warren",
+     "posicion": "TE",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -550,6 +586,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Tyler Warren",
+     "posicion": "TE",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
