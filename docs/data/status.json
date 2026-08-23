@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-22T17:39:50+00:00",
+ "generado": "2026-08-23T05:48:21+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -62,15 +62,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Mike Evans",
-     "posicion": "WR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
