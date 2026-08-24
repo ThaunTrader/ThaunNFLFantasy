@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-24T05:56:28+00:00",
+ "generado": "2026-08-24T17:49:52+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -128,6 +128,15 @@
      "detalle": "Lower Body"
     },
     {
+     "nombre": "TreVeyon Henderson",
+     "posicion": "RB",
+     "equipo_nfl": "NE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Lower Leg"
+    },
+    {
      "nombre": "Tucker Kraft",
      "posicion": "TE",
      "equipo_nfl": "GB",
@@ -200,15 +209,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "DeVonta Smith",
-     "posicion": "WR",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     },
     {
      "nombre": "Quinshon Judkins",
@@ -613,7 +613,7 @@
      "grupo": "INJURED",
      "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Zach Harrison",
