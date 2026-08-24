@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-23T17:38:57+00:00",
+ "generado": "2026-08-24T05:56:28+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -62,6 +62,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
+    },
+    {
+     "nombre": "Mike Evans",
+     "posicion": "WR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
     }
    ]
   },
@@ -146,15 +155,6 @@
    },
    "total_roster": 40,
    "alertas": [
-    {
-     "nombre": "DJ Moore",
-     "posicion": "WR",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
-    },
     {
      "nombre": "Emeka Egbuka",
      "posicion": "WR",
@@ -650,6 +650,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Riley Moss",
+     "posicion": "CB",
+     "equipo_nfl": "DEN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ribs"
     }
    ]
   },
