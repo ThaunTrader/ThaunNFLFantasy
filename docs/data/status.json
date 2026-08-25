@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-24T17:49:52+00:00",
+ "generado": "2026-08-25T05:50:39+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -209,15 +209,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Quinshon Judkins",
-     "posicion": "RB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Undisclosed"
     }
    ]
   },
