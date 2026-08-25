@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-25T05:50:39+00:00",
+ "generado": "2026-08-25T17:47:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -134,7 +134,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Lower Leg"
+     "detalle": "Ankle"
     },
     {
      "nombre": "Tucker Kraft",
@@ -239,6 +239,15 @@
      "detalle": "Physically Unable to Perform"
     },
     {
+     "nombre": "Brian Thomas",
+     "posicion": "WR",
+     "equipo_nfl": "JAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
      "nombre": "Cooper DeJean",
      "posicion": "DB",
      "equipo_nfl": "PHI",
@@ -293,6 +302,15 @@
    },
    "total_roster": 23,
    "alertas": [
+    {
+     "nombre": "Brian Thomas",
+     "posicion": "WR",
+     "equipo_nfl": "JAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
     {
      "nombre": "Saquon Barkley",
      "posicion": "RB",
