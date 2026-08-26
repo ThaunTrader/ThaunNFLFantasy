@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-26T05:53:08+00:00",
+ "generado": "2026-08-26T19:22:23+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -71,6 +71,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -99,6 +108,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Injured Reserve"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -190,7 +208,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Undisclosed"
+     "detalle": "Calf"
     }
    ]
   },
@@ -236,7 +254,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Undisclosed"
+     "detalle": "Upper Body"
     }
    ]
   },
@@ -301,6 +319,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     },
     {
      "nombre": "Tyler Warren",
@@ -429,7 +456,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Undisclosed"
+     "detalle": "Upper Body"
     },
     {
      "nombre": "Cooper DeJean",
@@ -558,7 +585,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Undisclosed"
+     "detalle": "Calf"
     },
     {
      "nombre": "Kris Jenkins",
@@ -623,6 +650,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     },
     {
      "nombre": "Tyler Warren",
