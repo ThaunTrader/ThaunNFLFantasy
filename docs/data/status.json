@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-25T17:47:51+00:00",
+ "generado": "2026-08-26T05:53:08+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -70,7 +70,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Quadriceps"
+     "detalle": "Groin"
     }
    ]
   },
@@ -90,7 +90,17 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Bud Clark",
+     "posicion": "S",
+     "equipo_nfl": "SEA",
+     "grupo": "TAXI",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Injured Reserve"
+    }
+   ]
   },
   {
    "league_id": 332484,
@@ -172,6 +182,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Toe"
+    },
+    {
+     "nombre": "Josh Downs",
+     "posicion": "WR",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -209,6 +228,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Chris Olave",
+     "posicion": "WR",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -358,15 +386,6 @@
      "detalle": "Undisclosed"
     },
     {
-     "nombre": "Sam LaPorta",
-     "posicion": "TE",
-     "equipo_nfl": "DET",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hip"
-    },
-    {
      "nombre": "Tyler Warren",
      "posicion": "TE",
      "equipo_nfl": "IND",
@@ -402,6 +421,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "Chris Olave",
+     "posicion": "WR",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     },
     {
      "nombre": "Cooper DeJean",
@@ -524,6 +552,15 @@
      "detalle": "Back"
     },
     {
+     "nombre": "Josh Downs",
+     "posicion": "WR",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
+    },
+    {
      "nombre": "Kris Jenkins",
      "posicion": "IL",
      "equipo_nfl": "CIN",
@@ -632,6 +669,15 @@
      "estado": "IR_INVALIDO",
      "rojo": true,
      "detalle": "Jugador sano en IR"
+    },
+    {
+     "nombre": "Ja'Marr Chase",
+     "posicion": "WR",
+     "equipo_nfl": "CIN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
     },
     {
      "nombre": "Jeremiyah Love",
