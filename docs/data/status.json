@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-26T19:22:23+00:00",
+ "generado": "2026-08-27T16:33:39+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -163,15 +163,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Tucker Kraft",
-     "posicion": "TE",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -246,15 +237,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Chris Olave",
-     "posicion": "WR",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Upper Body"
     }
    ]
   },
@@ -404,15 +386,6 @@
      "detalle": "Physically Unable to Perform"
     },
     {
-     "nombre": "Jordyn Brooks",
-     "posicion": "LB",
-     "equipo_nfl": "MIA",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Undisclosed"
-    },
-    {
      "nombre": "Tyler Warren",
      "posicion": "TE",
      "equipo_nfl": "IND",
@@ -448,15 +421,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Chris Olave",
-     "posicion": "WR",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Upper Body"
     },
     {
      "nombre": "Cooper DeJean",
