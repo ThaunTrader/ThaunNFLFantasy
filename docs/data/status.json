@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-29T11:41:20+00:00",
+ "generado": "2026-08-29T19:47:26+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -44,15 +44,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
-    },
-    {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     },
     {
      "nombre": "Cooper DeJean",
@@ -423,15 +414,6 @@
    "total_roster": 40,
    "alertas": [
     {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
      "nombre": "Cooper DeJean",
      "posicion": "DB",
      "equipo_nfl": "PHI",
@@ -615,15 +597,6 @@
    },
    "total_roster": 40,
    "alertas": [
-    {
-     "nombre": "Carson Schwesinger",
-     "posicion": "LB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
     {
      "nombre": "Cooper DeJean",
      "posicion": "DB",
