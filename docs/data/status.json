@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-31T11:38:46+00:00",
+ "generado": "2026-08-31T21:55:11+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -95,7 +95,7 @@
      "nombre": "Bud Clark",
      "posicion": "S",
      "equipo_nfl": "SEA",
-     "grupo": "TAXI",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Injured Reserve"
@@ -129,6 +129,15 @@
    "total_roster": 40,
    "alertas": [
     {
+     "nombre": "Josh Downs",
+     "posicion": "WR",
+     "equipo_nfl": "IND",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Calf"
+    },
+    {
      "nombre": "Puka Nacua",
      "posicion": "WR",
      "equipo_nfl": "LAR",
@@ -145,15 +154,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
-    },
-    {
-     "nombre": "TreVeyon Henderson",
-     "posicion": "RB",
-     "equipo_nfl": "NE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -182,6 +182,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Toe"
+    },
+    {
+     "nombre": "Jacob Rodriguez",
+     "posicion": "LB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     },
     {
      "nombre": "Josh Downs",
@@ -227,7 +236,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Physically Unable to Perform"
     }
    ]
   },
@@ -274,15 +283,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Jacob Rodriguez",
-     "posicion": "LB",
-     "equipo_nfl": "MIA",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Undisclosed"
     },
     {
      "nombre": "Jeremiyah Love",
@@ -384,6 +384,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Physically Unable to Perform"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     },
     {
      "nombre": "Tyler Warren",
@@ -650,26 +659,8 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 47,
+   "total_roster": 45,
    "alertas": [
-    {
-     "nombre": "Chris Bell",
-     "posicion": "WR",
-     "equipo_nfl": "MIA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
-    {
-     "nombre": "Zach Harrison",
-     "posicion": "IL",
-     "equipo_nfl": "ATL",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
     {
      "nombre": "Ja'Marr Chase",
      "posicion": "WR",
@@ -687,6 +678,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Abdomen"
     },
     {
      "nombre": "Malik Nabers",
