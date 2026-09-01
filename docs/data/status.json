@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-31T21:55:11+00:00",
+ "generado": "2026-09-01T10:11:37+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -705,15 +705,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Riley Moss",
-     "posicion": "CB",
-     "equipo_nfl": "DEN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
     }
    ]
   },

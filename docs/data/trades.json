@@ -1,5 +1,5 @@
 {
- "generado": "2026-08-31T21:55:15+00:00",
+ "generado": "2026-09-01T10:11:43+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -41,7 +41,29 @@
    "league_id": 332572,
    "liga": "IDP 16 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP16)",
-   "trades": []
+   "trades": [
+    {
+     "id": 10375381,
+     "estado": "",
+     "descripcion": "Skattebo for Kraft",
+     "propuesto": "1788209944000",
+     "aprobado": "1788214147000",
+     "lados": [
+      {
+       "equipo": "Bogdanas del valle cuántico de Ebaté",
+       "recibe": [
+        "Cam Skattebo"
+       ]
+      },
+      {
+       "equipo": "Alicante Buccaneers (IDP16)",
+       "recibe": [
+        "Tucker Kraft"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 332573,
