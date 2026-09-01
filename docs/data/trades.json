@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-01T10:11:43+00:00",
+ "generado": "2026-09-01T19:57:34+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -23,7 +23,30 @@
    "league_id": 332484,
    "liga": "IDP 13 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers",
-   "trades": []
+   "trades": [
+    {
+     "id": 10376643,
+     "estado": "",
+     "descripcion": "Schwesinger for Swift and Downs",
+     "propuesto": "1788260020000",
+     "aprobado": "1788260091000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers",
+       "recibe": [
+        "Carson Schwesinger"
+       ]
+      },
+      {
+       "equipo": "Botafougo",
+       "recibe": [
+        "D'Andre Swift",
+        "Josh Downs"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 332507,

@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-01T10:11:37+00:00",
+ "generado": "2026-09-01T19:57:26+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -129,13 +129,13 @@
    "total_roster": 40,
    "alertas": [
     {
-     "nombre": "Josh Downs",
+     "nombre": "Luther Burden",
      "posicion": "WR",
-     "equipo_nfl": "IND",
+     "equipo_nfl": "CHI",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Calf"
+     "detalle": "Groin"
     },
     {
      "nombre": "Puka Nacua",
@@ -145,15 +145,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Quentin Johnston",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
     }
    ]
   },
