@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-02T09:41:58+00:00",
+ "generado": "2026-09-02T19:50:44+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -43,7 +43,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Knee"
     },
     {
      "nombre": "Cooper DeJean",
@@ -53,6 +53,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
     },
     {
      "nombre": "Mike Evans",
@@ -89,7 +98,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Bud Clark",
@@ -98,7 +107,16 @@
      "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
-     "detalle": "Injured Reserve"
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
     },
     {
      "nombre": "Rueben Bain",
@@ -126,8 +144,17 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 39,
    "alertas": [
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
+    },
     {
      "nombre": "Luther Burden",
      "posicion": "WR",
@@ -145,6 +172,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
+    },
+    {
+     "nombre": "Tee Higgins",
+     "posicion": "WR",
+     "equipo_nfl": "CIN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Heel"
     }
    ]
   },
@@ -218,7 +254,7 @@
      "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
-     "detalle": "Injured Reserve"
+     "detalle": "Knee"
     },
     {
      "nombre": "Zach Charbonnet",
@@ -227,7 +263,16 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
     }
    ]
   },
@@ -255,7 +300,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Achilles"
     },
     {
      "nombre": "Cooper DeJean",
@@ -340,13 +385,13 @@
    "total_roster": 23,
    "alertas": [
     {
-     "nombre": "Brian Thomas",
-     "posicion": "WR",
-     "equipo_nfl": "JAC",
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Shoulder"
+     "detalle": "Soreness"
     },
     {
      "nombre": "Saquon Barkley",
@@ -383,7 +428,25 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Bhayshul Tuten",
+     "posicion": "RB",
+     "equipo_nfl": "JAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Illness"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
     },
     {
      "nombre": "Rueben Bain",
@@ -393,6 +456,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Sam LaPorta",
+     "posicion": "TE",
+     "equipo_nfl": "DET",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hip"
     },
     {
      "nombre": "Tyler Warren",
@@ -497,6 +569,15 @@
      "detalle": "Ankle"
     },
     {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
+    },
+    {
      "nombre": "Luther Burden",
      "posicion": "WR",
      "equipo_nfl": "CHI",
@@ -540,7 +621,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Achilles"
     },
     {
      "nombre": "Harold Landry",
@@ -549,7 +630,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Physically Unable to Perform"
+     "detalle": "Undisclosed"
     },
     {
      "nombre": "Jahmyr Gibbs",
@@ -559,6 +640,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Back"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
     },
     {
      "nombre": "Josh Downs",
@@ -671,6 +761,15 @@
      "detalle": "Ankle"
     },
     {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Soreness"
+    },
+    {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
      "equipo_nfl": "NYJ",
@@ -696,6 +795,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Riley Moss",
+     "posicion": "CB",
+     "equipo_nfl": "DEN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ribs"
     }
    ]
   },
