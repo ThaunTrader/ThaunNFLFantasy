@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-03T19:54:48+00:00",
+ "generado": "2026-09-04T09:43:02+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -83,7 +83,29 @@
    "league_id": 339833,
    "liga": "IDP 21 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP21)",
-   "trades": []
+   "trades": [
+    {
+     "id": 10381710,
+     "estado": "",
+     "descripcion": "Godwin for Hockenson",
+     "propuesto": "1788475718000",
+     "aprobado": "1788498124000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (IDP21)",
+       "recibe": [
+        "Chris Godwin"
+       ]
+      },
+      {
+       "equipo": "Alcorcón Smilodons ⭐",
+       "recibe": [
+        "T.J. Hockenson"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 344345,
