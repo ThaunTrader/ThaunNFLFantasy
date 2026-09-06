@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-05T19:05:24+00:00",
+ "generado": "2026-09-06T09:29:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -558,15 +558,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
     },
     {
      "nombre": "Luther Burden",
