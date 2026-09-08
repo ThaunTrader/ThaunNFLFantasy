@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-08T09:47:35+00:00",
+ "generado": "2026-09-08T19:56:15+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -347,15 +347,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Calf"
-    },
-    {
-     "nombre": "Malik Nabers",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     },
     {
      "nombre": "Rueben Bain",
