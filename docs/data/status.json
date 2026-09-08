@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-07T20:37:54+00:00",
+ "generado": "2026-09-08T09:47:35+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -16,8 +16,27 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 0,
-   "alertas": []
+   "total_roster": 16,
+   "alertas": [
+    {
+     "nombre": "Micah Parsons",
+     "posicion": "EDR",
+     "equipo_nfl": "GB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Ashton Jeanty",
+     "posicion": "RB",
+     "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332443,
@@ -333,15 +352,6 @@
      "nombre": "Malik Nabers",
      "posicion": "WR",
      "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Nick Bosa",
-     "posicion": "EDR",
-     "equipo_nfl": "SF",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
