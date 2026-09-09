@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-09T09:51:16+00:00",
+ "generado": "2026-09-09T19:49:44+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -83,15 +83,6 @@
      "detalle": "Soreness"
     },
     {
-     "nombre": "Mike Evans",
-     "posicion": "WR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
      "nombre": "Rueben Bain",
      "posicion": "EDR",
      "equipo_nfl": "TB",
@@ -117,8 +108,17 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
     {
      "nombre": "Bud Clark",
      "posicion": "S",
@@ -129,13 +129,13 @@
      "detalle": "Ankle"
     },
     {
-     "nombre": "Jonathon Brooks",
+     "nombre": "Bhayshul Tuten",
      "posicion": "RB",
-     "equipo_nfl": "CAR",
+     "equipo_nfl": "JAC",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Soreness"
+     "detalle": "Illness"
     },
     {
      "nombre": "Rueben Bain",
@@ -163,16 +163,16 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 39,
+   "total_roster": 40,
    "alertas": [
     {
-     "nombre": "Jonathon Brooks",
+     "nombre": "Bhayshul Tuten",
      "posicion": "RB",
-     "equipo_nfl": "CAR",
+     "equipo_nfl": "JAC",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Soreness"
+     "detalle": "Illness"
     },
     {
      "nombre": "Luther Burden",
@@ -184,13 +184,13 @@
      "detalle": "Groin"
     },
     {
-     "nombre": "Puka Nacua",
+     "nombre": "Quentin Johnston",
      "posicion": "WR",
-     "equipo_nfl": "LAR",
+     "equipo_nfl": "LAC",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Groin"
+     "detalle": "Lower Body"
     },
     {
      "nombre": "Tee Higgins",
@@ -220,15 +220,6 @@
    },
    "total_roster": 40,
    "alertas": [
-    {
-     "nombre": "Emeka Egbuka",
-     "posicion": "WR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Toe"
-    },
     {
      "nombre": "Jacob Rodriguez",
      "posicion": "LB",
@@ -329,24 +320,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Jeremiyah Love",
-     "posicion": "RB",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Josh Downs",
-     "posicion": "WR",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
     },
     {
      "nombre": "Rueben Bain",
@@ -494,15 +467,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -552,27 +516,18 @@
    "total_roster": 21,
    "alertas": [
     {
-     "nombre": "Jeremiyah Love",
+     "nombre": "Bhayshul Tuten",
      "posicion": "RB",
-     "equipo_nfl": "ARI",
+     "equipo_nfl": "JAC",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Ankle"
+     "detalle": "Illness"
     },
     {
      "nombre": "Luther Burden",
      "posicion": "WR",
      "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
@@ -655,6 +610,15 @@
      "nombre": "Mansoor Delane",
      "posicion": "CB",
      "equipo_nfl": "KC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,

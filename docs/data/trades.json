@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-09T09:51:22+00:00",
+ "generado": "2026-09-09T19:49:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -59,7 +59,33 @@
    "league_id": 332793,
    "liga": "IDP 18 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (🏆🏆)",
-   "trades": []
+   "trades": [
+    {
+     "id": 10390004,
+     "estado": "",
+     "descripcion": "Brooks for Rodriguez, Diggs and Williams",
+     "propuesto": "1788880524000",
+     "aprobado": "1788978911000",
+     "lados": [
+      {
+       "equipo": "Alicante Buccaneers (🏆🏆)",
+       "recibe": [
+        "Jonathon Brooks"
+       ]
+      },
+      {
+       "equipo": "Alcorcón Hurricanes",
+       "recibe": [
+        "Chris Rodriguez",
+        "Stefon Diggs",
+        "Jameson Williams",
+        "Brian Robinson",
+        "Jalen McMillan"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 332824,
