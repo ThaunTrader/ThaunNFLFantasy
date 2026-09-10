@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-09T19:49:44+00:00",
+ "generado": "2026-09-10T09:49:09+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -26,15 +26,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Ashton Jeanty",
-     "posicion": "RB",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -56,6 +47,15 @@
    "total_roster": 41,
    "alertas": [
     {
+     "nombre": "A.J. Brown",
+     "posicion": "WR",
+     "equipo_nfl": "NE",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Ankle"
+    },
+    {
      "nombre": "Micah Parsons",
      "posicion": "EDR",
      "equipo_nfl": "GB",
@@ -63,33 +63,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -127,24 +100,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Bhayshul Tuten",
-     "posicion": "RB",
-     "equipo_nfl": "JAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -164,44 +119,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Bhayshul Tuten",
-     "posicion": "RB",
-     "equipo_nfl": "JAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
-    },
-    {
-     "nombre": "Luther Burden",
-     "posicion": "WR",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Quentin Johnston",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Tee Higgins",
-     "posicion": "WR",
-     "equipo_nfl": "CIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Heel"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332507,
@@ -219,26 +137,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Jacob Rodriguez",
-     "posicion": "LB",
-     "equipo_nfl": "MIA",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Undisclosed"
-    },
-    {
-     "nombre": "Josh Downs",
-     "posicion": "WR",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332571,
@@ -274,15 +173,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
     }
    ]
   },
@@ -311,33 +201,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Achilles"
-    },
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Tyler Warren",
-     "posicion": "TE",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -357,17 +220,7 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": [
-    {
-     "nombre": "Saquon Barkley",
-     "posicion": "RB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332766,
@@ -394,51 +247,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Bhayshul Tuten",
-     "posicion": "RB",
-     "equipo_nfl": "JAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Sam LaPorta",
-     "posicion": "TE",
-     "equipo_nfl": "DET",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hip"
-    },
-    {
-     "nombre": "Tyler Warren",
-     "posicion": "TE",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -458,17 +266,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332824,
@@ -486,17 +284,7 @@
     "rank": null
    },
    "total_roster": 23,
-   "alertas": [
-    {
-     "nombre": "Jahmyr Gibbs",
-     "posicion": "RB",
-     "equipo_nfl": "DET",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332993,
@@ -514,26 +302,7 @@
     "rank": null
    },
    "total_roster": 21,
-   "alertas": [
-    {
-     "nombre": "Bhayshul Tuten",
-     "posicion": "RB",
-     "equipo_nfl": "JAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
-    },
-    {
-     "nombre": "Luther Burden",
-     "posicion": "WR",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 333726,
@@ -571,54 +340,9 @@
      "detalle": "Undisclosed"
     },
     {
-     "nombre": "Jahmyr Gibbs",
-     "posicion": "RB",
-     "equipo_nfl": "DET",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
-    },
-    {
-     "nombre": "Josh Downs",
-     "posicion": "WR",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
-    },
-    {
-     "nombre": "Kris Jenkins",
-     "posicion": "IL",
-     "equipo_nfl": "CIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
      "nombre": "Mansoor Delane",
      "posicion": "CB",
      "equipo_nfl": "KC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
@@ -642,35 +366,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Tyler Warren",
-     "posicion": "TE",
-     "equipo_nfl": "IND",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 344345,
@@ -689,60 +385,6 @@
    },
    "total_roster": 45,
    "alertas": [
-    {
-     "nombre": "Ja'Marr Chase",
-     "posicion": "WR",
-     "equipo_nfl": "CIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Jeremiyah Love",
-     "posicion": "RB",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Soreness"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Malik Nabers",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Quentin Johnston",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Lower Body"
-    },
     {
      "nombre": "Riley Moss",
      "posicion": "CB",
@@ -769,7 +411,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 0,
+   "total_roster": 15,
    "alertas": []
   }
  ]
