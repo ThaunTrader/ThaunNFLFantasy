@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-10T09:49:11+00:00",
+ "generado": "2026-09-10T19:46:40+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -63,7 +63,7 @@
     {
      "id": 10390004,
      "estado": "",
-     "descripcion": "Brooks for Rodriguez, Diggs and Williams",
+     "descripcion": "Brooks for Rodriguez, Williams and Diggs",
      "propuesto": "1788880524000",
      "aprobado": "1788978911000",
      "lados": [
@@ -77,10 +77,10 @@
        "equipo": "Alcorcón Hurricanes",
        "recibe": [
         "Chris Rodriguez",
-        "Stefon Diggs",
         "Jameson Williams",
-        "Brian Robinson",
-        "Jalen McMillan"
+        "Stefon Diggs",
+        "Jalen McMillan",
+        "Brian Robinson"
        ]
       }
      ]

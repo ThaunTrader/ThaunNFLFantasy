@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-10T09:49:09+00:00",
+ "generado": "2026-09-10T19:46:35+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -63,6 +63,24 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -100,6 +118,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -173,6 +200,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -201,6 +237,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Achilles"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -247,6 +292,24 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -340,9 +403,27 @@
      "detalle": "Undisclosed"
     },
     {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
      "nombre": "Mansoor Delane",
      "posicion": "CB",
      "equipo_nfl": "KC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
@@ -366,7 +447,17 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    }
+   ]
   },
   {
    "league_id": 344345,
@@ -385,6 +476,24 @@
    },
    "total_roster": 45,
    "alertas": [
+    {
+     "nombre": "Jeremiyah Love",
+     "posicion": "RB",
+     "equipo_nfl": "ARI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
     {
      "nombre": "Riley Moss",
      "posicion": "CB",
