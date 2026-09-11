@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-10T19:46:35+00:00",
+ "generado": "2026-09-11T09:48:21+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -72,15 +72,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -120,13 +111,22 @@
      "detalle": "Ankle"
     },
     {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
+     "nombre": "Nate Landman",
+     "posicion": "LB",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Kam Curl",
+     "posicion": "S",
+     "equipo_nfl": "LAR",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Shoulder"
+     "detalle": "Ankle"
     }
    ]
   },
@@ -181,7 +181,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Chris Brazzell",
@@ -189,6 +189,15 @@
      "equipo_nfl": "CAR",
      "grupo": "INJURED",
      "estado": "IR",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Michael Penix",
+     "posicion": "QB",
+     "equipo_nfl": "ATL",
+     "grupo": "INJURED",
+     "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
     },
@@ -237,15 +246,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Achilles"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -301,15 +301,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -329,7 +320,17 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Kam Curl",
+     "posicion": "S",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332824,
@@ -410,24 +411,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Mansoor Delane",
-     "posicion": "CB",
-     "equipo_nfl": "KC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -447,17 +430,7 @@
     "rank": null
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 344345,
@@ -477,6 +450,15 @@
    "total_roster": 45,
    "alertas": [
     {
+     "nombre": "Daron Payne",
+     "posicion": "IL",
+     "equipo_nfl": "WAS",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Jeremiyah Love",
      "posicion": "RB",
      "equipo_nfl": "ARI",
@@ -493,15 +475,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Riley Moss",
-     "posicion": "CB",
-     "equipo_nfl": "DEN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
     }
    ]
   },
