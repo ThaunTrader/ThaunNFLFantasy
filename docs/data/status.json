@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-11T09:48:21+00:00",
+ "generado": "2026-09-11T19:47:55+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -18,6 +18,15 @@
    },
    "total_roster": 16,
    "alertas": [
+    {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Micah Parsons",
      "posicion": "EDR",
@@ -51,7 +60,7 @@
      "posicion": "WR",
      "equipo_nfl": "NE",
      "grupo": "START",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Ankle"
     },
@@ -63,15 +72,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -209,15 +209,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -292,15 +283,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -402,15 +384,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Undisclosed"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -457,24 +430,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Jeremiyah Love",
-     "posicion": "RB",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
