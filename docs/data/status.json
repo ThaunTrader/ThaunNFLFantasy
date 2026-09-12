@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-11T19:47:55+00:00",
+ "generado": "2026-09-12T09:25:29+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -16,7 +16,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 16,
+   "total_roster": 17,
    "alertas": [
     {
      "nombre": "Brock Bowers",
@@ -100,6 +100,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "None"
+    },
+    {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
     },
     {
      "nombre": "Bud Clark",
@@ -423,9 +432,9 @@
    "total_roster": 45,
    "alertas": [
     {
-     "nombre": "Daron Payne",
-     "posicion": "IL",
-     "equipo_nfl": "WAS",
+     "nombre": "Malik Nabers",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
