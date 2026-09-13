@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-12T19:25:58+00:00",
+ "generado": "2026-09-13T10:21:37+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -17,31 +17,7 @@
    "league_id": 332475,
    "liga": "IDP 12 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP12)",
-   "trades": [
-    {
-     "id": 10395575,
-     "estado": "",
-     "descripcion": "Styles for Skattebo, Gadsden and Landman",
-     "propuesto": "1789126184000",
-     "aprobado": "1789148233000",
-     "lados": [
-      {
-       "equipo": "Alicante Buccaneers (IDP12)",
-       "recibe": [
-        "Sonny Styles"
-       ]
-      },
-      {
-       "equipo": "Galician Sailors",
-       "recibe": [
-        "Cam Skattebo",
-        "Oronde Gadsden",
-        "Nate Landman"
-       ]
-      }
-     ]
-    }
-   ]
+   "trades": []
   },
   {
    "league_id": 332484,
