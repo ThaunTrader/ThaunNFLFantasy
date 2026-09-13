@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-13T10:21:31+00:00",
+ "generado": "2026-09-13T19:31:01+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -90,7 +90,7 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 43,
+   "total_roster": 44,
    "alertas": [
     {
      "nombre": "Aaron Donald",
@@ -329,8 +329,17 @@
     "formateado": "0-0",
     "rank": null
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
+    {
+     "nombre": "Cedric Gray",
+     "posicion": "LB",
+     "equipo_nfl": "TEN",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Concussion"
+    },
     {
      "nombre": "Kam Curl",
      "posicion": "S",
@@ -449,17 +458,7 @@
     "rank": null
    },
    "total_roster": 45,
-   "alertas": [
-    {
-     "nombre": "Jeremiyah Love",
-     "posicion": "RB",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 348123,
