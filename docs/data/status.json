@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-14T10:45:22+00:00",
+ "generado": "2026-09-14T20:57:58+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -283,7 +283,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Chest"
+     "detalle": "Ribs"
     }
    ]
   },
@@ -431,6 +431,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Undisclosed"
+    },
+    {
+     "nombre": "Jalen Coker",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
     }
    ]
   },
@@ -458,7 +467,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Chest"
+     "detalle": "Ribs"
     }
    ]
   },
