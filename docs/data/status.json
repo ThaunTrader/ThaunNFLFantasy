@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-15T10:09:28+00:00",
+ "generado": "2026-09-15T20:16:57+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -78,7 +78,7 @@
      "posicion": "RB",
      "equipo_nfl": "CLE",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Knee"
     },
@@ -182,7 +182,35 @@
     "rank": 8
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
+    },
+    {
+     "nombre": "TreVeyon Henderson",
+     "posicion": "RB",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332507,
@@ -202,13 +230,31 @@
    "total_roster": 40,
    "alertas": [
     {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
      "nombre": "Eli Stowers",
      "posicion": "TE",
      "equipo_nfl": "PHI",
-     "grupo": "TAXI",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
     }
    ]
   },
@@ -227,25 +273,34 @@
     "formateado": "1-0",
     "rank": 4
    },
-   "total_roster": 24,
+   "total_roster": 23,
    "alertas": [
     {
-     "nombre": "Chris Brazzell",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "INJURED",
+     "nombre": "Dylan Sampson",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "BENCH",
      "estado": "IR",
      "rojo": true,
      "detalle": "Knee"
     },
     {
-     "nombre": "Michael Penix",
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
+    },
+    {
+     "nombre": "Tua Tagovailoa",
      "posicion": "QB",
      "equipo_nfl": "ATL",
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Oblique"
     },
     {
      "nombre": "Zach Charbonnet",
@@ -304,13 +359,13 @@
    "total_roster": 23,
    "alertas": [
     {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
     }
    ]
   },
@@ -332,6 +387,15 @@
    "total_roster": 42,
    "alertas": [
     {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
      "nombre": "Eli Stowers",
      "posicion": "TE",
      "equipo_nfl": "PHI",
@@ -339,6 +403,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Jacob Parrish",
+     "posicion": "CB",
+     "equipo_nfl": "TB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Back"
     },
     {
      "nombre": "Mykel Williams",
@@ -369,6 +442,15 @@
    "total_roster": 41,
    "alertas": [
     {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
      "nombre": "Cedric Gray",
      "posicion": "LB",
      "equipo_nfl": "TEN",
@@ -395,7 +477,17 @@
     "rank": 1
    },
    "total_roster": 23,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Sam Darnold",
+     "posicion": "QB",
+     "equipo_nfl": "SEA",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hip"
+    }
+   ]
   },
   {
    "league_id": 332993,
@@ -419,7 +511,7 @@
      "posicion": "RB",
      "equipo_nfl": "CLE",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Knee"
     },
@@ -496,7 +588,26 @@
     "rank": 4
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
+     "nombre": "Dylan Sampson",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Knee"
+    }
+   ]
   },
   {
    "league_id": 344345,
@@ -515,6 +626,33 @@
    },
    "total_roster": 45,
    "alertas": [
+    {
+     "nombre": "Aaron Donald",
+     "posicion": "IL",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "None"
+    },
+    {
+     "nombre": "Dylan Sampson",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "INJURED",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
+    },
     {
      "nombre": "Jalen Coker",
      "posicion": "WR",
@@ -542,7 +680,17 @@
     "rank": 12
    },
    "total_roster": 15,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
+    }
+   ]
   }
  ]
 }
