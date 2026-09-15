@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-14T20:57:58+00:00",
+ "generado": "2026-09-15T10:09:28+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -9,12 +9,12 @@
    "tipo": "Redraft",
    "formato": "Classic Flex-DP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 2
    },
    "total_roster": 17,
    "alertas": [
@@ -35,6 +35,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "TreVeyon Henderson",
+     "posicion": "RB",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Ankle"
     }
    ]
   },
@@ -46,12 +55,12 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 4
    },
    "total_roster": 41,
    "alertas": [
@@ -59,10 +68,28 @@
      "nombre": "A.J. Brown",
      "posicion": "WR",
      "equipo_nfl": "NE",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "Dylan Sampson",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Jalen McMillan",
+     "posicion": "WR",
+     "equipo_nfl": "TB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
     },
     {
      "nombre": "Micah Parsons",
@@ -72,6 +99,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Sam Darnold",
+     "posicion": "QB",
+     "equipo_nfl": "SEA",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hip"
     }
    ]
   },
@@ -84,13 +120,13 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 10
    },
-   "total_roster": 44,
+   "total_roster": 43,
    "alertas": [
     {
      "nombre": "Aaron Donald",
@@ -120,22 +156,13 @@
      "detalle": "Ankle"
     },
     {
-     "nombre": "Nate Landman",
-     "posicion": "LB",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Kam Curl",
-     "posicion": "S",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
+     "detalle": "Wrist"
     }
    ]
   },
@@ -148,11 +175,11 @@
    "formato": null,
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 8
    },
    "total_roster": 40,
    "alertas": []
@@ -165,12 +192,12 @@
    "tipo": null,
    "formato": null,
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 1
    },
    "total_roster": 40,
    "alertas": [
@@ -193,12 +220,12 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 4
    },
    "total_roster": 24,
    "alertas": [
@@ -239,12 +266,12 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 5
    },
    "total_roster": 41,
    "alertas": [
@@ -268,11 +295,11 @@
    "formato": "Classic",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 12
    },
    "total_roster": 23,
    "alertas": [
@@ -296,11 +323,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 8
    },
    "total_roster": 42,
    "alertas": [
@@ -333,11 +360,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 12
    },
    "total_roster": 41,
    "alertas": [
@@ -349,15 +376,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Concussion"
-    },
-    {
-     "nombre": "Kam Curl",
-     "posicion": "S",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -369,12 +387,12 @@
    "tipo": "Dynasty",
    "formato": "Classic",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 1
    },
    "total_roster": 23,
    "alertas": []
@@ -387,15 +405,34 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 6
    },
    "total_roster": 21,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Dylan Sampson",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Ja'Kobi Lane",
+     "posicion": "WR",
+     "equipo_nfl": "BAL",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Wrist"
+    }
+   ]
   },
   {
    "league_id": 333726,
@@ -406,11 +443,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 9
    },
    "total_roster": 47,
    "alertas": [
@@ -451,25 +488,15 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 0,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "pct": 1.0,
+    "formateado": "1-0",
+    "rank": 4
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 344345,
@@ -480,14 +507,24 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 13
    },
    "total_roster": 45,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jalen Coker",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 348123,
@@ -498,11 +535,11 @@
    "formato": null,
    "record": {
     "victorias": 0,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
     "pct": null,
-    "formateado": "0-0",
-    "rank": null
+    "formateado": "0-1",
+    "rank": 12
    },
    "total_roster": 15,
    "alertas": []
