@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-16T10:00:44+00:00",
+ "generado": "2026-09-16T20:12:46+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -16,16 +16,16 @@
     "formateado": "1-0",
     "rank": 2
    },
-   "total_roster": 17,
+   "total_roster": 18,
    "alertas": [
     {
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Micah Parsons",
@@ -41,9 +41,9 @@
      "posicion": "RB",
      "equipo_nfl": "NE",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Ankle"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -62,7 +62,7 @@
     "formateado": "1-0",
     "rank": 4
    },
-   "total_roster": 41,
+   "total_roster": 45,
    "alertas": [
     {
      "nombre": "A.J. Brown",
@@ -87,9 +87,18 @@
      "posicion": "WR",
      "equipo_nfl": "TB",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Jugador sano en IR"
+    },
+    {
+     "nombre": "Jordan Mason",
+     "posicion": "RB",
+     "equipo_nfl": "MIN",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Thumb"
     },
     {
      "nombre": "Micah Parsons",
@@ -126,25 +135,25 @@
     "formateado": "0-1",
     "rank": 10
    },
-   "total_roster": 43,
+   "total_roster": 44,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Bud Clark",
@@ -160,7 +169,7 @@
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     }
@@ -181,23 +190,23 @@
     "formateado": "0-1",
     "rank": 8
    },
-   "total_roster": 40,
+   "total_roster": 43,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Ja'Kobi Lane",
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     },
@@ -206,9 +215,9 @@
      "posicion": "RB",
      "equipo_nfl": "NE",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Ankle"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -227,16 +236,16 @@
     "formateado": "1-0",
     "rank": 1
    },
-   "total_roster": 40,
+   "total_roster": 43,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Eli Stowers",
@@ -252,9 +261,18 @@
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Jordan Mason",
+     "posicion": "RB",
+     "equipo_nfl": "MIN",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Thumb"
     }
    ]
   },
@@ -273,23 +291,14 @@
     "formateado": "1-0",
     "rank": 4
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
-    {
-     "nombre": "Dylan Sampson",
-     "posicion": "RB",
-     "equipo_nfl": "CLE",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Knee"
-    },
     {
      "nombre": "Ja'Kobi Lane",
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     },
@@ -298,9 +307,9 @@
      "posicion": "QB",
      "equipo_nfl": "ATL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Oblique"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Zach Charbonnet",
@@ -356,16 +365,16 @@
     "formateado": "0-1",
     "rank": 12
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -384,16 +393,16 @@
     "formateado": "0-1",
     "rank": 8
    },
-   "total_roster": 42,
+   "total_roster": 45,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Eli Stowers",
@@ -409,9 +418,9 @@
      "posicion": "CB",
      "equipo_nfl": "TB",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Back"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Mykel Williams",
@@ -421,6 +430,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Sam Darnold",
+     "posicion": "QB",
+     "equipo_nfl": "SEA",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hip"
     }
    ]
   },
@@ -439,25 +457,25 @@
     "formateado": "0-1",
     "rank": 12
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Cedric Gray",
      "posicion": "LB",
      "equipo_nfl": "TEN",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Concussion"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -476,7 +494,7 @@
     "formateado": "1-0",
     "rank": 1
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Sam Darnold",
@@ -504,7 +522,7 @@
     "formateado": "1-0",
     "rank": 6
    },
-   "total_roster": 21,
+   "total_roster": 23,
    "alertas": [
     {
      "nombre": "Dylan Sampson",
@@ -520,7 +538,7 @@
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     }
@@ -587,25 +605,16 @@
     "formateado": "1-0",
     "rank": 4
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
-    },
-    {
-     "nombre": "Dylan Sampson",
-     "posicion": "RB",
-     "equipo_nfl": "CLE",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Knee"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -624,16 +633,16 @@
     "formateado": "0-1",
     "rank": 13
    },
-   "total_roster": 45,
+   "total_roster": 48,
    "alertas": [
     {
      "nombre": "Aaron Donald",
      "posicion": "IL",
      "equipo_nfl": "LAR",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "None"
+     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Dylan Sampson",
@@ -649,7 +658,7 @@
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     },
@@ -679,14 +688,14 @@
     "formateado": "0-1",
     "rank": 12
    },
-   "total_roster": 15,
+   "total_roster": 16,
    "alertas": [
     {
      "nombre": "Ja'Kobi Lane",
      "posicion": "WR",
      "equipo_nfl": "BAL",
      "grupo": "INJURED",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
     }
