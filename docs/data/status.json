@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-17T10:03:51+00:00",
+ "generado": "2026-09-17T20:22:11+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -16,17 +16,8 @@
     "formateado": "1-0",
     "rank": 2
    },
-   "total_roster": 18,
+   "total_roster": 16,
    "alertas": [
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
     {
      "nombre": "Micah Parsons",
      "posicion": "EDR",
@@ -35,15 +26,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "TreVeyon Henderson",
-     "posicion": "RB",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Trey McBride",
@@ -116,7 +98,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Hip"
+     "detalle": "Lower Body"
     },
     {
      "nombre": "Cooper DeJean",
@@ -126,15 +108,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Calf"
-    },
-    {
-     "nombre": "Juwan Johnson",
-     "posicion": "TE",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
     }
    ]
   },
@@ -438,7 +411,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Hip"
+     "detalle": "Lower Body"
     },
     {
      "nombre": "Nico Collins",
@@ -503,7 +476,7 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Hip"
+     "detalle": "Lower Body"
     }
    ]
   },
