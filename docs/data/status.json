@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-17T20:22:11+00:00",
+ "generado": "2026-09-18T09:51:09+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -19,6 +19,15 @@
    "total_roster": 16,
    "alertas": [
     {
+     "nombre": "DJ Moore",
+     "posicion": "WR",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Shoulder"
+    },
+    {
      "nombre": "Micah Parsons",
      "posicion": "EDR",
      "equipo_nfl": "GB",
@@ -26,15 +35,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Trey McBride",
-     "posicion": "TE",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
     }
    ]
   },
@@ -108,6 +108,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Calf"
+    },
+    {
+     "nombre": "Juwan Johnson",
+     "posicion": "TE",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Illness"
     }
    ]
   },
@@ -145,15 +154,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Trey McBride",
-     "posicion": "TE",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
     }
    ]
   },
@@ -212,6 +212,15 @@
    "total_roster": 43,
    "alertas": [
     {
+     "nombre": "DJ Moore",
+     "posicion": "WR",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Shoulder"
+    },
+    {
      "nombre": "Eli Stowers",
      "posicion": "TE",
      "equipo_nfl": "PHI",
@@ -237,24 +246,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Thumb"
-    },
-    {
-     "nombre": "Blake Cashman",
-     "posicion": "LB",
-     "equipo_nfl": "MIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Wrist"
-    },
-    {
-     "nombre": "Trey McBride",
-     "posicion": "TE",
-     "equipo_nfl": "ARI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
     }
    ]
   },
@@ -292,6 +283,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Chris Olave",
+     "posicion": "WR",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
     },
     {
      "nombre": "Kyle Monangai",
@@ -338,6 +338,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Calf"
+    },
+    {
+     "nombre": "Nick Bosa",
+     "posicion": "EDR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
     }
    ]
   },
@@ -441,6 +450,15 @@
    },
    "total_roster": 40,
    "alertas": [
+    {
+     "nombre": "Chris Olave",
+     "posicion": "WR",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
+    },
     {
      "nombre": "Cooper DeJean",
      "posicion": "DB",
@@ -560,6 +578,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "L'Jarius Sneed",
+     "posicion": "CB",
+     "equipo_nfl": "KC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
     }
    ]
   },
