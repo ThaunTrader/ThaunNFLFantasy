@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-18T09:51:09+00:00",
+ "generado": "2026-09-18T19:41:53+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -108,15 +108,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Calf"
-    },
-    {
-     "nombre": "Juwan Johnson",
-     "posicion": "TE",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Illness"
     }
    ]
   },
@@ -182,15 +173,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Kyle Monangai",
-     "posicion": "RB",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -292,15 +274,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring"
-    },
-    {
-     "nombre": "Kyle Monangai",
-     "posicion": "RB",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -366,17 +339,7 @@
     "rank": 12
    },
    "total_roster": 23,
-   "alertas": [
-    {
-     "nombre": "Kyle Monangai",
-     "posicion": "RB",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332766,
@@ -571,15 +534,6 @@
      "detalle": "Undisclosed"
     },
     {
-     "nombre": "Jalen Coker",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
      "nombre": "L'Jarius Sneed",
      "posicion": "CB",
      "equipo_nfl": "KC",
@@ -661,15 +615,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Jalen Coker",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     },
     {
      "nombre": "Nico Collins",
