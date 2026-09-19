@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-18T19:41:53+00:00",
+ "generado": "2026-09-19T09:34:54+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -99,15 +99,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
     }
    ]
   },
@@ -173,6 +164,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hip"
     }
    ]
   },
@@ -302,24 +302,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Achilles"
-    },
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
-    },
-    {
-     "nombre": "Nick Bosa",
-     "posicion": "EDR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -339,7 +321,17 @@
     "rank": 12
    },
    "total_roster": 23,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Ladd McConkey",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ribs"
+    }
+   ]
   },
   {
    "league_id": 332766,
@@ -377,6 +369,15 @@
      "detalle": "Knee"
     },
     {
+     "nombre": "Nico Collins",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Sam Darnold",
      "posicion": "QB",
      "equipo_nfl": "SEA",
@@ -384,15 +385,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -423,13 +415,13 @@
      "detalle": "Hamstring"
     },
     {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Calf"
+     "detalle": "Hip"
     }
    ]
   },
@@ -495,6 +487,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hip"
     }
    ]
   },
@@ -532,15 +533,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Undisclosed"
-    },
-    {
-     "nombre": "L'Jarius Sneed",
-     "posicion": "CB",
-     "equipo_nfl": "KC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -561,15 +553,6 @@
    },
    "total_roster": 40,
    "alertas": [
-    {
-     "nombre": "Cooper DeJean",
-     "posicion": "DB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
-    },
     {
      "nombre": "Ladd McConkey",
      "posicion": "WR",
@@ -615,15 +598,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
