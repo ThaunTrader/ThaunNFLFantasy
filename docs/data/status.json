@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-19T19:21:33+00:00",
+ "generado": "2026-09-20T09:51:06+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -164,15 +164,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -369,15 +360,6 @@
      "detalle": "Knee"
     },
     {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Hamstring"
-    },
-    {
      "nombre": "Sam Darnold",
      "posicion": "QB",
      "equipo_nfl": "SEA",
@@ -413,15 +395,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -487,15 +460,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
