@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-20T09:51:06+00:00",
+ "generado": "2026-09-20T19:30:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -16,8 +16,17 @@
     "formateado": "1-0",
     "rank": 2
    },
-   "total_roster": 16,
+   "total_roster": 17,
    "alertas": [
+    {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "DJ Moore",
      "posicion": "WR",
@@ -117,8 +126,17 @@
     "formateado": "0-1",
     "rank": 10
    },
-   "total_roster": 42,
+   "total_roster": 43,
    "alertas": [
+    {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Bud Clark",
      "posicion": "S",
@@ -256,15 +274,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Chris Olave",
-     "posicion": "WR",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -314,13 +323,13 @@
    "total_roster": 23,
    "alertas": [
     {
-     "nombre": "Ladd McConkey",
+     "nombre": "Jayden Reed",
      "posicion": "WR",
-     "equipo_nfl": "LAC",
+     "equipo_nfl": "GB",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Neck"
     }
    ]
   },
@@ -386,17 +395,7 @@
     "rank": 12
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Chris Olave",
-     "posicion": "WR",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332824,
@@ -497,6 +496,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Undisclosed"
+    },
+    {
+     "nombre": "Jayden Reed",
+     "posicion": "WR",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Neck"
     }
    ]
   },
@@ -516,17 +524,7 @@
     "rank": 4
    },
    "total_roster": 40,
-   "alertas": [
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ribs"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 344345,
