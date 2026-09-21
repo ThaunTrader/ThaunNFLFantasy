@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-21T10:48:34+00:00",
+ "generado": "2026-09-21T21:07:19+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -254,7 +254,7 @@
      "grupo": "START",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Chest"
+     "detalle": "Shoulder"
     },
     {
      "nombre": "Jordan Mason",
@@ -365,7 +365,7 @@
      "grupo": "START",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Chest"
+     "detalle": "Shoulder"
     },
     {
      "nombre": "Jayden Reed",
@@ -374,7 +374,7 @@
      "grupo": "START",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Neck"
+     "detalle": "Back"
     }
    ]
   },
@@ -567,7 +567,7 @@
      "grupo": "START",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Neck"
+     "detalle": "Back"
     },
     {
      "nombre": "Jonathon Brooks",
