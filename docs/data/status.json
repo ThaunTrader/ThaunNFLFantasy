@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-20T19:30:51+00:00",
+ "generado": "2026-09-21T10:48:34+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -108,6 +108,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Mike Evans",
+     "posicion": "WR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hip"
     }
    ]
   },
@@ -182,6 +191,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -230,6 +248,15 @@
      "detalle": "Wrist"
     },
     {
+     "nombre": "Jadarian Price",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Chest"
+    },
+    {
      "nombre": "Jordan Mason",
      "posicion": "RB",
      "equipo_nfl": "MIN",
@@ -237,6 +264,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Thumb"
+    },
+    {
+     "nombre": "Derwin James",
+     "posicion": "S",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hand"
     }
    ]
   },
@@ -323,6 +359,15 @@
    "total_roster": 23,
    "alertas": [
     {
+     "nombre": "Jadarian Price",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Chest"
+    },
+    {
      "nombre": "Jayden Reed",
      "posicion": "WR",
      "equipo_nfl": "GB",
@@ -376,6 +421,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Lower Body"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -489,6 +543,15 @@
      "detalle": "Achilles"
     },
     {
+     "nombre": "Caleb Williams",
+     "posicion": "QB",
+     "equipo_nfl": "CHI",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Harold Landry",
      "posicion": "EDR",
      "equipo_nfl": "NE",
@@ -505,6 +568,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Neck"
+    },
+    {
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
