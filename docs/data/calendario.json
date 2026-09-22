@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-15T14:35:23+00:00",
+ "generado": "2026-09-22T14:17:29+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -19,10 +19,10 @@
     {
      "rival": "Placita20",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 147.25,
+     "puntos_rival": 142.9,
+     "resultado": "WIN",
      "semana": 2
     },
     {
@@ -145,17 +145,17 @@
      "local": false,
      "jugado": true,
      "mis_puntos": 263.2,
-     "puntos_rival": 236.94,
+     "puntos_rival": 237.44,
      "resultado": "WIN",
      "semana": 1
     },
     {
      "rival": "Córdoba Knights",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 248.8,
+     "puntos_rival": 228.6,
+     "resultado": "WIN",
      "semana": 2
     },
     {
@@ -277,18 +277,18 @@
      "rival": "Canary Cats",
      "local": true,
      "jugado": true,
-     "mis_puntos": 246.44,
-     "puntos_rival": 251.02,
+     "mis_puntos": 248.94,
+     "puntos_rival": 252.02,
      "resultado": "LOSE",
      "semana": 1
     },
     {
      "rival": "Getafe Packers",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 265.08,
+     "puntos_rival": 287.2,
+     "resultado": "LOSE",
      "semana": 2
     },
     {
@@ -410,7 +410,7 @@
      "rival": "Gaelhawk",
      "local": true,
      "jugado": true,
-     "mis_puntos": 251.46,
+     "mis_puntos": 252.96,
      "puntos_rival": 309.7,
      "resultado": "LOSE",
      "semana": 1
@@ -418,10 +418,10 @@
     {
      "rival": "Granota Packers",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 201.82,
+     "puntos_rival": 254.02,
+     "resultado": "LOSE",
      "semana": 2
     },
     {
@@ -544,17 +544,17 @@
      "local": true,
      "jugado": true,
      "mis_puntos": 327.16,
-     "puntos_rival": 319.6,
+     "puntos_rival": 320.6,
      "resultado": "WIN",
      "semana": 1
     },
     {
      "rival": "Rivas Jokers⭐⭐",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 260.77,
+     "puntos_rival": 291.6,
+     "resultado": "LOSE",
      "semana": 2
     },
     {
@@ -676,18 +676,18 @@
      "rival": "GR Eat Teams",
      "local": true,
      "jugado": true,
-     "mis_puntos": 157.66,
-     "puntos_rival": 99.71,
+     "mis_puntos": 158.66,
+     "puntos_rival": 100.71,
      "resultado": "WIN",
      "semana": 1
     },
     {
      "rival": "Kanu25",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 179.65,
+     "puntos_rival": 167.07,
+     "resultado": "WIN",
      "semana": 2
     },
     {
@@ -809,18 +809,18 @@
      "rival": "AriSoma Saguaro🌵(🏆🏆)",
      "local": true,
      "jugado": true,
-     "mis_puntos": 277.0,
-     "puntos_rival": 256.48,
+     "mis_puntos": 278.0,
+     "puntos_rival": 253.98,
      "resultado": "WIN",
      "semana": 1
     },
     {
      "rival": "GR Eat Teams",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 184.05,
+     "puntos_rival": 251.92,
+     "resultado": "LOSE",
      "semana": 2
     },
     {
@@ -942,7 +942,7 @@
      "rival": "Sarda Duckrats",
      "local": true,
      "jugado": true,
-     "mis_puntos": 107.23,
+     "mis_puntos": 106.23,
      "puntos_rival": 169.6,
      "resultado": "LOSE",
      "semana": 1
@@ -950,10 +950,10 @@
     {
      "rival": "Cantabria Honey Badgers",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 142.06,
+     "puntos_rival": 148.96,
+     "resultado": "LOSE",
      "semana": 2
     },
     {
@@ -1076,45 +1076,25 @@
      "local": true,
      "jugado": true,
      "mis_puntos": 264.08,
-     "puntos_rival": 303.16,
+     "puntos_rival": 301.66,
      "resultado": "LOSE",
      "semana": 1
     },
     {
-     "rival": "Pucela Saylors",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 2
+     "semana": 2,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=2&sport=NFL"
     },
     {
-     "rival": "Burgos’ Penguins",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 3
+     "semana": 3,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=3&sport=NFL"
     },
     {
-     "rival": "Sant Cugat Boars",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 4
+     "semana": 4,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=4&sport=NFL"
     },
     {
-     "rival": "QuesosYPalas2Go",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
+     "semana": 5,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=5&sport=NFL"
     },
     {
      "semana": 6,
