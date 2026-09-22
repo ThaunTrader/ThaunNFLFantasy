@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-21T21:07:19+00:00",
+ "generado": "2026-09-22T10:04:04+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -9,12 +9,12 @@
    "tipo": "Redraft",
    "formato": "Classic Flex-DP",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 2
+    "formateado": "2-0",
+    "rank": 1
    },
    "total_roster": 17,
    "alertas": [
@@ -22,7 +22,7 @@
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
-     "grupo": "INJURED",
+     "grupo": "START",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
@@ -31,7 +31,7 @@
      "nombre": "DJ Moore",
      "posicion": "WR",
      "equipo_nfl": "BUF",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Shoulder"
@@ -55,11 +55,11 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
+    "formateado": "2-0",
     "rank": 4
    },
    "total_roster": 45,
@@ -117,6 +117,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hip"
+    },
+    {
+     "nombre": "Nick Cross",
+     "posicion": "S",
+     "equipo_nfl": "WAS",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -129,11 +138,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 1,
+    "derrotas": 2,
     "empates": 0,
     "pct": null,
-    "formateado": "0-1",
-    "rank": 10
+    "formateado": "0-2",
+    "rank": 11
    },
    "total_roster": 43,
    "alertas": [
@@ -163,6 +172,24 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "RJ Harvey",
+     "posicion": "RB",
+     "equipo_nfl": "DEN",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Nick Cross",
+     "posicion": "S",
+     "equipo_nfl": "WAS",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -175,11 +202,11 @@
    "formato": null,
    "record": {
     "victorias": 0,
-    "derrotas": 1,
+    "derrotas": 2,
     "empates": 0,
     "pct": null,
-    "formateado": "0-1",
-    "rank": 8
+    "formateado": "0-2",
+    "rank": 12
    },
    "total_roster": 41,
    "alertas": [
@@ -193,12 +220,12 @@
      "detalle": "Wrist"
     },
     {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Groin"
     }
    ]
@@ -212,11 +239,11 @@
    "formato": null,
    "record": {
     "victorias": 1,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
-    "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 1
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 3
    },
    "total_roster": 43,
    "alertas": [
@@ -224,7 +251,7 @@
      "nombre": "DJ Moore",
      "posicion": "WR",
      "equipo_nfl": "BUF",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Shoulder"
@@ -251,7 +278,7 @@
      "nombre": "Jadarian Price",
      "posicion": "RB",
      "equipo_nfl": "SEA",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Shoulder"
@@ -284,12 +311,12 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 4
+    "formateado": "2-0",
+    "rank": 2
    },
    "total_roster": 23,
    "alertas": [
@@ -322,11 +349,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 1,
-    "derrotas": 0,
+    "derrotas": 1,
     "empates": 0,
-    "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 5
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 10
    },
    "total_roster": 41,
    "alertas": [
@@ -338,6 +365,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Achilles"
+    },
+    {
+     "nombre": "Nick Cross",
+     "posicion": "S",
+     "equipo_nfl": "WAS",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Undisclosed"
     }
    ]
   },
@@ -350,19 +386,28 @@
    "formato": "Classic",
    "record": {
     "victorias": 0,
-    "derrotas": 1,
+    "derrotas": 2,
     "empates": 0,
     "pct": null,
-    "formateado": "0-1",
+    "formateado": "0-2",
     "rank": 12
    },
    "total_roster": 23,
    "alertas": [
     {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Jadarian Price",
      "posicion": "RB",
      "equipo_nfl": "SEA",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Shoulder"
@@ -371,7 +416,7 @@
      "nombre": "Jayden Reed",
      "posicion": "WR",
      "equipo_nfl": "GB",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Back"
@@ -386,12 +431,12 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 1,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-1",
-    "rank": 8
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 5
    },
    "total_roster": 43,
    "alertas": [
@@ -405,6 +450,15 @@
      "detalle": "Hamstring"
     },
     {
+     "nombre": "Kendre Miller",
+     "posicion": "RB",
+     "equipo_nfl": "NO",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Coach Decision"
+    },
+    {
      "nombre": "Mykel Williams",
      "posicion": "EDR",
      "equipo_nfl": "SF",
@@ -414,6 +468,15 @@
      "detalle": "Knee"
     },
     {
+     "nombre": "Nico Collins",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Sam Darnold",
      "posicion": "QB",
      "equipo_nfl": "SEA",
@@ -421,15 +484,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Lower Body"
-    },
-    {
-     "nombre": "Jonathon Brooks",
-     "posicion": "RB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -441,15 +495,34 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 1,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-1",
-    "rank": 12
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 6
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Groin"
+    },
+    {
+     "nombre": "Treydan Stukes",
+     "posicion": "S",
+     "equipo_nfl": "LV",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Concussion"
+    }
+   ]
   },
   {
    "league_id": 332824,
@@ -459,11 +532,11 @@
    "tipo": "Dynasty",
    "formato": "Classic",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
+    "formateado": "2-0",
     "rank": 1
    },
    "total_roster": 24,
@@ -487,12 +560,12 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 6
+    "formateado": "2-0",
+    "rank": 3
    },
    "total_roster": 23,
    "alertas": [
@@ -513,6 +586,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Groin"
     }
    ]
   },
@@ -524,12 +606,12 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 1,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-1",
-    "rank": 9
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 5
    },
    "total_roster": 47,
    "alertas": [
@@ -543,13 +625,13 @@
      "detalle": "Achilles"
     },
     {
-     "nombre": "Caleb Williams",
-     "posicion": "QB",
-     "equipo_nfl": "CHI",
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
      "grupo": "START",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Hamstring"
+     "detalle": "Knee"
     },
     {
      "nombre": "Harold Landry",
@@ -559,15 +641,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Undisclosed"
-    },
-    {
-     "nombre": "Jayden Reed",
-     "posicion": "WR",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Back"
     },
     {
      "nombre": "Jonathon Brooks",
@@ -588,15 +661,34 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 0,
     "empates": 0,
     "pct": 1.0,
-    "formateado": "1-0",
-    "rank": 4
+    "formateado": "2-0",
+    "rank": 3
    },
    "total_roster": 40,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jayden Daniels",
+     "posicion": "QB",
+     "equipo_nfl": "WAS",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Elbow"
+    },
+    {
+     "nombre": "Edgerrin Cooper",
+     "posicion": "LB",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    }
+   ]
   },
   {
    "league_id": 344345,
@@ -607,11 +699,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 0,
-    "derrotas": 1,
+    "derrotas": 2,
     "empates": 0,
     "pct": null,
-    "formateado": "0-1",
-    "rank": 12
+    "formateado": "0-2",
+    "rank": 13
    },
    "total_roster": 47,
    "alertas": [
@@ -632,6 +724,24 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
+    },
+    {
+     "nombre": "Nico Collins",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Edgerrin Cooper",
+     "posicion": "LB",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -643,12 +753,12 @@
    "tipo": null,
    "formato": null,
    "record": {
-    "victorias": 0,
+    "victorias": 1,
     "derrotas": 1,
     "empates": 0,
-    "pct": null,
-    "formateado": "0-1",
-    "rank": 12
+    "pct": 0.5,
+    "formateado": "1-1",
+    "rank": 7
    },
    "total_roster": 16,
    "alertas": [
