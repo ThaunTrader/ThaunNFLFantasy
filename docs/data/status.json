@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-22T10:04:04+00:00",
+ "generado": "2026-09-22T20:13:31+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -299,7 +299,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Hand"
+     "detalle": "Finger"
     }
    ]
   },
@@ -420,6 +420,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Back"
+    },
+    {
+     "nombre": "Saquon Barkley",
+     "posicion": "RB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -738,6 +747,15 @@
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
      "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Malik Nabers",
+     "posicion": "WR",
+     "equipo_nfl": "NYG",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
