@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-24T10:08:23+00:00",
+ "generado": "2026-09-24T20:32:13+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -19,13 +19,13 @@
    "total_roster": 17,
    "alertas": [
     {
-     "nombre": "DJ Moore",
-     "posicion": "WR",
-     "equipo_nfl": "BUF",
+     "nombre": "Jonathon Brooks",
+     "posicion": "RB",
+     "equipo_nfl": "CAR",
      "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
+     "estado": "IR",
      "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "detalle": "Abdomen"
     },
     {
      "nombre": "Micah Parsons",
@@ -354,7 +354,7 @@
     "formateado": "2-0",
     "rank": 2
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Ja'Kobi Lane",
@@ -387,6 +387,15 @@
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Kyle Monangai",
+     "posicion": "RB",
+     "equipo_nfl": "CHI",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
