@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-23T20:27:54+00:00",
+ "generado": "2026-09-24T10:08:23+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -119,6 +119,15 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
      "nombre": "Mike Evans",
      "posicion": "WR",
      "equipo_nfl": "SF",
@@ -142,7 +151,7 @@
     "empates": 0,
     "pct": null,
     "formateado": "0-2",
-    "rank": 11
+    "rank": 10
    },
    "total_roster": 44,
    "alertas": [
@@ -181,6 +190,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -199,7 +217,7 @@
     "formateado": "0-2",
     "rank": 12
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
     {
      "nombre": "Ja'Kobi Lane",
@@ -220,6 +238,33 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Jonas Sanker",
+     "posicion": "S",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Mason Graham",
+     "posicion": "IL",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
+    },
+    {
      "nombre": "Puka Nacua",
      "posicion": "WR",
      "equipo_nfl": "LAR",
@@ -235,7 +280,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Soreness"
+     "detalle": "Ankle"
     }
    ]
   },
@@ -254,17 +299,8 @@
     "formateado": "1-1",
     "rank": 3
    },
-   "total_roster": 44,
+   "total_roster": 43,
    "alertas": [
-    {
-     "nombre": "DJ Moore",
-     "posicion": "WR",
-     "equipo_nfl": "BUF",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
     {
      "nombre": "Eli Stowers",
      "posicion": "TE",
@@ -282,15 +318,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Wrist"
-    },
-    {
-     "nombre": "Jadarian Price",
-     "posicion": "RB",
-     "equipo_nfl": "SEA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
      "nombre": "Jordan Mason",
@@ -342,7 +369,7 @@
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
@@ -354,6 +381,15 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
      "detalle": "Knee"
     }
    ]
@@ -388,10 +424,19 @@
      "nombre": "Nick Cross",
      "posicion": "S",
      "equipo_nfl": "WAS",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Nick Bosa",
+     "posicion": "EDR",
+     "equipo_nfl": "SF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
     }
    ]
   },
@@ -465,7 +510,7 @@
     "formateado": "1-1",
     "rank": 5
    },
-   "total_roster": 45,
+   "total_roster": 43,
    "alertas": [
     {
      "nombre": "Eli Stowers",
@@ -480,19 +525,10 @@
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Kendre Miller",
-     "posicion": "RB",
-     "equipo_nfl": "NO",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Mykel Williams",
@@ -504,22 +540,31 @@
      "detalle": "Knee"
     },
     {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Devin Lloyd",
+     "posicion": "LB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Calf"
     },
     {
-     "nombre": "Sam Darnold",
-     "posicion": "QB",
-     "equipo_nfl": "SEA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Jonas Sanker",
+     "posicion": "S",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -538,16 +583,25 @@
     "formateado": "1-1",
     "rank": 6
    },
-   "total_roster": 40,
+   "total_roster": 41,
    "alertas": [
     {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Mason Graham",
+     "posicion": "IL",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -566,18 +620,8 @@
     "formateado": "2-0",
     "rank": 1
    },
-   "total_roster": 24,
-   "alertas": [
-    {
-     "nombre": "Sam Darnold",
-     "posicion": "QB",
-     "equipo_nfl": "SEA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    }
-   ]
+   "total_roster": 23,
+   "alertas": []
   },
   {
    "league_id": 332993,
@@ -594,7 +638,7 @@
     "formateado": "2-0",
     "rank": 3
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Dylan Sampson",
@@ -618,7 +662,7 @@
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
@@ -631,6 +675,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Groin"
+    },
+    {
+     "nombre": "Travis Etienne",
+     "posicion": "RB",
+     "equipo_nfl": "NO",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
     }
    ]
   },
@@ -661,15 +714,6 @@
      "detalle": "Achilles"
     },
     {
-     "nombre": "Harold Landry",
-     "posicion": "EDR",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Undisclosed"
-    },
-    {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
@@ -695,6 +739,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
+    },
+    {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -741,7 +794,7 @@
     "formateado": "0-2",
     "rank": 13
    },
-   "total_roster": 47,
+   "total_roster": 48,
    "alertas": [
     {
      "nombre": "Dylan Sampson",
@@ -765,10 +818,19 @@
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
-     "grupo": "BENCH",
+     "grupo": "INJURED",
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Ernest Jones",
+     "posicion": "LB",
+     "equipo_nfl": "SEA",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Neck"
     },
     {
      "nombre": "Jalen Coker",
