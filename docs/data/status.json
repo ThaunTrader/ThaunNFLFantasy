@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-24T20:32:13+00:00",
+ "generado": "2026-09-25T10:15:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -192,6 +192,15 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Brock Bowers",
+     "posicion": "TE",
+     "equipo_nfl": "LV",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Josiah Trotter",
      "posicion": "LB",
      "equipo_nfl": "TB",
@@ -238,15 +247,6 @@
      "detalle": "Abdomen"
     },
     {
-     "nombre": "Jonas Sanker",
-     "posicion": "S",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Josiah Trotter",
      "posicion": "LB",
      "equipo_nfl": "TB",
@@ -254,15 +254,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Mason Graham",
-     "posicion": "IL",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     },
     {
      "nombre": "Puka Nacua",
@@ -327,15 +318,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Thumb"
-    },
-    {
-     "nombre": "Derwin James",
-     "posicion": "S",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Finger"
     }
    ]
   },
@@ -393,6 +375,15 @@
      "detalle": "Knee"
     },
     {
+     "nombre": "DeVonta Smith",
+     "posicion": "WR",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Kyle Monangai",
      "posicion": "RB",
      "equipo_nfl": "CHI",
@@ -400,6 +391,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
+    },
+    {
+     "nombre": "Quinshon Judkins",
+     "posicion": "RB",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Personal"
     }
    ]
   },
@@ -445,7 +445,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Knee"
+     "detalle": "Calf"
     }
    ]
   },
@@ -500,7 +500,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Shoulder"
+     "detalle": "Neck"
     }
    ]
   },
@@ -558,15 +558,6 @@
      "detalle": "Calf"
     },
     {
-     "nombre": "Jonas Sanker",
-     "posicion": "S",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Josiah Trotter",
      "posicion": "LB",
      "equipo_nfl": "TB",
@@ -602,15 +593,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Mason Graham",
-     "posicion": "IL",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -732,6 +714,15 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Adonai Mitchell",
+     "posicion": "WR",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Finger"
+    },
+    {
      "nombre": "Brock Bowers",
      "posicion": "TE",
      "equipo_nfl": "LV",
@@ -785,6 +776,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Elbow"
+    },
+    {
+     "nombre": "Edgerrin Cooper",
+     "posicion": "LB",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Head"
     }
    ]
   },
@@ -833,13 +833,13 @@
      "detalle": "Abdomen"
     },
     {
-     "nombre": "Ernest Jones",
+     "nombre": "Edgerrin Cooper",
      "posicion": "LB",
-     "equipo_nfl": "SEA",
+     "equipo_nfl": "GB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Neck"
+     "detalle": "Head"
     },
     {
      "nombre": "Jalen Coker",
@@ -854,15 +854,6 @@
      "nombre": "Jaylen Warren",
      "posicion": "RB",
      "equipo_nfl": "PIT",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Malik Nabers",
-     "posicion": "WR",
-     "equipo_nfl": "NYG",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
