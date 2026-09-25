@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-25T10:15:51+00:00",
+ "generado": "2026-09-25T20:31:47+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -108,15 +108,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Nick Cross",
-     "posicion": "S",
-     "equipo_nfl": "WAS",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Abdomen"
     },
     {
      "nombre": "Josiah Trotter",
@@ -247,6 +238,15 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Groin"
+    },
+    {
      "nombre": "Josiah Trotter",
      "posicion": "LB",
      "equipo_nfl": "TB",
@@ -254,24 +254,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Tony Pollard",
-     "posicion": "RB",
-     "equipo_nfl": "TEN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -382,24 +364,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring"
-    },
-    {
-     "nombre": "Kyle Monangai",
-     "posicion": "RB",
-     "equipo_nfl": "CHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Quinshon Judkins",
-     "posicion": "RB",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Personal"
     }
    ]
   },
@@ -522,6 +486,15 @@
    "total_roster": 43,
    "alertas": [
     {
+     "nombre": "Devin Lloyd",
+     "posicion": "LB",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Calf"
+    },
+    {
      "nombre": "Eli Stowers",
      "posicion": "TE",
      "equipo_nfl": "PHI",
@@ -547,15 +520,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Devin Lloyd",
-     "posicion": "LB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
     },
     {
      "nombre": "Josiah Trotter",
@@ -663,18 +627,9 @@
      "posicion": "WR",
      "equipo_nfl": "LAR",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Groin"
-    },
-    {
-     "nombre": "Travis Etienne",
-     "posicion": "RB",
-     "equipo_nfl": "NO",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -769,6 +724,15 @@
    "total_roster": 41,
    "alertas": [
     {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Jayden Daniels",
      "posicion": "QB",
      "equipo_nfl": "WAS",
@@ -833,6 +797,15 @@
      "detalle": "Abdomen"
     },
     {
+     "nombre": "Nico Collins",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
      "equipo_nfl": "GB",
@@ -858,15 +831,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
