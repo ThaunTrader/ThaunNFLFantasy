@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-25T20:31:47+00:00",
+ "generado": "2026-09-26T09:56:28+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -110,15 +110,6 @@
      "detalle": "Knee"
     },
     {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
      "nombre": "Mike Evans",
      "posicion": "WR",
      "equipo_nfl": "SF",
@@ -190,15 +181,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -217,8 +199,17 @@
     "formateado": "0-2",
     "rank": 12
    },
-   "total_roster": 42,
+   "total_roster": 43,
    "alertas": [
+    {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Ja'Kobi Lane",
      "posicion": "WR",
@@ -236,24 +227,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -272,7 +245,7 @@
     "formateado": "1-1",
     "rank": 3
    },
-   "total_roster": 43,
+   "total_roster": 44,
    "alertas": [
     {
      "nombre": "Eli Stowers",
@@ -282,6 +255,15 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
     },
     {
      "nombre": "Ja'Kobi Lane",
@@ -382,7 +364,7 @@
     "formateado": "1-1",
     "rank": 10
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
     {
      "nombre": "Brian Branch",
@@ -394,22 +376,13 @@
      "detalle": "Achilles"
     },
     {
-     "nombre": "Nick Cross",
-     "posicion": "S",
-     "equipo_nfl": "WAS",
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Nick Bosa",
-     "posicion": "EDR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Calf"
+     "detalle": "Knee"
     }
    ]
   },
@@ -456,15 +429,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Saquon Barkley",
-     "posicion": "RB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Neck"
     }
    ]
   },
@@ -483,7 +447,7 @@
     "formateado": "1-1",
     "rank": 5
    },
-   "total_roster": 43,
+   "total_roster": 44,
    "alertas": [
     {
      "nombre": "Devin Lloyd",
@@ -504,6 +468,15 @@
      "detalle": "Hamstring"
     },
     {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
@@ -520,15 +493,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -547,8 +511,17 @@
     "formateado": "1-1",
     "rank": 6
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
@@ -621,15 +594,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Groin"
     }
    ]
   },
@@ -694,15 +658,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Ankle"
-    },
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -721,13 +676,13 @@
     "formateado": "2-0",
     "rank": 3
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": [
     {
      "nombre": "Gabe Jacas",
      "posicion": "EDR",
      "equipo_nfl": "NE",
-     "grupo": "START",
+     "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
@@ -795,15 +750,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Hamstring"
     },
     {
      "nombre": "Edgerrin Cooper",
