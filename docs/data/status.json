@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-26T19:55:01+00:00",
+ "generado": "2026-09-27T10:35:40+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -135,7 +135,7 @@
     "formateado": "0-2",
     "rank": 10
    },
-   "total_roster": 44,
+   "total_roster": 45,
    "alertas": [
     {
      "nombre": "Bud Clark",
@@ -172,6 +172,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Groin"
     },
     {
      "nombre": "Brock Bowers",
@@ -337,15 +346,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "DeVonta Smith",
-     "posicion": "WR",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
     }
    ]
   },
@@ -449,15 +449,6 @@
    },
    "total_roster": 44,
    "alertas": [
-    {
-     "nombre": "Devin Lloyd",
-     "posicion": "LB",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Calf"
-    },
     {
      "nombre": "Eli Stowers",
      "posicion": "TE",
