@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-27T10:35:40+00:00",
+ "generado": "2026-09-27T20:11:51+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -34,15 +34,6 @@
      "grupo": "INJURED",
      "estado": "OUT",
      "rojo": true,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
      "detalle": "Knee"
     }
    ]
@@ -108,15 +99,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Mike Evans",
-     "posicion": "WR",
-     "equipo_nfl": "SF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hip"
     }
    ]
   },
@@ -147,6 +129,15 @@
      "detalle": "Ankle"
     },
     {
+     "nombre": "Gabe Jacas",
+     "posicion": "EDR",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
+    {
      "nombre": "Ja'Kobi Lane",
      "posicion": "WR",
      "equipo_nfl": "BAL",
@@ -172,24 +163,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "INJURED",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Groin"
-    },
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -337,15 +310,6 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Knee"
-    },
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -420,15 +384,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
     }
    ]
   },
@@ -504,6 +459,15 @@
    },
    "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "De'Von Achane",
+     "posicion": "RB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Gabe Jacas",
      "posicion": "EDR",
@@ -615,6 +579,15 @@
      "detalle": "Achilles"
     },
     {
+     "nombre": "Jalen Coker",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Quadriceps"
+    },
+    {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
@@ -622,33 +595,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Abdomen"
-    },
-    {
-     "nombre": "Adonai Mitchell",
-     "posicion": "WR",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Finger"
-    },
-    {
-     "nombre": "Brock Bowers",
-     "posicion": "TE",
-     "equipo_nfl": "LV",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Jalen Coker",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -669,6 +615,15 @@
    },
    "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "De'Von Achane",
+     "posicion": "RB",
+     "equipo_nfl": "MIA",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Gabe Jacas",
      "posicion": "EDR",
@@ -734,6 +689,15 @@
      "detalle": "Wrist"
     },
     {
+     "nombre": "Jalen Coker",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Quadriceps"
+    },
+    {
      "nombre": "Jonathon Brooks",
      "posicion": "RB",
      "equipo_nfl": "CAR",
@@ -750,24 +714,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Head"
-    },
-    {
-     "nombre": "Jalen Coker",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
-     "nombre": "Jaylen Warren",
-     "posicion": "RB",
-     "equipo_nfl": "PIT",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
