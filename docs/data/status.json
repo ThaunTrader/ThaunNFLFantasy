@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-28T11:46:07+00:00",
+ "generado": "2026-09-28T22:33:44+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -500,7 +500,7 @@
      "posicion": "RB",
      "equipo_nfl": "MIA",
      "grupo": "START",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Knee"
     },
@@ -693,7 +693,7 @@
      "posicion": "RB",
      "equipo_nfl": "MIA",
      "grupo": "START",
-     "estado": "OUT",
+     "estado": "IR",
      "rojo": true,
      "detalle": "Knee"
     },
