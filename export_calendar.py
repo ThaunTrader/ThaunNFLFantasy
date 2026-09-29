@@ -6,8 +6,11 @@ para cada liga del usuario.
 Pensado para ejecutarse UNA VEZ POR SEMANA (no en tiempo real): los
 marcadores no son "en directo".
 
-AVISO: el parseo de FetchLeagueScoreboard es defensivo, no se ha podido
-verificar contra la API real. Revisar el resultado de la primera ejecución.
+AVISO: se añade un User-Agent de navegador porque Fleaflicker devolvía
+403 Forbidden a las peticiones hechas desde GitHub Actions (con el
+User-Agent por defecto de la librería requests), pero la misma URL
+funcionaba con normalidad desde un navegador. Es una hipótesis
+razonable, no confirmada al 100% — verificar tras la primera ejecución.
 
 Requiere variable de entorno: FLEAFLICKER_USER_ID
 """
@@ -25,10 +28,19 @@ OUTPUT = "docs/data/calendario.json"
 SEASON = int(os.environ.get("SEASON", "2026"))
 SEMANAS = range(1, 18)  # 17 semanas de temporada regular NFL
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+}
+
 
 def get(endpoint, params):
     params["sport"] = "NFL"
-    r = requests.get(f"{BASE_URL}/{endpoint}", params=params, timeout=15)
+    r = requests.get(
+        f"{BASE_URL}/{endpoint}", params=params, headers=HEADERS, timeout=15
+    )
     r.raise_for_status()
     return r.json()
 
