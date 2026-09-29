@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-29T11:43:49+00:00",
+ "generado": "2026-09-29T16:17:25+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -1063,6 +1063,18 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 14
+    },
+    {
+     "semana": 15,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=15&sport=NFL"
+    },
+    {
+     "semana": 16,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=16&sport=NFL"
+    },
+    {
+     "semana": 17,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=17&sport=NFL"
     }
    ]
   },
@@ -1072,31 +1084,16 @@
    "equipo": "Alicante Buccaneers (IDP17)",
    "semanas": [
     {
-     "rival": "Huskys Fuenlabrada",
-     "local": true,
-     "jugado": true,
-     "mis_puntos": 264.08,
-     "puntos_rival": 301.66,
-     "resultado": "LOSE",
-     "semana": 1
+     "semana": 1,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=1&sport=NFL"
     },
     {
-     "rival": "Pucela Saylors",
-     "local": true,
-     "jugado": true,
-     "mis_puntos": 312.64,
-     "puntos_rival": 177.28,
-     "resultado": "WIN",
-     "semana": 2
+     "semana": 2,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=2&sport=NFL"
     },
     {
-     "rival": "Burgos’ Penguins",
-     "local": false,
-     "jugado": true,
-     "mis_puntos": 310.08,
-     "puntos_rival": 233.98,
-     "resultado": "WIN",
-     "semana": 3
+     "semana": 3,
+     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=3&sport=NFL"
     },
     {
      "semana": 4,
