@@ -17,6 +17,18 @@ BASE_URL = "https://www.fleaflicker.com/api"
 USER_ID = os.environ["FLEAFLICKER_USER_ID"]
 OUTPUT = "docs/data/status.json"
 
+# Estados que generan alerta (mismo criterio que check_lineup.py)
+ESTADOS_ALERTA = {"QUESTIONABLE", "DOUBTFUL", "OUT", "IR"}
+# Estados rojos (no juega) vs ámbar (duda)
+ESTADOS_ROJOS = {"OUT", "IR"}
+
+ABREV_A_ESTADO = {
+    "Q": "QUESTIONABLE",
+    "D": "DOUBTFUL",
+    "O": "OUT",
+    "IR": "IR",
+}
+
 # Mapeo liga -> (tipo, formato), según IDPs.md / Classic.md / SuperFlex.md
 # del proyecto, más ligas confirmadas manualmente por el usuario. Si una
 # liga no aparece aquí, se marca como "no documentado" en vez de asumir
@@ -35,18 +47,6 @@ FORMATO_LIGAS = {
     332571: ("Dynasty", "SuperFlex"),
     332993: ("Dynasty", "SuperFlex"),
     324737: ("Redraft", "Classic Flex-DP"),  # El Capologist
-}
-
-# Estados que generan alerta (mismo criterio que check_lineup.py)
-ESTADOS_ALERTA = {"QUESTIONABLE", "DOUBTFUL", "OUT", "IR"}
-# Estados rojos (no juega) vs ámbar (duda)
-ESTADOS_ROJOS = {"OUT", "IR"}
-
-ABREV_A_ESTADO = {
-    "Q": "QUESTIONABLE",
-    "D": "DOUBTFUL",
-    "O": "OUT",
-    "IR": "IR",
 }
 
 
@@ -127,7 +127,6 @@ def normalizar_estado(injury):
     if not candidatos:
         return None, None
 
-    # Prioridad: el estado más grave
     orden = ["IR", "OUT", "DOUBTFUL", "QUESTIONABLE"]
     estado = next(e for e in orden if e in candidatos)
     detalle = injury.get("description") or injury.get("typeFull") or ""
@@ -183,50 +182,55 @@ def main():
 
             estado, detalle = normalizar_estado(jugador.get("injury"))
 
-            # Regla de gestión de roster: el slot IR (grupo INJURED) solo es
-            # válido para OUT/DOUBTFUL/IR. Si el jugador está sano o solo
-            # Questionable, es un hueco de roster mal gestionado.
-            if grupo == "INJURED" and estado not in ESTADOS_ROJOS.union({"DOUBTFUL"}):
-                entrada["alertas"].append(
-                    {
-                        "nombre": jugador.get("nameFull", ""),
-                        "posicion": jugador.get("position", ""),
-                        "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
-                        "grupo": grupo or "",
-                        "estado": "IR_INVALIDO",
-                        "rojo": True,
-                        "detalle": "Jugador sano en IR" if not estado else f"Solo {estado.title()}, no puede ocupar IR",
-                    }
-                )
+            base = {
+                "nombre": jugador.get("nameFull", ""),
+                "posicion": jugador.get("position", ""),
+                "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
+                "grupo": grupo or "",
+            }
+
+            if grupo == "INJURED":
+                # Slot de roster IR. Solo es una alerta de "gestión mal
+                # hecha" si el jugador está sano o solo Questionable (no
+                # debería ocupar ese hueco). Si está DOUBTFUL, interesa
+                # seguir avisando porque podría acabar jugando. Si está
+                # OUT o IR de verdad, está en su sitio: no genera ninguna
+                # alerta, no bloquea nada.
+                if estado not in ESTADOS_ROJOS.union({"DOUBTFUL"}):
+                    entrada["alertas"].append(
+                        {
+                            **base,
+                            "estado": "IR_INVALIDO",
+                            "rojo": True,
+                            "detalle": "Jugador sano en IR"
+                            if not estado
+                            else f"Solo {estado.title()}, no puede ocupar IR",
+                        }
+                    )
+                elif estado == "DOUBTFUL":
+                    entrada["alertas"].append(
+                        {**base, "estado": estado, "rojo": False, "detalle": detalle}
+                    )
+                # estado in {"OUT", "IR"}: correctamente en IR, sin alerta.
+
             elif grupo in ("BENCH", "TAXI"):
                 # En banco/taxi solo interesa si está en IR de verdad; un
                 # Q/D/OUT en banco no es accionable (no juega igualmente).
                 if estado == "IR":
                     entrada["alertas"].append(
-                        {
-                            "nombre": jugador.get("nameFull", ""),
-                            "posicion": jugador.get("position", ""),
-                            "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
-                            "grupo": grupo or "",
-                            "estado": estado,
-                            "rojo": True,
-                            "detalle": detalle,
-                        }
+                        {**base, "estado": estado, "rojo": True, "detalle": detalle}
                     )
+
             elif estado:
                 entrada["alertas"].append(
                     {
-                        "nombre": jugador.get("nameFull", ""),
-                        "posicion": jugador.get("position", ""),
-                        "equipo_nfl": jugador.get("proTeamAbbreviation", ""),
-                        "grupo": grupo or "",
+                        **base,
                         "estado": estado,
                         "rojo": estado in ESTADOS_ROJOS,
                         "detalle": detalle,
                     }
                 )
 
-        # Rojos primero, luego dudas
         entrada["alertas"].sort(key=lambda a: (not a["rojo"], a["nombre"]))
         resultado["ligas"].append(entrada)
         print(
