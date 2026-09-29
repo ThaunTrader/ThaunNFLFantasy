@@ -2,8 +2,8 @@ name: Update Rosters
 
 on:
   schedule:
-    - cron: '30 10 * * 2'   # cada martes a las 10:30 UTC (tras el calendario)
-  workflow_dispatch:         # ejecución manual
+    - cron: '0 11 * * *'   # una vez al día, ~12:00 hora española (CET)
+  workflow_dispatch:        # ejecución manual
 
 permissions:
   contents: write
