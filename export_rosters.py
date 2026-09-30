@@ -4,14 +4,23 @@ roster de cada equipo, en niveles: general -> posición (todo el roster)
 / hueco (Titular/Banco/Taxi/IR) -> posición dentro del hueco -> jugador.
 
 CRITERIO DE VALORACIÓN (por jugador y posición):
-1. rankFantasy.positions[].ordinal — posición real que ocupó ese
-   jugador dentro de su posición en la temporada anterior (2025), según
-   FetchPlayerListing. Es el dato preferente por ser rendimiento real.
-2. Si no existe (típico en rookies) -> rankDraft.positions[].ordinal,
-   de FetchRoster (proyección de pretemporada 2026).
-3. Si tampoco existe -> letra "R". SUPOSICIÓN: se asume que esto
-   corresponde a un rookie sin temporada anterior jugada; no se puede
-   confirmar con certeza (podría ser p.ej. alguien en practice squad).
+1. rankFantasy.positions[].ordinal — posición real que ocupa ese
+   jugador dentro de su posición, según FetchPlayerListing. En
+   pretemporada refleja la última temporada completa jugada; en
+   temporada regular refleja el rendimiento real de la temporada en
+   curso (Fleaflicker usa siempre los datos reales más recientes).
+2. Si no existe -> rankDraft.positions[].ordinal, de FetchRoster
+   (proyección de pretemporada). AVISO: se ha comprobado que este campo
+   desaparece por completo una vez empieza la temporada regular, así
+   que en la práctica solo se usa durante la pretemporada.
+3. Si tampoco existe -> letra "R". SUPOSICIÓN: se asume que corresponde
+   a un rookie o jugador sin datos suficientes; no se puede confirmar
+   con certeza en todos los casos.
+
+IMPORTANTE: las posiciones que cuentan para cada jugador se determinan
+a partir de proPlayer.positionEligibility (siempre presente), NO a
+partir de si rankDraft/rankFantasy existen — así no se pierde a ningún
+jugador solo porque uno de los dos campos esté vacío.
 
 Tramos (12 jugadores por nivel, confirmados por el usuario):
   1-6   A+      13-18  B+      25-30  C+      37-42  D+      49-54  E+
@@ -34,23 +43,33 @@ SEASON_ACTUAL = int(os.environ.get("SEASON", "2026"))
 
 HUECOS = ["START", "BENCH", "TAXI", "INJURED"]
 
-# Orden fijo de posiciones pedido por el usuario. Cualquier posición no
-# listada aquí se añade al final por orden alfabético.
 ORDEN_POSICIONES = ["QB", "RB", "WR", "TE", "K", "P", "CB", "S", "EDR", "IL", "LB"]
 
-# Valor numérico por letra, para poder promediar en hueco/general.
-# Escala 0-10, un punto por cada tramo (confirmada con el usuario).
 VALOR_LETRA = {
     "A+": 10, "A": 9, "B+": 8, "B": 7, "C+": 6, "C": 5,
     "D+": 4, "D": 3, "E+": 2, "E": 1, "F": 0,
 }
 
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+}
 
-def get(endpoint, params):
+
+def get(endpoint, params, reintentos=2):
     params["sport"] = "NFL"
-    r = requests.get(f"{BASE_URL}/{endpoint}", params=params, timeout=15)
-    r.raise_for_status()
-    return r.json()
+    for intento in range(reintentos + 1):
+        r = requests.get(
+            f"{BASE_URL}/{endpoint}", params=params, headers=HEADERS, timeout=15
+        )
+        if r.status_code in (403, 429) and intento < reintentos:
+            import time
+            time.sleep(6 * (intento + 1))
+            continue
+        r.raise_for_status()
+        return r.json()
 
 
 def extraer_slots(nodo, grupo=None):
@@ -81,12 +100,10 @@ def extraer_slots(nodo, grupo=None):
 
 
 def letra_desde_ordinal(ordinal):
-    """Convierte un ordinal (1, 2, 3...) en letra + valor numérico,
-    según tramos de 12 confirmados por el usuario."""
     if ordinal is None or ordinal < 1:
         return None, None
-    idx_tramo = (ordinal - 1) // 12  # 0=A, 1=B, 2=C, 3=D, 4=E, 5+=F
-    pos_en_tramo = (ordinal - 1) % 12  # 0..11 dentro del tramo
+    idx_tramo = (ordinal - 1) // 12
+    pos_en_tramo = (ordinal - 1) % 12
     letras_base = ["A", "B", "C", "D", "E"]
     if idx_tramo >= len(letras_base):
         letra = "F"
@@ -96,8 +113,6 @@ def letra_desde_ordinal(ordinal):
 
 
 def letra_desde_media(media):
-    """Convierte una media 0-10 en letra, usando los puntos medios entre
-    los valores discretos de VALOR_LETRA como cortes."""
     if media >= 9.5:
         return "A+"
     if media >= 8.5:
@@ -122,8 +137,6 @@ def letra_desde_media(media):
 
 
 def nota(valores):
-    """Convierte una lista de valores 0-10 (excluyendo None, i.e. "R")
-    en {letra, valor, n}."""
     vals = [v for v in valores if v is not None]
     if not vals:
         return {"letra": None, "valor": None, "n": 0}
@@ -144,9 +157,7 @@ def ordenar_posiciones(dic_posiciones):
 
 def obtener_rank_fantasy(league_id, player_ids):
     """Llama a FetchPlayerListing una vez con todos los ids del roster y
-    devuelve {player_id: {label: ordinal}} con el rankFantasy (temporada
-    anterior) de cada jugador. Tolerante a fallos: si la llamada falla,
-    devuelve {} y todo cae al respaldo de rankDraft."""
+    devuelve {player_id: {label: ordinal}}. Tolerante a fallos."""
     if not player_ids:
         return {}
     try:
@@ -182,8 +193,10 @@ def procesar_equipo(league_id, team_id):
         {"league_id": league_id, "team_id": team_id, "season": SEASON_ACTUAL},
     )
 
-    # Primera pasada: recoger jugadores y sus ids para pedir rankFantasy
-    # de todos de una vez (una sola llamada extra por equipo).
+    # Primera pasada: recoger jugadores. Las posiciones que cuentan para
+    # cada uno salen de positionEligibility (SIEMPRE presente), no de
+    # rankDraft (que desaparece en temporada regular) ni de rankFantasy
+    # (que puede faltar para jugadores sin apenas uso).
     capturados = []
     ids_para_fantasy = set()
     vistos = set()
@@ -195,10 +208,18 @@ def procesar_equipo(league_id, team_id):
         vistos.add((grupo, pid))
         if grupo not in HUECOS:
             continue
-        posiciones_draft = (lp.get("rankDraft") or {}).get("positions") or []
-        if not posiciones_draft:
+
+        labels_elegibles = pp.get("positionEligibility") or []
+        if not labels_elegibles:
             continue
-        capturados.append((grupo, pp, posiciones_draft))
+
+        # ordinal de respaldo (rankDraft), si existiera, indexado por label
+        rankdraft_por_label = {
+            p.get("position", {}).get("label"): p.get("ordinal")
+            for p in (lp.get("rankDraft") or {}).get("positions") or []
+        }
+
+        capturados.append((grupo, pp, labels_elegibles, rankdraft_por_label))
         ids_para_fantasy.add(pid)
 
     rank_fantasy = obtener_rank_fantasy(league_id, ids_para_fantasy)
@@ -207,15 +228,14 @@ def procesar_equipo(league_id, team_id):
     posiciones_equipo = {}
     valores_generales = []
 
-    for grupo, pp, posiciones_draft in capturados:
+    for grupo, pp, labels_elegibles, rankdraft_por_label in capturados:
         pid = pp.get("id")
         fantasy_jugador = rank_fantasy.get(pid, {})
 
         primero = True
-        for pos_info in posiciones_draft:
-            label = pos_info.get("position", {}).get("label", "?")
-            ordinal_draft = pos_info.get("ordinal")
+        for label in labels_elegibles:
             ordinal_fantasy = fantasy_jugador.get(label)
+            ordinal_draft = rankdraft_por_label.get(label)
 
             if ordinal_fantasy is not None:
                 ordinal_final, fuente = ordinal_fantasy, "fantasy"
@@ -242,7 +262,7 @@ def procesar_equipo(league_id, team_id):
                 "rank": rank_str,
                 "rank_ordinal": ordinal_final,
                 "nota_letra": letra,
-                "fuente": fuente,  # 'fantasy' (2025 real) | 'draft' (2026 proyección) | None
+                "fuente": fuente,  # 'fantasy' (real) | 'draft' (proyección) | None
                 "hueco": grupo,
             }
 
@@ -259,7 +279,6 @@ def procesar_equipo(league_id, team_id):
             bucket_equipo["jugadores"].append(jugador_data)
 
     def orden_jugador(j):
-        # Menor ordinal = mejor. Sin ordinal (R) al final.
         return (j["rank_ordinal"] is None, j["rank_ordinal"] if j["rank_ordinal"] is not None else 0)
 
     for h in HUECOS:
