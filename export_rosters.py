@@ -43,6 +43,17 @@ SEASON_ACTUAL = int(os.environ.get("SEASON", "2026"))
 
 HUECOS = ["START", "BENCH", "TAXI", "INJURED"]
 
+# Alias de posición que Fleaflicker incluye en positionEligibility para
+# elegibilidad de roster, pero que NUNCA usa como etiqueta propia al
+# valorar (rankFantasy/rankDraft siempre puntúan bajo el nombre
+# "canónico"). Confirmado con David Bailey (EDR/DE): solo "EDR" tenía
+# valoración, "DE" salía siempre vacío. Se normalizan para no duplicar
+# al jugador con una entrada sin datos.
+ALIAS_POSICION = {
+    "DE": "EDR",
+    "DT": "IL",
+}
+
 ORDEN_POSICIONES = ["QB", "RB", "WR", "TE", "K", "P", "CB", "S", "EDR", "IL", "LB"]
 
 VALOR_LETRA = {
@@ -212,6 +223,12 @@ def procesar_equipo(league_id, team_id):
         labels_elegibles = pp.get("positionEligibility") or []
         if not labels_elegibles:
             continue
+        # Normaliza alias (DE->EDR, DT->IL) y quita duplicados manteniendo
+        # el orden, para no listar al jugador dos veces en la misma
+        # posición real.
+        labels_elegibles = list(dict.fromkeys(
+            ALIAS_POSICION.get(lbl, lbl) for lbl in labels_elegibles
+        ))
 
         # ordinal de respaldo (rankDraft), si existiera, indexado por label
         rankdraft_por_label = {
