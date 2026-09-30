@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T08:28:30+00:00",
+ "generado": "2026-09-30T09:03:24+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -128,17 +128,7 @@
     "rank": 3
    },
    "total_roster": 44,
-   "alertas": [
-    {
-     "nombre": "Gabe Jacas",
-     "posicion": "EDR",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332571,
