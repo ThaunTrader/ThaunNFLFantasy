@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T09:24:36+00:00",
+ "generado": "2026-09-30T11:12:30+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -127,7 +127,7 @@
     "formateado": "2-1",
     "rank": 3
    },
-   "total_roster": 44,
+   "total_roster": 45,
    "alertas": []
   },
   {
@@ -245,7 +245,7 @@
     "formateado": "3-0",
     "rank": 1
    },
-   "total_roster": 23,
+   "total_roster": 24,
    "alertas": [
     {
      "nombre": "Garrett Wilson",
@@ -329,7 +329,7 @@
     "formateado": "2-1",
     "rank": 5
    },
-   "total_roster": 42,
+   "total_roster": 44,
    "alertas": [
     {
      "nombre": "Edgerrin Cooper",
@@ -357,7 +357,7 @@
     "formateado": "1-2",
     "rank": 11
    },
-   "total_roster": 48,
+   "total_roster": 49,
    "alertas": [
     {
      "nombre": "Edgerrin Cooper",
