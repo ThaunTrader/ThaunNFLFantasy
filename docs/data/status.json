@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T11:12:30+00:00",
+ "generado": "2026-09-30T21:26:35+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -37,15 +37,6 @@
    "total_roster": 45,
    "alertas": [
     {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Shoulder"
-    },
-    {
      "nombre": "Nick Cross",
      "posicion": "S",
      "equipo_nfl": "WAS",
@@ -53,6 +44,15 @@
      "estado": "OUT",
      "rojo": true,
      "detalle": "Abdomen"
+    },
+    {
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -74,13 +74,13 @@
    "total_roster": 45,
    "alertas": [
     {
-     "nombre": "Garrett Wilson",
+     "nombre": "Caleb Douglas",
      "posicion": "WR",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Head"
+     "equipo_nfl": "MIA",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -102,12 +102,21 @@
    "total_roster": 43,
    "alertas": [
     {
+     "nombre": "Eli Raridon",
+     "posicion": "TE",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
+    {
      "nombre": "Puka Nacua",
      "posicion": "WR",
      "equipo_nfl": "LAR",
      "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
+     "estado": "QUESTIONABLE",
+     "rojo": false,
      "detalle": "Groin"
     }
    ]
@@ -128,7 +137,17 @@
     "rank": 3
    },
    "total_roster": 45,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Eli Raridon",
+     "posicion": "TE",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    }
+   ]
   },
   {
    "league_id": 332571,
@@ -164,7 +183,17 @@
     "rank": 11
    },
    "total_roster": 42,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    }
+   ]
   },
   {
    "league_id": 332573,
@@ -182,7 +211,17 @@
     "rank": 12
    },
    "total_roster": 25,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jaylen Waddle",
+     "posicion": "WR",
+     "equipo_nfl": "DEN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Leg"
+    }
+   ]
   },
   {
    "league_id": 332766,
@@ -202,13 +241,13 @@
    "total_roster": 44,
    "alertas": [
     {
-     "nombre": "Garrett Wilson",
-     "posicion": "WR",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Head"
+     "nombre": "Eli Raridon",
+     "posicion": "TE",
+     "equipo_nfl": "NE",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
     }
    ]
   },
@@ -227,7 +266,7 @@
     "formateado": "2-1",
     "rank": 5
    },
-   "total_roster": 43,
+   "total_roster": 42,
    "alertas": []
   },
   {
@@ -248,13 +287,13 @@
    "total_roster": 24,
    "alertas": [
     {
-     "nombre": "Garrett Wilson",
+     "nombre": "Jaylen Waddle",
      "posicion": "WR",
-     "equipo_nfl": "NYJ",
+     "equipo_nfl": "DEN",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Head"
+     "detalle": "Leg"
     }
    ]
   },
@@ -276,12 +315,21 @@
    "total_roster": 24,
    "alertas": [
     {
+     "nombre": "Jaylen Waddle",
+     "posicion": "WR",
+     "equipo_nfl": "DEN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Leg"
+    },
+    {
      "nombre": "Puka Nacua",
      "posicion": "WR",
      "equipo_nfl": "LAR",
      "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
+     "estado": "QUESTIONABLE",
+     "rojo": false,
      "detalle": "Groin"
     }
    ]
@@ -302,17 +350,7 @@
     "rank": 4
    },
    "total_roster": 47,
-   "alertas": [
-    {
-     "nombre": "Garrett Wilson",
-     "posicion": "WR",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Head"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 339833,
@@ -332,6 +370,42 @@
    "total_roster": 44,
    "alertas": [
     {
+     "nombre": "Jayden Daniels",
+     "posicion": "QB",
+     "equipo_nfl": "WAS",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
+    {
+     "nombre": "Jaylen Wright",
+     "posicion": "RB",
+     "equipo_nfl": "MIA",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
+    {
+     "nombre": "Rueben Bain",
+     "posicion": "EDR",
+     "equipo_nfl": "TB",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
+    {
+     "nombre": "Ty Simpson",
+     "posicion": "QB",
+     "equipo_nfl": "LAR",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Jugador sano en IR"
+    },
+    {
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
      "equipo_nfl": "GB",
@@ -339,6 +413,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Head"
+    },
+    {
+     "nombre": "Rachaad White",
+     "posicion": "RB",
+     "equipo_nfl": "WAS",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -359,6 +442,24 @@
    },
    "total_roster": 49,
    "alertas": [
+    {
+     "nombre": "Jalen Coker",
+     "posicion": "WR",
+     "equipo_nfl": "CAR",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
+    {
+     "nombre": "Nico Collins",
+     "posicion": "WR",
+     "equipo_nfl": "HOU",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Solo Questionable, no puede ocupar IR"
+    },
     {
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
@@ -386,7 +487,17 @@
     "rank": 10
    },
    "total_roster": 16,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jaylen Waddle",
+     "posicion": "WR",
+     "equipo_nfl": "DEN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Leg"
+    }
+   ]
   }
  ]
 }
