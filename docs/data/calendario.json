@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T08:14:27+00:00",
+ "generado": "2026-09-30T08:23:57+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -42,96 +42,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Just Win, Tio",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Gasteiz Lions",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Alicante Shooting Stars",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "Liencres Cats",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "SteelLosers",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "Sants Zebras",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Berbés Vacalouras",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Gronkey Kong",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "Liencres Cats",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Berbés Vacalouras",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -175,96 +85,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Orotava Bengals",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Pixuetos",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Placita20",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "Aranjuez Kingfishers",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Plencia Blitzers",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "Abaddon",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Alcalá Eagles",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Wiwiwis",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "The Real Kings",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Córdoba Knights",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -308,96 +128,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Gaelhawk ⭐️⭐️",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Los chicos de Lance",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Shattered star",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "NIU Fuenlabrada",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Argüelles Lions",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "Alcorcon Patriots",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Galician Sailors",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "VPP Espanyol",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "Canary Cats",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Getafe Packers",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -441,96 +171,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Los Tigres De Arroyo",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Pucela Firefighters",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Galliciense Regnum",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "Botafougo",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Cornella Dogs",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "Cucamonga Beans",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Goonies13",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Orotava Bengals",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "Gaelhawk",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Granota Packers",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -574,96 +214,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Catoira Towers",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Ontinyent Ravens",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Lucus Browns",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "NIU Fuenlabrada",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Patriot Way",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "Madrid Chiefs",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Gentlemanly Werewolves",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Alcoi Wembleys",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "Hinojos Nepres 🏴‍☠️",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Rivas Jokers⭐⭐",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -707,96 +257,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Teorema de Mico",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Barcelona Dolphins",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Sevilla Saints",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "J8hnnie Eagles",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Ajolabaikos",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "rancho cucamonga",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Barcelona Bills",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Sarda Duckrats",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "GR Eat Teams",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "Kanu25",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -840,96 +300,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Kanu25 ⭐️",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Lions of Maldini",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "NO Devils & Saints",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "Wiwiwis",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "rival": "Pucela Maxis",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 9
-    },
-    {
-     "rival": "The Win Panther",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 10
-    },
-    {
-     "rival": "Carrilin Rhinos",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 11
-    },
-    {
-     "rival": "Bogdanas del valle cuántico de Ebaté",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 12
-    },
-    {
-     "rival": "AriSoma Saguaro🌵(🏆🏆)",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 13
-    },
-    {
-     "rival": "GR Eat Teams",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 14
     }
    ]
   },
@@ -973,78 +343,6 @@
      "puntos_rival": null,
      "resultado": null,
      "semana": 4
-    },
-    {
-     "rival": "Zaragoza Lions",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 5
-    },
-    {
-     "rival": "Pol KC Chiefs",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 6
-    },
-    {
-     "rival": "Ogros de carabanchel",
-     "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 7
-    },
-    {
-     "rival": "Arenas Squirrels",
-     "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
-     "semana": 8
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332573&season=2026&scoring_period=17&sport=NFL"
     }
    ]
   },
@@ -1054,72 +352,40 @@
    "equipo": "Alicante Buccaneers (IDP17)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Huskys Fuenlabrada",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 264.08,
+     "puntos_rival": 301.66,
+     "resultado": "LOSE",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Pucela Saylors",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 312.64,
+     "puntos_rival": 177.28,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Burgos’ Penguins",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 310.08,
+     "puntos_rival": 233.98,
+     "resultado": "WIN",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332766&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Sant Cugat Boars",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1129,72 +395,40 @@
    "equipo": "Alicante Buccaneers (🏆🏆)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=1&sport=NFL"
+     "rival": "NoHayDosSinTres",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 221.96,
+     "puntos_rival": 264.54,
+     "resultado": "LOSE",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Pontevedra Candorcas (🏆)",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 308.2,
+     "puntos_rival": 255.32,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Kanu25",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 293.8,
+     "puntos_rival": 237.74,
+     "resultado": "WIN",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332793&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Pucela Honey Badgers",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1204,72 +438,40 @@
    "equipo": "Alicante Buccaneers (CLA12)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Alcalá Eagles",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 232.11,
+     "puntos_rival": 147.69,
+     "resultado": "WIN",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=2&sport=NFL"
+     "rival": "New Verges Patriots",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 179.34,
+     "puntos_rival": 105.3,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Ontinyent Ravens",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 212.0,
+     "puntos_rival": 166.98,
+     "resultado": "WIN",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332824&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Pucela Honey Badgers",
+     "local": false,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1279,72 +481,40 @@
    "equipo": "Alicante Buccaneers (SF4)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Lance de Toledo, Ohio",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 124.57,
+     "puntos_rival": 88.79,
+     "resultado": "WIN",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=2&sport=NFL"
+     "rival": "BB - Bilbao Bisons",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 132.52,
+     "puntos_rival": 123.18,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Sr. Bull ⭐",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 147.88,
+     "puntos_rival": 171.6,
+     "resultado": "LOSE",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=332993&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Iruña KC",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1354,72 +524,40 @@
    "equipo": "Alicante Buccaneers (HRD)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Hinojos Nepres 🏴‍☠️",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 392.2,
+     "puntos_rival": 430.89,
+     "resultado": "LOSE",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Justin Tucker 66 yard",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 389.1,
+     "puntos_rival": 246.84,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=3&sport=NFL"
+     "rival": "chattanooga isotops",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 462.29,
+     "puntos_rival": 448.95,
+     "resultado": "WIN",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=333726&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Cambaaack",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1429,72 +567,40 @@
    "equipo": "Alicante Buccaneers (IDP21)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Yipi-ka-yei",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 310.9,
+     "puntos_rival": 260.24,
+     "resultado": "WIN",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Placita20",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 303.65,
+     "puntos_rival": 295.22,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Alcorcón Smilodons ⭐",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 319.01,
+     "puntos_rival": 333.46,
+     "resultado": "LOSE",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=339833&season=2026&scoring_period=17&sport=NFL"
+     "rival": "PTV Wild Pigs",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1504,72 +610,40 @@
    "equipo": "Alicante Buccaneers (IDP22)",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Gaelhawk",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 252.94,
+     "puntos_rival": 380.72,
+     "resultado": "LOSE",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Pharma Team ⭐️",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 282.01,
+     "puntos_rival": 316.54,
+     "resultado": "LOSE",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Draganas de Bacatá",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 292.6,
+     "puntos_rival": 255.54,
+     "resultado": "WIN",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=344345&season=2026&scoring_period=17&sport=NFL"
+     "rival": "VPP Espanyol",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   },
@@ -1579,72 +653,40 @@
    "equipo": "Alicante Buccaneers",
    "semanas": [
     {
-     "semana": 1,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=1&sport=NFL"
+     "rival": "Chusma Mirandesa",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 59.95,
+     "puntos_rival": 88.25,
+     "resultado": "LOSE",
+     "semana": 1
     },
     {
-     "semana": 2,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=2&sport=NFL"
+     "rival": "Smilodons Team",
+     "local": true,
+     "jugado": true,
+     "mis_puntos": 103.95,
+     "puntos_rival": 54.65,
+     "resultado": "WIN",
+     "semana": 2
     },
     {
-     "semana": 3,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=3&sport=NFL"
+     "rival": "Founding Father's Scrubs.",
+     "local": false,
+     "jugado": true,
+     "mis_puntos": 71.5,
+     "puntos_rival": 122.6,
+     "resultado": "LOSE",
+     "semana": 3
     },
     {
-     "semana": 4,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=4&sport=NFL"
-    },
-    {
-     "semana": 5,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=5&sport=NFL"
-    },
-    {
-     "semana": 6,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=6&sport=NFL"
-    },
-    {
-     "semana": 7,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=7&sport=NFL"
-    },
-    {
-     "semana": 8,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=8&sport=NFL"
-    },
-    {
-     "semana": 9,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=9&sport=NFL"
-    },
-    {
-     "semana": 10,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=10&sport=NFL"
-    },
-    {
-     "semana": 11,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=11&sport=NFL"
-    },
-    {
-     "semana": 12,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=12&sport=NFL"
-    },
-    {
-     "semana": 13,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=13&sport=NFL"
-    },
-    {
-     "semana": 14,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=14&sport=NFL"
-    },
-    {
-     "semana": 15,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=15&sport=NFL"
-    },
-    {
-     "semana": 16,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=16&sport=NFL"
-    },
-    {
-     "semana": 17,
-     "error": "403 Client Error: Forbidden for url: https://www.fleaflicker.com/api/FetchLeagueScoreboard?league_id=348123&season=2026&scoring_period=17&sport=NFL"
+     "rival": "Rarestrepo’s sailors",
+     "local": true,
+     "jugado": false,
+     "mis_puntos": null,
+     "puntos_rival": null,
+     "resultado": null,
+     "semana": 4
     }
    ]
   }
