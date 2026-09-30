@@ -42,7 +42,7 @@ def get(endpoint, params, reintentos=2):
             f"{BASE_URL}/{endpoint}", params=params, headers=HEADERS, timeout=15
         )
         if r.status_code in (403, 429) and intento < reintentos:
-            time.sleep(6 * (intento + 1))  # backoff: 3s, 6s...
+            time.sleep(6 * (intento + 1))  # backoff: 6s, 12s...
             continue
         r.raise_for_status()
         return r.json()
@@ -88,8 +88,11 @@ def resumen_partido(partido, team_id):
 
     resultado = partido.get("homeResult") if es_local else partido.get("awayResult")
 
+    rec_rival = rival.get("recordOverall") or {}
+
     return {
         "rival": rival.get("name", "Rival"),
+        "rival_record": rec_rival.get("formatted"),  # p.ej. "2-1"
         "local": es_local,
         "jugado": bool(partido.get("isFinalScore")),
         "mis_puntos": mi_score.get("score", {}).get("value") if isinstance(mi_score.get("score"), dict) else mi_score.get("value"),
