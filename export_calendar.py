@@ -26,7 +26,6 @@ BASE_URL = "https://www.fleaflicker.com/api"
 USER_ID = os.environ["FLEAFLICKER_USER_ID"]
 OUTPUT = "docs/data/calendario.json"
 SEASON = int(os.environ.get("SEASON", "2026"))
-SEMANAS = range(1, 18)  # 17 semanas de temporada regular NFL
 
 HEADERS = {
     "User-Agent": (
@@ -36,13 +35,17 @@ HEADERS = {
 }
 
 
-def get(endpoint, params):
+def get(endpoint, params, reintentos=2):
     params["sport"] = "NFL"
-    r = requests.get(
-        f"{BASE_URL}/{endpoint}", params=params, headers=HEADERS, timeout=15
-    )
-    r.raise_for_status()
-    return r.json()
+    for intento in range(reintentos + 1):
+        r = requests.get(
+            f"{BASE_URL}/{endpoint}", params=params, headers=HEADERS, timeout=15
+        )
+        if r.status_code in (403, 429) and intento < reintentos:
+            time.sleep(6 * (intento + 1))  # backoff: 3s, 6s...
+            continue
+        r.raise_for_status()
+        return r.json()
 
 
 def extraer_partidos(nodo, encontrados=None):
@@ -59,6 +62,16 @@ def extraer_partidos(nodo, encontrados=None):
         for item in nodo:
             extraer_partidos(item, encontrados)
     return encontrados
+
+
+def semana_actual_desde(sb):
+    """Busca en eligibleSchedulePeriods la semana marcada como actual
+    (containsNow / low.isNow). Devuelve None si no se encuentra, en
+    cuyo caso el llamador debe usar un tope por defecto."""
+    for periodo in sb.get("eligibleSchedulePeriods", []):
+        if periodo.get("containsNow") or (periodo.get("low") or {}).get("isNow"):
+            return periodo.get("ordinal")
+    return None
 
 
 def resumen_partido(partido, team_id):
@@ -95,6 +108,25 @@ def main():
         "ligas": [],
     }
 
+    # Determinar la semana actual UNA sola vez (es la misma para todas
+    # las ligas, es el calendario NFL) usando la primera liga disponible.
+    # Si falla, se usa 17 como tope por defecto (comportamiento anterior).
+    tope_semanas = 17
+    if leagues:
+        primera = leagues[0]
+        primer_league_id = primera.get("id")
+        try:
+            sb_prueba = get(
+                "FetchLeagueScoreboard",
+                {"league_id": primer_league_id, "season": SEASON, "scoring_period": 1},
+            )
+            detectada = semana_actual_desde(sb_prueba)
+            if detectada:
+                tope_semanas = min(detectada, 17)
+                print(f"Semana actual detectada: {detectada} (se piden semanas 1-{tope_semanas})")
+        except requests.RequestException as e:
+            print(f"No se pudo detectar la semana actual ({e}), usando tope 17")
+
     for lg in leagues:
         team = lg.get("ownedTeam") or {}
         league_id = lg.get("id")
@@ -109,7 +141,7 @@ def main():
             "semanas": [],
         }
 
-        for semana in SEMANAS:
+        for semana in range(1, tope_semanas + 1):
             try:
                 sb = get(
                     "FetchLeagueScoreboard",
@@ -135,11 +167,12 @@ def main():
                 mi_partido["semana"] = semana
                 entrada["semanas"].append(mi_partido)
 
-            time.sleep(0.15)  # cortesía con la API, evitar rate limiting
+            time.sleep(1.5)  # más margen que antes, para evitar el 403 por volumen
 
         resultado["ligas"].append(entrada)
         jugadas = sum(1 for s in entrada["semanas"] if s.get("jugado"))
         print(f"{entrada['liga']}: {jugadas} semana(s) jugada(s) de {len(entrada['semanas'])}")
+        time.sleep(1.0)  # pausa extra entre ligas
 
     os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
