@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-30T21:26:35+00:00",
+ "generado": "2026-10-01T11:39:58+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -17,7 +17,17 @@
     "rank": 1
    },
    "total_roster": 17,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jihaad Campbell",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    }
+   ]
   },
   {
    "league_id": 332443,
@@ -37,13 +47,13 @@
    "total_roster": 45,
    "alertas": [
     {
-     "nombre": "Nick Cross",
-     "posicion": "S",
-     "equipo_nfl": "WAS",
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
      "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Abdomen"
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
     },
     {
      "nombre": "Josiah Trotter",
@@ -53,6 +63,24 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
+    },
+    {
+     "nombre": "Lamar Jackson",
+     "posicion": "QB",
+     "equipo_nfl": "BAL",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
     }
    ]
   },
@@ -69,18 +97,36 @@
     "empates": 0,
     "pct": null,
     "formateado": "0-3",
-    "rank": 10
+    "rank": 11
    },
-   "total_roster": 45,
+   "total_roster": 44,
    "alertas": [
     {
-     "nombre": "Caleb Douglas",
-     "posicion": "WR",
-     "equipo_nfl": "MIA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
+    },
+    {
+     "nombre": "Jihaad Campbell",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Lukas Van Ness",
+     "posicion": "EDR",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -99,16 +145,25 @@
     "formateado": "1-2",
     "rank": 9
    },
-   "total_roster": 43,
+   "total_roster": 42,
    "alertas": [
     {
-     "nombre": "Eli Raridon",
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
      "posicion": "TE",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
     },
     {
      "nombre": "Puka Nacua",
@@ -136,16 +191,43 @@
     "formateado": "2-1",
     "rank": 3
    },
-   "total_roster": 45,
+   "total_roster": 44,
    "alertas": [
     {
-     "nombre": "Eli Raridon",
-     "posicion": "TE",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Blake Cashman",
+     "posicion": "LB",
+     "equipo_nfl": "MIN",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Elbow"
+    },
+    {
+     "nombre": "DJ Moore",
+     "posicion": "WR",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Derwin James",
+     "posicion": "S",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
+    },
+    {
+     "nombre": "Lukas Van Ness",
+     "posicion": "EDR",
+     "equipo_nfl": "GB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -165,7 +247,17 @@
     "rank": 2
    },
    "total_roster": 24,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "DeVonta Smith",
+     "posicion": "WR",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Hamstring"
+    }
+   ]
   },
   {
    "league_id": 332572,
@@ -185,13 +277,13 @@
    "total_roster": 42,
    "alertas": [
     {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
     }
    ]
   },
@@ -213,13 +305,22 @@
    "total_roster": 25,
    "alertas": [
     {
-     "nombre": "Jaylen Waddle",
-     "posicion": "WR",
-     "equipo_nfl": "DEN",
+     "nombre": "Jadarian Price",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Leg"
+     "detalle": "Chest"
+    },
+    {
+     "nombre": "Ladd McConkey",
+     "posicion": "WR",
+     "equipo_nfl": "LAC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Foot"
     }
    ]
   },
@@ -238,16 +339,16 @@
     "formateado": "2-1",
     "rank": 3
    },
-   "total_roster": 44,
+   "total_roster": 42,
    "alertas": [
     {
-     "nombre": "Eli Raridon",
-     "posicion": "TE",
-     "equipo_nfl": "NE",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
+     "nombre": "Josiah Trotter",
+     "posicion": "LB",
+     "equipo_nfl": "TB",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Shoulder"
     }
    ]
   },
@@ -267,7 +368,26 @@
     "rank": 5
    },
    "total_roster": 42,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Jihaad Campbell",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
+    }
+   ]
   },
   {
    "league_id": 332824,
@@ -287,13 +407,13 @@
    "total_roster": 24,
    "alertas": [
     {
-     "nombre": "Jaylen Waddle",
-     "posicion": "WR",
-     "equipo_nfl": "DEN",
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Leg"
+     "detalle": "Back"
     }
    ]
   },
@@ -314,15 +434,6 @@
    },
    "total_roster": 24,
    "alertas": [
-    {
-     "nombre": "Jaylen Waddle",
-     "posicion": "WR",
-     "equipo_nfl": "DEN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Leg"
-    },
     {
      "nombre": "Puka Nacua",
      "posicion": "WR",
@@ -350,7 +461,53 @@
     "rank": 4
    },
    "total_roster": 47,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
+    },
+    {
+     "nombre": "Jihaad Campbell",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "L'Jarius Sneed",
+     "posicion": "CB",
+     "equipo_nfl": "KC",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Will Anderson",
+     "posicion": "EDR",
+     "equipo_nfl": "HOU",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
+    },
+    {
+     "nombre": "Zack Baun",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Concussion"
+    }
+   ]
   },
   {
    "league_id": 339833,
@@ -367,35 +524,8 @@
     "formateado": "2-1",
     "rank": 5
    },
-   "total_roster": 44,
+   "total_roster": 42,
    "alertas": [
-    {
-     "nombre": "Jayden Daniels",
-     "posicion": "QB",
-     "equipo_nfl": "WAS",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
-    {
-     "nombre": "Jaylen Wright",
-     "posicion": "RB",
-     "equipo_nfl": "MIA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
-    {
-     "nombre": "Rueben Bain",
-     "posicion": "EDR",
-     "equipo_nfl": "TB",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
     {
      "nombre": "Ty Simpson",
      "posicion": "QB",
@@ -406,13 +536,40 @@
      "detalle": "Jugador sano en IR"
     },
     {
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
+    },
+    {
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
      "equipo_nfl": "GB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Head"
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Jihaad Campbell",
+     "posicion": "LB",
+     "equipo_nfl": "PHI",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Knee"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
     },
     {
      "nombre": "Rachaad White",
@@ -422,6 +579,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Will Anderson",
+     "posicion": "EDR",
+     "equipo_nfl": "HOU",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Ankle"
     }
    ]
   },
@@ -461,13 +627,31 @@
      "detalle": "Solo Questionable, no puede ocupar IR"
     },
     {
+     "nombre": "Deone Walker",
+     "posicion": "IL",
+     "equipo_nfl": "BUF",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Quadriceps"
+    },
+    {
      "nombre": "Edgerrin Cooper",
      "posicion": "LB",
      "equipo_nfl": "GB",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Head"
+     "detalle": "Shoulder"
+    },
+    {
+     "nombre": "Kenyon Sadiq",
+     "posicion": "TE",
+     "equipo_nfl": "NYJ",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Back"
     }
    ]
   },
@@ -487,17 +671,7 @@
     "rank": 10
    },
    "total_roster": 16,
-   "alertas": [
-    {
-     "nombre": "Jaylen Waddle",
-     "posicion": "WR",
-     "equipo_nfl": "DEN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Leg"
-    }
-   ]
+   "alertas": []
   }
  ]
 }
