@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-01T11:39:58+00:00",
+ "generado": "2026-10-01T21:51:14+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -56,27 +56,9 @@
      "detalle": "Quadriceps"
     },
     {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
      "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    },
-    {
-     "nombre": "Lamar Jackson",
-     "posicion": "QB",
-     "equipo_nfl": "BAL",
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
@@ -147,15 +129,6 @@
    },
    "total_roster": 42,
    "alertas": [
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
     {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
@@ -340,17 +313,7 @@
     "rank": 3
    },
    "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Josiah Trotter",
-     "posicion": "LB",
-     "equipo_nfl": "TB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332793,
@@ -435,6 +398,15 @@
    "total_roster": 24,
    "alertas": [
     {
+     "nombre": "Travis Etienne",
+     "posicion": "RB",
+     "equipo_nfl": "NO",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Hamstring"
+    },
+    {
      "nombre": "Puka Nacua",
      "posicion": "WR",
      "equipo_nfl": "LAR",
@@ -490,15 +462,6 @@
      "detalle": "Knee"
     },
     {
-     "nombre": "Will Anderson",
-     "posicion": "EDR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
-    },
-    {
      "nombre": "Zack Baun",
      "posicion": "LB",
      "equipo_nfl": "PHI",
@@ -551,7 +514,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Shoulder"
+     "detalle": "Concussion"
     },
     {
      "nombre": "Jihaad Campbell",
@@ -579,15 +542,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Shoulder"
-    },
-    {
-     "nombre": "Will Anderson",
-     "posicion": "EDR",
-     "equipo_nfl": "HOU",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Ankle"
     }
    ]
   },
@@ -642,7 +596,7 @@
      "grupo": "START",
      "estado": "QUESTIONABLE",
      "rojo": false,
-     "detalle": "Shoulder"
+     "detalle": "Concussion"
     },
     {
      "nombre": "Kenyon Sadiq",
