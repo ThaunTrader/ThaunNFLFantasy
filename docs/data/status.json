@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-01T21:51:14+00:00",
+ "generado": "2026-10-02T11:09:33+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -17,17 +17,7 @@
     "rank": 1
    },
    "total_roster": 17,
-   "alertas": [
-    {
-     "nombre": "Jihaad Campbell",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332443,
@@ -93,15 +83,6 @@
      "detalle": "Quadriceps"
     },
     {
-     "nombre": "Jihaad Campbell",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Lukas Van Ness",
      "posicion": "EDR",
      "equipo_nfl": "GB",
@@ -129,6 +110,15 @@
    },
    "total_roster": 42,
    "alertas": [
+    {
+     "nombre": "Mason Graham",
+     "posicion": "IL",
+     "equipo_nfl": "CLE",
+     "grupo": "START",
+     "estado": "OUT",
+     "rojo": true,
+     "detalle": "Knee"
+    },
     {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
@@ -221,6 +211,15 @@
    },
    "total_roster": 24,
    "alertas": [
+    {
+     "nombre": "Zach Charbonnet",
+     "posicion": "RB",
+     "equipo_nfl": "SEA",
+     "grupo": "INJURED",
+     "estado": "IR_INVALIDO",
+     "rojo": true,
+     "detalle": "Jugador sano en IR"
+    },
     {
      "nombre": "DeVonta Smith",
      "posicion": "WR",
@@ -333,12 +332,12 @@
    "total_roster": 42,
    "alertas": [
     {
-     "nombre": "Jihaad Campbell",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
+     "nombre": "Mason Graham",
+     "posicion": "IL",
+     "equipo_nfl": "CLE",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Knee"
     },
     {
@@ -349,6 +348,15 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Back"
+    },
+    {
+     "nombre": "Puka Nacua",
+     "posicion": "WR",
+     "equipo_nfl": "LAR",
+     "grupo": "START",
+     "estado": "QUESTIONABLE",
+     "rojo": false,
+     "detalle": "Groin"
     }
    ]
   },
@@ -444,15 +452,6 @@
      "detalle": "Quadriceps"
     },
     {
-     "nombre": "Jihaad Campbell",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "L'Jarius Sneed",
      "posicion": "CB",
      "equipo_nfl": "KC",
@@ -517,15 +516,6 @@
      "detalle": "Concussion"
     },
     {
-     "nombre": "Jihaad Campbell",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
      "equipo_nfl": "NYJ",
@@ -533,15 +523,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Back"
-    },
-    {
-     "nombre": "Rachaad White",
-     "posicion": "RB",
-     "equipo_nfl": "WAS",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
