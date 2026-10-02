@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-02T11:09:33+00:00",
+ "generado": "2026-10-02T21:20:48+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -37,15 +37,6 @@
    "total_roster": 45,
    "alertas": [
     {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
-    },
-    {
      "nombre": "Kenyon Sadiq",
      "posicion": "TE",
      "equipo_nfl": "NYJ",
@@ -72,26 +63,7 @@
     "rank": 11
    },
    "total_roster": 44,
-   "alertas": [
-    {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
-    },
-    {
-     "nombre": "Lukas Van Ness",
-     "posicion": "EDR",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332484,
@@ -127,15 +99,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Back"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -157,24 +120,6 @@
    "total_roster": 44,
    "alertas": [
     {
-     "nombre": "Blake Cashman",
-     "posicion": "LB",
-     "equipo_nfl": "MIN",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Elbow"
-    },
-    {
-     "nombre": "DJ Moore",
-     "posicion": "WR",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
-    },
-    {
      "nombre": "Derwin James",
      "posicion": "S",
      "equipo_nfl": "LAC",
@@ -182,15 +127,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Hamstring"
-    },
-    {
-     "nombre": "Lukas Van Ness",
-     "posicion": "EDR",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Shoulder"
     }
    ]
   },
@@ -212,21 +148,12 @@
    "total_roster": 24,
    "alertas": [
     {
-     "nombre": "Zach Charbonnet",
-     "posicion": "RB",
-     "equipo_nfl": "SEA",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
-    {
      "nombre": "DeVonta Smith",
      "posicion": "WR",
      "equipo_nfl": "PHI",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Hamstring"
     }
    ]
@@ -247,17 +174,7 @@
     "rank": 11
    },
    "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332573,
@@ -281,8 +198,8 @@
      "posicion": "RB",
      "equipo_nfl": "SEA",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Chest"
     },
     {
@@ -348,15 +265,6 @@
      "estado": "QUESTIONABLE",
      "rojo": false,
      "detalle": "Back"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -413,15 +321,6 @@
      "estado": "IR",
      "rojo": true,
      "detalle": "Hamstring"
-    },
-    {
-     "nombre": "Puka Nacua",
-     "posicion": "WR",
-     "equipo_nfl": "LAR",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Groin"
     }
    ]
   },
@@ -443,30 +342,12 @@
    "total_roster": 47,
    "alertas": [
     {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
-    },
-    {
-     "nombre": "L'Jarius Sneed",
-     "posicion": "CB",
-     "equipo_nfl": "KC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Knee"
-    },
-    {
      "nombre": "Zack Baun",
      "posicion": "LB",
      "equipo_nfl": "PHI",
      "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
+     "estado": "OUT",
+     "rojo": true,
      "detalle": "Concussion"
     }
    ]
@@ -496,15 +377,6 @@
      "estado": "IR_INVALIDO",
      "rojo": true,
      "detalle": "Jugador sano en IR"
-    },
-    {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
     },
     {
      "nombre": "Edgerrin Cooper",
@@ -559,16 +431,7 @@
      "grupo": "INJURED",
      "estado": "IR_INVALIDO",
      "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
-    {
-     "nombre": "Deone Walker",
-     "posicion": "IL",
-     "equipo_nfl": "BUF",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Quadriceps"
+     "detalle": "Jugador sano en IR"
     },
     {
      "nombre": "Edgerrin Cooper",
