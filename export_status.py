@@ -59,9 +59,12 @@ def get(endpoint, params):
 
 def extraer_jugadores(nodo, grupo=None):
     """Recorre recursivamente la respuesta de FetchRoster y devuelve
-    tuplas (grupo, proPlayer). El grupo (START/BENCH/TAXI/INJURED) se
-    determina a partir del 'position' del propio slot, con fallback por
-    'label' para el banco (BN), que en la API no lleva 'group' explícito."""
+    tuplas (grupo, proPlayer, bloqueado). El grupo (START/BENCH/TAXI/
+    INJURED) se determina a partir del 'position' del propio slot, con
+    fallback por 'label' para el banco (BN), que en la API no lleva
+    'group' explícito. 'bloqueado' sale de
+    leaguePlayer.transactionStatus.isLineupStatusLocked: true cuando el
+    partido del jugador ya ha empezado y la alineación quedó fija."""
     if isinstance(nodo, dict):
         pos = nodo.get("position")
         if isinstance(pos, dict):
@@ -78,7 +81,10 @@ def extraer_jugadores(nodo, grupo=None):
         elif isinstance(nodo.get("group"), str):
             grupo = nodo["group"]
         if "proPlayer" in nodo and isinstance(nodo["proPlayer"], dict):
-            yield grupo, nodo["proPlayer"]
+            bloqueado = bool(
+                (nodo.get("transactionStatus") or {}).get("isLineupStatusLocked")
+            )
+            yield grupo, nodo["proPlayer"], bloqueado
         for valor in nodo.values():
             yield from extraer_jugadores(valor, grupo)
     elif isinstance(nodo, list):
@@ -173,12 +179,18 @@ def main():
             continue
 
         vistos = set()
-        for grupo, jugador in extraer_jugadores(roster):
+        for grupo, jugador, bloqueado in extraer_jugadores(roster):
             jid = jugador.get("id")
             if jid in vistos:
                 continue
             vistos.add(jid)
             entrada["total_roster"] += 1
+
+            if bloqueado:
+                # El partido de este jugador ya ha empezado: la
+                # alineación quedó fija, no hay ninguna acción posible.
+                # No genera ninguna alerta, sea cual sea su estado o hueco.
+                continue
 
             estado, detalle = normalizar_estado(jugador.get("injury"))
 
