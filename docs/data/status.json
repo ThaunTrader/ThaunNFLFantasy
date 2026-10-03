@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-03T10:27:43+00:00",
+ "generado": "2026-10-03T19:58:18+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -63,7 +63,17 @@
     "rank": 11
    },
    "total_roster": 44,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Terrance Ferguson",
+     "posicion": "TE",
+     "equipo_nfl": "LAR",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332484,
@@ -146,17 +156,7 @@
     "rank": 2
    },
    "total_roster": 24,
-   "alertas": [
-    {
-     "nombre": "DeVonta Smith",
-     "posicion": "WR",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332572,
@@ -174,7 +174,17 @@
     "rank": 11
    },
    "total_roster": 42,
-   "alertas": []
+   "alertas": [
+    {
+     "nombre": "Terrance Ferguson",
+     "posicion": "TE",
+     "equipo_nfl": "LAR",
+     "grupo": "BENCH",
+     "estado": "IR",
+     "rojo": true,
+     "detalle": "Ankle"
+    }
+   ]
   },
   {
    "league_id": 332573,
@@ -193,15 +203,6 @@
    },
    "total_roster": 25,
    "alertas": [
-    {
-     "nombre": "Jadarian Price",
-     "posicion": "RB",
-     "equipo_nfl": "SEA",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Chest"
-    },
     {
      "nombre": "Ladd McConkey",
      "posicion": "WR",
