@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-03T19:58:18+00:00",
+ "generado": "2026-10-04T11:09:06+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -35,17 +35,7 @@
     "rank": 3
    },
    "total_roster": 45,
-   "alertas": [
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332475,
@@ -62,18 +52,8 @@
     "formateado": "0-3",
     "rank": 11
    },
-   "total_roster": 44,
-   "alertas": [
-    {
-     "nombre": "Terrance Ferguson",
-     "posicion": "TE",
-     "equipo_nfl": "LAR",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Ankle"
-    }
-   ]
+   "total_roster": 45,
+   "alertas": []
   },
   {
    "league_id": 332484,
@@ -91,26 +71,7 @@
     "rank": 9
    },
    "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Mason Graham",
-     "posicion": "IL",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332507,
@@ -128,17 +89,7 @@
     "rank": 3
    },
    "total_roster": 44,
-   "alertas": [
-    {
-     "nombre": "Derwin James",
-     "posicion": "S",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332571,
@@ -174,17 +125,7 @@
     "rank": 11
    },
    "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Terrance Ferguson",
-     "posicion": "TE",
-     "equipo_nfl": "LAR",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Ankle"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332573,
@@ -202,17 +143,7 @@
     "rank": 12
    },
    "total_roster": 25,
-   "alertas": [
-    {
-     "nombre": "Ladd McConkey",
-     "posicion": "WR",
-     "equipo_nfl": "LAC",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Foot"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332766,
@@ -248,26 +179,7 @@
     "rank": 5
    },
    "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Mason Graham",
-     "posicion": "IL",
-     "equipo_nfl": "CLE",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Knee"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 332824,
@@ -284,18 +196,8 @@
     "formateado": "3-0",
     "rank": 1
    },
-   "total_roster": 24,
-   "alertas": [
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "total_roster": 23,
+   "alertas": []
   },
   {
    "league_id": 332993,
@@ -313,17 +215,7 @@
     "rank": 7
    },
    "total_roster": 24,
-   "alertas": [
-    {
-     "nombre": "Travis Etienne",
-     "posicion": "RB",
-     "equipo_nfl": "NO",
-     "grupo": "BENCH",
-     "estado": "IR",
-     "rojo": true,
-     "detalle": "Hamstring"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 333726,
@@ -341,17 +233,7 @@
     "rank": 4
    },
    "total_roster": 47,
-   "alertas": [
-    {
-     "nombre": "Zack Baun",
-     "posicion": "LB",
-     "equipo_nfl": "PHI",
-     "grupo": "START",
-     "estado": "OUT",
-     "rojo": true,
-     "detalle": "Concussion"
-    }
-   ]
+   "alertas": []
   },
   {
    "league_id": 339833,
@@ -368,36 +250,8 @@
     "formateado": "2-1",
     "rank": 5
    },
-   "total_roster": 42,
-   "alertas": [
-    {
-     "nombre": "Ty Simpson",
-     "posicion": "QB",
-     "equipo_nfl": "LAR",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
-    {
-     "nombre": "Edgerrin Cooper",
-     "posicion": "LB",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Concussion"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "total_roster": 44,
+   "alertas": []
   },
   {
    "league_id": 344345,
@@ -414,45 +268,8 @@
     "formateado": "1-2",
     "rank": 11
    },
-   "total_roster": 49,
-   "alertas": [
-    {
-     "nombre": "Jalen Coker",
-     "posicion": "WR",
-     "equipo_nfl": "CAR",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Solo Questionable, no puede ocupar IR"
-    },
-    {
-     "nombre": "Nico Collins",
-     "posicion": "WR",
-     "equipo_nfl": "HOU",
-     "grupo": "INJURED",
-     "estado": "IR_INVALIDO",
-     "rojo": true,
-     "detalle": "Jugador sano en IR"
-    },
-    {
-     "nombre": "Edgerrin Cooper",
-     "posicion": "LB",
-     "equipo_nfl": "GB",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Concussion"
-    },
-    {
-     "nombre": "Kenyon Sadiq",
-     "posicion": "TE",
-     "equipo_nfl": "NYJ",
-     "grupo": "START",
-     "estado": "QUESTIONABLE",
-     "rojo": false,
-     "detalle": "Back"
-    }
-   ]
+   "total_roster": 48,
+   "alertas": []
   },
   {
    "league_id": 348123,
