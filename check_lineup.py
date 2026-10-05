@@ -23,6 +23,36 @@ def send_telegram(message):
     requests.post(url, json=payload, timeout=10)
 
 
+def get_locked_ids(league_id, team_id):
+    """IDs de los jugadores cuyo partido ya ha empezado (alineación
+    bloqueada), según FetchRoster -> leaguePlayer.transactionStatus.
+    isLineupStatusLocked. Si la llamada falla devuelve un set vacío
+    (no se filtra nada), para no perder avisos por un fallo del filtro."""
+    try:
+        roster = get("FetchRoster", {"league_id": league_id, "team_id": team_id})
+    except requests.RequestException as e:
+        print(f"[{league_id}] No se pudo comprobar el bloqueo de jugadores: {e}")
+        return set()
+
+    locked = set()
+
+    def recorrer(nodo):
+        if isinstance(nodo, dict):
+            pp = nodo.get("proPlayer")
+            if isinstance(pp, dict) and (nodo.get("transactionStatus") or {}).get("isLineupStatusLocked"):
+                pid = pp.get("id")
+                if pid is not None:
+                    locked.add(pid)
+            for v in nodo.values():
+                recorrer(v)
+        elif isinstance(nodo, list):
+            for item in nodo:
+                recorrer(item)
+
+    recorrer(roster)
+    return locked
+
+
 # ── Main logic ────────────────────────────────────────────────────────────────
 def main():
     data = get("FetchUserLeagues", {"user_id": USER_ID})
@@ -72,6 +102,10 @@ def main():
             "fantasy_game_id": game_id
         })
 
+        # Jugadores cuyo partido ya empezó: no se pueden cambiar, no se avisa
+        locked_ids = get_locked_ids(league_id, team_id)
+        skipped_locked = 0
+
         # Recorrer lineups — cada slot tiene "home" y "away" con el jugador
         lineups = boxscore.get("lineups", [])
         league_alerts = []
@@ -88,6 +122,10 @@ def main():
                 if not pro_player:
                     continue
 
+                if pro_player.get("id") in locked_ids:
+                    skipped_locked += 1
+                    continue
+
                 name = pro_player.get("nameFull") or pro_player.get("nameShort") or "Desconocido"
                 position = pro_player.get("position", "")
                 injury = pro_player.get("injury") or {}
@@ -96,6 +134,8 @@ def main():
                 if severity in ALERT_STATUSES:
                     description = injury.get("typeFull") or injury.get("description") or severity
                     league_alerts.append(f"  ⚠️ <b>{name}</b> ({position}) — {description}")
+
+        print(f"[{league_name}] bloqueados detectados: {len(locked_ids)} · titulares omitidos por bloqueo: {skipped_locked}")
 
         if league_alerts:
             block = f"🏈 <b>{league_name}</b>\n" + "\n".join(league_alerts)
@@ -107,6 +147,11 @@ def main():
         send_telegram(message)
         print("Alerta enviada.")
     else:
+        print("Todos los jugadores titulares están sanos. No se envía notificación.")
+
+
+if __name__ == "__main__":
+    main()
         print("Todos los jugadores titulares están sanos. No se envía notificación.")
 
 
