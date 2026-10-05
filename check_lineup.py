@@ -1,4 +1,7 @@
 import os
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+
 import requests
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -8,6 +11,47 @@ BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 ALERT_STATUSES = {"QUESTIONABLE", "DOUBTFUL", "OUT", "IR"}
+
+# Franjas (hora española) en las que se envía, como máximo, UNA
+# confirmación de "sin lesionados". Formato: (día, (h, m) inicio, (h, m) fin)
+# con lunes=0 ... domingo=6. Solo afecta a la confirmación: los avisos de
+# lesionados se envían siempre, en todas las ejecuciones.
+VENTANAS_CONFIRMACION = [
+    (6, (14, 30), (16, 30)),  # domingo
+    (6, (17, 0), (19, 0)),    # domingo
+    (6, (20, 30), (22, 0)),   # domingo
+    (0, (1, 0), (2, 30)),     # madrugada domingo -> lunes
+    (1, (1, 0), (2, 30)),     # madrugada lunes -> martes
+    (3, (1, 0), (2, 30)),     # madrugada del jueves (SUPUESTO: igual que las demás)
+]
+# Las ejecuciones programadas son cada hora, así que solo la que cae en la
+# primera hora de cada franja envía la confirmación.
+ESPACIADO_EJECUCIONES = timedelta(minutes=60)
+
+
+def toca_confirmacion(ahora=None):
+    """True si esta ejecución debe enviar la confirmación de 'sin lesionados'.
+    - Ejecución manual (workflow_dispatch): siempre, para poder comprobar
+      que el bot funciona.
+    - Programada: solo si cae en la primera hora de alguna franja.
+    - Si no se puede calcular la hora española, se envía (mejor un
+      mensaje de más que ninguno)."""
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        return True
+    try:
+        ahora = ahora or datetime.now(ZoneInfo("Europe/Madrid"))
+    except Exception as e:
+        print(f"No se pudo calcular la hora española ({e}); se envía confirmación.")
+        return True
+
+    for dia, (hi, mi), (hf, mf) in VENTANAS_CONFIRMACION:
+        if ahora.weekday() != dia:
+            continue
+        inicio = ahora.replace(hour=hi, minute=mi, second=0, microsecond=0)
+        fin = ahora.replace(hour=hf, minute=mf, second=0, microsecond=0)
+        if inicio <= ahora < min(fin, inicio + ESPACIADO_EJECUCIONES):
+            return True
+    return False
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def get(endpoint, params):
@@ -63,6 +107,7 @@ def main():
         return
 
     alerts = []
+    total_skipped = 0
 
     for league in leagues:
         league_id = league["id"]
@@ -136,6 +181,7 @@ def main():
                     league_alerts.append(f"  ⚠️ <b>{name}</b> ({position}) — {description}")
 
         print(f"[{league_name}] bloqueados detectados: {len(locked_ids)} · titulares omitidos por bloqueo: {skipped_locked}")
+        total_skipped += skipped_locked
 
         if league_alerts:
             block = f"🏈 <b>{league_name}</b>\n" + "\n".join(league_alerts)
@@ -146,13 +192,16 @@ def main():
         message = "🚨 <b>Alerta de jugadores en tu lineup</b>\n\n" + "\n\n".join(alerts)
         send_telegram(message)
         print("Alerta enviada.")
+    elif toca_confirmacion():
+        message = "✅ <b>No tienes jugadores lesionados</b> en tus alineaciones titulares."
+        if total_skipped:
+            message += (
+                f"\n(No cuentan {total_skipped} jugador(es) con el partido ya empezado.)"
+            )
+        send_telegram(message)
+        print("Sin alertas. Mensaje de confirmación enviado.")
     else:
-        print("Todos los jugadores titulares están sanos. No se envía notificación.")
-
-
-if __name__ == "__main__":
-    main()
-        print("Todos los jugadores titulares están sanos. No se envía notificación.")
+        print("Sin alertas. Fuera de franja de confirmación: no se envía mensaje.")
 
 
 if __name__ == "__main__":
