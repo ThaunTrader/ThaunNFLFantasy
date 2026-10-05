@@ -1,0 +1,231 @@
+{
+ "generado": "2026-10-05T11:34:11+00:00",
+ "season": 2026,
+ "semana": 4,
+ "ligas": [
+  {
+   "league_id": 324737,
+   "liga": "El Capologist Oeste 1ª Division",
+   "equipo": "Alicante Buccaneers",
+   "partido": {
+    "rival": "Gronkey Kong",
+    "rival_record": "1-2",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 150.95,
+    "puntos_rival": 91.0,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332443,
+   "liga": "IDP 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP10)",
+   "partido": {
+    "rival": "Strike Team",
+    "rival_record": "0-3",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 324.25998,
+    "puntos_rival": 211.72002,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332475,
+   "liga": "IDP 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP12)",
+   "partido": {
+    "rival": "asturdodgers",
+    "rival_record": "1-2",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 354.37,
+    "puntos_rival": 233.45,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332484,
+   "liga": "IDP 13 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "partido": {
+    "rival": "K-Olea Kinball team",
+    "rival_record": "3-0",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 281.86,
+    "puntos_rival": 296.66,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332507,
+   "liga": "IDP 14 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers",
+   "partido": {
+    "rival": "Lierse Horses",
+    "rival_record": "3-0",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 256.94,
+    "puntos_rival": 208.38,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332571,
+   "liga": "SuperFlex 3 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF3)",
+   "partido": {
+    "rival": "Asturies magica",
+    "rival_record": "2-1",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 178.93,
+    "puntos_rival": 201.74,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332572,
+   "liga": "IDP 16 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP16)",
+   "partido": {
+    "rival": "Hinojos Nepres 🏴‍☠️",
+    "rival_record": "2-1",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 277.77002,
+    "puntos_rival": 205.72002,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332573,
+   "liga": "Classic 10 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA10)",
+   "partido": {
+    "rival": "Sueca Raiders",
+    "rival_record": "2-1",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 147.42,
+    "puntos_rival": 143.17001,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332766,
+   "liga": "IDP 17 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP17)",
+   "partido": {
+    "rival": "Sant Cugat Boars",
+    "rival_record": "1-2",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 324.9,
+    "puntos_rival": 310.54,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332793,
+   "liga": "IDP 18 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (🏆🏆)",
+   "partido": {
+    "rival": "Pucela Honey Badgers",
+    "rival_record": "2-1",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 343.9,
+    "puntos_rival": 277.76,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332824,
+   "liga": "Classic 12 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (CLA12)",
+   "partido": {
+    "rival": "Pucela Honey Badgers",
+    "rival_record": "1-2",
+    "local": false,
+    "jugado": false,
+    "mis_puntos": 212.45001,
+    "puntos_rival": 127.96,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 332993,
+   "liga": "SuperFlex 4 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (SF4)",
+   "partido": {
+    "rival": "Iruña KC",
+    "rival_record": "2-1",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 149.15999,
+    "puntos_rival": 123.04001,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 333726,
+   "liga": "Hot Rod Dynasty",
+   "equipo": "Alicante Buccaneers (HRD)",
+   "partido": {
+    "rival": "Cambaaack",
+    "rival_record": "2-1",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 426.65002,
+    "puntos_rival": 365.33997,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 339833,
+   "liga": "IDP 21 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP21)",
+   "partido": {
+    "rival": "PTV Wild Pigs",
+    "rival_record": "1-2",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 291.59,
+    "puntos_rival": 209.01999,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 344345,
+   "liga": "IDP 22 de \"El Comisionado\"",
+   "equipo": "Alicante Buccaneers (IDP22)",
+   "partido": {
+    "rival": "VPP Espanyol",
+    "rival_record": "2-1",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 364.31998,
+    "puntos_rival": 224.32,
+    "resultado": null
+   }
+  },
+  {
+   "league_id": 348123,
+   "liga": "III Fantasy CyF - Conf. Fregando Cubiertas",
+   "equipo": "Alicante Buccaneers",
+   "partido": {
+    "rival": "Rarestrepo’s sailors",
+    "rival_record": "3-0",
+    "local": true,
+    "jugado": false,
+    "mis_puntos": 104.350006,
+    "puntos_rival": 84.05,
+    "resultado": null
+   }
+  }
+ ]
+}
