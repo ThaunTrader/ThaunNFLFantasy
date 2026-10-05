@@ -11,6 +11,14 @@ no la última comprobación.
 Si una liga falla (p.ej. un 403 puntual), se conserva su último partido
 conocido de esa misma semana en vez de dejarlo en blanco.
 
+ENFRENTAMIENTOS DECIDIDOS: para los partidos con actividad que Fleaflicker
+aún no ha cerrado, se consulta FetchLeagueBoxscore y se lee la
+probabilidad de victoria que calcula Fleaflicker (pointsAway/pointsHome
+.winProbability). Si la de mi equipo es exactamente 1.0 -> "WIN"; si es
+0.0 -> "LOSE". Es un juicio basado en proyecciones, no una certeza
+matemática. Nota: el JSON omite los valores cero, así que un
+winProbability ausente con isWinProbabilitySet=true significa 0.0.
+
 Requiere variable de entorno: FLEAFLICKER_USER_ID
 """
 
@@ -34,6 +42,13 @@ HEADERS = {
 }
 
 PAUSA = 1.5  # segundos entre peticiones (valor que funciona con Fleaflicker)
+
+# Probabilidad de victoria a partir de la cual se considera decidido el
+# enfrentamiento. Con 1.0 exacto (y 0.0 el rival) coincide con lo observado
+# en la app de Fleaflicker: 0.9997841 con un RB por jugar NO estaba decidido
+# (mostraba 99%) y 1.0 sí. Si se viera alguna tarjeta mal clasificada,
+# este es el valor a ajustar.
+UMBRAL_DECIDIDO = 1.0
 
 
 def get(endpoint, params, reintentos=2):
@@ -99,6 +114,7 @@ def resumen_partido(partido, team_id):
     rec_rival = rival.get("recordOverall") or {}
 
     return {
+        "game_id": partido.get("id"),
         "rival": rival.get("name", "Rival"),
         "rival_record": rec_rival.get("formatted"),
         "local": es_local,
@@ -106,6 +122,44 @@ def resumen_partido(partido, team_id):
         "mis_puntos": puntos(mi_score),
         "puntos_rival": puntos(rival_score),
         "resultado": resultado,
+    }
+
+
+def prob_victoria(bloque):
+    """Probabilidad de victoria de un lado (pointsAway / pointsHome).
+    - isWinProbabilitySet=true y winProbability presente -> ese valor.
+    - isWinProbabilitySet=true y winProbability AUSENTE -> 0.0 (el JSON
+      omite los ceros; confirmado con un enfrentamiento ya decidido).
+    - isWinProbabilitySet falso o ausente -> None (desconocida)."""
+    if not isinstance(bloque, dict) or not bloque.get("isWinProbabilitySet"):
+        return None
+    return float(bloque.get("winProbability", 0.0))
+
+
+def analizar_boxscore(box, team_id, soy_local):
+    """Extrae del boxscore: si está en juego, mi probabilidad de victoria y
+    si el enfrentamiento está decidido ('WIN' / 'LOSE' / None)."""
+    game = box.get("game") or {}
+    home_id = (game.get("home") or {}).get("id")
+    away_id = (game.get("away") or {}).get("id")
+    if team_id is not None and team_id == home_id:
+        lado = "home"
+    elif team_id is not None and team_id == away_id:
+        lado = "away"
+    else:
+        lado = "home" if soy_local else "away"
+
+    mia = prob_victoria(box.get("pointsHome" if lado == "home" else "pointsAway"))
+    decidido = None
+    if mia is not None:
+        if mia >= UMBRAL_DECIDIDO:
+            decidido = "WIN"
+        elif mia <= 1.0 - UMBRAL_DECIDIDO:
+            decidido = "LOSE"
+    return {
+        "en_juego": bool(game.get("isInProgress")),  # ausente = false
+        "win_prob": mia,
+        "decidido": decidido,
     }
 
 
@@ -129,6 +183,7 @@ def main():
     semana = None
     ligas_out = []
     huecos_previos = {}
+    fallos_boxscore = set()
 
     for lg in leagues:
         team = lg.get("ownedTeam") or {}
@@ -166,6 +221,26 @@ def main():
             entrada["error"] = str(e)
             huecos_previos[league_id] = entrada  # se rellenará con el dato previo
 
+        # Probabilidad de victoria / decidido: solo si el partido tiene
+        # actividad y Fleaflicker no lo ha cerrado (ahorra llamadas).
+        r = entrada["partido"]
+        if (
+            r
+            and not r["jugado"]
+            and ((r["mis_puntos"] or 0) > 0 or (r["puntos_rival"] or 0) > 0)
+            and r.get("game_id")
+        ):
+            time.sleep(PAUSA)
+            try:
+                box = get(
+                    "FetchLeagueBoxscore",
+                    {"league_id": league_id, "fantasy_game_id": r["game_id"]},
+                )
+                r.update(analizar_boxscore(box, team_id, r["local"]))
+            except requests.RequestException as e:
+                fallos_boxscore.add(league_id)
+                print(f"[{entrada['liga']}] boxscore no disponible: {e}")
+
         ligas_out.append(entrada)
         time.sleep(PAUSA)
 
@@ -180,6 +255,16 @@ def main():
             antiguo = previos.get(league_id)
             if antiguo and antiguo.get("partido"):
                 entrada["partido"] = antiguo["partido"]
+
+        # Boxscore fallido: mantener lo último que se sabía del MISMO partido
+        por_liga = {e["league_id"]: e for e in ligas_out}
+        for league_id in fallos_boxscore:
+            nuevo = (por_liga.get(league_id) or {}).get("partido")
+            antiguo = (previos.get(league_id) or {}).get("partido") or {}
+            if nuevo and antiguo.get("game_id") == nuevo.get("game_id"):
+                for campo in ("en_juego", "win_prob", "decidido"):
+                    if campo in antiguo:
+                        nuevo[campo] = antiguo[campo]
 
     resultado = {
         "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
