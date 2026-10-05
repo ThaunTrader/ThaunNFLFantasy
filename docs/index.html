@@ -279,7 +279,84 @@
   }
   .j-grupo.titular { color: var(--text); border-color: var(--muted); }
 
-  #estado-app, #estado-trades, #estado-rosters {
+  .sem-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 4px 0 12px;
+  }
+  .sem-flecha {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    width: 42px;
+    height: 36px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .sem-flecha:active { background: var(--card); }
+  .sem-flecha:disabled { opacity: .25; cursor: default; }
+  .sem-titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .sem-meta { color: var(--muted); font-size: 11.5px; text-align: center; }
+  #resumen-semana {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .tarjeta-semana {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 8px;
+  }
+  .tarjeta-semana.gana   { border-left-color: var(--verde); }
+  .tarjeta-semana.pierde { border-left-color: var(--rojo); }
+  .tarjeta-semana.juego  { border-left-color: var(--ambar); }
+  .ts-info { flex: 1; min-width: 0; }
+  .ts-liga {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 16.5px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .ts-equipo { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ts-rival { color: var(--muted); font-size: 12.5px; margin-top: 3px; }
+  .ts-marcador { text-align: right; flex-shrink: 0; }
+  .ts-puntos {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: .02em;
+    white-space: nowrap;
+  }
+  .ts-tag { font-size: 10.5px; letter-spacing: .07em; text-transform: uppercase; margin-top: 1px; }
+
+  #estado-app, #estado-trades, #estado-rosters, #estado-semana {
     text-align: center;
     color: var(--muted);
     padding: 40px 10px;
@@ -346,6 +423,20 @@
   </div>
 </div>
 
+<div class="vista" id="vista-semana">
+  <div id="estado-semana">Cargando…</div>
+  <div class="sem-nav" id="nav-semana" style="display:none">
+    <button class="sem-flecha" id="sem-prev" aria-label="Semana anterior">◀</button>
+    <div>
+      <div class="sem-titulo" id="sem-titulo"></div>
+      <div class="sem-meta" id="sem-meta"></div>
+    </div>
+    <button class="sem-flecha" id="sem-next" aria-label="Semana siguiente">▶</button>
+  </div>
+  <div id="resumen-semana" style="display:none"></div>
+  <div id="lista-semana"></div>
+</div>
+
 <div class="vista" id="vista-rosters">
   <div id="estado-rosters">Cargando…</div>
   <div id="breadcrumb-rosters" style="display:none;padding:2px 2px 10px;color:var(--muted);font-size:12.5px;"></div>
@@ -365,6 +456,10 @@
   <button class="nav-item activo" data-vista="ligas">
     <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
     Ligas
+  </button>
+  <button class="nav-item" data-vista="semana">
+    <svg viewBox="0 0 24 24"><path d="M5 4h14a1 1 0 011 1v14a1 1 0 01-1 1H5a1 1 0 01-1-1V5a1 1 0 011-1zM4 9h16M8 2v4M16 2v4"/></svg>
+    Semana
   </button>
   <button class="nav-item" data-vista="rosters">
     <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>
@@ -573,11 +668,178 @@ function renderResumenLigas(ligas) {
 
 let calendarioData = null;
 
+let calendarioListo = false;
+
 function cargarCalendario() {
   fetch('data/calendario.json?ts=' + Date.now())
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(d => { calendarioData = d; })
-    .catch(() => { calendarioData = null; });
+    .catch(() => { calendarioData = null; })
+    .finally(() => { calendarioListo = true; renderSemana(); });
+}
+
+/* ───────── Panel "Semana" ─────────
+   Fuentes: semana.json (semana en curso, marcadores provisionales, se
+   refresca varias veces al día) y calendario.json (semanas ya cerradas). */
+let semanaData = null;
+let semanaListo = false;
+let semanaSel = null;
+
+function cargarSemana() {
+  fetch('data/semana.json?ts=' + Date.now())
+    .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(d => { semanaData = d; })
+    .catch(() => { semanaData = null; })
+    .finally(() => { semanaListo = true; renderSemana(); });
+}
+
+function ligasSemana() {
+  const base = semanaData?.ligas || calendarioData?.ligas || [];
+  return base.map(l => ({ league_id: l.league_id, liga: l.liga, equipo: l.equipo }));
+}
+
+function semanaMaxima() {
+  if (semanaData?.semana) return semanaData.semana;
+  const nums = (calendarioData?.ligas || []).flatMap(l =>
+    (l.semanas || []).filter(s => !s.error).map(s => s.semana));
+  return nums.length ? Math.max(...nums) : null;
+}
+
+function partidoDe(leagueId, semana) {
+  if (semanaData && semanaData.semana === semana) {
+    const l = (semanaData.ligas || []).find(x => x.league_id === leagueId);
+    if (l && l.partido) return l.partido;
+  }
+  const lc = (calendarioData?.ligas || []).find(x => x.league_id === leagueId);
+  return lc?.semanas?.find(s => s.semana === semana && !s.error) || null;
+}
+
+function estadoPartido(p) {
+  if (!p) return 'sin_datos';
+  if (p.jugado) return 'final';
+  if ((p.mis_puntos || 0) > 0 || (p.puntos_rival || 0) > 0) return 'en_juego';
+  return 'sin_empezar';
+}
+
+function semanaPorDefecto(max) {
+  // Si la semana en curso aún no ha empezado (p.ej. martes tras el Monday
+  // Night, todo a 0), se abre la anterior, que es la que interesa ver.
+  const hayActividad = ligasSemana().some(l => {
+    const e = estadoPartido(partidoDe(l.league_id, max));
+    return e === 'en_juego' || e === 'final';
+  });
+  return (!hayActividad && max > 1) ? max - 1 : max;
+}
+
+function fmtPuntos(x) {
+  return x == null ? '—' : Number(x).toFixed(2);
+}
+
+function claveOrdenSemana(it) {
+  const margen = (it.p?.mis_puntos || 0) - (it.p?.puntos_rival || 0);
+  let grupo = 5;
+  if (it.estado === 'final') grupo = it.p.resultado === 'WIN' ? 0 : it.p.resultado === 'LOSE' ? 4 : 3;
+  else if (it.estado === 'en_juego') grupo = 1;
+  else if (it.estado === 'sin_empezar') grupo = 2;
+  return [grupo, -margen];
+}
+
+function renderSemana() {
+  const estado = document.getElementById('estado-semana');
+  const nav = document.getElementById('nav-semana');
+  const resumen = document.getElementById('resumen-semana');
+  const lista = document.getElementById('lista-semana');
+  if (!estado) return;
+
+  if (!semanaListo || !calendarioListo) {
+    estado.style.display = 'block'; estado.textContent = 'Cargando…';
+    nav.style.display = 'none'; resumen.style.display = 'none'; lista.innerHTML = '';
+    return;
+  }
+
+  const max = semanaMaxima();
+  const ligas = ligasSemana();
+  if (!max || !ligas.length) {
+    estado.style.display = 'block'; estado.textContent = 'Sin datos de la semana todavía.';
+    nav.style.display = 'none'; resumen.style.display = 'none'; lista.innerHTML = '';
+    return;
+  }
+  estado.style.display = 'none';
+  if (semanaSel === null || semanaSel > max || semanaSel < 1) semanaSel = semanaPorDefecto(max);
+
+  nav.style.display = 'flex';
+  document.getElementById('sem-prev').disabled = semanaSel <= 1;
+  document.getElementById('sem-next').disabled = semanaSel >= max;
+  document.getElementById('sem-titulo').textContent =
+    'Semana ' + semanaSel + (semanaSel === max ? ' · en curso' : '');
+  const meta = document.getElementById('sem-meta');
+  if (semanaSel === max && semanaData?.generado) {
+    meta.textContent = 'Último cambio de marcador: ' + new Date(semanaData.generado).toLocaleString('es-ES', {
+      weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+  } else {
+    meta.textContent = '';
+  }
+
+  const items = ligas.map(l => {
+    const p = partidoDe(l.league_id, semanaSel);
+    return { l, p, estado: estadoPartido(p) };
+  });
+
+  const ganados = items.filter(i => i.estado === 'final' && i.p.resultado === 'WIN').length;
+  const perdidos = items.filter(i => i.estado === 'final' && i.p.resultado === 'LOSE').length;
+  const empatados = items.filter(i => i.estado === 'final').length - ganados - perdidos;
+  const enJuego = items.filter(i => i.estado === 'en_juego').length;
+  const sinEmpezar = items.filter(i => i.estado === 'sin_empezar').length;
+  const sinDatos = items.filter(i => i.estado === 'sin_datos').length;
+
+  const pl = (n, sing, plur) => `${n} ${n === 1 ? sing : plur}`;
+  const partes = [
+    `<span style="color:var(--verde)">${pl(ganados, 'ganado', 'ganados')}</span>`,
+    `<span style="color:var(--rojo)">${pl(perdidos, 'perdido', 'perdidos')}</span>`,
+  ];
+  if (empatados) partes.push(`<span style="color:var(--muted)">${pl(empatados, 'empate', 'empates')}</span>`);
+  if (enJuego) partes.push(`<span style="color:var(--ambar)">${enJuego} en juego</span>`);
+  if (sinEmpezar) partes.push(`<span style="color:var(--muted)">${sinEmpezar} sin empezar</span>`);
+  if (sinDatos) partes.push(`<span style="color:var(--muted)">${sinDatos} sin datos</span>`);
+  resumen.style.display = 'block';
+  resumen.innerHTML = partes.join(' · ');
+
+  items.sort((a, b) => {
+    const ka = claveOrdenSemana(a), kb = claveOrdenSemana(b);
+    return (ka[0] - kb[0]) || (ka[1] - kb[1]);
+  });
+
+  lista.innerHTML = items.map(({ l, p, estado: e }) => {
+    let clase = '', tag = 'Sin datos', color = 'var(--muted)';
+    if (e === 'final') {
+      if (p.resultado === 'WIN') { clase = 'gana'; tag = 'Ganado'; color = 'var(--verde)'; }
+      else if (p.resultado === 'LOSE') { clase = 'pierde'; tag = 'Perdido'; color = 'var(--rojo)'; }
+      else { tag = 'Empate'; }
+    } else if (e === 'en_juego') {
+      clase = 'juego'; tag = 'En juego';
+      const margen = (p.mis_puntos || 0) - (p.puntos_rival || 0);
+      color = margen > 0 ? 'var(--verde)' : margen < 0 ? 'var(--rojo)' : 'var(--muted)';
+    } else if (e === 'sin_empezar') {
+      tag = 'Sin empezar';
+    }
+    const tagColor = e === 'en_juego' ? 'var(--ambar)' : color;
+    const rival = p
+      ? `${p.local ? 'vs' : '@'} ${esc(p.rival)}${p.rival_record ? ' (' + esc(p.rival_record) + ')' : ''}`
+      : 'Sin partido registrado';
+    const puntos = p ? `${fmtPuntos(p.mis_puntos)} - ${fmtPuntos(p.puntos_rival)}` : '—';
+    return `
+      <div class="tarjeta-semana ${clase}">
+        <div class="ts-info">
+          <div class="ts-liga">${esc(l.liga)}</div>
+          <div class="ts-equipo">${esc(l.equipo)}</div>
+          <div class="ts-rival">${rival}</div>
+        </div>
+        <div class="ts-marcador">
+          <div class="ts-puntos" style="color:${color}">${puntos}</div>
+          <div class="ts-tag" style="color:${tagColor}">${tag}</div>
+        </div>
+      </div>`;
+  }).join('');
 }
 
 function toggleCalendario(clave) {
@@ -618,7 +880,7 @@ function toggleCalendario(clave) {
   cont.dataset.pintado = '1';
 }
 
-const FUENTE_LABEL = { fantasy: '2025 real', draft: 'proy. 2026' };
+const FUENTE_LABEL = { fantasy: 'rendimiento real', draft: 'proyección' };
 
 function pintarJugadoresRoster(jugadores) {
   return jugadores.map(j => `
@@ -870,7 +1132,15 @@ function renderTrades(datosTrades) {
   `).join('');
 }
 
-document.getElementById('actualizar').addEventListener('click', cargar);
+document.getElementById('actualizar').addEventListener('click', () => { cargar(); cargarSemana(); });
+
+document.getElementById('sem-prev').addEventListener('click', () => {
+  if (semanaSel > 1) { semanaSel--; renderSemana(); }
+});
+document.getElementById('sem-next').addEventListener('click', () => {
+  const max = semanaMaxima();
+  if (max && semanaSel < max) { semanaSel++; renderSemana(); }
+});
 
 document.querySelectorAll('.nav-item').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -883,6 +1153,7 @@ document.querySelectorAll('.nav-item').forEach(btn => {
 
 cargar();
 cargarCalendario();
+cargarSemana();
 cargarTrades();
 cargarRosters();
 </script>
