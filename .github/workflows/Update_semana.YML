@@ -1,0 +1,43 @@
+name: Update Week Scores
+
+on:
+  schedule:
+    - cron: '20 * * * *'   # cada hora, minuto 20 (solo hace commit si cambia algo)
+  workflow_dispatch:        # ejecución manual
+
+permissions:
+  contents: write
+
+# Evita que dos ejecuciones de este workflow se pisen entre sí
+concurrency:
+  group: update-semana
+  cancel-in-progress: false
+
+jobs:
+  update-semana:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Export week scores
+        env:
+          FLEAFLICKER_USER_ID: ${{ secrets.FLEAFLICKER_USER_ID }}
+        run: python export_semana.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/semana.json
+          # pull --rebase por si otro workflow ha hecho commit mientras tanto
+          git diff --staged --quiet || (git commit -m "Actualizar marcadores de la semana" && git pull --rebase origin main && git push)
