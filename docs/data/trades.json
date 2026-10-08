@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-08T12:05:26+00:00",
+ "generado": "2026-10-08T22:10:09+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -53,7 +53,29 @@
    "league_id": 332766,
    "liga": "IDP 17 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP17)",
-   "trades": []
+   "trades": [
+    {
+     "id": 10467586,
+     "estado": "",
+     "descripcion": "Hockenson for Hurst",
+     "propuesto": "1791446262000",
+     "aprobado": "1791488872000",
+     "lados": [
+      {
+       "equipo": "Madriz Bears",
+       "recibe": [
+        "T.J. Hockenson"
+       ]
+      },
+      {
+       "equipo": "Alicante Buccaneers (IDP17)",
+       "recibe": [
+        "Ted Hurst"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "league_id": 332793,
