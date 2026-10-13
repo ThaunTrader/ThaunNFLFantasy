@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T00:46:47+00:00",
+ "generado": "2026-10-13T07:47:17+00:00",
  "season": 2026,
  "semana": 5,
  "ligas": [
@@ -13,12 +13,12 @@
     "rival_record": "2-2",
     "local": false,
     "jugado": false,
-    "mis_puntos": 204.8,
-    "puntos_rival": 106.65,
+    "mis_puntos": 264.95,
+    "puntos_rival": 150.95,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.99,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -28,15 +28,12 @@
    "partido": {
     "game_id": "58333839",
     "rival": "Orotava Bengals",
-    "rival_record": "2-2",
+    "rival_record": "2-3",
     "local": false,
-    "jugado": false,
-    "mis_puntos": 270.02002,
-    "puntos_rival": 181.22002,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.97,
-    "decidido": null
+    "jugado": true,
+    "mis_puntos": 285.02,
+    "puntos_rival": 212.04001,
+    "resultado": "WIN"
    }
   },
   {
@@ -49,12 +46,12 @@
     "rival_record": "4-0",
     "local": true,
     "jugado": false,
-    "mis_puntos": 293.58002,
-    "puntos_rival": 269.62,
+    "mis_puntos": 348.72003,
+    "puntos_rival": 300.44003,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -67,12 +64,12 @@
     "rival_record": "3-1",
     "local": false,
     "jugado": false,
-    "mis_puntos": 311.4,
-    "puntos_rival": 284.5,
+    "mis_puntos": 342.69998,
+    "puntos_rival": 300.6,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -82,15 +79,12 @@
    "partido": {
     "game_id": "58813033",
     "rival": "Catoira Towers",
-    "rival_record": "3-1",
+    "rival_record": "4-1",
     "local": true,
-    "jugado": false,
-    "mis_puntos": 290.30002,
+    "jugado": true,
+    "mis_puntos": 308.2,
     "puntos_rival": 361.96,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 2.5562715e-06,
-    "decidido": null
+    "resultado": "LOSE"
    }
   },
   {
@@ -100,15 +94,12 @@
    "partido": {
     "game_id": "58811938",
     "rival": "Teorema de Mico",
-    "rival_record": "2-2",
+    "rival_record": "3-2",
     "local": true,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 126.259995,
     "puntos_rival": 190.37,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.0,
-    "decidido": "LOSE"
+    "resultado": "LOSE"
    }
   },
   {
@@ -121,12 +112,12 @@
     "rival_record": "2-2",
     "local": false,
     "jugado": false,
-    "mis_puntos": 317.1,
-    "puntos_rival": 252.84999,
+    "mis_puntos": 350.0,
+    "puntos_rival": 284.15,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -157,12 +148,12 @@
     "rival_record": "2-2",
     "local": false,
     "jugado": false,
-    "mis_puntos": 332.2,
-    "puntos_rival": 320.54,
+    "mis_puntos": 341.2,
+    "puntos_rival": 336.64005,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.5940432,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -175,12 +166,12 @@
     "rival_record": "1-3",
     "local": false,
     "jugado": false,
-    "mis_puntos": 346.26,
-    "puntos_rival": 252.66,
+    "mis_puntos": 404.46002,
+    "puntos_rival": 262.16,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.99,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -208,15 +199,12 @@
    "partido": {
     "game_id": "58813985",
     "rival": "BigTruzz",
-    "rival_record": "1-3",
+    "rival_record": "1-4",
     "local": false,
-    "jugado": false,
-    "mis_puntos": 146.01,
-    "puntos_rival": 120.12,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.96,
-    "decidido": null
+    "jugado": true,
+    "mis_puntos": 179.07999,
+    "puntos_rival": 144.01001,
+    "resultado": "WIN"
    }
   },
   {
@@ -229,8 +217,8 @@
     "rival_record": "1-3",
     "local": false,
     "jugado": false,
-    "mis_puntos": 402.24,
-    "puntos_rival": 203.89,
+    "mis_puntos": 439.14,
+    "puntos_rival": 246.48999,
     "resultado": null,
     "en_juego": true,
     "win_prob": 1.0,
@@ -247,12 +235,12 @@
     "rival_record": "2-2",
     "local": true,
     "jugado": false,
-    "mis_puntos": 370.0,
-    "puntos_rival": 244.27,
+    "mis_puntos": 385.0,
+    "puntos_rival": 304.56998,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.99987227,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -262,15 +250,12 @@
    "partido": {
     "game_id": "58318550",
     "rival": "Plencia Blitzers",
-    "rival_record": "2-2",
+    "rival_record": "2-3",
     "local": false,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 314.86002,
-    "puntos_rival": 234.37,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.999,
-    "decidido": null
+    "puntos_rival": 244.37,
+    "resultado": "WIN"
    }
   },
   {
@@ -283,12 +268,12 @@
     "rival_record": "1-3",
     "local": true,
     "jugado": false,
-    "mis_puntos": 62.300003,
+    "mis_puntos": 94.350006,
     "puntos_rival": 80.850006,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.4599818,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   }
  ]
