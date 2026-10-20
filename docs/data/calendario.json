@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-13T17:17:43+00:00",
+ "generado": "2026-10-20T09:51:45+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -9,7 +9,7 @@
    "semanas": [
     {
      "rival": "Dallas Cereal Killers",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 215.75,
@@ -19,7 +19,7 @@
     },
     {
      "rival": "Placita20",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 147.25,
@@ -29,7 +29,7 @@
     },
     {
      "rival": "Lamar de bé",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 166.9,
@@ -39,7 +39,7 @@
     },
     {
      "rival": "Gronkey Kong",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
      "mis_puntos": 150.95,
@@ -49,22 +49,22 @@
     },
     {
      "rival": "Just Win, Tio",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 264.95,
-     "puntos_rival": 150.95,
+     "puntos_rival": 151.95,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Gasteiz Lions",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 145.0,
+     "puntos_rival": 184.09999,
+     "resultado": "LOSE",
      "semana": 6
     }
    ]
@@ -76,7 +76,7 @@
    "semanas": [
     {
      "rival": "The Real Kings",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 263.2,
@@ -86,7 +86,7 @@
     },
     {
      "rival": "Córdoba Knights",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 246.8,
@@ -96,7 +96,7 @@
     },
     {
      "rival": "Wiwiwis",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 341.58,
@@ -106,7 +106,7 @@
     },
     {
      "rival": "Strike Team",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": true,
      "jugado": true,
      "mis_puntos": 348.16,
@@ -116,22 +116,22 @@
     },
     {
      "rival": "Orotava Bengals",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
-     "mis_puntos": 285.02,
-     "puntos_rival": 212.04,
+     "mis_puntos": 288.02,
+     "puntos_rival": 213.04,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Pixuetos",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 261.58002,
+     "puntos_rival": 252.53,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -143,7 +143,7 @@
    "semanas": [
     {
      "rival": "Canary Cats",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 248.94,
@@ -153,7 +153,7 @@
     },
     {
      "rival": "Getafe Packers",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 267.08,
@@ -163,7 +163,7 @@
     },
     {
      "rival": "VPP Espanyol",
-     "rival_record": "5-0",
+     "rival_record": "5-1",
      "local": true,
      "jugado": true,
      "mis_puntos": 296.58,
@@ -173,7 +173,7 @@
     },
     {
      "rival": "asturdodgers",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 361.37,
@@ -183,10 +183,10 @@
     },
     {
      "rival": "Gaelhawk ⭐️⭐️",
-     "rival_record": "4-1",
+     "rival_record": "5-1",
      "local": true,
      "jugado": true,
-     "mis_puntos": 348.72,
+     "mis_puntos": 356.72,
      "puntos_rival": 300.44,
      "resultado": "WIN",
      "semana": 5
@@ -196,8 +196,8 @@
      "rival_record": "1-4",
      "local": false,
      "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
+     "mis_puntos": 309.36,
+     "puntos_rival": 186.82,
      "resultado": null,
      "semana": 6
     }
@@ -210,7 +210,7 @@
    "semanas": [
     {
      "rival": "Gaelhawk",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 252.96,
@@ -220,7 +220,7 @@
     },
     {
      "rival": "Granota Packers",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 201.82,
@@ -230,7 +230,7 @@
     },
     {
      "rival": "Orotava Bengals",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 270.92,
@@ -240,7 +240,7 @@
     },
     {
      "rival": "K-Olea Kinball team",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 304.8,
@@ -250,22 +250,22 @@
     },
     {
      "rival": "Los Tigres De Arroyo",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
-     "mis_puntos": 342.7,
-     "puntos_rival": 300.6,
+     "mis_puntos": 346.2,
+     "puntos_rival": 299.6,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Pucela Firefighters",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 316.24002,
+     "puntos_rival": 272.5,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -277,7 +277,7 @@
    "semanas": [
     {
      "rival": "Hinojos Nepres 🏴‍☠️",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": true,
      "jugado": true,
      "mis_puntos": 327.16,
@@ -287,7 +287,7 @@
     },
     {
      "rival": "Rivas Jokers⭐⭐",
-     "rival_record": "5-0",
+     "rival_record": "5-1",
      "local": false,
      "jugado": true,
      "mis_puntos": 260.77,
@@ -297,7 +297,7 @@
     },
     {
      "rival": "Alcoi Wembleys",
-     "rival_record": "0-5",
+     "rival_record": "0-6",
      "local": true,
      "jugado": true,
      "mis_puntos": 275.32,
@@ -307,7 +307,7 @@
     },
     {
      "rival": "Lierse Horses",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 262.44,
@@ -317,22 +317,22 @@
     },
     {
      "rival": "Catoira Towers",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
-     "mis_puntos": 308.2,
-     "puntos_rival": 361.96,
+     "mis_puntos": 310.7,
+     "puntos_rival": 363.46,
      "resultado": "LOSE",
      "semana": 5
     },
     {
      "rival": "Ontinyent Ravens",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 330.56,
+     "puntos_rival": 256.28,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -344,7 +344,7 @@
    "semanas": [
     {
      "rival": "GR Eat Teams",
-     "rival_record": "0-5",
+     "rival_record": "1-5",
      "local": true,
      "jugado": true,
      "mis_puntos": 158.66,
@@ -354,7 +354,7 @@
     },
     {
      "rival": "Kanu25",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 179.65,
@@ -364,7 +364,7 @@
     },
     {
      "rival": "Sarda Duckrats",
-     "rival_record": "5-0",
+     "rival_record": "6-0",
      "local": false,
      "jugado": true,
      "mis_puntos": 176.81,
@@ -374,7 +374,7 @@
     },
     {
      "rival": "Asturies magica",
-     "rival_record": "4-1",
+     "rival_record": "5-1",
      "local": false,
      "jugado": true,
      "mis_puntos": 201.7,
@@ -384,22 +384,22 @@
     },
     {
      "rival": "Teorema de Mico",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
-     "mis_puntos": 126.26,
-     "puntos_rival": 190.37,
+     "mis_puntos": 128.26,
+     "puntos_rival": 190.87,
      "resultado": "LOSE",
      "semana": 5
     },
     {
      "rival": "Barcelona Dolphins",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 153.65001,
+     "puntos_rival": 121.259995,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -411,7 +411,7 @@
    "semanas": [
     {
      "rival": "AriSoma Saguaro🌵(🏆🏆)",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 278.0,
@@ -421,7 +421,7 @@
     },
     {
      "rival": "GR Eat Teams",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
      "mis_puntos": 184.05,
@@ -431,7 +431,7 @@
     },
     {
      "rival": "Bogdanas del valle cuántico de Ebaté",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 197.98,
@@ -441,7 +441,7 @@
     },
     {
      "rival": "Hinojos Nepres 🏴‍☠️",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 290.77,
@@ -451,22 +451,22 @@
     },
     {
      "rival": "Kanu25 ⭐️",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
-     "mis_puntos": 350.0,
-     "puntos_rival": 284.15,
+     "mis_puntos": 349.5,
+     "puntos_rival": 283.65,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Lions of Maldini",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 267.46,
+     "puntos_rival": 257.12,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -478,7 +478,7 @@
    "semanas": [
     {
      "rival": "Sarda Duckrats",
-     "rival_record": "4-1",
+     "rival_record": "5-1",
      "local": true,
      "jugado": true,
      "mis_puntos": 106.23,
@@ -488,7 +488,7 @@
     },
     {
      "rival": "Cantabria Honey Badgers",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 142.06,
@@ -498,7 +498,7 @@
     },
     {
      "rival": "BlanquinegroSF",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
      "mis_puntos": 145.9,
@@ -508,7 +508,7 @@
     },
     {
      "rival": "Sueca Raiders",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
      "mis_puntos": 161.12,
@@ -518,22 +518,22 @@
     },
     {
      "rival": "Zaragoza Lions",
-     "rival_record": "0-5",
+     "rival_record": "0-6",
      "local": true,
      "jugado": true,
-     "mis_puntos": 170.89,
-     "puntos_rival": 107.85,
+     "mis_puntos": 169.89,
+     "puntos_rival": 106.85,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Pol KC Chiefs",
-     "rival_record": "4-1",
+     "rival_record": "5-1",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 149.47,
+     "puntos_rival": 171.48,
+     "resultado": "LOSE",
      "semana": 6
     }
    ]
@@ -545,7 +545,7 @@
    "semanas": [
     {
      "rival": "Huskys Fuenlabrada",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 264.08,
@@ -555,7 +555,7 @@
     },
     {
      "rival": "Pucela Saylors",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": true,
      "jugado": true,
      "mis_puntos": 312.64,
@@ -565,7 +565,7 @@
     },
     {
      "rival": "Burgos’ Penguins",
-     "rival_record": "0-5",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
      "mis_puntos": 311.08,
@@ -575,7 +575,7 @@
     },
     {
      "rival": "Sant Cugat Boars",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 331.9,
@@ -585,22 +585,22 @@
     },
     {
      "rival": "QuesosYPalas2Go",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
-     "mis_puntos": 341.2,
-     "puntos_rival": 336.64,
+     "mis_puntos": 350.2,
+     "puntos_rival": 340.14,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Vallpabulldogs",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 274.40002,
+     "puntos_rival": 229.54999,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -612,7 +612,7 @@
    "semanas": [
     {
      "rival": "NoHayDosSinTres",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": true,
      "jugado": true,
      "mis_puntos": 221.96,
@@ -622,7 +622,7 @@
     },
     {
      "rival": "Pontevedra Candorcas (🏆)",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 308.2,
@@ -632,7 +632,7 @@
     },
     {
      "rival": "Kanu25",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
      "mis_puntos": 293.8,
@@ -642,7 +642,7 @@
     },
     {
      "rival": "Pucela Honey Badgers",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 366.0,
@@ -652,22 +652,22 @@
     },
     {
      "rival": "Alcorcón Hurricanes",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
-     "mis_puntos": 404.46,
-     "puntos_rival": 262.16,
+     "mis_puntos": 412.46,
+     "puntos_rival": 265.16,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Babilafuente Lions",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 321.44,
+     "puntos_rival": 245.87999,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -679,7 +679,7 @@
    "semanas": [
     {
      "rival": "Alcalá Eagles",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 232.11,
@@ -689,7 +689,7 @@
     },
     {
      "rival": "New Verges Patriots",
-     "rival_record": "0-5",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
      "mis_puntos": 179.34,
@@ -699,7 +699,7 @@
     },
     {
      "rival": "Ontinyent Ravens",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
      "mis_puntos": 212.0,
@@ -709,7 +709,7 @@
     },
     {
      "rival": "Pucela Honey Badgers",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 212.45,
@@ -719,22 +719,22 @@
     },
     {
      "rival": "ATLFalcons_cat",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
-     "mis_puntos": 205.26,
+     "mis_puntos": 208.26,
      "puntos_rival": 125.91,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "MacroTeam",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 184.59,
+     "puntos_rival": 166.2,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -746,7 +746,7 @@
    "semanas": [
     {
      "rival": "Gaelhawk",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
      "mis_puntos": 124.57,
@@ -756,7 +756,7 @@
     },
     {
      "rival": "BB - Bilbao Bisons",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 132.52,
@@ -766,7 +766,7 @@
     },
     {
      "rival": "Sr. Bull ⭐",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 149.88,
@@ -776,7 +776,7 @@
     },
     {
      "rival": "Iruña KC",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 167.93,
@@ -786,22 +786,22 @@
     },
     {
      "rival": "BigTruzz",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
-     "mis_puntos": 179.08,
-     "puntos_rival": 144.01,
+     "mis_puntos": 178.58,
+     "puntos_rival": 144.51,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Pipineta",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 172.28,
+     "puntos_rival": 120.36,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -813,7 +813,7 @@
    "semanas": [
     {
      "rival": "Hinojos Nepres 🏴‍☠️",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 392.2,
@@ -823,7 +823,7 @@
     },
     {
      "rival": "Justin Tucker 66 yard",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
      "mis_puntos": 389.1,
@@ -833,7 +833,7 @@
     },
     {
      "rival": "chattanooga isotops",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 462.29,
@@ -843,7 +843,7 @@
     },
     {
      "rival": "Cambaaack",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 434.65,
@@ -853,22 +853,22 @@
     },
     {
      "rival": "Lucus Browns ⭐",
-     "rival_record": "1-4",
+     "rival_record": "1-5",
      "local": false,
      "jugado": true,
-     "mis_puntos": 439.14,
+     "mis_puntos": 444.14,
      "puntos_rival": 246.49,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "VilladeCampos",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 338.88,
+     "puntos_rival": 332.61,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -880,7 +880,7 @@
    "semanas": [
     {
      "rival": "Yipi-ka-yei",
-     "rival_record": "0-5",
+     "rival_record": "0-6",
      "local": true,
      "jugado": true,
      "mis_puntos": 310.9,
@@ -890,7 +890,7 @@
     },
     {
      "rival": "Placita20",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 303.65,
@@ -900,7 +900,7 @@
     },
     {
      "rival": "Alcorcón Smilodons ⭐",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 319.01,
@@ -910,7 +910,7 @@
     },
     {
      "rival": "PTV Wild Pigs",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 361.29,
@@ -920,22 +920,22 @@
     },
     {
      "rival": "Campolongo Sabuesos",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
-     "mis_puntos": 385.0,
-     "puntos_rival": 304.57,
+     "mis_puntos": 386.0,
+     "puntos_rival": 306.07,
      "resultado": "WIN",
      "semana": 5
     },
     {
-     "rival": "Cheese Lords Stallions",
-     "rival_record": "3-2",
+     "rival": "Getafe Packers",
+     "rival_record": "4-2",
      "local": false,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 273.9,
+     "puntos_rival": 303.81998,
+     "resultado": "LOSE",
      "semana": 6
     }
    ]
@@ -947,7 +947,7 @@
    "semanas": [
     {
      "rival": "Gaelhawk",
-     "rival_record": "5-0",
+     "rival_record": "5-1",
      "local": false,
      "jugado": true,
      "mis_puntos": 252.94,
@@ -957,7 +957,7 @@
     },
     {
      "rival": "Pharma Team ⭐️",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 282.01,
@@ -967,7 +967,7 @@
     },
     {
      "rival": "Draganas de Bacatá",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 292.6,
@@ -977,7 +977,7 @@
     },
     {
      "rival": "VPP Espanyol",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": true,
      "jugado": true,
      "mis_puntos": 379.02,
@@ -987,22 +987,22 @@
     },
     {
      "rival": "Plencia Blitzers",
-     "rival_record": "2-3",
+     "rival_record": "3-3",
      "local": false,
      "jugado": true,
-     "mis_puntos": 314.86,
+     "mis_puntos": 313.86,
      "puntos_rival": 244.37,
      "resultado": "WIN",
      "semana": 5
     },
     {
      "rival": "Barcelona Dolphins",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 283.74,
+     "puntos_rival": 270.9,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
@@ -1014,7 +1014,7 @@
    "semanas": [
     {
      "rival": "Chusma Mirandesa",
-     "rival_record": "4-1",
+     "rival_record": "4-2",
      "local": false,
      "jugado": true,
      "mis_puntos": 59.95,
@@ -1024,7 +1024,7 @@
     },
     {
      "rival": "Smilodons Team",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 103.95,
@@ -1034,7 +1034,7 @@
     },
     {
      "rival": "Founding Father's Scrubs.",
-     "rival_record": "2-3",
+     "rival_record": "2-4",
      "local": false,
      "jugado": true,
      "mis_puntos": 71.5,
@@ -1044,7 +1044,7 @@
     },
     {
      "rival": "Rarestrepo’s sailors",
-     "rival_record": "3-2",
+     "rival_record": "4-2",
      "local": true,
      "jugado": true,
      "mis_puntos": 104.35,
@@ -1054,7 +1054,7 @@
     },
     {
      "rival": "Los Pingus",
-     "rival_record": "1-4",
+     "rival_record": "2-4",
      "local": true,
      "jugado": true,
      "mis_puntos": 94.35,
@@ -1064,12 +1064,12 @@
     },
     {
      "rival": "Canteros de Torrero",
-     "rival_record": "3-2",
+     "rival_record": "3-3",
      "local": true,
-     "jugado": false,
-     "mis_puntos": null,
-     "puntos_rival": null,
-     "resultado": null,
+     "jugado": true,
+     "mis_puntos": 85.2,
+     "puntos_rival": 71.3,
+     "resultado": "WIN",
      "semana": 6
     }
    ]
