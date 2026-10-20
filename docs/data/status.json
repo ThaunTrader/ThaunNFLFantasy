@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-20T10:08:51+00:00",
+ "generado": "2026-10-20T20:40:02+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -196,7 +196,7 @@
     "formateado": "6-0",
     "rank": 1
    },
-   "total_roster": 26,
+   "total_roster": 25,
    "alertas": []
   },
   {
