@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21T15:43:22+00:00",
+ "generado": "2026-10-22T15:42:55+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -2346,15 +2346,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Gabe Jacas",
-       "equipo_nfl": "NE",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Rueben Bain",
        "equipo_nfl": "TB",
        "rank": "—",
@@ -2397,6 +2388,15 @@
        "rank_ordinal": 33,
        "nota_letra": "C",
        "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
+       "nombre": "Peter Woods",
+       "equipo_nfl": "KC",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       }
      ],
@@ -2456,15 +2456,6 @@
       {
        "nombre": "Nick Herbig",
        "equipo_nfl": "PIT",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
-      },
-      {
-       "nombre": "Gabe Jacas",
-       "equipo_nfl": "NE",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -2951,6 +2942,15 @@
          "nota_letra": "C",
          "fuente": "fantasy",
          "hueco": "BENCH"
+        },
+        {
+         "nombre": "Peter Woods",
+         "equipo_nfl": "KC",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "BENCH"
         }
        ],
        "nota": {
@@ -2968,15 +2968,6 @@
          "rank_ordinal": 17,
          "nota_letra": "B+",
          "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
-         "nombre": "Gabe Jacas",
-         "equipo_nfl": "NE",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -3009,15 +3000,6 @@
         {
          "nombre": "Nick Herbig",
          "equipo_nfl": "PIT",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "BENCH"
-        },
-        {
-         "nombre": "Gabe Jacas",
-         "equipo_nfl": "NE",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -15078,8 +15060,8 @@
        "hueco": "START"
       },
       {
-       "nombre": "Kalif Raymond",
-       "equipo_nfl": "CHI",
+       "nombre": "Zachariah Branch",
+       "equipo_nfl": "ATL",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -15874,8 +15856,8 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Kalif Raymond",
-         "equipo_nfl": "CHI",
+         "nombre": "Zachariah Branch",
+         "equipo_nfl": "ATL",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
