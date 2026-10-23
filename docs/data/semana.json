@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-23T04:58:17+00:00",
+ "generado": "2026-10-23T10:09:42+00:00",
  "season": 2026,
  "semana": 7,
  "ligas": [
@@ -209,7 +209,7 @@
     "puntos_rival": null,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.6272834,
+    "win_prob": 0.62734795,
     "decidido": null
    }
   },
