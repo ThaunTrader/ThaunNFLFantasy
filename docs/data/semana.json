@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-24T16:39:05+00:00",
+ "generado": "2026-10-24T19:32:34+00:00",
  "season": 2026,
  "semana": 7,
  "ligas": [
@@ -71,7 +71,7 @@
     "puntos_rival": 22.8,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.55691034,
+    "win_prob": 0.5605161,
     "decidido": null
    }
   },
@@ -140,7 +140,7 @@
     "puntos_rival": 32.47,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.44671237,
+    "win_prob": 0.44467852,
     "decidido": null
    }
   },
@@ -158,7 +158,7 @@
     "puntos_rival": 9.0,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.63651633,
+    "win_prob": 0.63666207,
     "decidido": null
    }
   },
@@ -227,7 +227,7 @@
     "puntos_rival": 29.5,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.6103454,
+    "win_prob": 0.610237,
     "decidido": null
    }
   },
