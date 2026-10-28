@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-27T21:22:26+00:00",
+ "generado": "2026-10-28T11:24:20+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -88,7 +88,7 @@
     "formateado": "5-2",
     "rank": 2
    },
-   "total_roster": 45,
+   "total_roster": 43,
    "alertas": []
   },
   {
@@ -124,7 +124,7 @@
     "formateado": "5-2",
     "rank": 1
    },
-   "total_roster": 42,
+   "total_roster": 43,
    "alertas": []
   },
   {
@@ -142,7 +142,7 @@
     "formateado": "1-6",
     "rank": 11
    },
-   "total_roster": 24,
+   "total_roster": 26,
    "alertas": []
   },
   {
@@ -268,7 +268,7 @@
     "formateado": "5-2",
     "rank": 3
    },
-   "total_roster": 48,
+   "total_roster": 50,
    "alertas": []
   },
   {
