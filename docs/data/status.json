@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-02T23:54:45+00:00",
+ "generado": "2026-11-03T09:08:11+00:00",
  "ligas": [
   {
    "league_id": 324737,
@@ -9,11 +9,11 @@
    "tipo": "Redraft",
    "formato": "Classic Flex-DP",
    "record": {
-    "victorias": 6,
+    "victorias": 7,
     "derrotas": 1,
     "empates": 0,
-    "pct": 0.85714287,
-    "formateado": "6-1",
+    "pct": 0.875,
+    "formateado": "7-1",
     "rank": 1
    },
    "total_roster": 17,
@@ -28,10 +28,10 @@
    "formato": "IDP",
    "record": {
     "victorias": 6,
-    "derrotas": 1,
+    "derrotas": 2,
     "empates": 0,
-    "pct": 0.85714287,
-    "formateado": "6-1",
+    "pct": 0.75,
+    "formateado": "6-2",
     "rank": 2
    },
    "total_roster": 45,
@@ -46,11 +46,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 3,
-    "derrotas": 4,
+    "derrotas": 5,
     "empates": 0,
-    "pct": 0.42857143,
-    "formateado": "3-4",
-    "rank": 8
+    "pct": 0.375,
+    "formateado": "3-5",
+    "rank": 9
    },
    "total_roster": 45,
    "alertas": []
@@ -63,12 +63,12 @@
    "tipo": null,
    "formato": null,
    "record": {
-    "victorias": 4,
+    "victorias": 5,
     "derrotas": 3,
     "empates": 0,
-    "pct": 0.5714286,
-    "formateado": "4-3",
-    "rank": 6
+    "pct": 0.625,
+    "formateado": "5-3",
+    "rank": 4
    },
    "total_roster": 41,
    "alertas": []
@@ -81,11 +81,11 @@
    "tipo": null,
    "formato": null,
    "record": {
-    "victorias": 5,
+    "victorias": 6,
     "derrotas": 2,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
+    "pct": 0.75,
+    "formateado": "6-2",
     "rank": 2
    },
    "total_roster": 43,
@@ -99,11 +99,11 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 4,
+    "victorias": 5,
     "derrotas": 3,
     "empates": 0,
-    "pct": 0.5714286,
-    "formateado": "4-3",
+    "pct": 0.625,
+    "formateado": "5-3",
     "rank": 5
    },
    "total_roster": 24,
@@ -117,11 +117,11 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 5,
+    "victorias": 6,
     "derrotas": 2,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
+    "pct": 0.75,
+    "formateado": "6-2",
     "rank": 1
    },
    "total_roster": 43,
@@ -135,11 +135,11 @@
    "tipo": "Dynasty",
    "formato": "Classic",
    "record": {
-    "victorias": 1,
+    "victorias": 2,
     "derrotas": 6,
     "empates": 0,
-    "pct": 0.14285715,
-    "formateado": "1-6",
+    "pct": 0.25,
+    "formateado": "2-6",
     "rank": 11
    },
    "total_roster": 26,
@@ -154,13 +154,13 @@
    "formato": "IDP",
    "record": {
     "victorias": 5,
-    "derrotas": 2,
+    "derrotas": 3,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
-    "rank": 2
+    "pct": 0.625,
+    "formateado": "5-3",
+    "rank": 4
    },
-   "total_roster": 41,
+   "total_roster": 42,
    "alertas": []
   },
   {
@@ -171,11 +171,11 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 6,
+    "victorias": 7,
     "derrotas": 1,
     "empates": 0,
-    "pct": 0.85714287,
-    "formateado": "6-1",
+    "pct": 0.875,
+    "formateado": "7-1",
     "rank": 1
    },
    "total_roster": 45,
@@ -189,11 +189,11 @@
    "tipo": "Dynasty",
    "formato": "Classic",
    "record": {
-    "victorias": 6,
+    "victorias": 7,
     "derrotas": 1,
     "empates": 0,
-    "pct": 0.85714287,
-    "formateado": "6-1",
+    "pct": 0.875,
+    "formateado": "7-1",
     "rank": 1
    },
    "total_roster": 25,
@@ -207,12 +207,12 @@
    "tipo": "Dynasty",
    "formato": "SuperFlex",
    "record": {
-    "victorias": 5,
+    "victorias": 6,
     "derrotas": 2,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
-    "rank": 4
+    "pct": 0.75,
+    "formateado": "6-2",
+    "rank": 3
    },
    "total_roster": 24,
    "alertas": []
@@ -225,11 +225,11 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 5,
+    "victorias": 6,
     "derrotas": 2,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
+    "pct": 0.75,
+    "formateado": "6-2",
     "rank": 2
    },
    "total_roster": 46,
@@ -244,11 +244,11 @@
    "formato": "IDP",
    "record": {
     "victorias": 4,
-    "derrotas": 3,
+    "derrotas": 4,
     "empates": 0,
-    "pct": 0.5714286,
-    "formateado": "4-3",
-    "rank": 6
+    "pct": 0.5,
+    "formateado": "4-4",
+    "rank": 8
    },
    "total_roster": 44,
    "alertas": []
@@ -261,12 +261,12 @@
    "tipo": "Dynasty",
    "formato": "IDP",
    "record": {
-    "victorias": 5,
+    "victorias": 6,
     "derrotas": 2,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
-    "rank": 3
+    "pct": 0.75,
+    "formateado": "6-2",
+    "rank": 2
    },
    "total_roster": 50,
    "alertas": []
@@ -280,11 +280,11 @@
    "formato": null,
    "record": {
     "victorias": 5,
-    "derrotas": 2,
+    "derrotas": 3,
     "empates": 0,
-    "pct": 0.71428573,
-    "formateado": "5-2",
-    "rank": 3
+    "pct": 0.625,
+    "formateado": "5-3",
+    "rank": 4
    },
    "total_roster": 15,
    "alertas": []
