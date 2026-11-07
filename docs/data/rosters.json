@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-06T17:43:46+00:00",
+ "generado": "2026-11-07T16:40:12+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -640,8 +640,8 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Shedeur Sanders",
-       "equipo_nfl": "CLE",
+       "nombre": "Drew Lock",
+       "equipo_nfl": "SEA",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -649,8 +649,8 @@
        "hueco": "START"
       },
       {
-       "nombre": "Drew Lock",
-       "equipo_nfl": "SEA",
+       "nombre": "Shedeur Sanders",
+       "equipo_nfl": "CLE",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -1202,8 +1202,8 @@
       "QB": {
        "jugadores": [
         {
-         "nombre": "Shedeur Sanders",
-         "equipo_nfl": "CLE",
+         "nombre": "Drew Lock",
+         "equipo_nfl": "SEA",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -1508,8 +1508,8 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "Drew Lock",
-         "equipo_nfl": "SEA",
+         "nombre": "Shedeur Sanders",
+         "equipo_nfl": "CLE",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -2127,7 +2127,7 @@
        "rank_ordinal": 13,
        "nota_letra": "B+",
        "fuente": "fantasy",
-       "hueco": "START"
+       "hueco": "BENCH"
       },
       {
        "nombre": "Josh Downs",
@@ -2136,7 +2136,7 @@
        "rank_ordinal": 48,
        "nota_letra": "D",
        "fuente": "fantasy",
-       "hueco": "BENCH"
+       "hueco": "START"
       },
       {
        "nombre": "Malachi Fields",
@@ -2620,18 +2620,18 @@
          "hueco": "START"
         },
         {
-         "nombre": "Garrett Wilson",
-         "equipo_nfl": "NYJ",
-         "rank": "WR13",
-         "rank_ordinal": 13,
-         "nota_letra": "B+",
+         "nombre": "Josh Downs",
+         "equipo_nfl": "IND",
+         "rank": "WR48",
+         "rank_ordinal": 48,
+         "nota_letra": "D",
          "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "A",
-        "valor": 9.0,
+        "letra": "B",
+        "valor": 6.5,
         "n": 2
        }
       },
@@ -2845,7 +2845,7 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 8.2,
+      "valor": 7.87,
       "n": 15
      }
     },
@@ -2908,11 +2908,11 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Josh Downs",
-         "equipo_nfl": "IND",
-         "rank": "WR48",
-         "rank_ordinal": 48,
-         "nota_letra": "D",
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank": "WR13",
+         "rank_ordinal": 13,
+         "nota_letra": "B+",
          "fuente": "fantasy",
          "hueco": "BENCH"
         },
@@ -2945,8 +2945,8 @@
         }
        ],
        "nota": {
-        "letra": "D",
-        "valor": 3.0,
+        "letra": "B+",
+        "valor": 8.0,
         "n": 1
        }
       },
@@ -3114,8 +3114,8 @@
       }
      },
      "nota": {
-      "letra": "C+",
-      "valor": 6.33,
+      "letra": "B",
+      "valor": 6.89,
       "n": 9
      }
     },
@@ -3368,8 +3368,8 @@
        "hueco": "START"
       },
       {
-       "nombre": "Kyle Monangai",
-       "equipo_nfl": "CHI",
+       "nombre": "Kaelon Black",
+       "equipo_nfl": "SF",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -3377,8 +3377,8 @@
        "hueco": "START"
       },
       {
-       "nombre": "TreVeyon Henderson",
-       "equipo_nfl": "NE",
+       "nombre": "Kyle Monangai",
+       "equipo_nfl": "CHI",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -3386,8 +3386,8 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Kaelon Black",
-       "equipo_nfl": "SF",
+       "nombre": "TreVeyon Henderson",
+       "equipo_nfl": "NE",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -3849,8 +3849,8 @@
          "hueco": "START"
         },
         {
-         "nombre": "Kyle Monangai",
-         "equipo_nfl": "CHI",
+         "nombre": "Kaelon Black",
+         "equipo_nfl": "SF",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -4137,8 +4137,8 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "TreVeyon Henderson",
-         "equipo_nfl": "NE",
+         "nombre": "Kyle Monangai",
+         "equipo_nfl": "CHI",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -4146,8 +4146,8 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "Kaelon Black",
-         "equipo_nfl": "SF",
+         "nombre": "TreVeyon Henderson",
+         "equipo_nfl": "NE",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -14782,21 +14782,12 @@
    "equipo": "Alicante Buccaneers (IDP22)",
    "nota_general": {
     "letra": "C+",
-    "valor": 6.48,
+    "valor": 6.41,
     "n": 29
    },
    "posiciones": {
     "QB": {
      "jugadores": [
-      {
-       "nombre": "Jacoby Brissett",
-       "equipo_nfl": "ARI",
-       "rank": "QB18",
-       "rank_ordinal": 18,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
       {
        "nombre": "Cam Ward",
        "equipo_nfl": "TEN",
@@ -14835,9 +14826,9 @@
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 6.67,
-      "n": 3
+      "letra": "C+",
+      "valor": 6.0,
+      "n": 2
      }
     },
     "RB": {
@@ -15194,6 +15185,15 @@
        "hueco": "START"
       },
       {
+       "nombre": "DJ Wonnum",
+       "equipo_nfl": "DET",
+       "rank": "EDR30",
+       "rank_ordinal": 30,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Travon Walker",
        "equipo_nfl": "JAC",
        "rank": "EDR52",
@@ -15210,15 +15210,6 @@
        "nota_letra": "R",
        "fuente": null,
        "hueco": "START"
-      },
-      {
-       "nombre": "DJ Wonnum",
-       "equipo_nfl": "DET",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
       },
       {
        "nombre": "Malcolm Roach",
@@ -15241,8 +15232,8 @@
      ],
      "nota": {
       "letra": "C+",
-      "valor": 5.5,
-      "n": 2
+      "valor": 5.67,
+      "n": 3
      }
     },
     "IL": {
@@ -15675,15 +15666,6 @@
       "QB": {
        "jugadores": [
         {
-         "nombre": "Jacoby Brissett",
-         "equipo_nfl": "ARI",
-         "rank": "QB18",
-         "rank_ordinal": 18,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
          "nombre": "Cam Ward",
          "equipo_nfl": "TEN",
          "rank": "QB24",
@@ -15703,9 +15685,9 @@
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 7.5,
-        "n": 2
+        "letra": "B",
+        "valor": 7.0,
+        "n": 1
        }
       },
       "RB": {
@@ -15855,21 +15837,21 @@
       "EDR": {
        "jugadores": [
         {
+         "nombre": "DJ Wonnum",
+         "equipo_nfl": "DET",
+         "rank": "EDR30",
+         "rank_ordinal": 30,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
+        {
          "nombre": "Travon Walker",
          "equipo_nfl": "JAC",
          "rank": "EDR52",
          "rank_ordinal": 52,
          "nota_letra": "E+",
          "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
-         "nombre": "DJ Wonnum",
-         "equipo_nfl": "DET",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -15892,9 +15874,9 @@
         }
        ],
        "nota": {
-        "letra": "E+",
-        "valor": 2.0,
-        "n": 1
+        "letra": "D+",
+        "valor": 4.0,
+        "n": 2
        }
       },
       "IL": {
@@ -15954,7 +15936,7 @@
      },
      "nota": {
       "letra": "C",
-      "valor": 5.1,
+      "valor": 4.9,
       "n": 10
      }
     },
