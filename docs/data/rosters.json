@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-08T16:49:23+00:00",
+ "generado": "2026-11-09T21:10:31+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -615,7 +615,7 @@
    "equipo": "Alicante Buccaneers (IDP10)",
    "nota_general": {
     "letra": "B",
-    "valor": 6.52,
+    "valor": 7.07,
     "n": 29
    },
    "posiciones": {
@@ -633,19 +633,19 @@
       {
        "nombre": "Drew Lock",
        "equipo_nfl": "SEA",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "QB33",
+       "rank_ordinal": 33,
+       "nota_letra": "C",
+       "fuente": "fantasy",
        "hueco": "START"
       },
       {
        "nombre": "Shedeur Sanders",
        "equipo_nfl": "CLE",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "QB47",
+       "rank_ordinal": 47,
+       "nota_letra": "D",
+       "fuente": "fantasy",
        "hueco": "BENCH"
       },
       {
@@ -668,9 +668,9 @@
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 7.0,
-      "n": 1
+      "letra": "C",
+      "valor": 5.0,
+      "n": 3
      }
     },
     "RB": {
@@ -714,10 +714,10 @@
       {
        "nombre": "Jordan Mason",
        "equipo_nfl": "MIN",
-       "rank": "RB80",
-       "rank_ordinal": 80,
-       "nota_letra": "F",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -731,9 +731,9 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 5.6,
-      "n": 5
+      "letra": "B",
+      "valor": 7.0,
+      "n": 4
      }
     },
     "WR": {
@@ -766,26 +766,26 @@
        "hueco": "START"
       },
       {
+       "nombre": "Mike Evans",
+       "equipo_nfl": "SF",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Zachariah Branch",
        "equipo_nfl": "ATL",
-       "rank": "WR88",
-       "rank_ordinal": 88,
-       "nota_letra": "F",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
        "nombre": "A.J. Brown",
        "equipo_nfl": "NE",
-       "rank": "WR141",
-       "rank_ordinal": 141,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
-       "nombre": "Mike Evans",
-       "equipo_nfl": "SF",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -812,9 +812,9 @@
       }
      ],
      "nota": {
-      "letra": "D+",
-      "valor": 3.6,
-      "n": 5
+      "letra": "C+",
+      "valor": 6.0,
+      "n": 3
      }
     },
     "TE": {
@@ -824,6 +824,15 @@
        "equipo_nfl": "CHI",
        "rank": "TE15",
        "rank_ordinal": 15,
+       "nota_letra": "B+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
+       "nombre": "Juwan Johnson",
+       "equipo_nfl": "NO",
+       "rank": "TE17",
+       "rank_ordinal": 17,
        "nota_letra": "B+",
        "fuente": "fantasy",
        "hueco": "START"
@@ -847,15 +856,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Juwan Johnson",
-       "equipo_nfl": "NO",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
-      },
-      {
        "nombre": "Matt Hibner",
        "equipo_nfl": "BAL",
        "rank": "—",
@@ -866,9 +866,9 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 6.33,
-      "n": 3
+      "letra": "B",
+      "valor": 6.75,
+      "n": 4
      }
     },
     "K": {
@@ -1204,17 +1204,17 @@
         {
          "nombre": "Drew Lock",
          "equipo_nfl": "SEA",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "QB33",
+         "rank_ordinal": 33,
+         "nota_letra": "C",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "C",
+        "valor": 5.0,
+        "n": 1
        }
       },
       "RB": {
@@ -1294,17 +1294,17 @@
         {
          "nombre": "Juwan Johnson",
          "equipo_nfl": "NO",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "TE17",
+         "rank_ordinal": 17,
+         "nota_letra": "B+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
         "letra": "B+",
         "valor": 8.0,
-        "n": 1
+        "n": 2
        }
       },
       "K": {
@@ -1490,8 +1490,8 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 8.27,
-      "n": 15
+      "valor": 8.06,
+      "n": 17
      }
     },
     "BENCH": {
@@ -1501,17 +1501,17 @@
         {
          "nombre": "Shedeur Sanders",
          "equipo_nfl": "CLE",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "QB47",
+         "rank_ordinal": 47,
+         "nota_letra": "D",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "D",
+        "valor": 3.0,
+        "n": 1
        }
       },
       "RB": {
@@ -1528,17 +1528,17 @@
         {
          "nombre": "Jordan Mason",
          "equipo_nfl": "MIN",
-         "rank": "RB80",
-         "rank_ordinal": 80,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "E+",
-        "valor": 2.0,
-        "n": 2
+        "letra": "D+",
+        "valor": 4.0,
+        "n": 1
        }
       },
       "WR": {
@@ -1553,26 +1553,26 @@
          "hueco": "BENCH"
         },
         {
+         "nombre": "Mike Evans",
+         "equipo_nfl": "SF",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "BENCH"
+        },
+        {
          "nombre": "Zachariah Branch",
          "equipo_nfl": "ATL",
-         "rank": "WR88",
-         "rank_ordinal": 88,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
          "nombre": "A.J. Brown",
          "equipo_nfl": "NE",
-         "rank": "WR141",
-         "rank_ordinal": 141,
-         "nota_letra": "F",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
-         "nombre": "Mike Evans",
-         "equipo_nfl": "SF",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -1581,9 +1581,9 @@
         }
        ],
        "nota": {
-        "letra": "E+",
-        "valor": 2.0,
-        "n": 3
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
        }
       },
       "TE": {
@@ -1759,9 +1759,9 @@
       }
      },
      "nota": {
-      "letra": "D+",
-      "valor": 4.46,
-      "n": 13
+      "letra": "C+",
+      "valor": 5.55,
+      "n": 11
      }
     },
     "TAXI": {
@@ -1997,7 +1997,7 @@
    "equipo": "Alicante Buccaneers (IDP12)",
    "nota_general": {
     "letra": "B",
-    "valor": 6.9,
+    "valor": 7.1,
     "n": 29
    },
    "posiciones": {
@@ -2067,15 +2067,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "RJ Harvey",
-       "equipo_nfl": "DEN",
-       "rank": "RB24",
-       "rank_ordinal": 24,
-       "nota_letra": "B",
-       "fuente": "fantasy",
-       "hueco": "INJURED"
-      },
-      {
        "nombre": "Ollie Gordon",
        "equipo_nfl": "MIA",
        "rank": "RB25",
@@ -2087,11 +2078,20 @@
       {
        "nombre": "Woody Marks",
        "equipo_nfl": "HOU",
+       "rank": "RB26",
+       "rank_ordinal": 26,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
+       "nombre": "RJ Harvey",
+       "equipo_nfl": "DEN",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
        "fuente": null,
-       "hueco": "BENCH"
+       "hueco": "INJURED"
       },
       {
        "nombre": "Jonathon Brooks",
@@ -2105,7 +2105,7 @@
      ],
      "nota": {
       "letra": "B",
-      "valor": 7.0,
+      "valor": 6.75,
       "n": 4
      }
     },
@@ -2121,15 +2121,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "Garrett Wilson",
-       "equipo_nfl": "NYJ",
-       "rank": "WR13",
-       "rank_ordinal": 13,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Josh Downs",
        "equipo_nfl": "IND",
        "rank": "WR48",
@@ -2137,15 +2128,6 @@
        "nota_letra": "D",
        "fuente": "fantasy",
        "hueco": "START"
-      },
-      {
-       "nombre": "Malachi Fields",
-       "equipo_nfl": "NYG",
-       "rank": "WR71",
-       "rank_ordinal": 71,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "TAXI"
       },
       {
        "nombre": "Caleb Douglas",
@@ -2157,8 +2139,17 @@
        "hueco": "TAXI"
       },
       {
-       "nombre": "Deebo Samuel",
-       "equipo_nfl": "SF",
+       "nombre": "Quentin Johnston",
+       "equipo_nfl": "LAC",
+       "rank": "WR107",
+       "rank_ordinal": 107,
+       "nota_letra": "F",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
+       "nombre": "Garrett Wilson",
+       "equipo_nfl": "NYJ",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -2166,8 +2157,8 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Quentin Johnston",
-       "equipo_nfl": "LAC",
+       "nombre": "Deebo Samuel",
+       "equipo_nfl": "SF",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -2184,6 +2175,15 @@
        "hueco": "BENCH"
       },
       {
+       "nombre": "Malachi Fields",
+       "equipo_nfl": "NYG",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "TAXI"
+      },
+      {
        "nombre": "Chris Bell",
        "equipo_nfl": "MIA",
        "rank": "—",
@@ -2194,9 +2194,9 @@
       }
      ],
      "nota": {
-      "letra": "D+",
-      "valor": 4.2,
-      "n": 5
+      "letra": "D",
+      "valor": 3.25,
+      "n": 4
      }
     },
     "TE": {
@@ -2220,6 +2220,15 @@
        "hueco": "START"
       },
       {
+       "nombre": "Isaiah Likely",
+       "equipo_nfl": "NYG",
+       "rank": "TE3",
+       "rank_ordinal": 3,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Colston Loveland",
        "equipo_nfl": "CHI",
        "rank": "TE15",
@@ -2227,15 +2236,6 @@
        "nota_letra": "B+",
        "fuente": "fantasy",
        "hueco": "START"
-      },
-      {
-       "nombre": "Isaiah Likely",
-       "equipo_nfl": "NYG",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
       },
       {
        "nombre": "Terrance Ferguson",
@@ -2248,9 +2248,9 @@
       }
      ],
      "nota": {
-      "letra": "A",
-      "valor": 9.33,
-      "n": 3
+      "letra": "A+",
+      "valor": 9.5,
+      "n": 4
      }
     },
     "K": {
@@ -2258,17 +2258,17 @@
       {
        "nombre": "Spencer Shrader",
        "equipo_nfl": "IND",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "K2",
+       "rank_ordinal": 2,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
        "hueco": "START"
       }
      ],
      "nota": {
-      "letra": null,
-      "valor": null,
-      "n": 0
+      "letra": "A+",
+      "valor": 10.0,
+      "n": 1
      }
     },
     "P": {
@@ -2303,17 +2303,17 @@
       {
        "nombre": "Mansoor Delane",
        "equipo_nfl": "KC",
-       "rank": "CB37",
-       "rank_ordinal": 37,
-       "nota_letra": "D+",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "INJURED"
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 6.5,
-      "n": 2
+      "letra": "A",
+      "valor": 9.0,
+      "n": 1
      }
     },
     "S": {
@@ -2391,17 +2391,17 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Nick Herbig",
-       "equipo_nfl": "PIT",
-       "rank": "EDR20",
-       "rank_ordinal": 20,
-       "nota_letra": "B",
-       "fuente": "fantasy",
+       "nombre": "Malcolm Roach",
+       "equipo_nfl": "DEN",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
-       "nombre": "Malcolm Roach",
-       "equipo_nfl": "DEN",
+       "nombre": "Nick Herbig",
+       "equipo_nfl": "PIT",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -2419,9 +2419,9 @@
       }
      ],
      "nota": {
-      "letra": "B+",
-      "valor": 8.25,
-      "n": 4
+      "letra": "A",
+      "valor": 8.67,
+      "n": 3
      }
     },
     "IL": {
@@ -2481,6 +2481,15 @@
        "hueco": "BENCH"
       },
       {
+       "nombre": "Sonny Styles",
+       "equipo_nfl": "WAS",
+       "rank": "LB27",
+       "rank_ordinal": 27,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
        "nombre": "CJ Allen",
        "equipo_nfl": "IND",
        "rank": "LB87",
@@ -2501,15 +2510,6 @@
       {
        "nombre": "Byron Young",
        "equipo_nfl": "LAR",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
-      },
-      {
-       "nombre": "Sonny Styles",
-       "equipo_nfl": "WAS",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -2555,8 +2555,8 @@
      ],
      "nota": {
       "letra": "C",
-      "valor": 5.0,
-      "n": 3
+      "valor": 5.25,
+      "n": 4
      }
     }
    },
@@ -2676,17 +2676,17 @@
         {
          "nombre": "Spencer Shrader",
          "equipo_nfl": "IND",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "K2",
+         "rank_ordinal": 2,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "P": {
@@ -2791,6 +2791,15 @@
          "hueco": "START"
         },
         {
+         "nombre": "Sonny Styles",
+         "equipo_nfl": "WAS",
+         "rank": "LB27",
+         "rank_ordinal": 27,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
+         "hueco": "START"
+        },
+        {
          "nombre": "Lukas Van Ness",
          "equipo_nfl": "GB",
          "rank": "—",
@@ -2807,21 +2816,12 @@
          "nota_letra": "R",
          "fuente": null,
          "hueco": "START"
-        },
-        {
-         "nombre": "Sonny Styles",
-         "equipo_nfl": "WAS",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "A",
-        "valor": 9.0,
-        "n": 1
+        "letra": "B+",
+        "valor": 7.5,
+        "n": 2
        }
       },
       "IL": {
@@ -2845,8 +2845,8 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 7.87,
-      "n": 15
+      "valor": 7.88,
+      "n": 17
      }
     },
     "BENCH": {
@@ -2892,33 +2892,33 @@
         {
          "nombre": "Woody Marks",
          "equipo_nfl": "HOU",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "RB26",
+         "rank_ordinal": 26,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 8.0,
-        "n": 1
+        "letra": "B",
+        "valor": 7.0,
+        "n": 2
        }
       },
       "WR": {
        "jugadores": [
         {
-         "nombre": "Garrett Wilson",
-         "equipo_nfl": "NYJ",
-         "rank": "WR13",
-         "rank_ordinal": 13,
-         "nota_letra": "B+",
+         "nombre": "Quentin Johnston",
+         "equipo_nfl": "LAC",
+         "rank": "WR107",
+         "rank_ordinal": 107,
+         "nota_letra": "F",
          "fuente": "fantasy",
          "hueco": "BENCH"
         },
         {
-         "nombre": "Deebo Samuel",
-         "equipo_nfl": "SF",
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -2926,8 +2926,8 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "Quentin Johnston",
-         "equipo_nfl": "LAC",
+         "nombre": "Deebo Samuel",
+         "equipo_nfl": "SF",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -2945,8 +2945,8 @@
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 8.0,
+        "letra": "F",
+        "valor": 0.0,
         "n": 1
        }
       },
@@ -2955,17 +2955,17 @@
         {
          "nombre": "Isaiah Likely",
          "equipo_nfl": "NYG",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "TE3",
+         "rank_ordinal": 3,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "S": {
@@ -2998,17 +2998,17 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "Nick Herbig",
-         "equipo_nfl": "PIT",
-         "rank": "EDR20",
-         "rank_ordinal": 20,
-         "nota_letra": "B",
-         "fuente": "fantasy",
+         "nombre": "Malcolm Roach",
+         "equipo_nfl": "DEN",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
-         "nombre": "Malcolm Roach",
-         "equipo_nfl": "DEN",
+         "nombre": "Nick Herbig",
+         "equipo_nfl": "PIT",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -3028,7 +3028,7 @@
        "nota": {
         "letra": "B",
         "valor": 7.0,
-        "n": 2
+        "n": 1
        }
       },
       "IL": {
@@ -3114,9 +3114,9 @@
       }
      },
      "nota": {
-      "letra": "B",
-      "valor": 6.89,
-      "n": 9
+      "letra": "C+",
+      "valor": 6.3,
+      "n": 10
      }
     },
     "TAXI": {
@@ -3142,21 +3142,21 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Malachi Fields",
-         "equipo_nfl": "NYG",
-         "rank": "WR71",
-         "rank_ordinal": 71,
-         "nota_letra": "F",
-         "fuente": "fantasy",
-         "hueco": "TAXI"
-        },
-        {
          "nombre": "Caleb Douglas",
          "equipo_nfl": "MIA",
          "rank": "WR75",
          "rank_ordinal": 75,
          "nota_letra": "F",
          "fuente": "fantasy",
+         "hueco": "TAXI"
+        },
+        {
+         "nombre": "Malachi Fields",
+         "equipo_nfl": "NYG",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "TAXI"
         },
         {
@@ -3172,7 +3172,7 @@
        "nota": {
         "letra": "F",
         "valor": 0.0,
-        "n": 2
+        "n": 1
        }
       },
       "IL": {
@@ -3197,7 +3197,7 @@
      "nota": {
       "letra": "F",
       "valor": 0.0,
-      "n": 2
+      "n": 1
      }
     },
     "INJURED": {
@@ -3207,10 +3207,10 @@
         {
          "nombre": "RJ Harvey",
          "equipo_nfl": "DEN",
-         "rank": "RB24",
-         "rank_ordinal": 24,
-         "nota_letra": "B",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "INJURED"
         },
         {
@@ -3224,9 +3224,9 @@
         }
        ],
        "nota": {
-        "letra": "B",
-        "valor": 7.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "TE": {
@@ -3252,17 +3252,17 @@
         {
          "nombre": "Mansoor Delane",
          "equipo_nfl": "KC",
-         "rank": "CB37",
-         "rank_ordinal": 37,
-         "nota_letra": "D+",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "INJURED"
         }
        ],
        "nota": {
-        "letra": "D+",
-        "valor": 4.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "S": {
@@ -3285,9 +3285,9 @@
       }
      },
      "nota": {
-      "letra": "B",
-      "valor": 6.67,
-      "n": 3
+      "letra": "A",
+      "valor": 9.0,
+      "n": 1
      }
     }
    }
@@ -3298,7 +3298,7 @@
    "equipo": "Alicante Buccaneers",
    "nota_general": {
     "letra": "B+",
-    "valor": 7.97,
+    "valor": 7.63,
     "n": 30
    },
    "posiciones": {
@@ -3370,10 +3370,10 @@
       {
        "nombre": "Kaelon Black",
        "equipo_nfl": "SF",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "RB64",
+       "rank_ordinal": 64,
+       "nota_letra": "F",
+       "fuente": "fantasy",
        "hueco": "START"
       },
       {
@@ -3405,9 +3405,9 @@
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 7.33,
-      "n": 3
+      "letra": "C+",
+      "valor": 5.5,
+      "n": 4
      }
     },
     "WR": {
@@ -3449,17 +3449,17 @@
        "hueco": "START"
       },
       {
-       "nombre": "Jordan Addison",
-       "equipo_nfl": "MIN",
-       "rank": "WR77",
-       "rank_ordinal": 77,
+       "nombre": "Quentin Johnston",
+       "equipo_nfl": "LAC",
+       "rank": "WR107",
+       "rank_ordinal": 107,
        "nota_letra": "F",
        "fuente": "fantasy",
        "hueco": "BENCH"
       },
       {
-       "nombre": "Quentin Johnston",
-       "equipo_nfl": "LAC",
+       "nombre": "Jordan Addison",
+       "equipo_nfl": "MIN",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -3503,6 +3503,15 @@
        "hueco": "START"
       },
       {
+       "nombre": "Kenyon Sadiq",
+       "equipo_nfl": "NYJ",
+       "rank": "TE28",
+       "rank_ordinal": 28,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Oronde Gadsden",
        "equipo_nfl": "LAC",
        "rank": "TE34",
@@ -3521,15 +3530,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Kenyon Sadiq",
-       "equipo_nfl": "NYJ",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Matt Hibner",
        "equipo_nfl": "BAL",
        "rank": "—",
@@ -3541,8 +3541,8 @@
      ],
      "nota": {
       "letra": "C+",
-      "valor": 6.33,
-      "n": 3
+      "valor": 6.25,
+      "n": 4
      }
     },
     "K": {
@@ -3656,15 +3656,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "Nick Herbig",
-       "equipo_nfl": "PIT",
-       "rank": "EDR20",
-       "rank_ordinal": 20,
-       "nota_letra": "B",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Josh Hines-Allen",
        "equipo_nfl": "JAC",
        "rank": "EDR22",
@@ -3672,6 +3663,15 @@
        "nota_letra": "B",
        "fuente": "fantasy",
        "hueco": "START"
+      },
+      {
+       "nombre": "Nick Herbig",
+       "equipo_nfl": "PIT",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "BENCH"
       },
       {
        "nombre": "James Pearce",
@@ -3693,9 +3693,9 @@
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 7.33,
-      "n": 3
+      "letra": "B+",
+      "valor": 7.5,
+      "n": 2
      }
     },
     "IL": {
@@ -3712,17 +3712,17 @@
       {
        "nombre": "Maliek Collins",
        "equipo_nfl": "CLE",
-       "rank": "IL11",
-       "rank_ordinal": 11,
-       "nota_letra": "A",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       }
      ],
      "nota": {
       "letra": "A",
       "valor": 9.0,
-      "n": 2
+      "n": 1
      }
     },
     "LB": {
@@ -3851,17 +3851,17 @@
         {
          "nombre": "Kaelon Black",
          "equipo_nfl": "SF",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "RB64",
+         "rank_ordinal": 64,
+         "nota_letra": "F",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "C+",
-        "valor": 6.0,
-        "n": 1
+        "letra": "D",
+        "valor": 3.0,
+        "n": 2
        }
       },
       "WR": {
@@ -4091,9 +4091,9 @@
       }
      },
      "nota": {
-      "letra": "A",
-      "valor": 8.94,
-      "n": 17
+      "letra": "B+",
+      "valor": 8.44,
+      "n": 18
      }
     },
     "BENCH": {
@@ -4164,17 +4164,17 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Jordan Addison",
-         "equipo_nfl": "MIN",
-         "rank": "WR77",
-         "rank_ordinal": 77,
+         "nombre": "Quentin Johnston",
+         "equipo_nfl": "LAC",
+         "rank": "WR107",
+         "rank_ordinal": 107,
          "nota_letra": "F",
          "fuente": "fantasy",
          "hueco": "BENCH"
         },
         {
-         "nombre": "Quentin Johnston",
-         "equipo_nfl": "LAC",
+         "nombre": "Jordan Addison",
+         "equipo_nfl": "MIN",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -4200,6 +4200,15 @@
       "TE": {
        "jugadores": [
         {
+         "nombre": "Kenyon Sadiq",
+         "equipo_nfl": "NYJ",
+         "rank": "TE28",
+         "rank_ordinal": 28,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
+        {
          "nombre": "Oronde Gadsden",
          "equipo_nfl": "LAC",
          "rank": "TE34",
@@ -4216,21 +4225,12 @@
          "nota_letra": "C",
          "fuente": "fantasy",
          "hueco": "BENCH"
-        },
-        {
-         "nombre": "Kenyon Sadiq",
-         "equipo_nfl": "NYJ",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "BENCH"
         }
        ],
        "nota": {
         "letra": "C",
-        "valor": 5.0,
-        "n": 2
+        "valor": 5.33,
+        "n": 3
        }
       },
       "CB": {
@@ -4274,17 +4274,17 @@
         {
          "nombre": "Maliek Collins",
          "equipo_nfl": "CLE",
-         "rank": "IL11",
-         "rank_ordinal": 11,
-         "nota_letra": "A",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "A",
-        "valor": 9.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "EDR": {
@@ -4292,10 +4292,10 @@
         {
          "nombre": "Nick Herbig",
          "equipo_nfl": "PIT",
-         "rank": "EDR20",
-         "rank_ordinal": 20,
-         "nota_letra": "B",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -4309,9 +4309,9 @@
         }
        ],
        "nota": {
-        "letra": "B",
-        "valor": 7.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "LB": {
@@ -4353,8 +4353,8 @@
      },
      "nota": {
       "letra": "B",
-      "valor": 6.91,
-      "n": 11
+      "valor": 6.6,
+      "n": 10
      }
     },
     "TAXI": {
@@ -4518,7 +4518,7 @@
    "equipo": "Alicante Buccaneers",
    "nota_general": {
     "letra": "B+",
-    "valor": 7.52,
+    "valor": 7.76,
     "n": 29
    },
    "posiciones": {
@@ -4570,15 +4570,6 @@
     "RB": {
      "jugadores": [
       {
-       "nombre": "James Cook",
-       "equipo_nfl": "BUF",
-       "rank": "RB13",
-       "rank_ordinal": 13,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "START"
-      },
-      {
        "nombre": "Bhayshul Tuten",
        "equipo_nfl": "JAC",
        "rank": "RB15",
@@ -4608,6 +4599,15 @@
       {
        "nombre": "Jadarian Price",
        "equipo_nfl": "SEA",
+       "rank": "RB83",
+       "rank_ordinal": 83,
+       "nota_letra": "F",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
+       "nombre": "James Cook",
+       "equipo_nfl": "BUF",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -4625,8 +4625,8 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 6.25,
+      "letra": "D+",
+      "valor": 4.25,
       "n": 4
      }
     },
@@ -4642,6 +4642,15 @@
        "hueco": "BENCH"
       },
       {
+       "nombre": "Stefon Diggs",
+       "equipo_nfl": "WAS",
+       "rank": "WR35",
+       "rank_ordinal": 35,
+       "nota_letra": "C",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
        "nombre": "Josh Downs",
        "equipo_nfl": "IND",
        "rank": "WR48",
@@ -4653,15 +4662,6 @@
       {
        "nombre": "DJ Moore",
        "equipo_nfl": "BUF",
-       "rank": "WR66",
-       "rank_ordinal": 66,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "START"
-      },
-      {
-       "nombre": "Stefon Diggs",
-       "equipo_nfl": "WAS",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -4706,8 +4706,8 @@
       }
      ],
      "nota": {
-      "letra": "D",
-      "valor": 3.0,
+      "letra": "C",
+      "valor": 4.67,
       "n": 3
      }
     },
@@ -4750,15 +4750,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Eli Stowers",
-       "equipo_nfl": "PHI",
-       "rank": "TE75",
-       "rank_ordinal": 75,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "TAXI"
-      },
-      {
        "nombre": "Matt Hibner",
        "equipo_nfl": "BAL",
        "rank": "—",
@@ -4766,12 +4757,21 @@
        "nota_letra": "R",
        "fuente": null,
        "hueco": "TAXI"
+      },
+      {
+       "nombre": "Eli Stowers",
+       "equipo_nfl": "PHI",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "TAXI"
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 6.6,
-      "n": 5
+      "letra": "B+",
+      "valor": 8.25,
+      "n": 4
      }
     },
     "K": {
@@ -4779,17 +4779,17 @@
       {
        "nombre": "Spencer Shrader",
        "equipo_nfl": "IND",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "K2",
+       "rank_ordinal": 2,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
        "hueco": "START"
       }
      ],
      "nota": {
-      "letra": null,
-      "valor": null,
-      "n": 0
+      "letra": "A+",
+      "valor": 10.0,
+      "n": 1
      }
     },
     "P": {
@@ -5096,15 +5096,6 @@
       "RB": {
        "jugadores": [
         {
-         "nombre": "James Cook",
-         "equipo_nfl": "BUF",
-         "rank": "RB13",
-         "rank_ordinal": 13,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
-         "hueco": "START"
-        },
-        {
          "nombre": "Ollie Gordon",
          "equipo_nfl": "MIA",
          "rank": "RB25",
@@ -5116,6 +5107,15 @@
         {
          "nombre": "Jadarian Price",
          "equipo_nfl": "SEA",
+         "rank": "RB83",
+         "rank_ordinal": 83,
+         "nota_letra": "F",
+         "fuente": "fantasy",
+         "hueco": "START"
+        },
+        {
+         "nombre": "James Cook",
+         "equipo_nfl": "BUF",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -5124,25 +5124,25 @@
         }
        ],
        "nota": {
-        "letra": "B",
-        "valor": 7.0,
+        "letra": "D",
+        "valor": 3.0,
         "n": 2
        }
       },
       "WR": {
        "jugadores": [
         {
-         "nombre": "DJ Moore",
-         "equipo_nfl": "BUF",
-         "rank": "WR66",
-         "rank_ordinal": 66,
-         "nota_letra": "F",
+         "nombre": "Stefon Diggs",
+         "equipo_nfl": "WAS",
+         "rank": "WR35",
+         "rank_ordinal": 35,
+         "nota_letra": "C",
          "fuente": "fantasy",
          "hueco": "START"
         },
         {
-         "nombre": "Stefon Diggs",
-         "equipo_nfl": "WAS",
+         "nombre": "DJ Moore",
+         "equipo_nfl": "BUF",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -5151,8 +5151,8 @@
         }
        ],
        "nota": {
-        "letra": "F",
-        "valor": 0.0,
+        "letra": "C",
+        "valor": 5.0,
         "n": 1
        }
       },
@@ -5188,17 +5188,17 @@
         {
          "nombre": "Spencer Shrader",
          "equipo_nfl": "IND",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "K2",
+         "rank_ordinal": 2,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "P": {
@@ -5347,9 +5347,9 @@
       }
      },
      "nota": {
-      "letra": "A",
-      "valor": 8.54,
-      "n": 13
+      "letra": "B+",
+      "valor": 8.43,
+      "n": 14
      }
     },
     "BENCH": {
@@ -5645,17 +5645,17 @@
       "TE": {
        "jugadores": [
         {
-         "nombre": "Eli Stowers",
-         "equipo_nfl": "PHI",
-         "rank": "TE75",
-         "rank_ordinal": 75,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "nombre": "Matt Hibner",
+         "equipo_nfl": "BAL",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "TAXI"
         },
         {
-         "nombre": "Matt Hibner",
-         "equipo_nfl": "BAL",
+         "nombre": "Eli Stowers",
+         "equipo_nfl": "PHI",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -5664,9 +5664,9 @@
         }
        ],
        "nota": {
-        "letra": "F",
-        "valor": 0.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "EDR": {
@@ -5707,9 +5707,9 @@
       }
      },
      "nota": {
-      "letra": "D",
-      "valor": 3.0,
-      "n": 2
+      "letra": "C+",
+      "valor": 6.0,
+      "n": 1
      }
     },
     "INJURED": {
@@ -6544,10 +6544,10 @@
       {
        "nombre": "Jaydon Blue",
        "equipo_nfl": "PHI",
-       "rank": "RB102",
-       "rank_ordinal": 102,
-       "nota_letra": "F",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -6561,9 +6561,9 @@
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 6.5,
-      "n": 6
+      "letra": "B+",
+      "valor": 7.8,
+      "n": 5
      }
     },
     "WR": {
@@ -6596,6 +6596,15 @@
        "hueco": "BENCH"
       },
       {
+       "nombre": "Quentin Johnston",
+       "equipo_nfl": "LAC",
+       "rank": "WR107",
+       "rank_ordinal": 107,
+       "nota_letra": "F",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Brian Thomas",
        "equipo_nfl": "JAC",
        "rank": "—",
@@ -6614,15 +6623,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Quentin Johnston",
-       "equipo_nfl": "LAC",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Deebo Samuel",
        "equipo_nfl": "SF",
        "rank": "—",
@@ -6633,9 +6633,9 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 6.0,
-      "n": 3
+      "letra": "C",
+      "valor": 4.5,
+      "n": 4
      }
     },
     "TE": {
@@ -7358,17 +7358,17 @@
         {
          "nombre": "Jaydon Blue",
          "equipo_nfl": "PHI",
-         "rank": "RB102",
-         "rank_ordinal": 102,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "C",
-        "valor": 5.33,
-        "n": 3
+        "letra": "B+",
+        "valor": 8.0,
+        "n": 2
        }
       },
       "WR": {
@@ -7379,6 +7379,15 @@
          "rank": "WR48",
          "rank_ordinal": 48,
          "nota_letra": "D",
+         "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
+        {
+         "nombre": "Quentin Johnston",
+         "equipo_nfl": "LAC",
+         "rank": "WR107",
+         "rank_ordinal": 107,
+         "nota_letra": "F",
          "fuente": "fantasy",
          "hueco": "BENCH"
         },
@@ -7399,21 +7408,12 @@
          "nota_letra": "R",
          "fuente": null,
          "hueco": "BENCH"
-        },
-        {
-         "nombre": "Quentin Johnston",
-         "equipo_nfl": "LAC",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "D",
-        "valor": 3.0,
-        "n": 1
+        "letra": "E+",
+        "valor": 1.5,
+        "n": 2
        }
       },
       "CB": {
@@ -8443,8 +8443,8 @@
    "liga": "IDP 17 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP17)",
    "nota_general": {
-    "letra": "B",
-    "valor": 7.07,
+    "letra": "B+",
+    "valor": 7.89,
     "n": 28
    },
    "posiciones": {
@@ -8460,15 +8460,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "Aaron Rodgers",
-       "equipo_nfl": "PIT",
-       "rank": "QB16",
-       "rank_ordinal": 16,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Sam Darnold",
        "equipo_nfl": "SEA",
        "rank": "QB22",
@@ -8476,12 +8467,21 @@
        "nota_letra": "B",
        "fuente": "fantasy",
        "hueco": "INJURED"
+      },
+      {
+       "nombre": "Aaron Rodgers",
+       "equipo_nfl": "PIT",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "BENCH"
       }
      ],
      "nota": {
-      "letra": "B+",
-      "valor": 8.33,
-      "n": 3
+      "letra": "A",
+      "valor": 8.5,
+      "n": 2
      }
     },
     "RB": {
@@ -8494,15 +8494,6 @@
        "nota_letra": "B+",
        "fuente": "fantasy",
        "hueco": "BENCH"
-      },
-      {
-       "nombre": "RJ Harvey",
-       "equipo_nfl": "DEN",
-       "rank": "RB24",
-       "rank_ordinal": 24,
-       "nota_letra": "B",
-       "fuente": "fantasy",
-       "hueco": "INJURED"
       },
       {
        "nombre": "Woody Marks",
@@ -8534,11 +8525,20 @@
       {
        "nombre": "Elijah Mitchell",
        "equipo_nfl": "PHI",
-       "rank": "RB93",
-       "rank_ordinal": 93,
-       "nota_letra": "F",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "START"
+      },
+      {
+       "nombre": "RJ Harvey",
+       "equipo_nfl": "DEN",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "INJURED"
       },
       {
        "nombre": "Jonathon Brooks",
@@ -8552,8 +8552,8 @@
      ],
      "nota": {
       "letra": "C",
-      "valor": 4.5,
-      "n": 6
+      "valor": 5.0,
+      "n": 4
      }
     },
     "WR": {
@@ -8577,15 +8577,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "Garrett Wilson",
-       "equipo_nfl": "NYJ",
-       "rank": "WR13",
-       "rank_ordinal": 13,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Josh Downs",
        "equipo_nfl": "IND",
        "rank": "WR48",
@@ -8593,15 +8584,6 @@
        "nota_letra": "D",
        "fuente": "fantasy",
        "hueco": "BENCH"
-      },
-      {
-       "nombre": "Malachi Fields",
-       "equipo_nfl": "NYG",
-       "rank": "WR71",
-       "rank_ordinal": 71,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "TAXI"
       },
       {
        "nombre": "Nico Collins",
@@ -8613,6 +8595,15 @@
        "hueco": "START"
       },
       {
+       "nombre": "Garrett Wilson",
+       "equipo_nfl": "NYJ",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Stefon Diggs",
        "equipo_nfl": "WAS",
        "rank": "—",
@@ -8620,6 +8611,15 @@
        "nota_letra": "R",
        "fuente": null,
        "hueco": "BENCH"
+      },
+      {
+       "nombre": "Malachi Fields",
+       "equipo_nfl": "NYG",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "TAXI"
       },
       {
        "nombre": "Ted Hurst",
@@ -8632,13 +8632,40 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 6.0,
-      "n": 5
+      "letra": "B",
+      "valor": 7.33,
+      "n": 3
      }
     },
     "TE": {
      "jugadores": [
+      {
+       "nombre": "Isaiah Likely",
+       "equipo_nfl": "NYG",
+       "rank": "TE3",
+       "rank_ordinal": 3,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
+       "nombre": "Sam LaPorta",
+       "equipo_nfl": "DET",
+       "rank": "TE9",
+       "rank_ordinal": 9,
+       "nota_letra": "A",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
+       "nombre": "Tyler Warren",
+       "equipo_nfl": "IND",
+       "rank": "TE10",
+       "rank_ordinal": 10,
+       "nota_letra": "A",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
       {
        "nombre": "Eli Raridon",
        "equipo_nfl": "NE",
@@ -8646,33 +8673,6 @@
        "rank_ordinal": 36,
        "nota_letra": "C",
        "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
-       "nombre": "Sam LaPorta",
-       "equipo_nfl": "DET",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
-      },
-      {
-       "nombre": "Isaiah Likely",
-       "equipo_nfl": "NYG",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
-      },
-      {
-       "nombre": "Tyler Warren",
-       "equipo_nfl": "IND",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -8686,9 +8686,9 @@
       }
      ],
      "nota": {
-      "letra": "C",
-      "valor": 5.0,
-      "n": 1
+      "letra": "B+",
+      "valor": 8.25,
+      "n": 4
      }
     },
     "K": {
@@ -8696,17 +8696,17 @@
       {
        "nombre": "Spencer Shrader",
        "equipo_nfl": "IND",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "K2",
+       "rank_ordinal": 2,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
        "hueco": "START"
       }
      ],
      "nota": {
-      "letra": null,
-      "valor": null,
-      "n": 0
+      "letra": "A+",
+      "valor": 10.0,
+      "n": 1
      }
     },
     "P": {
@@ -8723,17 +8723,17 @@
       {
        "nombre": "Ryan Wright",
        "equipo_nfl": "NO",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "P14",
+       "rank_ordinal": 14,
+       "nota_letra": "B+",
+       "fuente": "fantasy",
        "hueco": "START"
       }
      ],
      "nota": {
-      "letra": "A+",
-      "valor": 10.0,
-      "n": 1
+      "letra": "A",
+      "valor": 9.0,
+      "n": 2
      }
     },
     "CB": {
@@ -9024,17 +9024,17 @@
         {
          "nombre": "Elijah Mitchell",
          "equipo_nfl": "PHI",
-         "rank": "RB93",
-         "rank_ordinal": 93,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "D",
-        "valor": 3.0,
-        "n": 2
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
        }
       },
       "WR": {
@@ -9076,28 +9076,28 @@
       "TE": {
        "jugadores": [
         {
-         "nombre": "Sam LaPorta",
-         "equipo_nfl": "DET",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank": "TE3",
+         "rank_ordinal": 3,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         },
         {
-         "nombre": "Isaiah Likely",
-         "equipo_nfl": "NYG",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "nombre": "Sam LaPorta",
+         "equipo_nfl": "DET",
+         "rank": "TE9",
+         "rank_ordinal": 9,
+         "nota_letra": "A",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 9.5,
+        "n": 2
        }
       },
       "K": {
@@ -9105,17 +9105,17 @@
         {
          "nombre": "Spencer Shrader",
          "equipo_nfl": "IND",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "K2",
+         "rank_ordinal": 2,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "P": {
@@ -9123,17 +9123,17 @@
         {
          "nombre": "Ryan Wright",
          "equipo_nfl": "NO",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "P14",
+         "rank_ordinal": 14,
+         "nota_letra": "B+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "B+",
+        "valor": 8.0,
+        "n": 1
        }
       },
       "CB": {
@@ -9282,9 +9282,9 @@
       }
      },
      "nota": {
-      "letra": "B+",
-      "valor": 8.0,
-      "n": 12
+      "letra": "A",
+      "valor": 8.87,
+      "n": 15
      }
     },
     "BENCH": {
@@ -9294,17 +9294,17 @@
         {
          "nombre": "Aaron Rodgers",
          "equipo_nfl": "PIT",
-         "rank": "QB16",
-         "rank_ordinal": 16,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 8.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "RB": {
@@ -9346,21 +9346,21 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Garrett Wilson",
-         "equipo_nfl": "NYJ",
-         "rank": "WR13",
-         "rank_ordinal": 13,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
          "nombre": "Josh Downs",
          "equipo_nfl": "IND",
          "rank": "WR48",
          "rank_ordinal": 48,
          "nota_letra": "D",
          "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -9374,13 +9374,22 @@
         }
        ],
        "nota": {
-        "letra": "C+",
-        "valor": 5.5,
-        "n": 2
+        "letra": "D",
+        "valor": 3.0,
+        "n": 1
        }
       },
       "TE": {
        "jugadores": [
+        {
+         "nombre": "Tyler Warren",
+         "equipo_nfl": "IND",
+         "rank": "TE10",
+         "rank_ordinal": 10,
+         "nota_letra": "A",
+         "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
         {
          "nombre": "Eli Raridon",
          "equipo_nfl": "NE",
@@ -9389,21 +9398,12 @@
          "nota_letra": "C",
          "fuente": "fantasy",
          "hueco": "BENCH"
-        },
-        {
-         "nombre": "Tyler Warren",
-         "equipo_nfl": "IND",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "C",
-        "valor": 5.0,
-        "n": 1
+        "letra": "B",
+        "valor": 7.0,
+        "n": 2
        }
       },
       "P": {
@@ -9553,8 +9553,8 @@
      },
      "nota": {
       "letra": "B",
-      "valor": 6.58,
-      "n": 12
+      "valor": 6.55,
+      "n": 11
      }
     },
     "TAXI": {
@@ -9564,10 +9564,10 @@
         {
          "nombre": "Malachi Fields",
          "equipo_nfl": "NYG",
-         "rank": "WR71",
-         "rank_ordinal": 71,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "TAXI"
         },
         {
@@ -9581,9 +9581,9 @@
         }
        ],
        "nota": {
-        "letra": "F",
-        "valor": 0.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "TE": {
@@ -9642,9 +9642,9 @@
       }
      },
      "nota": {
-      "letra": "C",
-      "valor": 4.5,
-      "n": 2
+      "letra": "A",
+      "valor": 9.0,
+      "n": 1
      }
     },
     "INJURED": {
@@ -9672,10 +9672,10 @@
         {
          "nombre": "RJ Harvey",
          "equipo_nfl": "DEN",
-         "rank": "RB24",
-         "rank_ordinal": 24,
-         "nota_letra": "B",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "INJURED"
         },
         {
@@ -9689,16 +9689,16 @@
         }
        ],
        "nota": {
-        "letra": "B",
-        "valor": 7.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       }
      },
      "nota": {
       "letra": "B",
       "valor": 7.0,
-      "n": 2
+      "n": 1
      }
     }
    }
@@ -9709,7 +9709,7 @@
    "equipo": "Alicante Buccaneers (🏆🏆)",
    "nota_general": {
     "letra": "B+",
-    "valor": 7.62,
+    "valor": 7.93,
     "n": 29
    },
    "posiciones": {
@@ -9736,10 +9736,10 @@
       {
        "nombre": "Aaron Rodgers",
        "equipo_nfl": "PIT",
-       "rank": "QB16",
-       "rank_ordinal": 16,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -9762,22 +9762,13 @@
       }
      ],
      "nota": {
-      "letra": "A",
-      "valor": 9.33,
-      "n": 3
+      "letra": "A+",
+      "valor": 10.0,
+      "n": 2
      }
     },
     "RB": {
      "jugadores": [
-      {
-       "nombre": "James Cook",
-       "equipo_nfl": "BUF",
-       "rank": "RB13",
-       "rank_ordinal": 13,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "START"
-      },
       {
        "nombre": "Bhayshul Tuten",
        "equipo_nfl": "JAC",
@@ -9797,12 +9788,21 @@
        "hueco": "START"
       },
       {
+       "nombre": "James Cook",
+       "equipo_nfl": "BUF",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "START"
+      },
+      {
        "nombre": "Elijah Mitchell",
        "equipo_nfl": "PHI",
-       "rank": "RB93",
-       "rank_ordinal": 93,
-       "nota_letra": "F",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -9843,9 +9843,9 @@
       }
      ],
      "nota": {
-      "letra": "C+",
-      "valor": 5.5,
-      "n": 4
+      "letra": "B",
+      "valor": 7.0,
+      "n": 2
      }
     },
     "WR": {
@@ -9856,6 +9856,15 @@
        "rank": "WR5",
        "rank_ordinal": 5,
        "nota_letra": "A+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
+       "nombre": "Chris Olave",
+       "equipo_nfl": "NO",
+       "rank": "WR11",
+       "rank_ordinal": 11,
+       "nota_letra": "A",
        "fuente": "fantasy",
        "hueco": "START"
       },
@@ -9903,21 +9912,12 @@
        "nota_letra": "F",
        "fuente": "fantasy",
        "hueco": "TAXI"
-      },
-      {
-       "nombre": "Chris Olave",
-       "equipo_nfl": "NO",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
       }
      ],
      "nota": {
       "letra": "C+",
-      "valor": 5.5,
-      "n": 6
+      "valor": 6.0,
+      "n": 7
      }
     },
     "TE": {
@@ -9943,10 +9943,10 @@
       {
        "nombre": "Kenyon Sadiq",
        "equipo_nfl": "NYJ",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "TE28",
+       "rank_ordinal": 28,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
        "hueco": "BENCH"
       },
       {
@@ -9969,9 +9969,9 @@
       }
      ],
      "nota": {
-      "letra": "A",
-      "valor": 9.0,
-      "n": 2
+      "letra": "B+",
+      "valor": 8.0,
+      "n": 3
      }
     },
     "K": {
@@ -9979,17 +9979,17 @@
       {
        "nombre": "Spencer Shrader",
        "equipo_nfl": "IND",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "K2",
+       "rank_ordinal": 2,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
        "hueco": "START"
       }
      ],
      "nota": {
-      "letra": null,
-      "valor": null,
-      "n": 0
+      "letra": "A+",
+      "valor": 10.0,
+      "n": 1
      }
     },
     "P": {
@@ -10278,15 +10278,6 @@
       "RB": {
        "jugadores": [
         {
-         "nombre": "James Cook",
-         "equipo_nfl": "BUF",
-         "rank": "RB13",
-         "rank_ordinal": 13,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
-         "hueco": "START"
-        },
-        {
          "nombre": "Woody Marks",
          "equipo_nfl": "HOU",
          "rank": "RB26",
@@ -10294,12 +10285,21 @@
          "nota_letra": "C+",
          "fuente": "fantasy",
          "hueco": "START"
+        },
+        {
+         "nombre": "James Cook",
+         "equipo_nfl": "BUF",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "B",
-        "valor": 7.0,
-        "n": 2
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
        }
       },
       "WR": {
@@ -10314,6 +10314,15 @@
          "hueco": "START"
         },
         {
+         "nombre": "Chris Olave",
+         "equipo_nfl": "NO",
+         "rank": "WR11",
+         "rank_ordinal": 11,
+         "nota_letra": "A",
+         "fuente": "fantasy",
+         "hueco": "START"
+        },
+        {
          "nombre": "Tetairoa McMillan",
          "equipo_nfl": "CAR",
          "rank": "WR15",
@@ -10321,21 +10330,12 @@
          "nota_letra": "B+",
          "fuente": "fantasy",
          "hueco": "START"
-        },
-        {
-         "nombre": "Chris Olave",
-         "equipo_nfl": "NO",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "START"
         }
        ],
        "nota": {
         "letra": "A",
         "valor": 9.0,
-        "n": 2
+        "n": 3
        }
       },
       "TE": {
@@ -10370,17 +10370,17 @@
         {
          "nombre": "Spencer Shrader",
          "equipo_nfl": "IND",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "K2",
+         "rank_ordinal": 2,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "P": {
@@ -10530,8 +10530,8 @@
      },
      "nota": {
       "letra": "A",
-      "valor": 8.94,
-      "n": 16
+      "valor": 9.06,
+      "n": 17
      }
     },
     "BENCH": {
@@ -10550,17 +10550,17 @@
         {
          "nombre": "Aaron Rodgers",
          "equipo_nfl": "PIT",
-         "rank": "QB16",
-         "rank_ordinal": 16,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": "A",
-        "valor": 9.0,
-        "n": 2
+        "letra": "A+",
+        "valor": 10.0,
+        "n": 1
        }
       },
       "RB": {
@@ -10577,10 +10577,10 @@
         {
          "nombre": "Elijah Mitchell",
          "equipo_nfl": "PHI",
-         "rank": "RB93",
-         "rank_ordinal": 93,
-         "nota_letra": "F",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -10594,9 +10594,9 @@
         }
        ],
        "nota": {
-        "letra": "D+",
-        "valor": 4.0,
-        "n": 2
+        "letra": "B+",
+        "valor": 8.0,
+        "n": 1
        }
       },
       "WR": {
@@ -10640,17 +10640,17 @@
         {
          "nombre": "Kenyon Sadiq",
          "equipo_nfl": "NYJ",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "TE28",
+         "rank_ordinal": 28,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
        }
       },
       "P": {
@@ -10818,8 +10818,8 @@
      },
      "nota": {
       "letra": "B",
-      "valor": 6.5,
-      "n": 12
+      "valor": 6.91,
+      "n": 11
      }
     },
     "TAXI": {
@@ -12225,7 +12225,7 @@
    "equipo": "Alicante Buccaneers (HRD)",
    "nota_general": {
     "letra": "B",
-    "valor": 6.66,
+    "valor": 7.03,
     "n": 29
    },
    "posiciones": {
@@ -12331,24 +12331,6 @@
     "WR": {
      "jugadores": [
       {
-       "nombre": "Garrett Wilson",
-       "equipo_nfl": "NYJ",
-       "rank": "WR14",
-       "rank_ordinal": 14,
-       "nota_letra": "B+",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
-       "nombre": "Jalen Coker",
-       "equipo_nfl": "CAR",
-       "rank": "WR30",
-       "rank_ordinal": 30,
-       "nota_letra": "C+",
-       "fuente": "fantasy",
-       "hueco": "START"
-      },
-      {
        "nombre": "Stefon Diggs",
        "equipo_nfl": "WAS",
        "rank": "WR46",
@@ -12367,21 +12349,39 @@
        "hueco": "START"
       },
       {
-       "nombre": "Jahan Dotson",
-       "equipo_nfl": "ATL",
-       "rank": "WR56",
-       "rank_ordinal": 56,
-       "nota_letra": "E",
-       "fuente": "fantasy",
-       "hueco": "START"
-      },
-      {
        "nombre": "Marvin Mims",
        "equipo_nfl": "DEN",
        "rank": "WR93",
        "rank_ordinal": 93,
        "nota_letra": "F",
        "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
+       "nombre": "Jalen Coker",
+       "equipo_nfl": "CAR",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "START"
+      },
+      {
+       "nombre": "Jahan Dotson",
+       "equipo_nfl": "ATL",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "START"
+      },
+      {
+       "nombre": "Garrett Wilson",
+       "equipo_nfl": "NYJ",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       },
       {
@@ -12395,9 +12395,9 @@
       }
      ],
      "nota": {
-      "letra": "D",
-      "valor": 3.33,
-      "n": 6
+      "letra": "E+",
+      "valor": 1.67,
+      "n": 3
      }
     },
     "TE": {
@@ -12414,10 +12414,10 @@
       {
        "nombre": "Isaiah Likely",
        "equipo_nfl": "NYG",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "TE3",
+       "rank_ordinal": 3,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
        "hueco": "START"
       },
       {
@@ -12442,7 +12442,7 @@
      "nota": {
       "letra": "A+",
       "valor": 10.0,
-      "n": 1
+      "n": 2
      }
     },
     "K": {
@@ -12459,17 +12459,17 @@
       {
        "nombre": "Trey Smack",
        "equipo_nfl": "GB",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "K26",
+       "rank_ordinal": 26,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
        "hueco": "TAXI"
       }
      ],
      "nota": {
-      "letra": "B+",
-      "valor": 8.0,
-      "n": 1
+      "letra": "B",
+      "valor": 7.0,
+      "n": 2
      }
     },
     "P": {
@@ -12583,6 +12583,15 @@
     "EDR": {
      "jugadores": [
       {
+       "nombre": "Will Anderson",
+       "equipo_nfl": "HOU",
+       "rank": "EDR2",
+       "rank_ordinal": 2,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
+      {
        "nombre": "Donovan Ezeiruaku",
        "equipo_nfl": "DAL",
        "rank": "EDR17",
@@ -12599,15 +12608,6 @@
        "nota_letra": "E+",
        "fuente": "fantasy",
        "hueco": "BENCH"
-      },
-      {
-       "nombre": "Will Anderson",
-       "equipo_nfl": "HOU",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
       },
       {
        "nombre": "Malcolm Roach",
@@ -12638,9 +12638,9 @@
       }
      ],
      "nota": {
-      "letra": "C",
-      "valor": 5.0,
-      "n": 2
+      "letra": "B",
+      "valor": 6.67,
+      "n": 3
      }
     },
     "IL": {
@@ -12830,15 +12830,6 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Jalen Coker",
-         "equipo_nfl": "CAR",
-         "rank": "WR30",
-         "rank_ordinal": 30,
-         "nota_letra": "C+",
-         "fuente": "fantasy",
-         "hueco": "START"
-        },
-        {
          "nombre": "Stefon Diggs",
          "equipo_nfl": "WAS",
          "rank": "WR46",
@@ -12857,19 +12848,28 @@
          "hueco": "START"
         },
         {
+         "nombre": "Jalen Coker",
+         "equipo_nfl": "CAR",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "START"
+        },
+        {
          "nombre": "Jahan Dotson",
          "equipo_nfl": "ATL",
-         "rank": "WR56",
-         "rank_ordinal": 56,
-         "nota_letra": "E",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "START"
         }
        ],
        "nota": {
         "letra": "D",
-        "valor": 3.0,
-        "n": 4
+        "valor": 2.5,
+        "n": 2
        }
       },
       "TE": {
@@ -12886,17 +12886,17 @@
         {
          "nombre": "Isaiah Likely",
          "equipo_nfl": "NYG",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "TE3",
+         "rank_ordinal": 3,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
         "letra": "A+",
         "valor": 10.0,
-        "n": 1
+        "n": 2
        }
       },
       "K": {
@@ -13001,21 +13001,21 @@
       "EDR": {
        "jugadores": [
         {
+         "nombre": "Will Anderson",
+         "equipo_nfl": "HOU",
+         "rank": "EDR2",
+         "rank_ordinal": 2,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
+         "hueco": "START"
+        },
+        {
          "nombre": "Donovan Ezeiruaku",
          "equipo_nfl": "DAL",
          "rank": "EDR17",
          "rank_ordinal": 17,
          "nota_letra": "B+",
          "fuente": "fantasy",
-         "hueco": "START"
-        },
-        {
-         "nombre": "Will Anderson",
-         "equipo_nfl": "HOU",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
          "hueco": "START"
         },
         {
@@ -13029,9 +13029,9 @@
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 8.0,
-        "n": 1
+        "letra": "A",
+        "valor": 9.0,
+        "n": 2
        }
       },
       "LB": {
@@ -13100,7 +13100,7 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 7.67,
+      "valor": 8.39,
       "n": 18
      }
     },
@@ -13163,21 +13163,21 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Garrett Wilson",
-         "equipo_nfl": "NYJ",
-         "rank": "WR14",
-         "rank_ordinal": 14,
-         "nota_letra": "B+",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
          "nombre": "Marvin Mims",
          "equipo_nfl": "DEN",
          "rank": "WR93",
          "rank_ordinal": 93,
          "nota_letra": "F",
          "fuente": "fantasy",
+         "hueco": "BENCH"
+        },
+        {
+         "nombre": "Garrett Wilson",
+         "equipo_nfl": "NYJ",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "BENCH"
         },
         {
@@ -13191,9 +13191,9 @@
         }
        ],
        "nota": {
-        "letra": "D+",
-        "valor": 4.0,
-        "n": 2
+        "letra": "F",
+        "valor": 0.0,
+        "n": 1
        }
       },
       "TE": {
@@ -13370,8 +13370,8 @@
      },
      "nota": {
       "letra": "C",
-      "valor": 5.1,
-      "n": 10
+      "valor": 4.78,
+      "n": 9
      }
     },
     "TAXI": {
@@ -13399,17 +13399,17 @@
         {
          "nombre": "Trey Smack",
          "equipo_nfl": "GB",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "K26",
+         "rank_ordinal": 26,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
          "hueco": "TAXI"
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
        }
       },
       "CB": {
@@ -13468,9 +13468,9 @@
       }
      },
      "nota": {
-      "letra": "D+",
-      "valor": 4.0,
-      "n": 1
+      "letra": "C",
+      "valor": 5.0,
+      "n": 2
      }
     },
     "INJURED": {
@@ -13507,8 +13507,8 @@
    "liga": "IDP 21 de \"El Comisionado\"",
    "equipo": "Alicante Buccaneers (IDP21)",
    "nota_general": {
-    "letra": "C+",
-    "valor": 6.23,
+    "letra": "B",
+    "valor": 6.57,
     "n": 30
    },
    "posiciones": {
@@ -13659,15 +13659,6 @@
        "hueco": "START"
       },
       {
-       "nombre": "Ladd McConkey",
-       "equipo_nfl": "LAC",
-       "rank": "WR65",
-       "rank_ordinal": 65,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "BENCH"
-      },
-      {
        "nombre": "Malachi Fields",
        "equipo_nfl": "NYG",
        "rank": "WR72",
@@ -13704,6 +13695,15 @@
        "hueco": "BENCH"
       },
       {
+       "nombre": "Ladd McConkey",
+       "equipo_nfl": "LAC",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Ted Hurst",
        "equipo_nfl": "TB",
        "rank": "—",
@@ -13715,12 +13715,21 @@
      ],
      "nota": {
       "letra": "E+",
-      "valor": 1.83,
-      "n": 6
+      "valor": 2.2,
+      "n": 5
      }
     },
     "TE": {
      "jugadores": [
+      {
+       "nombre": "Isaiah Likely",
+       "equipo_nfl": "NYG",
+       "rank": "TE3",
+       "rank_ordinal": 3,
+       "nota_letra": "A+",
+       "fuente": "fantasy",
+       "hueco": "START"
+      },
       {
        "nombre": "Tyler Warren",
        "equipo_nfl": "IND",
@@ -13740,15 +13749,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Isaiah Likely",
-       "equipo_nfl": "NYG",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "START"
-      },
-      {
        "nombre": "Matt Hibner",
        "equipo_nfl": "BAL",
        "rank": "—",
@@ -13760,8 +13760,8 @@
      ],
      "nota": {
       "letra": "B+",
-      "valor": 7.5,
-      "n": 2
+      "valor": 8.33,
+      "n": 3
      }
     },
     "K": {
@@ -14131,6 +14131,15 @@
       "TE": {
        "jugadores": [
         {
+         "nombre": "Isaiah Likely",
+         "equipo_nfl": "NYG",
+         "rank": "TE3",
+         "rank_ordinal": 3,
+         "nota_letra": "A+",
+         "fuente": "fantasy",
+         "hueco": "START"
+        },
+        {
          "nombre": "Tyler Warren",
          "equipo_nfl": "IND",
          "rank": "TE10",
@@ -14138,21 +14147,12 @@
          "nota_letra": "A",
          "fuente": "fantasy",
          "hueco": "START"
-        },
-        {
-         "nombre": "Isaiah Likely",
-         "equipo_nfl": "NYG",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
-         "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "A",
-        "valor": 9.0,
-        "n": 1
+        "letra": "A+",
+        "valor": 9.5,
+        "n": 2
        }
       },
       "K": {
@@ -14338,8 +14338,8 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 8.06,
-      "n": 17
+      "valor": 8.17,
+      "n": 18
      }
     },
     "BENCH": {
@@ -14401,15 +14401,6 @@
       "WR": {
        "jugadores": [
         {
-         "nombre": "Ladd McConkey",
-         "equipo_nfl": "LAC",
-         "rank": "WR65",
-         "rank_ordinal": 65,
-         "nota_letra": "F",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        },
-        {
          "nombre": "Malachi Fields",
          "equipo_nfl": "NYG",
          "rank": "WR72",
@@ -14435,12 +14426,21 @@
          "nota_letra": "R",
          "fuente": null,
          "hueco": "BENCH"
+        },
+        {
+         "nombre": "Ladd McConkey",
+         "equipo_nfl": "LAC",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "BENCH"
         }
        ],
        "nota": {
         "letra": "F",
         "valor": 0.0,
-        "n": 3
+        "n": 2
        }
       },
       "TE": {
@@ -14571,9 +14571,9 @@
       }
      },
      "nota": {
-      "letra": "D+",
-      "valor": 4.17,
-      "n": 12
+      "letra": "C",
+      "valor": 4.55,
+      "n": 11
      }
     },
     "TAXI": {
@@ -14746,7 +14746,7 @@
    "equipo": "Alicante Buccaneers (IDP22)",
    "nota_general": {
     "letra": "C+",
-    "valor": 6.48,
+    "valor": 6.34,
     "n": 29
    },
    "posiciones": {
@@ -14771,15 +14771,6 @@
        "hueco": "BENCH"
       },
       {
-       "nombre": "Tyler Huntley",
-       "equipo_nfl": "BAL",
-       "rank": "QB32",
-       "rank_ordinal": 32,
-       "nota_letra": "C",
-       "fuente": "fantasy",
-       "hueco": "INJURED"
-      },
-      {
        "nombre": "Joe Milton",
        "equipo_nfl": "PHI",
        "rank": "—",
@@ -14796,12 +14787,21 @@
        "nota_letra": "R",
        "fuente": null,
        "hueco": "BENCH"
+      },
+      {
+       "nombre": "Tyler Huntley",
+       "equipo_nfl": "BAL",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "INJURED"
       }
      ],
      "nota": {
-      "letra": "B",
-      "valor": 6.67,
-      "n": 3
+      "letra": "B+",
+      "valor": 7.5,
+      "n": 2
      }
     },
     "RB": {
@@ -14915,30 +14915,21 @@
        "hueco": "START"
       },
       {
-       "nombre": "Chris Bell",
-       "equipo_nfl": "MIA",
-       "rank": "WR109",
-       "rank_ordinal": 109,
-       "nota_letra": "F",
-       "fuente": "fantasy",
-       "hueco": "TAXI"
-      },
-      {
        "nombre": "Nico Collins",
        "equipo_nfl": "HOU",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "WR32",
+       "rank_ordinal": 32,
+       "nota_letra": "C",
+       "fuente": "fantasy",
        "hueco": "START"
       },
       {
        "nombre": "Quentin Johnston",
        "equipo_nfl": "LAC",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
+       "rank": "WR104",
+       "rank_ordinal": 104,
+       "nota_letra": "F",
+       "fuente": "fantasy",
        "hueco": "BENCH"
       },
       {
@@ -14967,12 +14958,21 @@
        "nota_letra": "R",
        "fuente": null,
        "hueco": "TAXI"
+      },
+      {
+       "nombre": "Chris Bell",
+       "equipo_nfl": "MIA",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
+       "hueco": "TAXI"
       }
      ],
      "nota": {
       "letra": "C+",
-      "valor": 6.0,
-      "n": 4
+      "valor": 5.8,
+      "n": 5
      }
     },
     "TE": {
@@ -14987,6 +14987,15 @@
        "hueco": "START"
       },
       {
+       "nombre": "Kenyon Sadiq",
+       "equipo_nfl": "NYJ",
+       "rank": "TE29",
+       "rank_ordinal": 29,
+       "nota_letra": "C+",
+       "fuente": "fantasy",
+       "hueco": "BENCH"
+      },
+      {
        "nombre": "Eli Raridon",
        "equipo_nfl": "NE",
        "rank": "TE36",
@@ -14994,15 +15003,6 @@
        "nota_letra": "C",
        "fuente": "fantasy",
        "hueco": "START"
-      },
-      {
-       "nombre": "Kenyon Sadiq",
-       "equipo_nfl": "NYJ",
-       "rank": "—",
-       "rank_ordinal": null,
-       "nota_letra": "R",
-       "fuente": null,
-       "hueco": "BENCH"
       },
       {
        "nombre": "Matt Hibner",
@@ -15017,7 +15017,7 @@
      "nota": {
       "letra": "C+",
       "valor": 6.0,
-      "n": 2
+      "n": 3
      }
     },
     "K": {
@@ -15052,17 +15052,17 @@
       {
        "nombre": "Cameron Johnston",
        "equipo_nfl": "PIT",
-       "rank": "P4",
-       "rank_ordinal": 4,
-       "nota_letra": "A+",
-       "fuente": "fantasy",
+       "rank": "—",
+       "rank_ordinal": null,
+       "nota_letra": "R",
+       "fuente": null,
        "hueco": "BENCH"
       }
      ],
      "nota": {
       "letra": "A+",
       "valor": 10.0,
-      "n": 2
+      "n": 1
      }
     },
     "CB": {
@@ -15407,17 +15407,17 @@
         {
          "nombre": "Nico Collins",
          "equipo_nfl": "HOU",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "WR32",
+         "rank_ordinal": 32,
+         "nota_letra": "C",
+         "fuente": "fantasy",
          "hueco": "START"
         }
        ],
        "nota": {
-        "letra": "B+",
-        "valor": 8.0,
-        "n": 3
+        "letra": "B",
+        "valor": 7.25,
+        "n": 4
        }
       },
       "TE": {
@@ -15630,8 +15630,8 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 8.06,
-      "n": 16
+      "valor": 7.88,
+      "n": 17
      }
     },
     "BENCH": {
@@ -15722,10 +15722,10 @@
         {
          "nombre": "Quentin Johnston",
          "equipo_nfl": "LAC",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "rank": "WR104",
+         "rank_ordinal": 104,
+         "nota_letra": "F",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         },
         {
@@ -15739,9 +15739,9 @@
         }
        ],
        "nota": {
-        "letra": null,
-        "valor": null,
-        "n": 0
+        "letra": "F",
+        "valor": 0.0,
+        "n": 1
        }
       },
       "TE": {
@@ -15749,6 +15749,24 @@
         {
          "nombre": "Kenyon Sadiq",
          "equipo_nfl": "NYJ",
+         "rank": "TE29",
+         "rank_ordinal": 29,
+         "nota_letra": "C+",
+         "fuente": "fantasy",
+         "hueco": "BENCH"
+        }
+       ],
+       "nota": {
+        "letra": "C+",
+        "valor": 6.0,
+        "n": 1
+       }
+      },
+      "P": {
+       "jugadores": [
+        {
+         "nombre": "Cameron Johnston",
+         "equipo_nfl": "PIT",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -15760,24 +15778,6 @@
         "letra": null,
         "valor": null,
         "n": 0
-       }
-      },
-      "P": {
-       "jugadores": [
-        {
-         "nombre": "Cameron Johnston",
-         "equipo_nfl": "PIT",
-         "rank": "P4",
-         "rank_ordinal": 4,
-         "nota_letra": "A+",
-         "fuente": "fantasy",
-         "hueco": "BENCH"
-        }
-       ],
-       "nota": {
-        "letra": "A+",
-        "valor": 10.0,
-        "n": 1
        }
       },
       "CB": {
@@ -15917,24 +15917,15 @@
       }
      },
      "nota": {
-      "letra": "C",
-      "valor": 5.1,
-      "n": 10
+      "letra": "D+",
+      "valor": 4.27,
+      "n": 11
      }
     },
     "TAXI": {
      "posiciones": {
       "WR": {
        "jugadores": [
-        {
-         "nombre": "Chris Bell",
-         "equipo_nfl": "MIA",
-         "rank": "WR109",
-         "rank_ordinal": 109,
-         "nota_letra": "F",
-         "fuente": "fantasy",
-         "hueco": "TAXI"
-        },
         {
          "nombre": "Ted Hurst",
          "equipo_nfl": "TB",
@@ -15952,12 +15943,21 @@
          "nota_letra": "R",
          "fuente": null,
          "hueco": "TAXI"
+        },
+        {
+         "nombre": "Chris Bell",
+         "equipo_nfl": "MIA",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
+         "hueco": "TAXI"
         }
        ],
        "nota": {
-        "letra": "F",
-        "valor": 0.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "TE": {
@@ -15998,9 +15998,9 @@
       }
      },
      "nota": {
-      "letra": "E+",
-      "valor": 1.5,
-      "n": 2
+      "letra": "D",
+      "valor": 3.0,
+      "n": 1
      }
     },
     "INJURED": {
@@ -16010,17 +16010,17 @@
         {
          "nombre": "Tyler Huntley",
          "equipo_nfl": "BAL",
-         "rank": "QB32",
-         "rank_ordinal": 32,
-         "nota_letra": "C",
-         "fuente": "fantasy",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "INJURED"
         }
        ],
        "nota": {
-        "letra": "C",
-        "valor": 5.0,
-        "n": 1
+        "letra": null,
+        "valor": null,
+        "n": 0
        }
       },
       "RB": {
@@ -16079,9 +16079,9 @@
       }
      },
      "nota": {
-      "letra": "C",
-      "valor": 5.0,
-      "n": 1
+      "letra": null,
+      "valor": null,
+      "n": 0
      }
     }
    }
