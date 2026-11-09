@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-08T23:47:18+00:00",
+ "generado": "2026-11-09T06:43:44+00:00",
  "season": 2026,
  "semana": 9,
  "ligas": [
@@ -13,12 +13,12 @@
     "rival_record": "3-5",
     "local": false,
     "jugado": false,
-    "mis_puntos": 109.3,
-    "puntos_rival": 132.84999,
+    "mis_puntos": 149.79999,
+    "puntos_rival": 178.45,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.06998459,
-    "decidido": null
+    "win_prob": 0.0,
+    "decidido": "LOSE"
    }
   },
   {
@@ -31,12 +31,12 @@
     "rival_record": "4-4",
     "local": false,
     "jugado": false,
-    "mis_puntos": 212.04999,
-    "puntos_rival": 219.72,
+    "mis_puntos": 278.66998,
+    "puntos_rival": 251.71999,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.8314117,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -49,11 +49,11 @@
     "rival_record": "7-1",
     "local": true,
     "jugado": false,
-    "mis_puntos": 212.04,
-    "puntos_rival": 210.8,
+    "mis_puntos": 298.38,
+    "puntos_rival": 226.06,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.48791674,
+    "win_prob": 0.89205074,
     "decidido": null
    }
   },
@@ -67,11 +67,11 @@
     "rival_record": "1-7",
     "local": false,
     "jugado": false,
-    "mis_puntos": 268.65,
-    "puntos_rival": 161.68001,
+    "mis_puntos": 353.01,
+    "puntos_rival": 202.42,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.99,
+    "win_prob": 0.999,
     "decidido": null
    }
   },
@@ -85,11 +85,11 @@
     "rival_record": "4-4",
     "local": true,
     "jugado": false,
-    "mis_puntos": 178.7,
-    "puntos_rival": 134.7,
+    "mis_puntos": 203.63998,
+    "puntos_rival": 157.8,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9175264,
+    "win_prob": 0.97,
     "decidido": null
    }
   },
@@ -103,8 +103,8 @@
     "rival_record": "4-4",
     "local": false,
     "jugado": false,
-    "mis_puntos": 98.299995,
-    "puntos_rival": 127.04,
+    "mis_puntos": 106.299995,
+    "puntos_rival": 129.98,
     "resultado": null,
     "en_juego": true,
     "win_prob": 0.0,
@@ -121,11 +121,11 @@
     "rival_record": "1-7",
     "local": false,
     "jugado": false,
-    "mis_puntos": 191.29,
-    "puntos_rival": 203.62,
+    "mis_puntos": 235.63,
+    "puntos_rival": 255.42,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.07011075,
+    "win_prob": 0.07352973,
     "decidido": null
    }
   },
@@ -139,12 +139,12 @@
     "rival_record": "3-5",
     "local": false,
     "jugado": false,
-    "mis_puntos": 91.75,
-    "puntos_rival": 144.84,
+    "mis_puntos": 114.45,
+    "puntos_rival": 177.59001,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.01,
-    "decidido": null
+    "win_prob": 0.0,
+    "decidido": "LOSE"
    }
   },
   {
@@ -157,11 +157,11 @@
     "rival_record": "8-0",
     "local": false,
     "jugado": false,
-    "mis_puntos": 223.72,
-    "puntos_rival": 236.94,
+    "mis_puntos": 309.4,
+    "puntos_rival": 298.84003,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.46329957,
+    "win_prob": 0.30579296,
     "decidido": null
    }
   },
@@ -175,12 +175,12 @@
     "rival_record": "4-4",
     "local": true,
     "jugado": false,
-    "mis_puntos": 295.32,
-    "puntos_rival": 136.8,
+    "mis_puntos": 330.86002,
+    "puntos_rival": 282.64,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.999,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -193,11 +193,11 @@
     "rival_record": "4-4",
     "local": true,
     "jugado": false,
-    "mis_puntos": 164.87,
-    "puntos_rival": 162.14,
+    "mis_puntos": 184.12999,
+    "puntos_rival": 165.94998,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.40948805,
+    "win_prob": 0.74705184,
     "decidido": null
    }
   },
@@ -211,7 +211,7 @@
     "rival_record": "5-3",
     "local": true,
     "jugado": false,
-    "mis_puntos": 146.18999,
+    "mis_puntos": 194.87999,
     "puntos_rival": 113.23,
     "resultado": null,
     "en_juego": true,
@@ -229,11 +229,11 @@
     "rival_record": "3-5",
     "local": false,
     "jugado": false,
-    "mis_puntos": 319.56,
-    "puntos_rival": 200.2,
+    "mis_puntos": 367.86,
+    "puntos_rival": 223.29999,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.999,
+    "win_prob": 0.99,
     "decidido": null
    }
   },
@@ -247,11 +247,11 @@
     "rival_record": "5-3",
     "local": true,
     "jugado": false,
-    "mis_puntos": 282.79,
-    "puntos_rival": 136.68,
+    "mis_puntos": 311.21,
+    "puntos_rival": 148.08,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.98230183,
+    "win_prob": 0.9986089,
     "decidido": null
    }
   },
@@ -265,12 +265,12 @@
     "rival_record": "3-5",
     "local": true,
     "jugado": false,
-    "mis_puntos": 239.19002,
-    "puntos_rival": 216.6,
+    "mis_puntos": 283.11002,
+    "puntos_rival": 271.88,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9583719,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -283,12 +283,12 @@
     "rival_record": "5-3",
     "local": false,
     "jugado": false,
-    "mis_puntos": 57.9,
+    "mis_puntos": 79.0,
     "puntos_rival": 115.75001,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.0005000875,
-    "decidido": null
+    "win_prob": 0.0,
+    "decidido": "LOSE"
    }
   }
  ]
