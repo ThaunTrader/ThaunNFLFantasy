@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-10T01:37:03+00:00",
+ "generado": "2026-11-10T09:56:45+00:00",
  "season": 2026,
  "semana": 9,
  "ligas": [
@@ -10,15 +10,12 @@
    "partido": {
     "game_id": "58605464",
     "rival": "SteelLosers",
-    "rival_record": "3-5",
+    "rival_record": "4-5",
     "local": false,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 149.79999,
     "puntos_rival": 179.45,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.0,
-    "decidido": "LOSE"
+    "resultado": "LOSE"
    }
   },
   {
@@ -28,15 +25,12 @@
    "partido": {
     "game_id": "58333866",
     "rival": "Plencia Blitzers",
-    "rival_record": "4-4",
+    "rival_record": "4-5",
     "local": false,
-    "jugado": false,
-    "mis_puntos": 303.06998,
+    "jugado": true,
+    "mis_puntos": 318.47,
     "puntos_rival": 259.22,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 1.0,
-    "decidido": "WIN"
+    "resultado": "WIN"
    }
   },
   {
@@ -49,12 +43,12 @@
     "rival_record": "7-1",
     "local": true,
     "jugado": false,
-    "mis_puntos": 299.88,
-    "puntos_rival": 229.45999,
+    "mis_puntos": 301.38,
+    "puntos_rival": 255.56,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.97152275,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -68,11 +62,11 @@
     "local": false,
     "jugado": false,
     "mis_puntos": 360.51,
-    "puntos_rival": 207.92,
+    "puntos_rival": 240.72,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.999,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -85,12 +79,12 @@
     "rival_record": "4-4",
     "local": true,
     "jugado": false,
-    "mis_puntos": 217.03998,
-    "puntos_rival": 158.8,
+    "mis_puntos": 260.44,
+    "puntos_rival": 177.6,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.97,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -100,15 +94,12 @@
    "partido": {
     "game_id": "58811965",
     "rival": "Ajolabaikos",
-    "rival_record": "4-4",
+    "rival_record": "5-4",
     "local": false,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 108.799995,
     "puntos_rival": 130.48,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.0,
-    "decidido": "LOSE"
+    "resultado": "LOSE"
    }
   },
   {
@@ -121,12 +112,12 @@
     "rival_record": "1-7",
     "local": false,
     "jugado": false,
-    "mis_puntos": 238.53,
-    "puntos_rival": 266.91998,
+    "mis_puntos": 255.82999,
+    "puntos_rival": 286.21997,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.1,
-    "decidido": null
+    "win_prob": 0.0,
+    "decidido": "LOSE"
    }
   },
   {
@@ -136,15 +127,12 @@
    "partido": {
     "game_id": "58661588",
     "rival": "Gaelhawk",
-    "rival_record": "3-5",
+    "rival_record": "4-5",
     "local": false,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 111.95,
-    "puntos_rival": 195.59001,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.0,
-    "decidido": "LOSE"
+    "puntos_rival": 203.39001,
+    "resultado": "LOSE"
    }
   },
   {
@@ -157,12 +145,12 @@
     "rival_record": "8-0",
     "local": false,
     "jugado": false,
-    "mis_puntos": 325.9,
-    "puntos_rival": 300.84003,
+    "mis_puntos": 331.9,
+    "puntos_rival": 309.64,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.9,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -172,15 +160,12 @@
    "partido": {
     "game_id": "58813838",
     "rival": "Ontinyent Ravens",
-    "rival_record": "4-4",
+    "rival_record": "4-5",
     "local": true,
-    "jugado": false,
-    "mis_puntos": 334.26,
+    "jugado": true,
+    "mis_puntos": 351.56,
     "puntos_rival": 289.64,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 1.0,
-    "decidido": "WIN"
+    "resultado": "WIN"
    }
   },
   {
@@ -193,12 +178,12 @@
     "rival_record": "4-4",
     "local": true,
     "jugado": false,
-    "mis_puntos": 188.68,
-    "puntos_rival": 167.44998,
+    "mis_puntos": 197.85999,
+    "puntos_rival": 176.93,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.92352927,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -229,12 +214,12 @@
     "rival_record": "3-5",
     "local": false,
     "jugado": false,
-    "mis_puntos": 369.86,
-    "puntos_rival": 234.59999,
+    "mis_puntos": 372.86,
+    "puntos_rival": 245.79999,
     "resultado": null,
     "en_juego": true,
-    "win_prob": 0.99,
-    "decidido": null
+    "win_prob": 1.0,
+    "decidido": "WIN"
    }
   },
   {
@@ -244,15 +229,12 @@
    "partido": {
     "game_id": "58368964",
     "rival": "Mico",
-    "rival_record": "5-3",
+    "rival_record": "5-4",
     "local": true,
-    "jugado": false,
-    "mis_puntos": 316.21,
-    "puntos_rival": 149.74,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.99999905,
-    "decidido": null
+    "jugado": true,
+    "mis_puntos": 317.71,
+    "puntos_rival": 212.84,
+    "resultado": "WIN"
    }
   },
   {
@@ -262,15 +244,12 @@
    "partido": {
     "game_id": "58318584",
     "rival": "Pucela Honey Badgers",
-    "rival_record": "3-5",
+    "rival_record": "3-6",
     "local": true,
-    "jugado": false,
-    "mis_puntos": 294.61002,
+    "jugado": true,
+    "mis_puntos": 302.61005,
     "puntos_rival": 272.38,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 1.0,
-    "decidido": "WIN"
+    "resultado": "WIN"
    }
   },
   {
@@ -280,15 +259,12 @@
    "partido": {
     "game_id": "59224412",
     "rival": "Mercenarios de Texas",
-    "rival_record": "5-3",
+    "rival_record": "6-3",
     "local": false,
-    "jugado": false,
+    "jugado": true,
     "mis_puntos": 79.0,
     "puntos_rival": 115.75001,
-    "resultado": null,
-    "en_juego": true,
-    "win_prob": 0.0,
-    "decidido": "LOSE"
+    "resultado": "LOSE"
    }
   }
  ]
