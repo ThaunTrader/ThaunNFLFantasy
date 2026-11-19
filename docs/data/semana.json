@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-17T14:31:10+00:00",
+ "generado": "2026-11-19T13:18:37+00:00",
  "season": 2026,
  "semana": 11,
  "ligas": [
@@ -70,7 +70,7 @@
    "partido": {
     "game_id": "58813068",
     "rival": "Gentlemanly Werewolves",
-    "rival_record": "5-5",
+    "rival_record": "4-6",
     "local": false,
     "jugado": false,
     "mis_puntos": null,
@@ -115,7 +115,7 @@
    "partido": {
     "game_id": "58661596",
     "rival": "New Verges Patriots",
-    "rival_record": "5-5",
+    "rival_record": "4-6",
     "local": false,
     "jugado": false,
     "mis_puntos": null,
