@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-19T13:18:37+00:00",
+ "generado": "2026-11-20T03:24:23+00:00",
  "season": 2026,
  "semana": 11,
  "ligas": [
@@ -29,8 +29,11 @@
     "local": true,
     "jugado": false,
     "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "puntos_rival": 22.0,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.3089637,
+    "decidido": null
    }
   },
   {
@@ -43,9 +46,12 @@
     "rival_record": "4-6",
     "local": true,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 1.64,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.8110928,
+    "decidido": null
    }
   },
   {
@@ -58,9 +64,12 @@
     "rival_record": "4-6",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 7.0,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.50421435,
+    "decidido": null
    }
   },
   {
@@ -73,9 +82,12 @@
     "rival_record": "4-6",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "mis_puntos": 8.0,
+    "puntos_rival": 0.64,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.68067634,
+    "decidido": null
    }
   },
   {
@@ -89,8 +101,11 @@
     "local": false,
     "jugado": false,
     "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "puntos_rival": 18.76,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.5118438,
+    "decidido": null
    }
   },
   {
@@ -103,9 +118,12 @@
     "rival_record": "6-4",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 5.2,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.4586444,
+    "decidido": null
    }
   },
   {
@@ -133,9 +151,12 @@
     "rival_record": "5-5",
     "local": true,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 20.8,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.5093604,
+    "decidido": null
    }
   },
   {
@@ -148,9 +169,12 @@
     "rival_record": "7-3",
     "local": true,
     "jugado": false,
-    "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "mis_puntos": 22.0,
+    "puntos_rival": 32.0,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.5448044,
+    "decidido": null
    }
   },
   {
@@ -179,8 +203,11 @@
     "local": true,
     "jugado": false,
     "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "puntos_rival": 9.43,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.7026971,
+    "decidido": null
    }
   },
   {
@@ -193,9 +220,12 @@
     "rival_record": "7-3",
     "local": true,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 33.0,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.92922664,
+    "decidido": null
    }
   },
   {
@@ -208,9 +238,12 @@
     "rival_record": "6-4",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
-    "puntos_rival": null,
-    "resultado": null
+    "mis_puntos": 32.7,
+    "puntos_rival": 5.7,
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.756469,
+    "decidido": null
    }
   },
   {
@@ -223,9 +256,12 @@
     "rival_record": "2-8",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 24.8,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.8758558,
+    "decidido": null
    }
   },
   {
@@ -238,9 +274,12 @@
     "rival_record": "4-6",
     "local": false,
     "jugado": false,
-    "mis_puntos": null,
+    "mis_puntos": 7.0,
     "puntos_rival": null,
-    "resultado": null
+    "resultado": null,
+    "en_juego": true,
+    "win_prob": 0.11108927,
+    "decidido": null
    }
   }
  ]
