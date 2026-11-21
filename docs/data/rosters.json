@@ -1,5 +1,5 @@
 {
- "generado": "2026-11-20T18:53:46+00:00",
+ "generado": "2026-11-21T17:49:19+00:00",
  "season": 2026,
  "ligas": [
   {
@@ -10289,7 +10289,7 @@
        "rank_ordinal": 33,
        "nota_letra": "C",
        "fuente": "fantasy",
-       "hueco": "START"
+       "hueco": "BENCH"
       },
       {
        "nombre": "Akheem Mesidor",
@@ -10301,17 +10301,17 @@
        "hueco": "START"
       },
       {
-       "nombre": "Byron Young",
-       "equipo_nfl": "LAR",
+       "nombre": "Jihaad Campbell",
+       "equipo_nfl": "PHI",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
        "fuente": null,
-       "hueco": "BENCH"
+       "hueco": "START"
       },
       {
-       "nombre": "Jihaad Campbell",
-       "equipo_nfl": "PHI",
+       "nombre": "Byron Young",
+       "equipo_nfl": "LAR",
        "rank": "—",
        "rank_ordinal": null,
        "nota_letra": "R",
@@ -10575,17 +10575,17 @@
          "hueco": "START"
         },
         {
-         "nombre": "Mack Wilson",
-         "equipo_nfl": "ARI",
-         "rank": "LB33",
-         "rank_ordinal": 33,
-         "nota_letra": "C",
-         "fuente": "fantasy",
+         "nombre": "Akheem Mesidor",
+         "equipo_nfl": "LAC",
+         "rank": "—",
+         "rank_ordinal": null,
+         "nota_letra": "R",
+         "fuente": null,
          "hueco": "START"
         },
         {
-         "nombre": "Akheem Mesidor",
-         "equipo_nfl": "LAC",
+         "nombre": "Jihaad Campbell",
+         "equipo_nfl": "PHI",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -10595,8 +10595,8 @@
        ],
        "nota": {
         "letra": "C+",
-        "valor": 5.5,
-        "n": 2
+        "valor": 6.0,
+        "n": 1
        }
       },
       "IL": {
@@ -10620,8 +10620,8 @@
      },
      "nota": {
       "letra": "B+",
-      "valor": 8.07,
-      "n": 14
+      "valor": 8.31,
+      "n": 13
      }
     },
     "BENCH": {
@@ -10872,17 +10872,17 @@
          "hueco": "BENCH"
         },
         {
-         "nombre": "Byron Young",
-         "equipo_nfl": "LAR",
-         "rank": "—",
-         "rank_ordinal": null,
-         "nota_letra": "R",
-         "fuente": null,
+         "nombre": "Mack Wilson",
+         "equipo_nfl": "ARI",
+         "rank": "LB33",
+         "rank_ordinal": 33,
+         "nota_letra": "C",
+         "fuente": "fantasy",
          "hueco": "BENCH"
         },
         {
-         "nombre": "Jihaad Campbell",
-         "equipo_nfl": "PHI",
+         "nombre": "Byron Young",
+         "equipo_nfl": "LAR",
          "rank": "—",
          "rank_ordinal": null,
          "nota_letra": "R",
@@ -10891,16 +10891,16 @@
         }
        ],
        "nota": {
-        "letra": "A+",
-        "valor": 10.0,
-        "n": 1
+        "letra": "B+",
+        "valor": 7.5,
+        "n": 2
        }
       }
      },
      "nota": {
       "letra": "B",
-      "valor": 7.33,
-      "n": 12
+      "valor": 7.15,
+      "n": 13
      }
     },
     "TAXI": {
